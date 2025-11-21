@@ -86,6 +86,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95,6 +96,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104,6 +106,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -258,6 +261,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DList_0",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -274,6 +278,7 @@
         },
         {
           "Name": "DList_1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -678,9 +683,12 @@
           "",
           "NpcM_Destroy",
           "NpcM_Update"
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "INGO",
@@ -767,6 +775,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 71300,
           "ObjID": -1,
           "Speed": 1.0,
@@ -776,6 +785,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -785,6 +795,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -808,6 +819,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -1,
             "FileStart": -1
@@ -880,9 +892,12 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "TALON",
@@ -969,6 +984,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 7316,
           "ObjID": -1,
           "Speed": 1.0,
@@ -978,6 +994,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -987,6 +1004,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1010,6 +1028,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 32640,
             "ObjectID": -1,
             "FileStart": -1
@@ -1018,6 +1037,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -1089,9 +1109,12 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "LINK",
@@ -1178,6 +1201,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 80088,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1187,6 +1211,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1196,6 +1221,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1219,6 +1245,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 11520,
             "ObjectID": -1,
             "FileStart": -1
@@ -1227,6 +1254,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 29952,
             "ObjectID": -1,
             "FileStart": -1
@@ -1298,9 +1326,12 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     },
     {
       "NPCName": "GANON",
@@ -1387,6 +1418,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 94628,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1396,6 +1428,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1405,6 +1438,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1428,6 +1462,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 3840,
             "ObjectID": -1,
             "FileStart": -1
@@ -1450,6 +1485,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DList_0",
+          "HeaderDefinition": "",
           "Address": 40712,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1466,6 +1502,7 @@
         },
         {
           "Name": "DList_1",
+          "HeaderDefinition": "",
           "Address": 33320,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1562,9 +1599,12 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": ""
     }
   ],
   "GlobalHeaders": [
@@ -1822,6 +1862,7 @@
       "Name": "Definitions"
     }
   ],
+  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",
