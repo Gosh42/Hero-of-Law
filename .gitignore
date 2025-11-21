@@ -19,3 +19,7 @@ Tool/io_export_objex2/__pycache__
 Tool/NPCMAKER/Settings.json
 Tool/NPCMAKER/cache
 Tool/NPCMAKER/Ccache
+
+Tool/NPCMAKER/
+*.o
+*.elf
