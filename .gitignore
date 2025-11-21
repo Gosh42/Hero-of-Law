@@ -23,3 +23,21 @@ Tool/NPCMAKER/Ccache
 Tool/NPCMAKER/
 *.o
 *.elf
+
+Build/actor*
+Build/audio*
+Build/object/1*
+Build/object/9 - Font/zobj.zobj
+Build/objectVanilla.txt
+Build/oot_dump.rtl
+Build/oot_names.tsv
+Build/prepare.py
+Build/system*
+Build/assets/oot-1.0.z64
+Build/messages/_vanilla-1.0/
+Build/object/2*
+Build/object/3*
+Build/object/_vanilla-1.0/
+Build/oot-1.0-dec.z64
+Build/particle/
+Build/scene/_vanilla-1.0/
