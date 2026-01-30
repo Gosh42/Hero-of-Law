@@ -779,7 +779,7 @@
                 "<Y>Документ о наследстве ранчо<W>",
                 "«Малон унаследует ранчо. Если",
                 "она не может руководить им, то",
-                "разделить имение между Короной",
+                "разделить имение между короной",
                 "и оставшимися работниками.»<PERSISTENT>"
               ],
               "Type": 1,
@@ -1702,7 +1702,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ANJU",
@@ -2045,7 +2046,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_GORON",
@@ -2464,7 +2466,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_BEARD",
@@ -2896,7 +2899,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_LAUGHM",
@@ -3273,7 +3277,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_JUDGE",
@@ -3890,7 +3895,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ANOUKI",
@@ -4291,7 +4297,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_LINK",
@@ -5319,7 +5326,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MALON",
@@ -6551,7 +6559,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_DRAGMIRE",
@@ -8299,7 +8308,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CONTROLLER",
@@ -9976,8 +9986,8 @@
             {
               "Name": "FMOON_DRAGMIRE",
               "MessageTextLines": [
-                "I AM THE MOON AND I JUDGE THIS",
-                "EVIDENCE UNWORTHY."
+                "Я ЕСТЬ ЛУНА И ЭТА УЛИКА",
+                "НЕДОСТОЙНА СУДА."
               ],
               "Type": 0,
               "Position": 0
@@ -9985,7 +9995,7 @@
             {
               "Name": "FMOON_LINK",
               "MessageTextLines": [
-                "...I guess I can't argue with that.<SQUARE>"
+                "...Ну тут уж не поспоришь.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -9993,8 +10003,8 @@
             {
               "Name": "FA_LINK10",
               "MessageTextLines": [
-                "This evidence will<SOUND:EXPLOSION> blow the case wide",
-                "open!"
+                "Эта улика<SOUND:EXPLOSION> перевернёт это дело",
+                "с ног на голову!"
               ],
               "Type": 0,
               "Position": 0
@@ -10002,7 +10012,7 @@
             {
               "Name": "FA_JUDGE10",
               "MessageTextLines": [
-                "...That's your Attorney's Badge."
+                "...Это Ваш значок адвоката."
               ],
               "Type": 0,
               "Position": 0
@@ -10010,7 +10020,7 @@
             {
               "Name": "FA_DRAGMIRE10",
               "MessageTextLines": [
-                "Don't you see, Judge?"
+                "Ты разве не понял, судья?"
               ],
               "Type": 0,
               "Position": 0
@@ -10018,9 +10028,9 @@
             {
               "Name": "FA_DRAGMIRE20",
               "MessageTextLines": [
-                "He's an attorney!<PAUSE:5> Attorneys are<SOUND:HINT> very",
-                "smart.<PAUSE:10><SOUND:CLUE> Clearly, we should listen to",
-                "everything he says."
+                "Он же адвокат!<PAUSE:5> А адвокаты<SOUND:HINT> ведь",
+                "очень умные.<PAUSE:10><SOUND:CLUE> Очевидно, мы должны",
+                "следовать каждому его слову."
               ],
               "Type": 0,
               "Position": 0
@@ -10028,7 +10038,7 @@
             {
               "Name": "FA_JUDGE20",
               "MessageTextLines": [
-                "...W-we should?"
+                "...Д-должны?"
               ],
               "Type": 0,
               "Position": 0
@@ -10036,7 +10046,7 @@
             {
               "Name": "FA_DRAGMIRE30",
               "MessageTextLines": [
-                "<DI>NO!<SQUARE>"
+                "<DI>НЕТ!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10044,8 +10054,8 @@
             {
               "Name": "FA2_LINK10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>This evidence reveals a massive",
-                "contradiction!"
+                "<SOUND:EXPLOSION>Эта улика указывает на",
+                "огромное противоречие!"
               ],
               "Type": 0,
               "Position": 0
@@ -10053,7 +10063,7 @@
             {
               "Name": "FA2_JUDGE10",
               "MessageTextLines": [
-                "<PAUSE:5>...Is that not just your Attorney's Badge?"
+                "<PAUSE:5>...Разве это не ваш значок адвоката?"
               ],
               "Type": 0,
               "Position": 0
@@ -10061,9 +10071,9 @@
             {
               "Name": "FA2_DRAGMIRE10",
               "MessageTextLines": [
-                "I will give it to you, Defence.<PAUSE:5> ",
-                "<SOUND:HINT>That DOES indeed reveal a massive",
-                "contradiction."
+                "Должен признать, защита.<PAUSE:5> ",
+                "<SOUND:HINT>Он действительно указывает на",
+                "огромное противоречие."
               ],
               "Type": 0,
               "Position": 0
@@ -10071,8 +10081,9 @@
             {
               "Name": "FA2_DRAGMIRE20",
               "MessageTextLines": [
-                "The contradiction of how someone like",
-                "you passed the bar exam!<SQUARE>"
+                "Противоречие в том, как кто-то",
+                "вроде тебя окончил юридический",
+                "факультет!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10080,8 +10091,8 @@
             {
               "Name": "F6_LINK10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Tremble under the power of my badge,<PAUSE:5> ",
-                "for I am the great<SOUND:CLUE> <R>Hero of Law<W>!"
+                "<SOUND:EXPLOSION><DI>Трепещи перед мощью моего значка,<PAUSE:5> ",
+                "ведь я великий<SOUND:CLUE> <R>герой законов<W>!"
               ],
               "Type": 0,
               "Position": 0
@@ -10089,8 +10100,8 @@
             {
               "Name": "F6_JUDGE10",
               "MessageTextLines": [
-                "What is the meaning of this inane",
-                "outburst, Defence?!"
+                "Это что ещё за сумасшедший",
+                "выкрик, защита?!"
               ],
               "Type": 0,
               "Position": 0
@@ -10098,8 +10109,9 @@
             {
               "Name": "F6_LINK20",
               "MessageTextLines": [
-                "<SPEED:101>Err...<SPEED:102><PAUSE:5> I was hoping to<SOUND:CLUE> intimidate the",
-                "prosecutor into admitting I'm right?"
+                "<SPEED:101>Ну-у...<SPEED:102><PAUSE:5> Я надеялся<SOUND:CLUE> напугать",
+                "прокурора, чтобы он принял",
+                "мою правоту..?"
               ],
               "Type": 0,
               "Position": 0
@@ -10107,7 +10119,7 @@
             {
               "Name": "F6_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:CLUE>Me?<PAUSE:5> Be intimidated?"
+                "<SOUND:CLUE>Меня?<PAUSE:5> Напугать?"
               ],
               "Type": 0,
               "Position": 0
@@ -10115,8 +10127,8 @@
             {
               "Name": "F6_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:SHOCK><DI>Certainly not by a <R>Hero of Flaws<W> like",
-                "you!"
+                "<SOUND:SHOCK><DI>Да мне ни один <R>герой позоров<W>",
+                "не страшен!"
               ],
               "Type": 0,
               "Position": 0
@@ -10124,7 +10136,7 @@
             {
               "Name": "F6_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C><PAUSE:2><DI><DC>(...Yeah,<PAUSE:3> I probably deserved that.)<SQUARE>"
+                "<SOUND:0><C><PAUSE:2><DI><DC>(...Да,<PAUSE:3> тут я сам напросился.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10132,9 +10144,9 @@
             {
               "Name": "F1_LINK10",
               "MessageTextLines": [
-                "This evidence reveals a clear",
-                "contradiction in the testimony, Your",
-                "Honour!"
+                "Эта улика явно выявляет",
+                "противоречие в покааниях,",
+                "Ваша честь!"
               ],
               "Type": 0,
               "Position": 0
@@ -10142,7 +10154,7 @@
             {
               "Name": "F1_JUDGE10",
               "MessageTextLines": [
-                "Hmm..."
+                "Хмм..."
               ],
               "Type": 0,
               "Position": 0
@@ -10150,8 +10162,8 @@
             {
               "Name": "F1_JUDGE20",
               "MessageTextLines": [
-                "I must say, I can't say I see anything",
-                "\"clear\" there..."
+                "Должен сказать, не могу сказать,",
+                "что вижу тут чего-либо \"явного\"..."
               ],
               "Type": 0,
               "Position": 0
@@ -10159,9 +10171,9 @@
             {
               "Name": "F1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!",
-                "<NEW_BOX>The only thing that's clear here is your",
-                "incompetence!"
+                "<SOUND:EXPLOSION>Ба!",
+                "<NEW_BOX>Из явного тут только твоя",
+                "некомпетентность!"
               ],
               "Type": 0,
               "Position": 0
@@ -10169,7 +10181,7 @@
             {
               "Name": "F1_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(I guess I must be on the wrong track...)<SQUARE>"
+                "<SOUND:0><C>(Кажется, я не на верном пути...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10177,8 +10189,8 @@
             {
               "Name": "F2_LINK10",
               "MessageTextLines": [
-                "What do you think of this statement,",
-                "Your Honour?"
+                "Что думаете об этой реплике,",
+                "Ваша честь?"
               ],
               "Type": 0,
               "Position": 0
@@ -10186,8 +10198,8 @@
             {
               "Name": "F2_JUDGE10",
               "MessageTextLines": [
-                "What do I think of it...?<PAUSE:3> ",
-                "Why do you ask?"
+                "Что я о ней думаю...?<PAUSE:3> ",
+                "Зачем Вы спрашиваете?"
               ],
               "Type": 0,
               "Position": 0
@@ -10195,7 +10207,7 @@
             {
               "Name": "F2_LINK20",
               "MessageTextLines": [
-                "Well, I have this evidence here..."
+                "Ну, есть тут у меня одна улика..."
               ],
               "Type": 0,
               "Position": 0
@@ -10203,9 +10215,9 @@
             {
               "Name": "F2_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Don't listen to him, Judge!<PAUSE:3> ",
-                "<DC>That evidence has<SOUND:WHAP> nothing to do with",
-                "what's being discussed."
+                "<SOUND:EXPLOSION><DI>Не слушай его, судья!<PAUSE:3> ",
+                "<DC>Эта улика не имеет<SOUND:WHAP> никакого",
+                "отношения к теме обсуждения."
               ],
               "Type": 0,
               "Position": 0
@@ -10213,7 +10225,7 @@
             {
               "Name": "F2_JUDGE20",
               "MessageTextLines": [
-                "Oh, don't worry, I knew that."
+                "О, не волнуйтесь, я это уже знал."
               ],
               "Type": 0,
               "Position": 0
@@ -10221,9 +10233,9 @@
             {
               "Name": "F2_JUDGE30",
               "MessageTextLines": [
-                "Attorneys always seem to ask what I",
-                "think when they have no idea what",
-                "they're talking about."
+                "Адвокаты всегда спрашивают моего",
+                "мнения, когда сами не понимают, о",
+                "чём они говорят."
               ],
               "Type": 0,
               "Position": 0
@@ -10231,7 +10243,7 @@
             {
               "Name": "F2_LINK30",
               "MessageTextLines": [
-                "Drat.<SQUARE>"
+                "Блин.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10239,8 +10251,8 @@
             {
               "Name": "F3_LINK10",
               "MessageTextLines": [
-                "You lie, Your Highness, and I have",
-                "the proof!"
+                "Вы лжёте, Ваше Высочество,",
+                "и я могу это доказать!"
               ],
               "Type": 0,
               "Position": 0
@@ -10248,8 +10260,9 @@
             {
               "Name": "F3_DRAGMIRE10",
               "MessageTextLines": [
-                "Hmph, could you be any more rude?<SOUND:EXPLOSION>",
-                "This is royalty you're speaking to!"
+                "Гм, а ещё грубее не можешь?<SOUND:EXPLOSION>",
+                "Ты тут к королеской особе",
+                "обращаешься!"
               ],
               "Type": 0,
               "Position": 0
@@ -10257,8 +10270,8 @@
             {
               "Name": "F3_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(...I'm getting lectured on rudeness by",
-                "this guy?!)"
+                "<SOUND:0><C>(...Это он меня за грубость",
+                "осуждает?!)"
               ],
               "Type": 0,
               "Position": 0
@@ -10266,8 +10279,8 @@
             {
               "Name": "F3_DRAGMIRE20",
               "MessageTextLines": [
-                "Well, let's see what it is you're waving",
-                "around."
+                "Ну, давай посмотрим, чем ты там",
+                "машешь."
               ],
               "Type": 0,
               "Position": 0
@@ -10275,7 +10288,7 @@
             {
               "Name": "F3_LINK25",
               "MessageTextLines": [
-                "It's,<PAUSE:3> uh,<PAUSE:3> this..."
+                "Ну,<PAUSE:3> э,<PAUSE:3> вот..."
               ],
               "Type": 0,
               "Position": 0
@@ -10283,8 +10296,9 @@
             {
               "Name": "F3_DRAGMIRE30",
               "MessageTextLines": [
-                "<DI>Ah.<PAUSE:3> <DC>",
-                "You're rude<SOUND:EXPLOSION> AND wrong, it turns out."
+                "<DI>А.<PAUSE:3> <DC>",
+                "Ты не просто грубишь,<SOUND:EXPLOSION> так ещё при",
+                "этом сам не прав."
               ],
               "Type": 0,
               "Position": 0
@@ -10292,8 +10306,8 @@
             {
               "Name": "F3_JUDGE10",
               "MessageTextLines": [
-                "The defence will abstain from",
-                "belligerent failures!"
+                "Защита, воздержитесь от",
+                "агрессивных глупостей!"
               ],
               "Type": 0,
               "Position": 0
@@ -10301,7 +10315,7 @@
             {
               "Name": "F3_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(I'll have to rethink this...)<SQUARE>"
+                "<SOUND:0><C>(Нужно заново это обдумать...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10309,7 +10323,7 @@
             {
               "Name": "F4_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> I've got you now!"
+                "<SOUND:WHAP><DI>Ха!<PAUSE:3> Попались!"
               ],
               "Type": 0,
               "Position": 0
@@ -10317,7 +10331,7 @@
             {
               "Name": "F4_INGO10",
               "MessageTextLines": [
-                "Whaaat?!"
+                "Что-о-о?!"
               ],
               "Type": 0,
               "Position": 0
@@ -10325,9 +10339,9 @@
             {
               "Name": "F4_LINK20",
               "MessageTextLines": [
-                "I knew a simple ranch worker",
-                "couldn't concoct a flawless story.<PAUSE:5> ",
-                "<SOUND:WHAP><DI>I've just found a gaping hole in it!"
+                "Так и знал, что простой фермер",
+                "не смог бы выдумать историю без",
+                "изъяна.<PAUSE:5> <SOUND:WHAP><DI>В ней же очевидная дыра!"
               ],
               "Type": 0,
               "Position": 0
@@ -10335,8 +10349,8 @@
             {
               "Name": "F4_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><SPEED:103>Link, are you implying ranch workers",
-                "are stupid?!<SPEED:102>"
+                "<SOUND:EXPLOSION><SPEED:103>Линк, ты хочешь сказать, что",
+                "все фермеры <EMDASH> придурки?!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -10344,7 +10358,8 @@
             {
               "Name": "F4_LINK30",
               "MessageTextLines": [
-                "<SOUND:STAB>I, uh, that's...<PAUSE:4> not what I meant."
+                "<SOUND:STAB>Я, э, это...<PAUSE:4> совсем не то,",
+                "что я имел в виду."
               ],
               "Type": 0,
               "Position": 0
@@ -10352,9 +10367,9 @@
             {
               "Name": "F4_DRAGMIRE10",
               "MessageTextLines": [
-                "On the other hand, certain attorneys",
-                "definitely are, since what you just",
-                "presented is<SOUND:EXPLOSION> entirely meaningless!"
+                "А некоторые адвокаты, в свою",
+                "очередь, точно придурки, ведь ты",
+                "представил полную<SOUND:EXPLOSION> бессмыслицу!"
               ],
               "Type": 0,
               "Position": 0
@@ -10362,7 +10377,7 @@
             {
               "Name": "F4_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh, sure, just gang up on me...)<SQUARE>"
+                "<SOUND:0><C>(Ох, давайте, все на одного...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10370,8 +10385,8 @@
             {
               "Name": "F5_LINK10",
               "MessageTextLines": [
-                "With this piece of evidence, I've won",
-                "the argument!"
+                "Благодаря этой улике победа",
+                "у меня в руках!"
               ],
               "Type": 0,
               "Position": 0
@@ -10379,8 +10394,9 @@
             {
               "Name": "F5_JUDGE10",
               "MessageTextLines": [
-                "<PAUSE:5><DC>...I'm afraid I don't see how that piece",
-                "of evidence is <SOUND:CLUE>relevant at all, Defence."
+                "<PAUSE:5><DC>...Боюсь, я не совсем понимаю,",
+                "какое отношение к делу<SOUND:CLUE> имеет",
+                "эта улика, защита."
               ],
               "Type": 0,
               "Position": 0
@@ -10388,8 +10404,8 @@
             {
               "Name": "F5_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Ha!<PAUSE:3> The only thing you're winning here",
-                "is a <SOUND:CLUE>participation trophy!"
+                "<SOUND:WHAP><DI>Ха!<PAUSE:3> Всё что ты выиграл, так это",
+                "<SOUND:CLUE>награду за участие!"
               ],
               "Type": 0,
               "Position": 0
@@ -10397,7 +10413,7 @@
             {
               "Name": "F5_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>And here it is!<PAUSE:3> This shiny new penalty!"
+                "<SOUND:WHAP><DI>А вот и она!<PAUSE:3> Новенькое наказание!"
               ],
               "Type": 0,
               "Position": 0
@@ -10405,7 +10421,7 @@
             {
               "Name": "F5_LINK20",
               "MessageTextLines": [
-                "<C>(I'd rather go empty-handed...)<SQUARE>"
+                "<C>(Я б лучше ушёл с пустыми руками...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10413,13 +10429,13 @@
             {
               "Name": "FailureThief",
               "MessageTextLines": [
-                "I think that is enough!",
+                "Достаточно!",
                 "<NEW_BOX>",
-                "I feel I have seen enough to announce",
-                "the verdict at this time.",
+                "Кажется, я увидел достаточно,",
+                "чтобы огласить приговор.",
                 "<NEW_BOX>",
-                "It's clear that there are no extenuating",
-                "circumstances at play here."
+                "Совершенно ясно, что здесь нет",
+                "никаких смягчающих обстоятельств."
               ],
               "Type": 0,
               "Position": 0
@@ -10427,17 +10443,18 @@
             {
               "Name": "Failure",
               "MessageTextLines": [
-                "I think that is enough!",
+                "Достаточно!",
                 "<NEW_BOX>",
-                "I feel I have seen enough to announce",
-                "the verdict at this time.",
+                "Кажется, я увидел достаточно,",
+                "чтобы огласить приговор.",
                 "<NEW_BOX>",
-                "The defence has failed to establish a",
-                "likely alternative scenario to the one",
-                "presented by the prosecution.",
+                "Защита не смогла установить",
+                "правдоподобную альтернативу",
+                "событиям, представленным",
+                "стороной обвинения.",
                 "<NEW BOX>",
-                "As such,<PAUSE:3> I pronounce Malon of Lon",
-                "Lon Ranch...<FADE:20>"
+                "И так,<PAUSE:3> Я провозглашаю Малон",
+                "из ранчо Лон Лон...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -10445,10 +10462,10 @@
             {
               "Name": "FailureThief2",
               "MessageTextLines": [
-                "I shall inform the Goddess of our",
-                "decision.",
+                "Я уведомлю Богиню о нашем",
+                "решении",
                 "<NEW BOX>",
-                "This court is adjourned!<SQUARE>"
+                "Заседание объявляется закрытым!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10456,10 +10473,11 @@
             {
               "Name": "Failure2",
               "MessageTextLines": [
-                "The defendant shall submit herself to",
-                "the King to have her fate decided.",
+                "Подсудимая представит себя",
+                "Королю, где решится её",
+                "дальнейшая судьба.",
                 "<NEW BOX>",
-                "This court is adjourned!<SQUARE>"
+                "Заседание объявляется закрытым!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -10467,10 +10485,10 @@
             {
               "Name": "Retry",
               "MessageTextLines": [
-                "<SOUND:0>Retry the last scene?",
+                "<SOUND:0>Начать сцену заново?",
                 "<TWO CHOICES>",
-                "<G>Yes",
-                "No"
+                "<G>Да",
+                "Нет"
               ],
               "Type": 0,
               "Position": 0
@@ -11538,7 +11556,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_IMPA",
@@ -12117,7 +12136,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_ZELDA",
@@ -12923,7 +12943,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_INGO",
@@ -13880,7 +13901,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_EFFECTS",
@@ -15040,7 +15062,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOLDIER",
@@ -15442,7 +15465,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -15599,7 +15623,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_INTRO",
@@ -17392,7 +17417,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_ZORA",
@@ -17836,7 +17862,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_UNIMPLEMENTED",
@@ -18107,7 +18134,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TEST",
@@ -20010,7 +20038,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_OPENINGSTATEMENT",
@@ -20970,7 +20999,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_INTRODUCTION",
@@ -22164,7 +22194,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_1",
@@ -22558,7 +22589,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_POST",
@@ -24386,7 +24418,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_IMPA_CROSSEXAM",
@@ -26981,7 +27014,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_INTRODUCTION",
@@ -27774,7 +27808,7 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Думаю, с этим разобрались.<PAUSE:10> ",
+                "Думаю, с этим делом покончено.<PAUSE:10> ",
                 "<SOUND:WHAP>Я готов звать следующего",
                 "свидетеля."
               ],
@@ -28245,7 +28279,7 @@
             {
               "Name": "ZELDA140",
               "MessageTextLines": [
-                "Хорошо.<PAUSE:10><DI><SOUND:HINT> Вот и я!<SQUARE>"
+                "Хорошо.<PAUSE:10><DI><SOUND:HINT> Начинаю!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -28307,7 +28341,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_1",
@@ -28729,7 +28764,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_POST",
@@ -29571,9 +29607,9 @@
               "Name": "LINK60",
               "MessageTextLines": [
                 "Вполне возможно, что из-за",
-                "статуса принцессы Дрегмайру <SOUND:CLUE>",
+                "положения принцессы Дрегмайру <SOUND:CLUE>",
                 "<R>не довелось случая<W> обсудить",
-                "с ней её показания.",
+                "с ней её рассказ.",
                 "<NEW_BOX>",
                 "Очень может быть, что её",
                 "показания будут сюрпризом",
@@ -29816,7 +29852,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_1_CROSSEXAM",
@@ -31655,7 +31692,7 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<C>(Хмм...<PAUSE:3> кому верить <EMDASH> властям",
+                "<C>(Хмм...<PAUSE:3> кому верить <EMDASH> короне",
                 "или лучшей подруге...)"
               ],
               "Type": 0,
@@ -31665,7 +31702,7 @@
               "Name": "B_LINK30",
               "MessageTextLines": [
                 "<C>(Мне потребуется что-то очень",
-                "серьёзное, чтобы опровергнуть",
+                "точное, чтобы опровергнуть",
                 "слова принцессы.)<SQUARE>"
               ],
               "Type": 0,
@@ -31778,8 +31815,8 @@
               "MessageTextLines": [
                 "Однако, он решил, что мне пора",
                 "начать готовиться к ожидающим",
-                "меня королевским обязанностям...",
-                "<PAUSE:3> Так что<SOUND:HINT> в этот раз поехала я."
+                "меня королевским обязанностям...<PAUSE:3>",
+                "Так что<SOUND:HINT> в этот раз поехала я."
               ],
               "Type": 0,
               "Position": 0
@@ -32098,9 +32135,9 @@
               "Name": "4_3_DRAGMIRE20",
               "MessageTextLines": [
                 "<SOUND:WHAP>Глупец!<PAUSE:10> Ты думаешь, что ребёнок",
-                "так легко пересилит взрослого",
-                "человека?<PAUSE:4> Да ещё и занимающегося",
-                "тяжёлой ручной работой каждый день?",
+                "пересилит взрослого человека?<PAUSE:4>",
+                "Да ещё и занимающегося тяжёлой",
+                "ручной работой каждый день?",
                 "<NEW_BOX>",
                 "Да и вообще, зачем принцессе",
                 "забирать жизнь у простого",
@@ -32205,7 +32242,7 @@
               "Name": "4_3_JUDGE30",
               "MessageTextLines": [
                 "И всё же, Я считаю, что наказание",
-                "очень даже треуется."
+                "очень даже требуется."
               ],
               "Type": 0,
               "Position": 0
@@ -32241,10 +32278,11 @@
             {
               "Name": "5_LINK10",
               "MessageTextLines": [
-                "Are you sure you got a good look,",
-                "then, Your Highness?",
+                "Вам всё хорошо было видно,",
+                "Ваше Высочество?",
                 "<NEW_BOX>",
-                "You didn't look away in panic?"
+                "Вы не запаниковали и",
+                "не отвернулись?"
               ],
               "Type": 0,
               "Position": 0
@@ -32252,9 +32290,9 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "The princess was very brave to take",
-                "control of the situation the way she",
-                "did."
+                "Принцесса проявила большую",
+                "отвагу, так взяв ситуацию в",
+                "свои руки."
               ],
               "Type": 0,
               "Position": 0
@@ -32262,8 +32300,8 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:WHAP>There is no need to doubt what she",
-                "saw!"
+                "<SOUND:WHAP>Не зачем сомневаться в том,",
+                "что она видела!"
               ],
               "Type": 0,
               "Position": 0
@@ -32271,8 +32309,8 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "Ah...<PAUSE:3> yes,<PAUSE:3> I suppose what she did was",
-                "admirable..."
+                "А...<PAUSE:3> да,<PAUSE:3> полагаю, её поступок",
+                "достоен похвалы..."
               ],
               "Type": 0,
               "Position": 0
@@ -32280,7 +32318,7 @@
             {
               "Name": "5_ZELDA10",
               "MessageTextLines": [
-                "If only we had arrived earlier..."
+                "Если бы мы прибыли раньше..."
               ],
               "Type": 0,
               "Position": 0
@@ -32288,11 +32326,10 @@
             {
               "Name": "5_MALON10",
               "MessageTextLines": [
-                "Your Highness... don't blame yourself",
-                "for this.",
+                "Ваше Высочество... не вините себя.",
                 "<NEW_BOX>",
-                "If you'd arrived earlier, you could've",
-                "been the one that got attacked."
+                "Если бы Вы прибыли раньше, то",
+                "атакованы могли быть и Вы."
               ],
               "Type": 0,
               "Position": 0
@@ -32300,12 +32337,13 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP>Hah!",
+                "<SOUND:WHAP>Ха!",
                 "<NEW_BOX>",
-                "So you would have lashed out at",
-                "anyone trying to stop you, huh?",
+                "То есть ты бы набросилась на",
+                "любого, кто попытался бы тебя",
+                "остановить, да?",
                 "<NEW_BOX>",
-                "<SOUND:EXPLOSION>Despicable!"
+                "<SOUND:EXPLOSION>Как мерзко!"
               ],
               "Type": 0,
               "Position": 0
@@ -32313,8 +32351,8 @@
             {
               "Name": "5_LINK30",
               "MessageTextLines": [
-                "That's not what she meant,<SOUND:WHAP> and you",
-                "know it!"
+                "Она не это имела в виду,<SOUND:WHAP> и Вы",
+                "знаете это!"
               ],
               "Type": 0,
               "Position": 0
@@ -32322,7 +32360,8 @@
             {
               "Name": "5_LINK40",
               "MessageTextLines": [
-                "Princess, please go on."
+                "Принцесса, пожалуйста,",
+                "продолжайте."
               ],
               "Type": 0,
               "Position": 0
@@ -32330,7 +32369,7 @@
             {
               "Name": "5_ZELDA20",
               "MessageTextLines": [
-                "Very well...<SQUARE>"
+                "Хорошо...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -32338,8 +32377,9 @@
             {
               "Name": "6_LINK10",
               "MessageTextLines": [
-                "Trust your heart, Your Highness.<PAUSE:10> ",
-                "You know Malon didn't do this!"
+                "Доверьтесь своему сердцу,",
+                "Ваше Высочество.<PAUSE:10> Вы знаете,",
+                "что Малон не виновата!"
               ],
               "Type": 0,
               "Position": 0
@@ -32347,10 +32387,9 @@
             {
               "Name": "6_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>What nonsense!",
+                "<SOUND:WHAP>Ну и глупости!",
                 "<NEW_BOX>",
-                "Her heart? What do her organs have to",
-                "do with anything?!"
+                "Сердцу? Причём тут её органы?!"
               ],
               "Type": 0,
               "Position": 0
@@ -32358,9 +32397,9 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "Oh, of course!<PAUSE:5> Evidence and testimony",
-                "be damned, just because we FEEL the",
-                "defendant must be innocent!"
+                "Ах, точно!<PAUSE:5> Долой улики и показания!",
+                "Раз уж мы так ЧУВСТВУЕМ, то",
+                "подсудимая должна быть невиновна!"
               ],
               "Type": 0,
               "Position": 0
@@ -32368,8 +32407,8 @@
             {
               "Name": "6_JUDGE10",
               "MessageTextLines": [
-                "Oh,<PAUSE:3> well,<PAUSE:3> if you're sure, then I declare",
-                "today's verdict<EMDASH><FADE:10>"
+                "Ох,<PAUSE:3> что ж,<PAUSE:3> раз вы так уверены, то",
+                "я объявляю приговор<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -32377,7 +32416,7 @@
             {
               "Name": "6_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Have you gone senile, old man?"
+                "<SOUND:EXPLOSION><DI>Тебя маразм хватил, старик?"
               ],
               "Type": 0,
               "Position": 0
@@ -32385,9 +32424,8 @@
             {
               "Name": "6_DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:WHAP>It was a joke!<PAUSE:5> ",
-                "Much like the arguments the defence",
-                "has been presenting.<SQUARE>"
+                "<SOUND:WHAP>Это была шутка!<PAUSE:5> ",
+                "Прям как и все аргументы защиты.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -32395,9 +32433,9 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Your Honour,<PAUSE:3> Your Highness,<PAUSE:3> ",
-                "I believe I've found something that",
-                "doesn't quite<SOUND:CLUE> match up with the facts."
+                "Ваша честь!<PAUSE:3> Ваше Высочество!<PAUSE:3> ",
+                "Кажется, я нашёл что-то, что",
+                "немного не<SOUND:CLUE> сходится с фактами."
               ],
               "Type": 0,
               "Position": 0
@@ -32405,8 +32443,8 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SPEED:104>How dare you question the princess?!<PAUSE:5> ",
-                "<SOUND:EXPLOSION>This is<EMDASH><SPEED:102><FADE:5>"
+                "<SPEED:104>Ты смеешь сомневаться в принцессе?!<PAUSE:5> ",
+                "<SOUND:EXPLOSION>Это<EMDASH><SPEED:102><FADE:5>"
               ],
               "Type": 0,
               "Position": 0
@@ -32414,8 +32452,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "You will let the defence speak,",
-                "Prosecutor."
+                "Дайте защите слово, прокурор."
               ],
               "Type": 0,
               "Position": 0
@@ -32423,9 +32460,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<C>(I think I see why he so desperately",
-                "wanted to prevent this",
-                "cross-examination now...)"
+                "<C>(Кажется, я понял, почему он",
+                "так отчаянно пытался",
+                "предотвратить этот допрос...)"
               ],
               "Type": 0,
               "Position": 0
@@ -32433,9 +32470,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Your Highness,<PAUSE:3> you stated that you",
-                "arrived at the ranch shortly <R>after 8 AM<W>,",
-                "<SOUND:HINT>correct?"
+                "Ваше Высочество,<PAUSE:3> Вы сообщили,",
+                "что прибыли на ранчо чуть",
+                "<R>позже 8 утра<W>, <SOUND:HINT>верно?"
               ],
               "Type": 0,
               "Position": 0
@@ -32443,8 +32480,9 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "Yes. The visit was scheduled for <R>8:30<W>",
-                "exactly, but we were quite a bit early."
+                "Да. Посещение было назначено",
+                "ровно на <R>8:30<W>, но мы оказались",
+                "на месте немного раньше."
               ],
               "Type": 0,
               "Position": 0
@@ -32452,8 +32490,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "I see.<PAUSE:3> That makes something you",
-                "mentioned quite impossible."
+                "Ясно.<PAUSE:3> Тогда кое-что, что Вы",
+                "упомянули, не могло произойти."
               ],
               "Type": 0,
               "Position": 0
@@ -32461,8 +32499,8 @@
             {
               "Name": "LINK45",
               "MessageTextLines": [
-                "As stated by the autopsy report, the",
-                "victim definitely died <R>before<W> <SOUND:HINT>8 AM."
+                "Как указано в отчёте о вскрытии,",
+                "жертва погибла <R>до<W> <SOUND:HINT>8 утра."
               ],
               "Type": 0,
               "Position": 0
@@ -32470,9 +32508,9 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "You couldn't have seen the defendant",
-                "attack the ranch owner when you",
-                "arrived...<FADE:30>"
+                "Вы не могли бы увидеть, как",
+                "подсудимая напала на хозяина",
+                "ранчо, когда вы прибыли...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -32480,8 +32518,8 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<DI><SOUND:DON>...because the victim was already",
-                "dead by then!!"
+                "<DI><SOUND:DON>...потому что к тому времени",
+                "он был уже мёртв!!"
               ],
               "Type": 0,
               "Position": 0
@@ -32489,7 +32527,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Order, order!"
+                "Порядок, порядок!"
               ],
               "Type": 0,
               "Position": 0
@@ -32497,7 +32535,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>YES!<PAUSE:3> <SPEED:103>You've really caught her in a lie!<SPEED:102>"
+                "<DI><SOUND:WHAP>ДА!<PAUSE:3> <SPEED:103>Ты поймал её с поличным!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -32505,12 +32543,11 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "<SPEED:103>Your Highness, what is the meaning",
-                "of this?<SPEED:102>",
+                "<SPEED:103>Ваше Высочество, что это значит?<SPEED:102>",
                 "<NEW_BOX>",
-                "While I wholeheartedly respect and",
-                "serve the Crown, I will nonetheless",
-                "not tolerate lies in my court!"
+                "При всех моих чистосердечных",
+                "уважении и преданности короне,",
+                "я не потеплю лжи в зале суда!"
               ],
               "Type": 0,
               "Position": 0
@@ -32518,7 +32555,7 @@
             {
               "Name": "ZELDA20",
               "MessageTextLines": [
-                "<SOUND:WHAP><SPEED:103>I have not lied!<SPEED:102><PAUSE:3> I just..."
+                "<SOUND:WHAP><SPEED:103>Я не лгала!<SPEED:102><PAUSE:3> Я просто..."
               ],
               "Type": 0,
               "Position": 0
@@ -32526,10 +32563,11 @@
             {
               "Name": "ZELDA30",
               "MessageTextLines": [
-                "I suppose I did not see the exact",
-                "moment it happened.",
+                "Всё-таки я не увидела точный",
+                "момент убийства.",
                 "<NEW_BOX>",
-                "I guess I only thought I did..."
+                "Кажется, я только подумала,",
+                "что видела..."
               ],
               "Type": 0,
               "Position": 0
@@ -32537,8 +32575,7 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "<DI>Princess,<PAUSE:3> this is a matter of life and",
-                "death!"
+                "<DI>Принцесса,<PAUSE:3> это дело жизни и смерти!"
               ],
               "Type": 0,
               "Position": 0
@@ -32546,11 +32583,10 @@
             {
               "Name": "ZELDA40",
               "MessageTextLines": [
-                "I definitely saw the defendant there,",
-                "though, along with the body!",
+                "Но я точно увидела там подсудимую,",
+                "и тело вместе с ней!",
                 "<NEW_BOX>",
-                "<SOUND:WHAP><DI>There is no one else who could have",
-                "done it!"
+                "<SOUND:WHAP><DI>Никто больше не мог это сделать!"
               ],
               "Type": 0,
               "Position": 0
@@ -32558,8 +32594,7 @@
             {
               "Name": "ZELDA50",
               "MessageTextLines": [
-                "I remember all of the other details",
-                "correctly!"
+                "Всё остальное я помню правильно!"
               ],
               "Type": 0,
               "Position": 0
@@ -32567,8 +32602,8 @@
             {
               "Name": "ZELDA60",
               "MessageTextLines": [
-                "The bodies on the floor, the pool of",
-                "blood...<PAUSE:6><SOUND:WHAP><DI> You have to believe me!"
+                "Тела на полу, лужа крови...<PAUSE:6>",
+                "<SOUND:WHAP><DI>Поверьте мне!"
               ],
               "Type": 0,
               "Position": 0
@@ -32576,8 +32611,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "Perhaps it'll be best if Her Highness",
-                "<SOUND:HINT>revises her testimony."
+                "Полагаю, будет лучше, если",
+                "Её Высочество <SOUND:HINT>поправит",
+                "свои показания."
               ],
               "Type": 0,
               "Position": 0
@@ -32585,12 +32621,13 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<C>(Nngh, that's not good.<PAUSE:5> There's still",
-                "not enough doubt to overturn this",
-                "testimony...)",
+                "<C>(Гнн, это не хорошо.<PAUSE:5> Ещё не",
+                "достаточно сомнений, чтобы",
+                "отбросить эти показания...)",
                 "<NEW_BOX>",
-                "<C>(I'll have to find something else, or",
-                "this case will be over!)<SQUARE>"
+                "<C>(Я должен найти, за что ещё",
+                "зацепиться, или заседание",
+                "подойдёт к концу!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -32652,7 +32689,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2",
@@ -32902,7 +32940,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"What I Actually Saw\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Что я видела на самом деле\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -32910,8 +32948,8 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "I am sorry for embellishing the truth",
-                "a little bit."
+                "Прошу прощения за то, что",
+                "немного приукрасила правду."
               ],
               "Type": 0,
               "Position": 0
@@ -32919,8 +32957,8 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "I did not see the actual moment of",
-                "the attack..."
+                "Я не видела точный момент",
+                "нападения..."
               ],
               "Type": 0,
               "Position": 0
@@ -32928,8 +32966,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "...but it had to have happened shortly",
-                "before I went into the ranch house."
+                "...но он должен был случиться",
+                "незадолго до того, как я вошла",
+                "в дом."
               ],
               "Type": 0,
               "Position": 0
@@ -32937,9 +32976,10 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "Miss Malon and her father were the",
-                "only ones at the scene of the crime,<PAUSE:5> ",
-                "so she must be the culprit!<SQUARE>"
+                "Госпожа Малон и её отец были",
+                "единственными на месте",
+                "преступления,<PAUSE:5> так что только",
+                "она может быть виновницей!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33001,7 +33041,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2_POST",
@@ -33257,9 +33298,9 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "I see.<PAUSE:5> You only saw the aftermath",
-                "of the scene, not the actual crime",
-                "being committed."
+                "Понятно.<PAUSE:5> Вы увидели последствие",
+                "событий, а не как было совершено",
+                "преступление."
               ],
               "Type": 0,
               "Position": 0
@@ -33267,8 +33308,8 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Very well.<PAUSE:5> Hopefully there are no",
-                "issues in your testimony this time."
+                "Хорошо.<PAUSE:5> Надеюсь сейчас с вашими",
+                "показаниями не будет проблем."
               ],
               "Type": 0,
               "Position": 0
@@ -33276,8 +33317,8 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Defence, it's time for your",
-                "<SOUND:HINT>cross-examination."
+                "Защита, пора проводить ваш",
+                "<SOUND:HINT>перекрёстный допрос."
               ],
               "Type": 0,
               "Position": 0
@@ -33285,7 +33326,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Naturally, Your Honour."
+                "Само собой, Ваша честь."
               ],
               "Type": 0,
               "Position": 0
@@ -33293,10 +33334,12 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:CLUE>(Dragmire still looks pretty angry.)",
+                "<SOUND:0><C><SOUND:CLUE>(Дрегмайр всё ещё выглядит",
+                "довольно-таки сердито.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(I bet he didn't expect such a blatant",
-                "contradiction to pop up.)"
+                "<SOUND:0><C>(Бьюсь об заклад, он не ожидал,",
+                "что всплывёт такое очевидное",
+                "противоречие.)"
               ],
               "Type": 0,
               "Position": 0
@@ -33304,10 +33347,10 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(If I could just find another one like that,",
-                "the princess's testimony would become",
-                "<SOUND:CLUE><R>completely untrustworthy<C> in the eyes",
-                "of the judge!)<SQUARE>"
+                "<SOUND:0><C>(Если я найду ещё одно такое,",
+                "то показания принцессы станут",
+                "<SOUND:CLUE><R>совершенно ненадёжными<C> в глазах",
+                "судьи!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -33369,7 +33412,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_2_CROSSEXAM",
@@ -34781,7 +34825,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"What I Actually Saw\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Что я видела на самом деле\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -34789,8 +34833,8 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "<DI><G>I am sorry for embellishing the truth",
-                "a little bit.<PERSISTENT>"
+                "<DI><G>Прошу прощения за то, что",
+                "немного приукрасила правду.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -34798,8 +34842,8 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "<DI><G>I did not see the actual moment of",
-                "the attack...<PERSISTENT>"
+                "<DI><G>Я не видела точный момент",
+                "нападения...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -34807,8 +34851,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "<DI><G>...but it had to have happened shortly",
-                "before I went into the ranch house.<PERSISTENT>"
+                "<DI><G>...но он должен был случиться",
+                "незадолго до того, как я вошла",
+                "в дом.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -34816,8 +34861,8 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "<DI><G>The murder weapon was still stuck into",
-                "the victim's body, after all.<PERSISTENT>"
+                "<DI><G>Ведь в итоге тело жертвы всё ещё",
+                "было пронзено оружием убийства.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -34825,9 +34870,10 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "<DI><G>Miss Malon and her father were the",
-                "only ones at the scene of the crime,",
-                "so she must be the culprit!<PERSISTENT>"
+                "<DI><G>Госпожа Малон и её отец были",
+                "единственными на месте",
+                "преступления, так что только",
+                "она могла быть виновницей!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -34835,7 +34881,8 @@
             {
               "Name": "CONS1_LINK10",
               "MessageTextLines": [
-                "Hm...<PAUSE:5> This testimony is<SOUND:CLUE> pretty vague..."
+                "Хм...<PAUSE:5> Эти показания<SOUND:CLUE> какие-то",
+                "смутные..."
               ],
               "Type": 0,
               "Position": 0
@@ -34843,8 +34890,8 @@
             {
               "Name": "CONS1_MALON10",
               "MessageTextLines": [
-                "It seems the princess is being a bit",
-                "more careful about details now."
+                "Кажется, принцесса старается",
+                "быть аккуратнее с деталями."
               ],
               "Type": 0,
               "Position": 0
@@ -34852,8 +34899,8 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(In situations like these, it's best for me",
-                "to <R>press<C> for more information.)<SQUARE>"
+                "<SOUND:0><C>(Тогда стоит попробовать",
+                "<R>выдавить<C> больше информации.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -34861,8 +34908,8 @@
             {
               "Name": "CONS_LINK10",
               "MessageTextLines": [
-                "Hmm...<PAUSE:3> This is a bit trickier than the",
-                "last cross-examination."
+                "Хмм...<PAUSE:3> Это немного труднее, чем",
+                "прошлый допрос."
               ],
               "Type": 0,
               "Position": 0
@@ -34870,8 +34917,8 @@
             {
               "Name": "CONS_MALON10",
               "MessageTextLines": [
-                "It feels to me like we're back to",
-                "square one."
+                "Такое ощущение, что мы",
+                "вернулись в самое начало."
               ],
               "Type": 0,
               "Position": 0
@@ -34879,7 +34926,7 @@
             {
               "Name": "CONS_LINK20",
               "MessageTextLines": [
-                "<SOUND:HINT>...!<PAUSE:3> You know, you might be right!"
+                "<SOUND:HINT>...!<PAUSE:3> Знаешь, а может ты и права!"
               ],
               "Type": 0,
               "Position": 0
@@ -34887,7 +34934,7 @@
             {
               "Name": "CONS_MALON20",
               "MessageTextLines": [
-                "Eh?<PAUSE:3> <SOUND:CLUE>What do you mean?"
+                "Чего?<PAUSE:3> <SOUND:CLUE>Ты о чём?"
               ],
               "Type": 0,
               "Position": 0
@@ -34895,9 +34942,9 @@
             {
               "Name": "CONS_LINK30",
               "MessageTextLines": [
-                "Think back to the first testimony!<PAUSE:3> ",
-                "How did the first contradiction get",
-                "wiped away?"
+                "Вспомни первые показания!<PAUSE:3> ",
+                "Как мы тогда стёрли первое",
+                "противоречие?"
               ],
               "Type": 0,
               "Position": 0
@@ -34905,9 +34952,9 @@
             {
               "Name": "CONS_MALON30",
               "MessageTextLines": [
-                "<SOUND:HINT>Oh, of course!<PAUSE:4> Both this testimony",
-                "and what the prosecutor said I did",
-                "can't be true at the same time!"
+                "<SOUND:HINT>А, точно!<PAUSE:4> Эти показания и то, что",
+                "прокурор говорит, будто бы я делала,",
+                "не могут быть верны одновременно!"
               ],
               "Type": 0,
               "Position": 0
@@ -34915,8 +34962,8 @@
             {
               "Name": "CONS_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(The court can't look past two blatant",
-                "untruths in a row!)<SQUARE>"
+                "<SOUND:0><C>(Суд не сможет отвести глаза",
+                "от двух явных неправд подряд!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -34924,8 +34971,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Well, this is a little more plausible than",
-                "the last testimony she gave."
+                "Ну, это уже более правдоподобно,",
+                "чем её прошлые показания."
               ],
               "Type": 0,
               "Position": 0
@@ -34933,8 +34980,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "Yes, I suppose it matches the",
-                "detective's account, doesn't it?"
+                "Да, и всё сходится со словами",
+                "следователя, верно?"
               ],
               "Type": 0,
               "Position": 0
@@ -34942,8 +34989,8 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<C>(Still, I feel like something here sticks",
-                "out like a sore thumb...)<SQUARE>"
+                "<C>(И всё же, такое ощущение, что тут",
+                "что-то так и бросается в глаза...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -34951,8 +34998,8 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "Why did you do that, Your Highness?<PAUSE:3> ",
-                "There's a life on the line here!"
+                "Зачем вы это сделали, Ваше",
+                "Высочество?<PAUSE:3> На кону жизнь стоит!"
               ],
               "Type": 0,
               "Position": 0
@@ -34960,9 +35007,10 @@
             {
               "Name": "1_ZELDA10",
               "MessageTextLines": [
-                "I really am sorry...<PAUSE:5> I suppose I got a",
-                "bit too excited about being a witness",
-                "in an actual murder trial."
+                "Мне правда жаль...<PAUSE:5> Полагаю, я",
+                "немного увлеклась от того, что",
+                "оказалась свидетельницей ",
+                "настоящем суде об убийстве."
               ],
               "Type": 0,
               "Position": 0
@@ -34970,7 +35018,7 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "Really, now?"
+                "Серьёзно?"
               ],
               "Type": 0,
               "Position": 0
@@ -34978,7 +35026,7 @@
             {
               "Name": "1_LINK30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Most people hate testifying!"
+                "<SOUND:WHAP><DI>Никто не любит давать показания!"
               ],
               "Type": 0,
               "Position": 0
@@ -34986,11 +35034,10 @@
             {
               "Name": "1_ZELDA20",
               "MessageTextLines": [
-                "<SPEED:101>Yes, well...<SPEED:102><PAUSE:5> The life of a princess is",
-                "rather boring, you know.",
+                "<SPEED:101>Да, но...<SPEED:102><PAUSE:5> Жизнь принцессы такая",
+                "скучная, понимаете?",
                 "<NEW_BOX>",
-                "<SPEED:103>This is quite the break from the",
-                "routine, for me!<SPEED:102>"
+                "<SPEED:103>Для меня это такое разнообразие!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -34998,7 +35045,7 @@
             {
               "Name": "1_LINK40",
               "MessageTextLines": [
-                "<C>(Should just get a hobby, then...)<SQUARE>"
+                "<C>(Найди себе увлечение, что ли...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -35006,8 +35053,9 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "In that case,<SOUND:WHAP><SPEED:103> it can't be conclusively",
-                "proven that the defendant did it!<SPEED:102>"
+                "В таком случае,<SOUND:WHAP><SPEED:103> нельзя с полной",
+                "уверенностью доказать, что это",
+                "сделала подсудимая!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -35015,9 +35063,10 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "Defence, did you exhaust your <SOUND:EXPLOSION>singular",
-                "brain cell on that last contradiction you",
-                "found?!"
+                "Защита, у тебя что, единственная",
+                "мозговая клетка окончательно",
+                "утомилась от того прошлого",
+                "противоречия?!"
               ],
               "Type": 0,
               "Position": 0
@@ -35025,8 +35074,8 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "There's a Death Mountain's worth of",
-                "evidence pointing to the defendant!"
+                "Да тут улик, указывающих на вину",
+                "подсудимой, целая гора Смерти!"
               ],
               "Type": 0,
               "Position": 0
@@ -35034,9 +35083,9 @@
             {
               "Name": "2_DRAGMIRE30",
               "MessageTextLines": [
-                "Just because no one saw the actual",
-                "moment of the crime,<PAUSE:3> doesn't mean",
-                "anyone else could've done it!"
+                "Если никто не видел момент",
+                "преступления,<PAUSE:3> то это не значит,",
+                "что его мог совершить кто-то ещё!"
               ],
               "Type": 0,
               "Position": 0
@@ -35044,8 +35093,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<C>(I think you're making a Death",
-                "Mountain out of a Death Molehill...)<SQUARE>"
+                "<C>(Мне кажется, ты гору Смерти",
+                "раздул из кочки Смерти...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -35714,7 +35763,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDAS_NEW_EVIDENCE",
@@ -37756,7 +37806,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3",
@@ -38175,7 +38226,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3_POST",
@@ -38877,7 +38929,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ZELDA_3_CROSSEXAM",
@@ -41346,7 +41399,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_ENTERS",
@@ -42306,7 +42360,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1",
@@ -42680,7 +42735,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1_POST",
@@ -43181,7 +43237,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_1_CROSSEXAM",
@@ -49543,7 +49600,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_RECESS",
@@ -51310,7 +51368,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2",
@@ -51680,7 +51739,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2_POST",
@@ -51997,7 +52057,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_2_CROSSEXAM",
@@ -56320,7 +56381,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_THINKING_CONTROLLER",
@@ -56633,7 +56695,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GODDESS",
@@ -57282,7 +57345,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TRIFORCE",
@@ -57604,7 +57668,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_PURSUIT",
@@ -58524,7 +58589,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_VERDICT",
@@ -59525,7 +59591,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CUCCO",
@@ -59990,7 +60057,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_LOBBY_ENDING",
@@ -62051,7 +62119,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_VISCEN",
@@ -62336,7 +62405,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_AUTOSAVENOTICE",
@@ -62650,7 +62720,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "RANCH_INTRO_CONTROLLER",
@@ -63050,7 +63121,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "INTRO_TALON",
@@ -63263,7 +63335,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_DRAGMIRE_REBUTTAL",
@@ -66563,7 +66636,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_COURTROOM",
@@ -66999,7 +67073,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_DARKPLANE",
@@ -67227,7 +67302,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "CREDITS_CONTROLLER",
@@ -69543,7 +69619,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_HORSE_CREDITS",
@@ -69779,7 +69856,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOLDIER_CREDITS_HORSE_FIRE",
@@ -70114,7 +70192,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -70271,7 +70350,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -70428,7 +70508,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TEST_BUFFERS",
@@ -70750,7 +70831,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GROG",
@@ -70982,7 +71064,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_PRISONBARS",
@@ -71231,7 +71314,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "FLAME_EMITTER",
@@ -71452,7 +71536,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_PROF_SHIKASHI",
@@ -71687,7 +71772,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_UNUSED",
@@ -72032,7 +72118,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TALON",
@@ -72245,7 +72332,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_FLASHBACK_INGO",
@@ -72500,7 +72588,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "RANCH_FLASHBACK",
@@ -72936,7 +73025,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3",
@@ -73304,7 +73394,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3_POST",
@@ -73653,7 +73744,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_INGO_3_CROSSEXAM",
@@ -76309,7 +76401,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "GANON_ORGAN",
@@ -76549,7 +76642,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_AFTER_REBUTTAL",
@@ -78351,7 +78445,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "HORSEWAGON",
@@ -78796,7 +78891,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_TRSPAKCHECK",
@@ -79522,7 +79618,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_KOHOLINK",
@@ -80482,7 +80579,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "",
@@ -80639,7 +80737,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MUTOH",
@@ -81258,7 +81357,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_OWL",
@@ -81729,7 +81829,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_TRIALSTART",
@@ -83762,7 +83863,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_ENTERS",
@@ -84238,7 +84340,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_TESTIMONY",
@@ -84746,7 +84849,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_POST",
@@ -85176,7 +85280,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_SHOPK_CROSSEXAM",
@@ -89456,7 +89561,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_TESTIMONY",
@@ -89826,7 +89932,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_POST",
@@ -90242,7 +90349,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_OWL_CROSSEXAM",
@@ -94414,7 +94522,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THINKING_RANCH",
@@ -95309,7 +95418,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THINKING_THIEF",
@@ -96126,7 +96236,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_VERDICT",
@@ -98999,7 +99110,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_THIEF_EPILOGUE",
@@ -99538,7 +99650,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EDGB",
@@ -99864,7 +99977,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_N64_PRERENDER",
@@ -100475,7 +100589,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SCREENSHOTTER",
@@ -100763,7 +100878,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_ANTIPIRACY_EZJR",
@@ -101061,7 +101177,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SOUNDBLOCK",
@@ -101307,7 +101424,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CASINOCONTROLLER",
@@ -106205,7 +106323,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_TALON_TALONGAME",
@@ -107532,7 +107651,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GOAL_TALONGAME",
@@ -107762,7 +107882,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CARDDECK",
@@ -107989,7 +108110,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_MUSIC_CONTROLLER",
@@ -108698,7 +108820,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_CAT_BEANS",
@@ -108908,7 +109031,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_GALLERY_MAMU",
@@ -109114,7 +109238,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SETTINGS",
@@ -110121,7 +110246,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "SCENE_TRAILER_2",
@@ -110432,7 +110558,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SAVEQUESTION",
@@ -110673,7 +110800,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SAVECORRUPTED",
@@ -110901,7 +111029,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "OBJ_SCENE_SELECT",
@@ -111895,7 +112024,8 @@
       },
       "Omitted": false,
       "HeaderPath": "",
-      "SkeletonHeaderDefinition": ""
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     }
   ],
   "GlobalHeaders": [
