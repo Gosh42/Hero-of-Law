@@ -448,13 +448,13 @@ char* micMsgEng[] = { "\"OBJECTION!\"", "\"HOLD IT!\"", "\"TAKE THAT!\"" };
 char* micMsgs[] =
 {
     "\x05\x46\xA6\x05\x40"" MIC\x02",
-    "\x05\x46\xA6\x05\x40"" MICRO\x02",
+    "\x05\x46\xA6\x05\x40"" \x4E\x6A\x6C\x72\x70\x76\x70\x6F\x02",
 };
 
 char* logMsgs[] = 
 {
     "\x05\x41\xF8\x05\x40"" History\x02",
-    "\x05\x41\xF8\x05\x40"" Historique\x02",
+    "\x05\x41\xF8\x05\x40"" \x4A\x73\x74\x70\x72\x6A\x9D\x02",
 };
 
 Color_RGB8 explosionTextColor = {.r = 70, .g = 255, .b = 80};
