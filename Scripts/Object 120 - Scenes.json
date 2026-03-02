@@ -783,7 +783,7 @@
               "MessageTextLines": [
                 "<Y>Документ о наследстве ранчо<W>",
                 "«Малон унаследует ранчо. Если",
-                "она не может руководить им, то",
+                "она не сможет руководить им, то",
                 "разделить имение между короной",
                 "и оставшимися работниками.»<PERSISTENT>"
               ],
@@ -42090,8 +42090,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Court is back in session for the trial",
-                "of Malon of Lon Lon Ranch."
+                "Заседание суда по делу Малон из",
+                "ранчо Лон Лон продолжается."
               ],
               "Type": 0,
               "Position": 0
@@ -42099,8 +42099,8 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "I trust that the prosecution's final",
-                "witness is ready?"
+                "Я полагаю, что последний свидетель",
+                "стороны обвинения готов?"
               ],
               "Type": 0,
               "Position": 0
@@ -42108,9 +42108,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Naturally. I have personally seen to",
-                "it that there will be no...<PAUSE:5> foolishness,",
-                "this time around."
+                "Естесственно. Я лично убедился,",
+                "что на этот раз не будет никаких...<PAUSE:5>",
+                "недоразумений."
               ],
               "Type": 0,
               "Position": 0
@@ -42118,7 +42118,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hopefully his ears are intact...)"
+                "<SOUND:0><C>(Надеюсь, его уши в порядке...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42126,16 +42126,16 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "As we discussed before the recess...",
+                "Как мы и говорили до перерыва...",
                 "<NEW_BOX>",
-                "...having established the opportunity",
-                "and means for the defendant to have",
-                "committed the murder, only one matter",
-                "remains.",
+                "...теперь, когда мы определили",
+                "возможность и способ совершения",
+                "преступления подсудимой, остаётся",
+                "один последний вопрос.",
                 "<NEW_BOX>",
-                "The matter of motive.<PAUSE:5> For, naturally,",
-                "such a heinous crime couldn't be the",
-                "result of mere happenstance."
+                "Вопрос о мотиве.<PAUSE:5> Ведь, разумеется,",
+                "такое гнусное преступление не могло",
+                "произойти по простой случайности."
               ],
               "Type": 0,
               "Position": 0
@@ -42143,12 +42143,12 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "The prosecution believes the",
-                "defendant had a deep desire that",
-                "pushed her to patricide.",
+                "Сторона обвинения считает, что",
+                "к отцеубийству подсудимую",
+                "сподвинуло глубокое желание.",
                 "<NEW_BOX>",
-                "Our next witness can shed light on",
-                "the matter."
+                "Наш следующий свидетель сможет",
+                "пролить свет на этот вопрос."
               ],
               "Type": 0,
               "Position": 0
@@ -42156,7 +42156,8 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Fascinating.<PAUSE:5> Very well. Please proceed."
+                "Поразительно.<PAUSE:5>",
+                "Пожалуйста, продолжайте."
               ],
               "Type": 0,
               "Position": 0
@@ -42164,8 +42165,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "The prosecution calls the ranch",
-                "worker, <R>Ingo<W>, to the stand!<SQUARE>"
+                "Сторона обвинения вызывает",
+                "рабочего ранчо <R>Инго<W> на трибуну!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -42173,8 +42174,8 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3><DC> It's funny to see Mr. Ingo in such",
-                "fancy clothes."
+                "<SOUND:WHAP><DI>Ха!<PAUSE:3><DC> Господин Инго выглядит так",
+                "забавно в таком нарядном костюме."
               ],
               "Type": 0,
               "Position": 0
@@ -42182,7 +42183,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Oh?"
+                "<SOUND:CLUE>А?"
               ],
               "Type": 0,
               "Position": 0
@@ -42190,8 +42191,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "Yeah. He almost always just wears his",
-                "<SOUND:CLUE>work dungarees."
+                "Ага. Он обычно носит только",
+                "<SOUND:CLUE>рабочий комбинезон."
               ],
               "Type": 0,
               "Position": 0
@@ -42199,8 +42200,8 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "It's almost like looking at a <SOUND:HINT>different",
-                "person!"
+                "Он сейчас будто совсем <SOUND:HINT>другой",
+                "человек!"
               ],
               "Type": 0,
               "Position": 0
@@ -42208,9 +42209,10 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, I guess he wanted to dress up",
-                "for court, and he wouldn't want to get",
-                "this nice outfit dirty by working in it...)"
+                "<SOUND:0><C>(Что ж, наверное, он решил",
+                "принарядиться к суду, а на работе",
+                "пачкать такой красивый наряд не",
+                "хотелось бы...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42218,7 +42220,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Quiet, Defence!"
+                "<SOUND:EXPLOSION>Тихо, защита!"
               ],
               "Type": 0,
               "Position": 0
@@ -42226,8 +42228,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Witness!<PAUSE:5> State your name and",
-                "occupation."
+                "Свидетель!<PAUSE:5> Назови своё имя и",
+                "род деятельности."
               ],
               "Type": 0,
               "Position": 0
@@ -42235,8 +42237,8 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Honour!<DC><PAUSE:5> ",
-                "<SOUND:DON><DI>Great honourable prosecutor!"
+                "<SOUND:WHAP><DI>Ваша честь!<DC><PAUSE:5> ",
+                "<SOUND:DON><DI>Великий и почтенный прокурор!"
               ],
               "Type": 0,
               "Position": 0
@@ -42244,8 +42246,8 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "My name is Ingo!",
-                "<SOUND:WHAP>I mind Lon Lon Ranch!"
+                "Меня зовут Инго!",
+                "<SOUND:WHAP>Я присматриваю за ранчо Лон Лон!"
               ],
               "Type": 0,
               "Position": 0
@@ -42253,7 +42255,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:HINT>\"Mind\"?<PAUSE:5> What does that entail, exactly?"
+                "<SOUND:HINT>«Присматриваете»?<PAUSE:5> Что же",
+                "конкретно это подразумевает?"
               ],
               "Type": 0,
               "Position": 0
@@ -42261,12 +42264,11 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "Ah, I'm mostly there to work on the",
-                "structures and equipment.",
+                "Ах, я там в основном работаю с",
+                "постройками и инвентарём.",
                 "<NEW_BOX>",
-                "The owner and his daughter are the",
-                "ones who tend to the animals and take",
-                "care of orders."
+                "Животными и заказами занимаются",
+                "владелец и его дочь."
               ],
               "Type": 0,
               "Position": 0
@@ -42274,8 +42276,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "How long have you been working at",
-                "the ranch?"
+                "Как давно ты там работаешь?"
               ],
               "Type": 0,
               "Position": 0
@@ -42283,7 +42284,7 @@
             {
               "Name": "INGO50",
               "MessageTextLines": [
-                "It'll be several years at this point."
+                "Вот уже несколько лет."
               ],
               "Type": 0,
               "Position": 0
@@ -42291,9 +42292,9 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "There have been others who came",
-                "and went, but I, Ingo, have",
-                "persevered through all the hardships!"
+                "Были и другие, кто приходили и",
+                "уходили, но лишь я, Инго, прошёл",
+                "через все невзгоды!"
               ],
               "Type": 0,
               "Position": 0
@@ -42301,7 +42302,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "Sounds like he wants a medal for it..."
+                "Он будто медаль за это хочет..."
               ],
               "Type": 0,
               "Position": 0
@@ -42309,9 +42310,9 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "Well, he does get a bit pompous at",
-                "times, but Mr. Ingo really is a great",
-                "help!"
+                "Ну, иногда он немного перебарщивает",
+                "с пафосом, но господин Инго и",
+                "правда нам хорошо помогает!"
               ],
               "Type": 0,
               "Position": 0
@@ -42319,7 +42320,8 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "He built the ranch's silo singlehandedly!"
+                "Он силосную башню своими руками",
+                "построил!"
               ],
               "Type": 0,
               "Position": 0
@@ -42327,7 +42329,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Whoa. That's some dedication."
+                "Ого, какая преданность делу."
               ],
               "Type": 0,
               "Position": 0
@@ -42335,10 +42337,10 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Very well.<PAUSE:3> Given that you're clearly",
-                "an important employee, you are privy",
-                "to some inside information, is that",
-                "correct?"
+                "Очень хорошо.<PAUSE:3> Учитывая, что ты,",
+                "очевидно, важный сотрудник, то",
+                "у тебя есть некая внутренняя",
+                "информация, верно?"
               ],
               "Type": 0,
               "Position": 0
@@ -42346,9 +42348,9 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "Yes. The ranch owner shared all the",
-                "big plans with me.<PAUSE:5> He trusted me",
-                "<SOUND:HINT>implicitly."
+                "Да. Владелец ранчо делился со мной",
+                "всеми большими планами.<PAUSE:5> Он доверял",
+                "мне <SOUND:HINT>безоговорочно."
               ],
               "Type": 0,
               "Position": 0
@@ -42356,8 +42358,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "He used to say that we're like a big",
-                "family."
+                "Он часто говорил, что мы как одна",
+                "большая семья."
               ],
               "Type": 0,
               "Position": 0
@@ -42365,7 +42367,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "That sounds lovely."
+                "Звучит так любезно."
               ],
               "Type": 0,
               "Position": 0
@@ -42373,9 +42375,9 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(That sounds like a red flag that",
-                "you're gonna be getting loads of",
-                "unpaid overtime.)"
+                "<SOUND:0><C>(Звучит как сигнал тревоги о том,",
+                "что тебя ждёт тонна неоплачиваемых",
+                "сверхурочных.)"
               ],
               "Type": 0,
               "Position": 0
@@ -42383,9 +42385,9 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "Evidently, not every member of your",
-                "so-called family felt the same way,",
-                "though, did they?"
+                "Однако, не каждый член вашей так",
+                "называемой семьи разделял эти",
+                "чувства, не так ли?"
               ],
               "Type": 0,
               "Position": 0
@@ -42393,7 +42395,8 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "It hurts to do this, but I have no choice."
+                "Мне очень жаль, но у меня нет",
+                "другого выбора."
               ],
               "Type": 0,
               "Position": 0
@@ -42401,7 +42404,8 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hear my story, honourable court of law!<SQUARE>"
+                "<SOUND:WHAP><DI>Услышь мой рассказ,",
+                "достопочтенный суд!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -42728,7 +42732,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Matter of Motive\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>«Вопрос мотива»<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -42736,9 +42740,9 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "Just a couple days ago, the owner,",
-                "Talon, partly signed the ranch over to",
-                "his daughter, Malon."
+                "Пару дней назад владелец, Талон,",
+                "частично переписал ранчо на свою",
+                "дочь, Малон."
               ],
               "Type": 0,
               "Position": 0
@@ -42746,9 +42750,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "Talon became a life tenant, with Malon",
-                "meant to inherit all of the assets after",
-                "his death."
+                "Талон стал арендатором до конца",
+                "жизни, а Малон получила бы всё",
+                "имещуество после его смерти."
               ],
               "Type": 0,
               "Position": 0
@@ -42756,8 +42760,8 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "As long as Talon lived, Malon could not",
-                "sell the ranch."
+                "Пока Талон жив, Малон не могла",
+                "продать ранчо."
               ],
               "Type": 0,
               "Position": 0
@@ -42765,9 +42769,10 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "It's simple, isn't it?<PAUSE:5> <SOUND:EXPLOSION>The girl killed Talon",
-                "to get full ownership and leave the",
-                "dingy ranch life behind!"
+                "Всё просто, не так ли?<PAUSE:5> <SOUND:EXPLOSION>Девушка",
+                "убила Талона, чтобы получить",
+                "полное владение и оставить",
+                "грязную жизнь на ранчо позади!"
               ],
               "Type": 0,
               "Position": 0
@@ -42775,8 +42780,9 @@
             {
               "Name": "INGO5",
               "MessageTextLines": [
-                "It's appalling how ungrateful she is,",
-                "after all Talon did for her!<SQUARE>"
+                "Уму непостижимо, какая она",
+                "неблагодарная! И после всего,",
+                "что Талон для неё сделал!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -43172,11 +43178,12 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "And there you have it.<PAUSE:5> Testimony from",
-                "a man who just lost everything.",
+                "Вот, послушайте.<PAUSE:5> Показания",
+                "человека, который потерял всё.",
                 "<NEW_BOX>",
-                "It's truly tragic to witness yet another",
-                "family torn apart by greed."
+                "Такая трагедия <EMDASH> видеть, как",
+                "очередную семью разрушает",
+                "жадность."
               ],
               "Type": 0,
               "Position": 0
@@ -43184,10 +43191,10 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "We have evidence, we have the",
-                "defendant caught red-handed at the",
-                "scene of the crime...<PAUSE:5> <SOUND:HINT>and now we have",
-                "a motive."
+                "У нас были улики, у нас была",
+                "подсудимая, пойманная с поличным",
+                "на месте преступления...<PAUSE:5> <SOUND:HINT>а теперь",
+                "есть и мотив."
               ],
               "Type": 0,
               "Position": 0
@@ -43195,7 +43202,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "How do we know he's telling the truth?"
+                "Откуда нам знать, что он говорит",
+                "правду?"
               ],
               "Type": 0,
               "Position": 0
@@ -43203,8 +43211,8 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Bah!<PAUSE:5> I have, of course, verified the",
-                "witness's testimony."
+                "<SOUND:EXPLOSION><DI>Ба!<PAUSE:5> Я, само собой, сверил эти",
+                "показания."
               ],
               "Type": 0,
               "Position": 0
@@ -43212,10 +43220,10 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "As per the law, all inheritance",
-                "documents must be filed at the Castle",
-                "Town notary office to be considered",
-                "valid."
+                "По закону, каждый наследственный",
+                "документ должен быть подтверждён",
+                "в нотариате Посада, чтобы считаться",
+                "действительным."
               ],
               "Type": 0,
               "Position": 0
@@ -43223,10 +43231,10 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "I saw fit to prepare this for the trial.<PAUSE:5> ",
-                "The prosecution would like to submit",
-                "the <R>Lon Lon Ranch inheritance",
-                "document<W> into evidence."
+                "Я посчитал нужным подготовить к",
+                "суду вот это.<PAUSE:5> Сторона обвинения",
+                "хотела бы включить <R>документ о",
+                "наследстве ранчо Лон Лон<W> в улики."
               ],
               "Type": 0,
               "Position": 0
@@ -43234,8 +43242,8 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:11><DI><SQUARE><R>Ranch Inheritance Document<G>",
-                "added to the Court Record."
+                "<SOUND:ITEMGET><SOUND:0><ICON:11><DI><SQUARE><R>Документ о наследстве ранчо<G>",
+                "занесён в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -43243,7 +43251,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "Mr. Ingo...<PAUSE:10> Why would you...?"
+                "Господин Инго...<PAUSE:10> Почему...?"
               ],
               "Type": 0,
               "Position": 0
@@ -43251,8 +43259,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>You should pass judgement now, Judge!<PAUSE:10> ",
-                "The defence has nothing!"
+                "<SOUND:EXPLOSION>А теперь, заканчивай суд, судья!<PAUSE:10> ",
+                "У защиты нет ничего ответить!"
               ],
               "Type": 0,
               "Position": 0
@@ -43260,9 +43268,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "I would like to cross-examine the",
-                "witness.<PAUSE:5> There are a few more details",
-                "I feel are relevant."
+                "Я хотел бы провести перекрёстный",
+                "допрос.<PAUSE:5> Есть ещё несколько деталей,",
+                "которые я хотел бы уточнить."
               ],
               "Type": 0,
               "Position": 0
@@ -43270,8 +43278,8 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "But of course! Ask whatever you'd like.<PAUSE:5> ",
-                "<SOUND:HINT>I, the hard-working Ingo, can handle it!"
+                "Ну конечно! Спрашивай, не стесняйся.<PAUSE:5> ",
+                "<SOUND:HINT>Я, работяга Инго, на всё отвечу!"
               ],
               "Type": 0,
               "Position": 0
@@ -43279,7 +43287,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Very well, Defence. Please begin.<SQUARE>"
+                "Очень хорошо, защита.",
+                "Приступайте, пожалуйста.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47053,7 +47062,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Matter of Motive\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>«Вопрос мотива»<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -47061,9 +47070,9 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "<DI><G>Just a couple days ago, the owner,",
-                "Talon, partly signed the ranch over to",
-                "his daughter, Malon.<PERSISTENT>"
+                "<DI><G>Пару дней назад владелец, Талон,",
+                "частично переписал ранчо на свою",
+                "дочь, Малон.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47071,9 +47080,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "<DI><G>Talon became a life tenant, with Malon",
-                "meant to inherit all of the assets after",
-                "his death.<PERSISTENT>"
+                "<DI><G>Талон стал арендатором до конца",
+                "жизни, а Малон получила бы всё",
+                "имещуество после его смерти.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47081,8 +47090,8 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "<DI><G>As long as Talon lived, Malon could not",
-                "sell the ranch.<PERSISTENT>"
+                "<DI><G>Пока Талон жив, Малон не могла",
+                "продать ранчо.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47090,9 +47099,10 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "<DI><G>It's simple, isn't it? The girl killed Talon",
-                "to get full ownership and leave the",
-                "dingy ranch life behind!<PERSISTENT>"
+                "<DI><G>Всё просто, не так ли? Девушка",
+                "убила Талона, чтобы получить",
+                "полное владение и оставить",
+                "грязную жизнь на ранчо позади!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47100,8 +47110,8 @@
             {
               "Name": "INGO5",
               "MessageTextLines": [
-                "<DI><G>I overheard them arguing about the",
-                "inheritance that morning!<PERSISTENT>"
+                "<DI><G>Я случайно услышал утром, как",
+                "они спорили о наследстве!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47109,8 +47119,9 @@
             {
               "Name": "INGO6",
               "MessageTextLines": [
-                "<DI><G>It's appalling how ungrateful she is,",
-                "after all Talon did for her!<PERSISTENT>"
+                "<DI><G>Уму непостижимо, какая она",
+                "неблагодарная! И после всего,",
+                "что Талон для неё сделал!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47118,9 +47129,9 @@
             {
               "Name": "INGO7",
               "MessageTextLines": [
-                "<DI><G>Talon often bought Malon gifts. I saw",
-                "the latest one... some kind of perfume,",
-                "I think.<PERSISTENT>"
+                "<DI><G>Талон часто делал Малон подарки.",
+                "Я вот видел последний... какие-то",
+                "духи, кажется.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47253,8 +47264,7 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "What's your relationship with this guy,",
-                "anyway?"
+                "Кстати, кем он тебе приходится?"
               ],
               "Type": 0,
               "Position": 0
@@ -47262,9 +47272,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "Well...<PAUSE:5> he's been employed and living",
-                "with us on the ranch for as long as",
-                "I can remember, really."
+                "Ну...<PAUSE:5> он работал и жил у нас на ранчо",
+                "столько, сколько я себя помню."
               ],
               "Type": 0,
               "Position": 0
@@ -47272,8 +47281,8 @@
             {
               "Name": "B_MALON20",
               "MessageTextLines": [
-                "Y'know,<PAUSE:3> I don't think he's ever skipped",
-                "a day of work, thinking about it..."
+                "Знаешь,<PAUSE:3> а ведь он, кажется, не",
+                "пропустил ни одного дня работы..."
               ],
               "Type": 0,
               "Position": 0
@@ -47281,7 +47290,7 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Not a single one?!"
+                "<SOUND:EXPLOSION><DI>Ни одного?!"
               ],
               "Type": 0,
               "Position": 0
@@ -47289,10 +47298,10 @@
             {
               "Name": "B_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Talk about dedication.)",
+                "<SOUND:0><C>(Ничего себе трудолюбие.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(But even so, something is very much",
-                "off here...)<SQUARE>"
+                "<SOUND:0><C>(Но всё же, что-то тут совсем",
+                "не так...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -62753,8 +62762,8 @@
               "Name": "Notice",
               "MessageTextLines": [
                 "<DI><LC><R>Игра сохраняется после каждой сцены.<W>",
-                "<LC>Не выключайте консоль в то время,",
-                "<LC>пока сменяется сцена.<FADE:160>"
+                "<LC>Не выключайте консоль, пока",
+                "<LC>отображается иконка сохранения.<FADE:160>"
               ],
               "Type": 0,
               "Position": 2
@@ -68805,12 +68814,12 @@
                 "",
                 "",
                 "",
+                "<Shift:150><R>РУКОВОДИТЕЛЬ",
+                "",
+                "<Shift:150>ПРОЕКТА<W>",
                 "",
                 "",
-                "<Shift:150><R>PROJECT LEAD<W>",
-                "",
-                "",
-                "<Shift:220>Skawo",
+                "<Shift:220><FONT_TOGGLE>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68825,19 +68834,10 @@
                 "",
                 "",
                 "",
+                "<Shift:140><R>СЦЕНАРИЙ<W>",
                 "",
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<Shift:140><R>SCENARIO<W>",
-                "",
-                "",
-                "<Shift:180>Skawo",
+                "<Shift:180><FONT_TOGGLE>Skawo",
                 "",
                 "<Shift:180>FrasseFreak",
                 "",
@@ -68845,7 +68845,16 @@
                 "",
                 "<Shift:180>LuigiXHero",
                 "",
-                "<Shift:180>Meatball132",
+                "<Shift:180>Meatball132<FONT_TOGGLE>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<Shift:140><R>РУССКИЙ ПЕРЕВОД<W>",
+                "",
+                "",
+                "<Shift:180><FONT_TOGGLE>GoshaT<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68872,14 +68881,14 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>SCENE MODELING<W>",
+                "<Shift:140><R>МОДЕЛИ СЦЕН<W>",
                 "",
                 "",
-                "<Shift:200>LuigiXHero",
+                "<Shift:200><FONT_TOGGLE>LuigiXHero",
                 "",
                 "<Shift:200>FrasseFreak",
                 "",
-                "<Shift:200>Skawo",
+                "<Shift:200>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68906,16 +68915,16 @@
                 "",
                 "",
                 "",
-                "<Shift:120><R>CHARACTER MODELING<W>",
+                "<Shift:120><R>МОДЕЛИ ПЕРСОНАЖЕЙ<W>",
                 "",
                 "",
-                "<Shift:200>oonga",
+                "<Shift:200><FONT_TOGGLE>oonga",
                 "",
                 "<Shift:200>LuigiXHero",
                 "",
                 "<Shift:200>Jimbo Slim",
                 "",
-                "<Shift:200>Skawo",
+                "<Shift:200>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68942,14 +68951,14 @@
                 "",
                 "",
                 "",
-                "<Shift:120><R>CHARACTER ANIMATION<W>",
+                "<Shift:120><R>АНИМАЦИЯ ПЕРСОНАЖЕЙ<W>",
                 "",
                 "",
-                "<Shift:200>Jimbo Slim",
+                "<Shift:200><FONT_TOGGLE>Jimbo Slim",
                 "",
                 "<Shift:200>oonga",
                 "",
-                "<Shift:200>LuigiXHero",
+                "<Shift:200>LuigiXHero<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68977,14 +68986,14 @@
                 "",
                 "",
                 "",
-                "<Shift:180><R>2D ART<W>",
+                "<Shift:180><R><FONT_TOGGLE>2D<FONT_TOGGLE>-ГРАФИКА<W>",
                 "",
                 "",
-                "<Shift:200>Jimbo Slim",
+                "<Shift:200><FONT_TOGGLE>Jimbo Slim",
                 "",
                 "<Shift:200>snake block",
                 "",
-                "<Shift:200>FrasseFreak",
+                "<Shift:200>FrasseFreak<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69014,12 +69023,12 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>PROGRAMMING<W>",
+                "<Shift:140><R>ПРОГРАММИРОВАНИЕ<W>",
                 "",
                 "",
-                "<Shift:180>Skawo",
+                "<Shift:180><FONT_TOGGLE>Skawo",
                 "",
-                "<Shift:180>RoadrunnerWMC",
+                "<Shift:180>RoadrunnerWMC<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69049,12 +69058,12 @@
                 "",
                 "",
                 "",
-                "<Shift:150><R>SCRIPTING<W>",
+                "<Shift:150><R>СКРИПТЫ<W>",
                 "",
                 "",
-                "<Shift:180>Skawo",
+                "<Shift:180><FONT_TOGGLE>Skawo",
                 "",
-                "<Shift:180>RoadrunnerWMC",
+                "<Shift:180>RoadrunnerWMC<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69084,12 +69093,12 @@
                 "",
                 "",
                 "",
-                "<Shift:170><R>MUSIC<W>",
+                "<Shift:170><R>МУЗЫКА<W>",
                 "",
                 "",
-                "<Shift:180>RoadrunnerWMC",
+                "<Shift:180><FONT_TOGGLE>RoadrunnerWMC",
                 "",
-                "<Shift:180>Meatball132",
+                "<Shift:180>Meatball132<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69098,10 +69107,11 @@
             {
               "Name": "Tools1",
               "MessageTextLines": [
-                "<Shift:72><R>TOOL PROGRAMMING<W>",
+                "<Shift:72><R>ПРОГРАММИРОВАНИЕ",
                 "",
+                "<Shift:92>ИНСТРУМЕНТОВ<W>",
                 "",
-                "<Shift:5>Skawo",
+                "<Shift:5><FONT_TOGGLE>Skawo",
                 "",
                 "<Shift:5>Nokaubure",
                 "",
@@ -69113,7 +69123,7 @@
                 "",
                 "<Shift:5>z64tools",
                 "",
-                "<Shift:5>RoadrunnerWMC",
+                "<Shift:5>RoadrunnerWMC<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69126,7 +69136,7 @@
                 "",
                 "",
                 "",
-                "<Shift:187>sauraen",
+                "<Shift:187><FONT_TOGGLE>sauraen",
                 "",
                 "<Shift:187>ZZT32",
                 "",
@@ -69138,7 +69148,7 @@
                 "",
                 "<Shift:187>AngheloAlf",
                 "",
-                "<Shift:187>SageOfMirrors",
+                "<Shift:187>SageOfMirrors<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69170,10 +69180,10 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>CREATED USING<W>",
+                "<Shift:140><R>СОЗДАНО С ПОМОЩЬЮ<W>",
                 "",
                 "",
-                "<Shift:180>OoT NPC Maker",
+                "<Shift:180><FONT_TOGGLE>OoT NPC Maker<FONT_TOGGLE>",
                 "",
                 "",
                 "<PERSISTENT>"
@@ -69203,7 +69213,7 @@
                 "",
                 "",
                 "",
-                "Skawo",
+                "<FONT_TOGGLE>Skawo",
                 "",
                 "Laenthor",
                 "",
@@ -69211,7 +69221,7 @@
                 "",
                 "RoadrunnerWMC",
                 "",
-                "Meatball132"
+                "Meatball132<FONT_TOGGLE>"
               ],
               "Type": 6,
               "Position": 0
@@ -69235,10 +69245,10 @@
                 "",
                 "",
                 "",
-                "<Shift:109><R>TESTING<W>",
+                "<Shift:89><R>ТЕСТИРОВАНИЕ<W>",
                 "",
                 "",
-                "<Shift:102>TrevorBelmondo",
+                "<Shift:102><FONT_TOGGLE>TrevorBelmondo",
                 "",
                 "<Shift:102>howquaint",
                 "",
@@ -69246,7 +69256,7 @@
                 "",
                 "<Shift:102>ThunderVolt",
                 "",
-                "<Shift:102>Pokefreak",
+                "<Shift:102>Pokefreak<FONT_TOGGLE>",
                 ""
               ],
               "Type": 6,
@@ -69274,7 +69284,7 @@
                 "",
                 "",
                 "",
-                "<Shift:199>FrasseFreak",
+                "<Shift:199><FONT_TOGGLE>FrasseFreak",
                 "",
                 "<Shift:199>GoshaT",
                 "",
@@ -69282,7 +69292,7 @@
                 "",
                 "<Shift:199>SublimeShark",
                 "",
-                "<Shift:199>naknow"
+                "<Shift:199>naknow<FONT_TOGGLE>"
               ],
               "Type": 6,
               "Position": 0
@@ -69290,7 +69300,7 @@
             {
               "Name": "SpecialThanks1",
               "MessageTextLines": [
-                "<Shift:130><R>SPECIAL THANKS<W>",
+                "<Shift:120><R>ОСОБЫЕ БЛАГОДАРНОСТИ<W>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69303,7 +69313,7 @@
                 "",
                 "",
                 "",
-                "<Shift:120>z64me",
+                "<Shift:120><FONT_TOGGLE>z64me",
                 "",
                 "<Shift:120>sauraen",
                 "",
@@ -69315,7 +69325,7 @@
                 "",
                 "<Shift:120>Mirage",
                 "",
-                "<Shift:120>parasyte",
+                "<Shift:120>parasyte<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69328,7 +69338,7 @@
                 "",
                 "",
                 "",
-                "<Shift:195>Tharo",
+                "<Shift:195><FONT_TOGGLE>Tharo",
                 "",
                 "<Shift:195>Zoinkity",
                 "",
@@ -69340,7 +69350,7 @@
                 "",
                 "<Shift:195>libdragon",
                 "",
-                "<Shift:195>Fontworks Inc.",
+                "<Shift:195>Fontworks Inc.<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69353,9 +69363,9 @@
                 "",
                 "",
                 "",
-                "<Shift:140>THE LEGEND OF ZELDA:",
+                "<Shift:140>Команда <FONT_TOGGLE>THE LEGEND OF",
                 "",
-                "<Shift:140>OCARINA OF TIME Staff",
+                "<Shift:140>ZELDA: OCARINA OF TIME<FONT_TOGGLE>",
                 "",
                 "",
                 "<PERSISTENT>"
@@ -69369,7 +69379,7 @@
                 "",
                 "",
                 "",
-                "<Shift:165>And...",
+                "<Shift:165>И...",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69384,7 +69394,7 @@
                 "",
                 "",
                 "",
-                "<Shift:175>You, for playing.",
+                "<Shift:175>Вам, за игру.",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69404,7 +69414,7 @@
                 "",
                 "",
                 "",
-                "<Shift:86><R>THE END",
+                "<Shift:86><R>КОНЕЦ",
                 "",
                 "",
                 "",
@@ -69425,7 +69435,7 @@
             {
               "Name": "Unlocked1",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Scene Select<W> is now unlocked!<SQUARE>"
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Выбор сцены<W> теперь доступен!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69433,9 +69443,9 @@
             {
               "Name": "Unlocked2",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W> is now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Бонус 1<W> теперь доступен!",
                 "",
-                "<LC>Check it out in the Scene Select!<SQUARE>"
+                "<LC>Взгляните на него в выборе сцены!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69443,10 +69453,10 @@
             {
               "Name": "UnlockedWiiUGCN",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W>, <R>Extra 2<W> and <R>Extra 3<W>",
-                "<LC>are now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Бонус 1<W>, <R>Бонус 2<W> и <R>Бонус 3<W>",
+                "<LC>теперь доступны!",
                 "",
-                "<LC>Check them out in the Scene Select!<SQUARE>"
+                "<LC>Взгляните на них в выборе сцены!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -110040,7 +110050,7 @@
                 "",
                 "",
                 "",
-                "<LC><M>(Может не работать верно на эмуляторах)",
+                "<LC><M>(Может неправильно работать в эмуляторах)",
                 "",
                 "",
                 "",
@@ -110053,7 +110063,7 @@
             {
               "Name": "ScreenSize3",
               "MessageTextLines": [
-                "<Shift:184><R>СТАРТ<W>",
+                "<Shift:184><FONT_TOGGLE><R>START<W><FONT_TOGGLE>",
                 "",
                 "",
                 "<Shift:184><B><A_BUTTON><W> + <Z_BUTTON>",
@@ -110757,8 +110767,8 @@
             {
               "Name": "Msg1",
               "MessageTextLines": [
-                "It appears that the defence is unable",
-                "to attend the trial.<FADE:50>"
+                "Кажется, сторона защиты не сможет",
+                "присутствовать на заседании.<FADE:50>"
               ],
               "Type": 0,
               "Position": 0
@@ -110766,8 +110776,8 @@
             {
               "Name": "Msg2",
               "MessageTextLines": [
-                "As such,<PAUSE:3> I pronounce Malon of Lon",
-                "Lon Ranch...<FADE:20>"
+                "Таким образом,<PAUSE:3> я объявляю Малон",
+                "из ранчо Лон Лон...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -111662,7 +111672,7 @@
             {
               "Name": "SceneSelectString",
               "MessageTextLines": [
-                "<LC><R>ВЫБОР СЦЕНЫ / ЭКСТА"
+                "<LC><R>ВЫБОР СЦЕНЫ / БОНУСЫ"
               ],
               "Type": 0,
               "Position": 0
@@ -111854,7 +111864,7 @@
             {
               "Name": "Scene24",
               "MessageTextLines": [
-                "<LC>ЭКСТРА 1: Тем временем, где-то ещё..."
+                "<LC>БОНУС 1: Тем временем, где-то ещё..."
               ],
               "Type": 0,
               "Position": 0
@@ -111862,7 +111872,7 @@
             {
               "Name": "Scene25",
               "MessageTextLines": [
-                "<LC>EXTRA 2: Казино Инго"
+                "<LC>БОНУС 2: Казино Инго"
               ],
               "Type": 0,
               "Position": 0
@@ -111870,7 +111880,7 @@
             {
               "Name": "Scene26",
               "MessageTextLines": [
-                "<LC>EXTRA 3: Дело о воришке"
+                "<LC>БОНУС 3: Дело о воришке"
               ],
               "Type": 0,
               "Position": 0
