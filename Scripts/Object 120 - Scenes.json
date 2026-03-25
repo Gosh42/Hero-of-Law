@@ -1343,7 +1343,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = SOUND_TXT_MALE,",
           "\t\t.sndPitch = 0.7f,",
-          "\t},\t",
+          "\t},",
           "\t{",
           "\t\t// Dragmire",
           "\t\t.id = 5,",
@@ -1367,7 +1367,7 @@
           "\t{",
           "\t\t// ???? Impa",
           "\t\t.id = 7,",
-          "\t\t.textID = 12, ",
+          "\t\t.textID = 12,",
           "\t\t.textboxColor = {.r = 201, .g = 201, .b = 201},",
           "\t\t.textColor = {.r = 0, .g = 0, .b = 0},",
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
@@ -1433,7 +1433,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = SOUND_TXT_MALE,",
           "\t\t.sndPitch = 1.1f,",
-          "\t},\t",
+          "\t},",
           "\t{",
           "\t\t// THIEF",
           "\t\t.id = 21,",
@@ -1514,7 +1514,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = 0,",
           "\t\t.sndPitch = 1.0f,",
-          "\t},\t",
+          "\t},",
           "};",
           "",
           "CourtRecordEntry thiefEvidence[] =",
@@ -1572,7 +1572,7 @@
           "\t},",
           "\t{",
           "\t\t.entry = thiefEvidence,",
-          "\t\t.numEntries = ARRAY_COUNT(thiefEvidence),\t\t",
+          "\t\t.numEntries = ARRAY_COUNT(thiefEvidence),",
           "\t}",
           "};",
           "",
@@ -1636,7 +1636,7 @@
           "\t\t{",
           "\t\t\tu8* LAName = (u8*)&SAVE_LANAME;",
           "\t\t\tu8* mesPtr = npc->GetInternalMsgPtrFunc(npc, play, case1Speakers[i].textID);",
-          "\t\t\t",
+          "",
           "\t\t\tmesPtr[0] = 0xFC;\t// FONT TOGGLE, name must begin and end with 0xFF",
           "\t\t\tmesPtr[6] = 0xFC;",
           "\t\t\tbcopy(LAName, &mesPtr[1], 5);",
@@ -10599,7 +10599,7 @@
           "    else if (progress == PROGRESS_FLASHBACK)",
           "        return SCENE_ID_RANCH;",
           "    else if (progress == PROGRESS_EXTRA_THIEF_EPILOGUE)",
-          "        return SCENE_ID_OFFICE;       ",
+          "        return SCENE_ID_OFFICE;",
           "    else",
           "        return SCENE_ID_COURT;",
           "}",
@@ -14939,8 +14939,8 @@
           "    #define TESTIMONY_POS_X 50",
           "    #define TESTIMONY_POS_Y 30",
           "",
-          "    Draw2DScaled(RGBA32, 3, play, &gfx, TESTIMONY_POS_X, TESTIMONY_POS_Y, (u8*)GRAPHIC_TESTIMONY, NULL, ",
-          "                GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT, ",
+          "    Draw2DScaled(RGBA32, 3, play, &gfx, TESTIMONY_POS_X, TESTIMONY_POS_Y, (u8*)GRAPHIC_TESTIMONY, NULL,",
+          "                GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT,",
           "                GRAPHIC_TESTIMONY_WIDTH / 2, GRAPHIC_TESTIMONY_HEIGHT / 2, 255);",
           "",
           "",
@@ -14950,7 +14950,7 @@
           "    int dimX = GetTextPxWidth(msgTestimony, TEXT_SCALE);",
           "    int maxDimX = GRAPHIC_TESTIMONY_WIDTH / 2 + TESTIMONY_WIDTH_EXTRA;",
           "",
-          "    int testimonyMsgScale = MIN(TEXT_SCALE, (int)(TEXT_SCALE * (float)maxDimX / dimX)); ",
+          "    int testimonyMsgScale = MIN(TEXT_SCALE, (int)(TEXT_SCALE * (float)maxDimX / dimX));",
           "    int testimonyPosOffset = TESTIMONY_WIDTH_EXTRA / 2;",
           "    int testimonyXInitial = TESTIMONY_POS_X - GRAPHIC_TESTIMONY_WIDTH / 4;",
           "",
@@ -14966,10 +14966,10 @@
           "    s32 textPosX = testimonyXInitial + ((maxDimX - testimonyPosOffset - GetTextPxWidth(msgTestimony, testimonyMsgScale)) / 2);",
           "    s32 textPosY = TESTIMONY_POS_Y + GRAPHIC_TESTIMONY_HEIGHT / 4 + 2;",
           "",
-          "    TextOperation(play, NULL, &gfx, COLOR_WHITE, COLOR_BLACK, 255, 255, ",
+          "    TextOperation(play, NULL, &gfx, COLOR_WHITE, COLOR_BLACK, 255, 255,",
           "                  npc->GetInternalMsgPtrFunc(npc, play, 0),",
           "                  textPosX, textPosY,",
-          "                  1, 1, ",
+          "                  1, 1,",
           "                  NULL, testimonyMsgScale, TEXT_SCALE, -1, true, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -17164,7 +17164,7 @@
                 "репутацию твоего ранчо!<PAUSE:3> Надо будет",
                 "вернуться в магазин и пожаловаться.",
                 "<NEW_BOX>",
-                "Внесу это в судебный протокол,",
+                "Внесу это в материалы дела,",
                 "чтобы не забыть"
               ],
               "Type": 0,
@@ -17174,7 +17174,7 @@
               "Name": "COURTRECORD_0",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:20><DI><SQUARE><R>Молоко Лон Лон<G> занесёно",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -17286,7 +17286,7 @@
               "Name": "COURTRECORD_1",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:1><DI><SQUARE><R>Пиктограф Малон<G> занесён",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -23720,7 +23720,7 @@
               "Name": "COURTRECORD1",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:2><DI><SQUARE><R>Отчёт о вскрытии<G> занесён",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -23737,8 +23737,8 @@
             {
               "Name": "COURTRECORD2",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:3><DI><SQUARE><R>Пила<G> занесена в",
-                "судебный протокол."
+                "<SOUND:ITEMGET><SOUND:0><ICON:3><DI><SQUARE><R>Пила<G> занесена в материалы",
+                "дела."
               ],
               "Type": 1,
               "Position": 2
@@ -23777,7 +23777,7 @@
               "Name": "COURTRECORD5",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:4><DI><SQUARE><R>Инвентарь ранчо<G> занесён",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -23922,7 +23922,7 @@
               "Name": "COURTRECORD4",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:6><DI><SQUARE><R>Поставка молока<G> занесена",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -24046,7 +24046,7 @@
                 "Но более того <EMDASH> если я замечу",
                 "что-то, что не совпадает с",
                 "уликами,<PAUSE:4> то я открываю",
-                "<SOUND:CLUE><R>судебный протокол<W>, нажав <R_BUTTON>."
+                "<SOUND:CLUE><R>материалы дела<W>, нажав <R_BUTTON>."
               ],
               "Type": 0,
               "Position": 0
@@ -24054,9 +24054,9 @@
             {
               "Name": "1_MALON30",
               "MessageTextLines": [
-                "<R>Судебный протокол<W> <EMDASH> это",
-                "же что-то вроде списка всех",
-                "доказательств и улик, да?"
+                "<R>Материалы дела<W> <EMDASH> это же что-то",
+                "вроде списка всех доказательств",
+                "и улик, да?"
               ],
               "Type": 0,
               "Position": 0
@@ -24102,7 +24102,7 @@
             {
               "Name": "1_LINK43",
               "MessageTextLines": [
-                "В судебном протоколе описаны не",
+                "В материалах дела описаны не",
                 "только улики, но и <SOUND:HINT>все вовлечённые",
                 "лица!<PAUSE:5> Можно переключаться между",
                 "уликами и досье, нажав <R_BUTTON>."
@@ -26827,7 +26827,7 @@
               "Name": "COURTRECORD1",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:7><DI><SQUARE><R>Окровавленная тряпка<G> занесёна",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -29819,8 +29819,8 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><R>Духи<G> занесены в судебный",
-                "протокол."
+                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><R>Духи<G> занесены в материалы",
+                "дела."
               ],
               "Type": 1,
               "Position": 2
@@ -38937,7 +38937,7 @@
               "Name": "COURTRECORD1",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:8><DI><SQUARE><R>Банка с маслом<G> занесёна",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -47111,7 +47111,7 @@
               "Name": "INGO5",
               "MessageTextLines": [
                 "<DI><G>Я случайно услышал утром, как",
-                "они спорили о наследстве!<PERSISTENT>"
+                "они ссорились из-за наследства!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -47130,7 +47130,7 @@
               "Name": "INGO7",
               "MessageTextLines": [
                 "<DI><G>Талон часто делал Малон подарки.",
-                "Я вот видел последний... какие-то",
+                "Я, вот, новый увидел... какие-то",
                 "духи, кажется.<PERSISTENT>"
               ],
               "Type": 0,
@@ -47139,8 +47139,8 @@
             {
               "Name": "CONS1_LINK10",
               "MessageTextLines": [
-                "By the sound of it,<PAUSE:3> it seems like",
-                "everything he's saying is true..."
+                "Звучит так,<PAUSE:3> будто всё, что он",
+                "говорит, и правда произошло..."
               ],
               "Type": 0,
               "Position": 0
@@ -47148,8 +47148,8 @@
             {
               "Name": "CONS1_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>No it's not!<PAUSE:5> I'm very grateful for all",
-                "my father did for me!"
+                "<SOUND:EXPLOSION><DI>Нет, не произошло!<PAUSE:5> Я отцу за всё",
+                "очень благодарна!"
               ],
               "Type": 0,
               "Position": 0
@@ -47157,8 +47157,8 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Whoa!<PAUSE:5> Sorry, I didn't mean to imply",
-                "you weren't!"
+                "<SOUND:WHAP><DI>Ох!<PAUSE:5> Извини, я совсем не это имел",
+                "в виду!"
               ],
               "Type": 0,
               "Position": 0
@@ -47166,8 +47166,9 @@
             {
               "Name": "CONS1_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(...and,<PAUSE:3> actually,<PAUSE:3> maybe I should<SOUND:CLUE> press",
-                "Ingo a little bit on that point.)<SQUARE>"
+                "<SOUND:0><C>(...но,<PAUSE:3> кстати,<PAUSE:3> может мне стоит",
+                "по-подробнее<SOUND:CLUE> расспросить Инго",
+                "насчёт этого.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47175,8 +47176,8 @@
             {
               "Name": "CONS2_LINK10",
               "MessageTextLines": [
-                "When did your father get that perfume,",
-                "again?"
+                "Напомни, когда это твой отец купил",
+                "те духи?"
               ],
               "Type": 0,
               "Position": 0
@@ -47184,9 +47185,9 @@
             {
               "Name": "CONS2_MALON10",
               "MessageTextLines": [
-                "It was pretty much right before the",
-                "visitation.<PAUSE:5> We didn't know the princess",
-                "was coming until the last moment."
+                "Чуть ли не прямо перед проверкой.<PAUSE:5>",
+                "Мы до последнего момента не",
+                "знали, что придёт принцесса."
               ],
               "Type": 0,
               "Position": 0
@@ -47194,9 +47195,9 @@
             {
               "Name": "CONS2_MALON20",
               "MessageTextLines": [
-                "I only briefly saw it before he asked",
-                "me to do that last check around the",
-                "ranch."
+                "Я их видела только мельком, когда",
+                "он попросил меня перепроверить",
+                "ранчо."
               ],
               "Type": 0,
               "Position": 0
@@ -47204,13 +47205,12 @@
             {
               "Name": "CONS2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm...<PAUSE:3> So the reason why Ingo didn't",
-                "know who the perfume was for<PAUSE:2> was",
-                "because he didn't see Talon leave",
-                "to get it...)",
+                "<SOUND:0><C>(Хмм...<PAUSE:3> Значит Инго не знает, для",
+                "кого были духи,<PAUSE:2> потому что он не",
+                "видел, как Талон уходил за ними...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(<SPEED:101>And yet,<PAUSE:3> <SPEED:102>it seems Ingo<SOUND:CLUE> still knows a",
-                "bit too much...)<SQUARE>"
+                "<SOUND:0><C>(<SPEED:101>И всё же,<PAUSE:3> <SPEED:102>Инго<SOUND:CLUE> всё равно знает",
+                "чуточку больше, чем должен...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47218,8 +47218,8 @@
             {
               "Name": "CONS3_LINK10",
               "MessageTextLines": [
-                "So now he's saying you and your",
-                "father had an argument..."
+                "И теперь он говорит, что вы",
+                "поспорили..."
               ],
               "Type": 0,
               "Position": 0
@@ -47227,7 +47227,7 @@
             {
               "Name": "CONS3_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><SPEED:103>Like I said, that's not true!<SPEED:102>"
+                "<SOUND:EXPLOSION><SPEED:103>Я уже сказала, это не так!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -47235,8 +47235,9 @@
             {
               "Name": "CONS3_LINK20",
               "MessageTextLines": [
-                "Of course, but since no one else was",
-                "around, it's just <SOUND:CLUE>your word against his..."
+                "Конечно, но раз никого рядом не",
+                "было, то тут лишь <SOUND:CLUE>твои слова",
+                "против его..."
               ],
               "Type": 0,
               "Position": 0
@@ -47244,9 +47245,9 @@
             {
               "Name": "CONS3_LINK30",
               "MessageTextLines": [
-                "<C>(That's right...<PAUSE:5> there wouldn't be any",
-                "physical evidence of the \"argument\",",
-                "so it might be a dead end for me.)"
+                "<C>(Именно...<PAUSE:5> нет никаких физических",
+                "следов этого «спора», так что",
+                "скорее всего, это тупик.)"
               ],
               "Type": 0,
               "Position": 0
@@ -47254,9 +47255,10 @@
             {
               "Name": "CONS3_LINK40",
               "MessageTextLines": [
-                "<C>(Maybe I should focus on something",
-                "else.<PAUSE:5> <SOUND:HINT>Maybe he'll slip up if I press his",
-                "other statements?)"
+                "<C>(Наверное, стоит сосредоточиться",
+                "на чём-нибудь ещё.<PAUSE:5> <SOUND:HINT>Может, он",
+                "проговорится, если я надавлю на",
+                "другие его высказывания?)"
               ],
               "Type": 0,
               "Position": 0
@@ -47309,7 +47311,7 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "How long ago was this, exactly?"
+                "Как давно это было?"
               ],
               "Type": 0,
               "Position": 0
@@ -47317,7 +47319,7 @@
             {
               "Name": "1_INGO10",
               "MessageTextLines": [
-                "Three, four days."
+                "Три-четыре дня назад."
               ],
               "Type": 0,
               "Position": 0
@@ -47325,7 +47327,7 @@
             {
               "Name": "1_INGO20",
               "MessageTextLines": [
-                "I'm not sure of the exact date."
+                "Насчёт точной даты я не уверен."
               ],
               "Type": 0,
               "Position": 0
@@ -47333,7 +47335,7 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "Had it been planned for a long time?"
+                "Давно ли это планировалось?"
               ],
               "Type": 0,
               "Position": 0
@@ -47341,9 +47343,9 @@
             {
               "Name": "1_INGO30",
               "MessageTextLines": [
-                "Talon was getting on in years.<PAUSE:5> ",
-                "Better to take care of the matter sooner",
-                "than later, eh?"
+                "Талон уже давно не молод.<PAUSE:5> ",
+                "Лучше о таком подумать раньше,",
+                "чем позже, хе?"
               ],
               "Type": 0,
               "Position": 0
@@ -47351,7 +47353,7 @@
             {
               "Name": "1_LINK30",
               "MessageTextLines": [
-                "Malon?"
+                "Малон?"
               ],
               "Type": 0,
               "Position": 0
@@ -47359,9 +47361,8 @@
             {
               "Name": "1_MALON10",
               "MessageTextLines": [
-                "He is telling the truth.<PAUSE:5> Father",
-                "scheduled a visit to the notary office",
-                "about a week ago."
+                "Это правда.<PAUSE:5> Отец записывался в",
+                "нотариат ещё где-то неделю назад."
               ],
               "Type": 0,
               "Position": 0
@@ -47369,8 +47370,8 @@
             {
               "Name": "1_LINK40",
               "MessageTextLines": [
-                "Hmm.<PAUSE:3> What do you mean by \"partly\",",
-                "witness?<SQUARE>"
+                "Хмм.<PAUSE:3> Свидетель, что Вы имели в",
+                "виду под «частично»?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47378,8 +47379,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "So Malon hadn't become the ranch",
-                "owner yet?"
+                "То есть ранчо ещё не перешло",
+                "к Малон?"
               ],
               "Type": 0,
               "Position": 0
@@ -47387,10 +47388,10 @@
             {
               "Name": "2_INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Wah, of course not!",
+                "<SOUND:WHAP><DI>Ва, нет конечно!",
                 "<NEW_BOX>",
-                "Haven't you heard all the stories making",
-                "rounds recently?"
+                "Вы что, не слышали последние",
+                "сплетни?"
               ],
               "Type": 0,
               "Position": 0
@@ -47398,9 +47399,10 @@
             {
               "Name": "2_INGO15",
               "MessageTextLines": [
-                "So many ungrateful<SOUND:WHAP> brats throwing their",
-                "old folks into retirement homes the",
-                "moment ownership's signed to them!"
+                "Нынче каждый второй<SOUND:WHAP> сопляк",
+                "загоняет своих стариков в дом",
+                "престарелых сразу же, как им",
+                "дом переходит во владение!"
               ],
               "Type": 0,
               "Position": 0
@@ -47408,12 +47410,13 @@
             {
               "Name": "2_INGO30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Talon was no fool!<PAUSE:5> ",
-                "I myself convinced him that it was the",
-                "safer option.",
+                "<SOUND:WHAP><DI>Талон был вовсе не дурак!<PAUSE:5> ",
+                "Я ему сам сказал, что так будет",
+                "безопаснее.",
                 "<NEW_BOX>",
-                "If the girl was up to some chicanery,",
-                "he could always revert his decision."
+                "А если бы девчушка удумала",
+                "какую-нибудь пакость, то он",
+                "всегда смог бы отменить решение."
               ],
               "Type": 0,
               "Position": 0
@@ -47421,7 +47424,7 @@
             {
               "Name": "2_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>That's horrible!<PAUSE:5> I'd never do that!"
+                "<SOUND:EXPLOSION><DI>Какой ужас!<PAUSE:5> Я бы никогда!"
               ],
               "Type": 0,
               "Position": 0
@@ -47429,8 +47432,8 @@
             {
               "Name": "2_INGO40",
               "MessageTextLines": [
-                "As much as I'd like to believe that,",
-                "you did <SOUND:WHAP><DI>much worse<DC> by killing him!"
+                "Как я ни хочу в это верить, ты",
+                "сделала <SOUND:WHAP><DI>гораздо хуже<DC> и убила его!"
               ],
               "Type": 0,
               "Position": 0
@@ -47438,10 +47441,9 @@
             {
               "Name": "2_INGO50",
               "MessageTextLines": [
-                "Children these days!<PAUSE:5> You feed 'em,<PAUSE:3> ",
-                "you raise 'em,<PAUSE:5> and they pull a stunt",
-                "like this as soon as you give 'em an",
-                "<SOUND:WHAP>inch over yourself!"
+                "Ох, молодёжь пошла!<PAUSE:5> Корми их,<PAUSE:3> ",
+                "расти их,<PAUSE:5> а как дашь им волю <EMDASH>",
+                "они <SOUND:WHAP>вон что вытворяют!"
               ],
               "Type": 0,
               "Position": 0
@@ -47449,8 +47451,8 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "I must concur.<PAUSE:3> The younger generation",
-                "is horrible."
+                "Вынужден согласиться.<PAUSE:3>",
+                "Ужасное нынче поколение."
               ],
               "Type": 0,
               "Position": 0
@@ -47458,8 +47460,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:EXPLOSION><DI>(Why did he look at ME while saying",
-                "that?!)"
+                "<SOUND:0><C><SOUND:EXPLOSION><DI>(Почему он на МЕНЯ посмотрел,",
+                "когда сказал это?!)"
               ],
               "Type": 0,
               "Position": 0
@@ -47467,7 +47469,7 @@
             {
               "Name": "2_INGO60",
               "MessageTextLines": [
-                "Anyway, what that meant was...<SQUARE>"
+                "В любом случае, это означало, что...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47475,8 +47477,8 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "But why would Malon want to sell the",
-                "ranch right now?"
+                "Но зачем бы Малон продавать ранчо",
+                "сейчас?"
               ],
               "Type": 0,
               "Position": 0
@@ -47484,9 +47486,10 @@
             {
               "Name": "3_INGO10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Why WOULDN'T she want to?<PAUSE:5> ",
-                "Why would a pretty little girl like her",
-                "want to work on some dingy ranch?!"
+                "<SOUND:EXPLOSION>Ну зачем бы НЕТ?<PAUSE:5> ",
+                "С чего бы такая симпатичная",
+                "девица хотела работать в этом",
+                "грязном курятнике?!"
               ],
               "Type": 0,
               "Position": 0
@@ -47494,9 +47497,9 @@
             {
               "Name": "3_INGO20",
               "MessageTextLines": [
-                "She'd have it much better if she sold",
-                "the old place and used the money to",
-                "move to Castle Town."
+                "Ей бы жилось гораздо лучше, если",
+                "бы она продала это старое место",
+                "и на деньги переехала в Посад."
               ],
               "Type": 0,
               "Position": 0
@@ -47504,9 +47507,9 @@
             {
               "Name": "3_MALON10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>That's not true!<PAUSE:10> ",
-                "I love working with the animals!<PAUSE:2> ",
-                "I wouldn't leave them for anything!"
+                "<SOUND:EXPLOSION><DI>Неправда!<PAUSE:10> ",
+                "Я обожаю работать тут с животными!<PAUSE:2> ",
+                "Я их не покину ни за что!"
               ],
               "Type": 0,
               "Position": 0
@@ -47514,11 +47517,11 @@
             {
               "Name": "3_INGO30",
               "MessageTextLines": [
-                "<DI>Wah!",
+                "<DI>Ва!",
                 "<NEW_BOX>",
-                "She's often slacking on the job, while I,",
-                "the hard-working Ingo, have to cover",
-                "for her!"
+                "Она постоянно отлынивает, а",
+                "мне, работяге Инго, приходится",
+                "её прикрывать!"
               ],
               "Type": 0,
               "Position": 0
@@ -47526,9 +47529,10 @@
             {
               "Name": "3_INGO40",
               "MessageTextLines": [
-                "I guess the Deku Nut doesn't fall far",
-                "from the tree, as they say.<PAUSE:5> That Talon",
-                "loved to <SOUND:HINT>sleep on the job, too."
+                "Правильно говорят, что орех Деку",
+                "от орехового дерева не далеко",
+                "падает.<PAUSE:5> Талон тоже обожал",
+                "<SOUND:HINT>подремать на работе."
               ],
               "Type": 0,
               "Position": 0
@@ -47536,10 +47540,10 @@
             {
               "Name": "3_JUDGE10",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>Ho, ho!<PAUSE:5> I do recall a quite funny story",
-                "about the Lon Lon Ranch owner",
-                "blocking the side entrance to Hyrule",
-                "Castle for an entire day once."
+                "<DI><SOUND:WHAP>Хо, хо!<PAUSE:5> Припоминается забавная",
+                "история о том, как владелец ранчо",
+                "однажды уснул и перекрыл собой",
+                "боковой вход в замок на целый день."
               ],
               "Type": 0,
               "Position": 0
@@ -47547,9 +47551,9 @@
             {
               "Name": "3_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>The guards couldn't wake him up!<PAUSE:10> ",
-                "It took a particularly vocal Cucco,",
-                "apparently..."
+                "<SOUND:WHAP><DI>Стража не могла его разбудить!<PAUSE:10> ",
+                "Потребовался особо громкий",
+                "кукко, говорят..."
               ],
               "Type": 0,
               "Position": 0
@@ -47557,7 +47561,7 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Ah, geez...)"
+                "<SOUND:0><C>(Уф...)"
               ],
               "Type": 0,
               "Position": 0
@@ -47565,10 +47569,10 @@
             {
               "Name": "3_INGO50",
               "MessageTextLines": [
-                "Well, there you go.",
+                "Вот видите.",
                 "<NEW_BOX>",
-                "I am the real reason why the ranch",
-                "has such renown."
+                "Это благодаря мне ранчо получило",
+                "такой престиж."
               ],
               "Type": 0,
               "Position": 0
@@ -47576,7 +47580,7 @@
             {
               "Name": "3_INGO60",
               "MessageTextLines": [
-                "<DI>Me, the hard-working Ingo!"
+                "<DI>Мне, работяге Инго!"
               ],
               "Type": 0,
               "Position": 0
@@ -47584,7 +47588,7 @@
             {
               "Name": "3_MALON20",
               "MessageTextLines": [
-                "Link, that's...<PAUSE:3> <SOUND:WHAP><DI>not true at all!"
+                "Линк, это...<PAUSE:3> <SOUND:WHAP><DI>совсем не правда!"
               ],
               "Type": 0,
               "Position": 0
@@ -47592,8 +47596,8 @@
             {
               "Name": "3_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(I know, I know.<PAUSE:3> But how do I stop",
-                "this?)<SQUARE>"
+                "<SOUND:0><C>(Знаю, знаю.<PAUSE:3> Но как мне это",
+                "остановить?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47601,8 +47605,8 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "Do you really think Malon would go",
-                "that far?"
+                "Вы правда думаете, что Малон",
+                "зашла бы так далеко?"
               ],
               "Type": 0,
               "Position": 0
@@ -47610,9 +47614,9 @@
             {
               "Name": "4_INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hmph!<PAUSE:5> I don't want to think it, but,",
-                "clearly, the events speak for",
-                "themselves, don't they?"
+                "<SOUND:WHAP><DI>Гм!<PAUSE:5> Я не хочу так думать, но",
+                "события говорят сами за себя,",
+                "не так ли?"
               ],
               "Type": 0,
               "Position": 0
@@ -47620,8 +47624,8 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "Why wouldn't she just wait a few more",
-                "years, then?"
+                "Тогда почему бы ей просто не",
+                "подождать ещё пару лет?"
               ],
               "Type": 0,
               "Position": 0
@@ -47629,9 +47633,9 @@
             {
               "Name": "4_INGO20",
               "MessageTextLines": [
-                "Talon was getting older.<PAUSE:3> Perhaps she",
-                "knew more and more work would be",
-                "piling onto her."
+                "Талон стареет.<PAUSE:3> Может, она",
+                "понимала, что на ней будет копиться",
+                "всё больше и больше работы."
               ],
               "Type": 0,
               "Position": 0
@@ -47639,8 +47643,8 @@
             {
               "Name": "4_INGO30",
               "MessageTextLines": [
-                "But, really, how am I supposed to",
-                "know?<PAUSE:10> Ask her!"
+                "Но, серьёзно, мне-то откуда знать?<PAUSE:10>",
+                "У неё спросите!"
               ],
               "Type": 0,
               "Position": 0
@@ -47648,7 +47652,7 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Uh... that's all right.)"
+                "<SOUND:0><C>(Э-э... обойдусь.)"
               ],
               "Type": 0,
               "Position": 0
@@ -47656,10 +47660,10 @@
             {
               "Name": "4_LINK40",
               "MessageTextLines": [
-                "Well, if Malon didn't want to work,",
-                "wouldn't she have done this earlier?<PAUSE:10> ",
-                "As Talon's only child,<PAUSE:1> <SOUND:WHAP><DI>she'd still inherit",
-                "the ranch!"
+                "Допустим, если Малон не хотела",
+                "работать, то разве она не сделала",
+                "бы это раньше?<PAUSE:10> У Талона нет других",
+                "детей,<PAUSE:1> <SOUND:WHAP><DI>ей бы и так досталось ранчо!"
               ],
               "Type": 0,
               "Position": 0
@@ -47667,7 +47671,7 @@
             {
               "Name": "4_INGO40",
               "MessageTextLines": [
-                "<DI>Moo ha ha!<PAUSE:5> That's where you're wrong."
+                "<DI>Му ха ха!<PAUSE:5> Тут-то Вы не правы."
               ],
               "Type": 0,
               "Position": 0
@@ -47675,9 +47679,9 @@
             {
               "Name": "4_INGO50",
               "MessageTextLines": [
-                "For a long while, Talon planned to split",
-                "the ranch between the girl and the",
-                "Crown!"
+                "Талон ещё давно собирался",
+                "разделить ранчо между",
+                "дочкой и короной!"
               ],
               "Type": 0,
               "Position": 0
@@ -47685,9 +47689,9 @@
             {
               "Name": "4_INGO60",
               "MessageTextLines": [
-                "He was a patriotic man.<PAUSE:5> He knew how",
-                "much those horses meant to the Royal",
-                "Guard."
+                "Он был настоящий патриот.<PAUSE:5>",
+                "Он знал, как его скакуны много",
+                "значат для королевской стражи."
               ],
               "Type": 0,
               "Position": 0
@@ -47695,7 +47699,7 @@
             {
               "Name": "4_INGO70",
               "MessageTextLines": [
-                "I wish he hadn't<SOUND:CLUE> changed his mind, now!"
+                "Я теперь жалею, что<SOUND:CLUE> он передумал!"
               ],
               "Type": 0,
               "Position": 0
@@ -47703,7 +47707,7 @@
             {
               "Name": "4_LINK50",
               "MessageTextLines": [
-                "Is this true?"
+                "Это правда?"
               ],
               "Type": 0,
               "Position": 0
@@ -47711,8 +47715,8 @@
             {
               "Name": "4_MALON10",
               "MessageTextLines": [
-                "Yes...<PAUSE:5> Father's previous inheritance",
-                "document did work that way."
+                "Да...<PAUSE:5> Прошлое завещание отца",
+                "именно так и работало."
               ],
               "Type": 0,
               "Position": 0
@@ -47720,11 +47724,12 @@
             {
               "Name": "4_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>How admirable!",
+                "<SOUND:WHAP><DI>Восхитительно!",
                 "<NEW_BOX>",
-                "I guess familial bonds won over his",
-                "drive to help the kingdom.<PAUSE:5> ",
-                "Truly, a shame."
+                "Видимо, в конечном итоге кровные",
+                "узы пересилили его настрой помочь",
+                "королевству.<PAUSE:5> ",
+                "Какая досада."
               ],
               "Type": 0,
               "Position": 0
@@ -47732,8 +47737,8 @@
             {
               "Name": "4_INGO80",
               "MessageTextLines": [
-                "Yes.<PAUSE:3> Naturally, the girl wanted the",
-                "whole thing, <SOUND:HINT>so she bided her time."
+                "Да.<PAUSE:3> Девушка, само собой, хотела",
+                "ранчо целиком, <SOUND:HINT>так что она ждала."
               ],
               "Type": 0,
               "Position": 0
@@ -47741,8 +47746,8 @@
             {
               "Name": "4_DRAGMIRE20",
               "MessageTextLines": [
-                "I think this sufficiently explains the",
-                "timing.<PAUSE:4> Let's continue, shall we?"
+                "Думаю, это достаточно объясняет",
+                "время.<PAUSE:4> Давайте продолжим."
               ],
               "Type": 0,
               "Position": 0
@@ -47750,7 +47755,7 @@
             {
               "Name": "4_LINK58",
               "MessageTextLines": [
-                "Wait just a moment."
+                "Погодите минуту."
               ],
               "Type": 0,
               "Position": 0
@@ -47758,9 +47763,9 @@
             {
               "Name": "4_LINK60",
               "MessageTextLines": [
-                "There's one more problem with the",
-                "timing that I'd like the witness to",
-                "explain..."
+                "Есть ещё одна загвоздка со",
+                "временем, и я хотел бы, чтобы",
+                "свидетель объяснил её..."
               ],
               "Type": 0,
               "Position": 0
@@ -47768,9 +47773,9 @@
             {
               "Name": "4_LINK62",
               "MessageTextLines": [
-                "Why would Malon have planned the",
-                "murder for the day of the royal",
-                "visitation, specifically?"
+                "Почему бы Малон запланировала",
+                "убийство именно в день королевской",
+                "проверки?"
               ],
               "Type": 0,
               "Position": 0
@@ -47778,9 +47783,9 @@
             {
               "Name": "4_LINK64",
               "MessageTextLines": [
-                "More people around means more",
-                "witnesses.<PAUSE:5> You'd think she would have",
-                "chosen any<PAUSE:3> <DI><SOUND:WHAP>OTHER <PAUSE:3><DC>day!"
+                "Чем больше людей рядом, тем",
+                "больше свидетелей.<PAUSE:5> Казалось бы,",
+                "она бы выбрала любой<PAUSE:3> <DI><SOUND:WHAP>ДРУГОЙ <PAUSE:3><DC>день!"
               ],
               "Type": 0,
               "Position": 0
@@ -47788,11 +47793,11 @@
             {
               "Name": "4_INGO90",
               "MessageTextLines": [
-                "Oh,<PAUSE:2> did I forget to mention this?",
+                "А,<PAUSE:2> я что, забыл сказать?",
                 "<NEW_BOX>",
-                "I overheard Talon <SOUND:HINT><R>arguing<W> with her",
-                "that very morning.<PAUSE:4> He was telling her",
-                "he'd changed his mind again!"
+                "Я случайно услышал, как утром",
+                "Талон с ней о чём-то <SOUND:HINT><R>ссорился<W>.<PAUSE:4>",
+                "Он говорил, что снова передумал!"
               ],
               "Type": 0,
               "Position": 0
@@ -47800,13 +47805,12 @@
             {
               "Name": "4_INGO92",
               "MessageTextLines": [
-                "He was planning to tell the King that",
-                "he'd be signing the ranch over to",
-                "the Crown.",
+                "Он собирался сказать королю, что",
+                "перепишет ранчо на корону.",
                 "<NEW_BOX>",
-                "After the visitation was over, he'd head",
-                "to Castle Town<PAUSE:1> to change the inheritance",
-                "back to the original split!"
+                "После проверки, он бы направился",
+                "в Посад,<PAUSE:1> чтобы поменять завещание",
+                "обратно!"
               ],
               "Type": 0,
               "Position": 0
@@ -47814,7 +47818,7 @@
             {
               "Name": "4_LINK70",
               "MessageTextLines": [
-                "<SOUND:DON><DI>What?!"
+                "<SOUND:DON><DI>Что?!"
               ],
               "Type": 0,
               "Position": 0
@@ -47822,13 +47826,14 @@
             {
               "Name": "4_DRAGMIRE30",
               "MessageTextLines": [
-                "Despite the victim's wishy-washiness,",
-                "it would appear he did make the right",
-                "choice in the end.",
+                "Несмотря на всю нерешительность",
+                "жертвы, в конце концов он всё же",
+                "сделал правильный выбор.",
                 "<NEW_BOX>",
-                "And because of that choice, if the",
-                "defendant wanted to get the ranch,",
-                "she had no time to waste that day."
+                "И из-за этого выбора у подсудимой",
+                "не стало другого выбора, кроме как",
+                "действовать в этот день, чтобы",
+                "заполучить ранчо."
               ],
               "Type": 0,
               "Position": 0
@@ -47836,7 +47841,7 @@
             {
               "Name": "4_LINK80",
               "MessageTextLines": [
-                "<SOUND:WHAP><SPEED:103>Is this true, too?<SPEED:102>"
+                "<SOUND:WHAP><SPEED:103>А это тоже правда?<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -47844,9 +47849,9 @@
             {
               "Name": "4_MALON20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Absolutely not! <PAUSE:10><DC><SPEED:103>Father wasn't planning",
-                "to do that, and there was no argument,",
-                "either!<SPEED:102>"
+                "<SOUND:EXPLOSION><DI>Совсем нет! <PAUSE:10><DC><SPEED:103>Отец не собирался",
+                "ничего переписывать, и никакой",
+                "ссоры тоже не было!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -47854,10 +47859,10 @@
             {
               "Name": "4_LINK90",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm... what to do about this",
-                "\"argument\", then...)<TWO_CHOICES>",
-                "<G>Add it to the testimony",
-                "<G>Better not bring attention to it"
+                "<SOUND:0><C>(Хмм... как же поступить с этой",
+                "«ссорой»...)<TWO_CHOICES>",
+                "<G>Добавить её в показания",
+                "<G>Не привлекать к ней внимание"
               ],
               "Type": 0,
               "Position": 0
@@ -47865,12 +47870,11 @@
             {
               "Name": "4_1_LINK10",
               "MessageTextLines": [
-                "There was an argument about the",
-                "inheritance?<PAUSE:5> <SOUND:EXPLOSION><DI>That sounds like an",
-                "important fact to me!",
+                "Была ссора о наследстве?<PAUSE:5> <SOUND:EXPLOSION><DI>",
+                "Звучит как довольно важный факт!",
                 "<NEW_BOX>",
-                "The defence requests it be added",
-                "to the testimony."
+                "Сторона защита просит, чтобы это",
+                "было добавлено в показания."
               ],
               "Type": 0,
               "Position": 0
@@ -47878,7 +47882,7 @@
             {
               "Name": "4_1_JUDGE10",
               "MessageTextLines": [
-                "Very well.<PAUSE:3> Witness, please do so."
+                "Хорошо.<PAUSE:3> Свидетель, пожалуйста."
               ],
               "Type": 0,
               "Position": 0
@@ -47886,7 +47890,7 @@
             {
               "Name": "4_1_INGO10",
               "MessageTextLines": [
-                "Hmph!<PAUSE:3> I'd be happy to, Your Honour!<SQUARE>"
+                "Гм!<PAUSE:3> С радостью, Ваша честь!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47894,9 +47898,9 @@
             {
               "Name": "4_2_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(I don't want to give Ingo's twisted",
-                "version of events any more of the",
-                "spotlight than necessary.)"
+                "<SOUND:0><C>(Не стоит светить искажённую",
+                "версию событий Инго больше,",
+                "чем нужно.)"
               ],
               "Type": 0,
               "Position": 0
@@ -47904,8 +47908,8 @@
             {
               "Name": "4_2_LINK20",
               "MessageTextLines": [
-                "All right.<PAUSE:3> The defence would like to",
-                "move on and discuss something else."
+                "Хорошо.<PAUSE:3> Давайте продолжим",
+                "и обсудим что-нибудь ещё."
               ],
               "Type": 0,
               "Position": 0
@@ -47913,8 +47917,8 @@
             {
               "Name": "4_2_INGO10",
               "MessageTextLines": [
-                "Ooh, the way she was arguing with him",
-                "really made me mad!<SQUARE>"
+                "Ух-х, она ему такое говорила,",
+                "что я и сам возмутился!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -47922,7 +47926,7 @@
             {
               "Name": "5_LINK10",
               "MessageTextLines": [
-                "About what time did this happen?"
+                "Во сколько это произошло?"
               ],
               "Type": 0,
               "Position": 0
@@ -47930,9 +47934,8 @@
             {
               "Name": "5_INGO10",
               "MessageTextLines": [
-                "First thing in the morning.<PAUSE:5> ",
-                "I was heading out to the silo to start",
-                "the day's work."
+                "Первым делом рано утром.<PAUSE:5> ",
+                "Я шёл работать к силосной башне."
               ],
               "Type": 0,
               "Position": 0
@@ -47940,9 +47943,8 @@
             {
               "Name": "5_INGO20",
               "MessageTextLines": [
-                "I had just walked out the front door of",
-                "the ranch house,<PAUSE:1> <SPEED:101>when I heard some",
-                "yelling erupt behind me!<SPEED:102>"
+                "Стоило мне выйти за дверь,<PAUSE:1>",
+                "<SPEED:101>как за мной раздался такой гам!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -47950,8 +47952,8 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "Do you remember any specifics about",
-                "what was said?"
+                "Вы помните, что конкретно",
+                "было сказано?"
               ],
               "Type": 0,
               "Position": 0
@@ -47959,8 +47961,8 @@
             {
               "Name": "5_INGO30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Oh, yes! <PAUSE:7><DC>It surprised me enough that I",
-                "stopped to listen for a minute!"
+                "<SOUND:WHAP><DI>Да, да! <PAUSE:7><DC>Я так удивился, что на",
+                "минутку остановился послушать!"
               ],
               "Type": 0,
               "Position": 0
@@ -47968,7 +47970,7 @@
             {
               "Name": "5_INGO35",
               "MessageTextLines": [
-                "It was all like...<FADE:20>"
+                "Было что-то вроде как...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -47976,10 +47978,10 @@
             {
               "Name": "5_INGO40",
               "MessageTextLines": [
-                "\"I'm real sorry, Malon, but the most",
-                "important thing is to make sure the",
-                "King will always have a steady supply",
-                "of quality horses.\""
+                "«Мне правда жаль, Малон, но нет",
+                "для меня ничего важнее, чем чтобы",
+                "у короля всегда был постоянный",
+                "запас качественных лошадей.»"
               ],
               "Type": 0,
               "Position": 0
@@ -47987,8 +47989,9 @@
             {
               "Name": "5_INGO50",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>\"I don't care! <PAUSE:4><SOUND:DON>What about ME, Father?!",
-                "<PAUSE:5><SOUND:EXPLOSION>How can you DO this to me?!\""
+                "<SOUND:WHAP><DI>«Мне плевать! <PAUSE:4><SOUND:DON>А как же Я, отец?!",
+                "<PAUSE:5><SOUND:EXPLOSION>Как ты МОЖЕШЬ поступить так",
+                "со мной?!»"
               ],
               "Type": 0,
               "Position": 0
@@ -47996,8 +47999,8 @@
             {
               "Name": "5_INGO60",
               "MessageTextLines": [
-                "\"Malon, this isn't just about you.<PAUSE:2> ",
-                "It's for the good of the entire kingdom.\""
+                "«Малон, но ведь это не только ради",
+                "тебя.<PAUSE:2> Это ради всего королевства.»"
               ],
               "Type": 0,
               "Position": 0
@@ -48005,9 +48008,9 @@
             {
               "Name": "5_INGO70",
               "MessageTextLines": [
-                "<SPEED:103>\"But what am <SOUND:EXPLOSION>I supposed to do?!<PAUSE:4> ",
-                "<SPEED:103>I can't move up in life if I'm stuck on",
-                "this <SOUND:WHAP>dump of a ranch forever!\"<SPEED:102>"
+                "<SPEED:103>«И что я <SOUND:EXPLOSION>должна делать?!<PAUSE:4> ",
+                "<SPEED:103>Как мне дальше жить? Не могу же",
+                "я оставаться на этой <SOUND:WHAP>свалке вечно!»<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48015,10 +48018,9 @@
             {
               "Name": "5_INGO80",
               "MessageTextLines": [
-                "<SOUND:DON><DI>\"I thought you loved the ranch!<PAUSE:8> <DC>All the",
-                "animals are here, and Ingo's always",
-                "around to help out with the chores, too.<PAUSE:3> ",
-                "<SPEED:103>He's pretty great, isn't he?\"<SPEED:102>"
+                "<SOUND:DON><DI>«Я думал, тебе нравится ранчо!<PAUSE:8> <DC>Тут",
+                "и животные, и Инго рядом, он всегда",
+                "рад помочь.<PAUSE:3> <SPEED:103>Он мужик что надо, да?»<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48026,8 +48028,8 @@
             {
               "Name": "5_INGO90",
               "MessageTextLines": [
-                "\"Yeah, Ingo is awesome, but I...<PAUSE:3> I still",
-                "hate you for this!!<PAUSE:3> <SOUND:EXPLOSION><DI>This isn't over!\""
+                "«Да, Инго классный, но я...<PAUSE:3> я тебя",
+                "всё равно ненавижу!!<PAUSE:3> <SOUND:EXPLOSION><DI>Это не конец!»"
               ],
               "Type": 0,
               "Position": 0
@@ -48043,7 +48045,7 @@
             {
               "Name": "5_JUDGE10",
               "MessageTextLines": [
-                "What a stirring re-enactment!"
+                "Какое волнующее представление!"
               ],
               "Type": 0,
               "Position": 0
@@ -48051,8 +48053,8 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "I will keep my thoughts on the witness's",
-                "acting skills to myself."
+                "Я мнение об актёрском мастерстве",
+                "свидетеля оставлю при себе."
               ],
               "Type": 0,
               "Position": 0
@@ -48060,9 +48062,9 @@
             {
               "Name": "5_LINK40",
               "MessageTextLines": [
-                "There's no way this actually happened,",
-                "though!<PAUSE:5> Malon would never want to sell",
-                "the ranch!"
+                "Но не могло такое произойти!<PAUSE:5>",
+                "Малон ни за что бы не хотела",
+                "продать ранчо!"
               ],
               "Type": 0,
               "Position": 0
@@ -48070,11 +48072,12 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "Well, of course she'd say that NOW,",
-                "you buffoon.",
+                "Конечно, она так скажет СЕЙЧАС,",
+                "простофиля.",
                 "<NEW_BOX>",
-                "Remember, she's under suspicion for",
-                "murder!<PAUSE:3> We can't trust a thing she says."
+                "Не забывай, что её подозревают",
+                "в убийстве!<PAUSE:3> Нельзя ни слову от",
+                "неё верить."
               ],
               "Type": 0,
               "Position": 0
@@ -48082,12 +48085,13 @@
             {
               "Name": "5_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, *I* trust her.<PAUSE:3> <SOUND:HINT>But the judge",
-                "probably doesn't right now, and that's",
-                "unfortunately what matters.)",
+                "<SOUND:0><C>(Ну, Я ей верю.<PAUSE:3> <SOUND:HINT>Но судья, скорее",
+                "всего, нет, а нам, к сожалению,",
+                "важно именно это.)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(Do I have anything in the Court",
-                "Record that could refute this story...?)"
+                "<SOUND:0><C>(Есть ли что-нибудь в материалах",
+                "дела, что могло бы опровергнуть",
+                "этот рассказ...?)"
               ],
               "Type": 0,
               "Position": 0
@@ -48095,9 +48099,10 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "If you ask me, this whole inheritance",
-                "issue could have been avoided if the",
-                "Crown wasn't so soft."
+                "Спросить меня, так всю эту путаницу",
+                "с наследством можно было бы",
+                "избежать, если бы корона не была",
+                "такой мягкой."
               ],
               "Type": 0,
               "Position": 0
@@ -48105,9 +48110,9 @@
             {
               "Name": "5_DRAGMIRE40",
               "MessageTextLines": [
-                "In Gerudo Desert, there would be no",
-                "question that the Fortress may seize",
-                "whatever it desires!"
+                "В пустыне Герудо крепость может",
+                "захватить себе всё, чего пожелает,",
+                "и никто не жалуется!"
               ],
               "Type": 0,
               "Position": 0
@@ -48115,7 +48120,7 @@
             {
               "Name": "5_LINK60",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>That's just messed up!"
+                "<SOUND:WHAP><DI>И разве это правильно?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48123,9 +48128,9 @@
             {
               "Name": "5_DRAGMIRE50",
               "MessageTextLines": [
-                "No matter.<PAUSE:5> Continue your testimony,",
-                "farmhand.<PAUSE:5> Share with us the true nature",
-                "of the defendant!<SQUARE>"
+                "Неважно.<PAUSE:5> Продолжай показания,",
+                "фермер.<PAUSE:5> Расскажи нам об истинной",
+                "натуре подсудимой!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -48133,8 +48138,8 @@
             {
               "Name": "6_INGO10",
               "MessageTextLines": [
-                "<SOUND:DON><DI>No, YOU hold it!<PAUSE:10> ",
-                "That man gave everything for her!"
+                "<SOUND:DON><DI>Нет, ВЫ постойте!<PAUSE:10> ",
+                "Этот человек отдал ради неё всё!"
               ],
               "Type": 0,
               "Position": 0
@@ -48142,11 +48147,11 @@
             {
               "Name": "6_INGO20",
               "MessageTextLines": [
-                "She's gotten so many expensive",
-                "presents over the years...<PAUSE:5> Just look at",
-                "that golden necklace she's wearing!",
+                "Он ей столько дорогих подарков",
+                "купил...<PAUSE:5> Посмотрите только на",
+                "золотое ожерелье у неё на шее!",
                 "<NEW_BOX>",
-                "That man spoiled her rotten!"
+                "Просто ужас, как он её разбаловал!"
               ],
               "Type": 0,
               "Position": 0
@@ -48154,9 +48159,9 @@
             {
               "Name": "6_INGO30",
               "MessageTextLines": [
-                "In fact...<PAUSE:5> <SOUND:HINT>I think I saw another present",
-                "he was meaning to give her on the",
-                "very day he was killed!"
+                "Более того...<PAUSE:5> <SOUND:HINT>Я, кажется, видел",
+                "ещё один подарок, который он",
+                "хотел ей подарить, пока не умер!"
               ],
               "Type": 0,
               "Position": 0
@@ -48164,7 +48169,7 @@
             {
               "Name": "6_LINK10",
               "MessageTextLines": [
-                "Another gift?"
+                "Ещё один подарок?"
               ],
               "Type": 0,
               "Position": 0
@@ -48172,8 +48177,8 @@
             {
               "Name": "6_INGO40",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Why, yes!<PAUSE:5> A little bottle of perfume,",
-                "I believe."
+                "<SOUND:WHAP><DI>Именно, да!<PAUSE:5> Небольшая бутылочка",
+                "с духами, если не ошибаюсь."
               ],
               "Type": 0,
               "Position": 0
@@ -48181,9 +48186,9 @@
             {
               "Name": "6_INGO50",
               "MessageTextLines": [
-                "It's horrible!<PAUSE:5> ",
-                "Talon was such a kind man.<PAUSE:5> ",
-                "<SOUND:WHAP>What happened to him is despicable!"
+                "Какой кошмар!<PAUSE:5> ",
+                "Талон такой добрый человек.<PAUSE:5> ",
+                "<SOUND:WHAP>С ним так грязно поступили!"
               ],
               "Type": 0,
               "Position": 0
@@ -48191,10 +48196,10 @@
             {
               "Name": "6_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. Was that last statement important?)",
+                "<SOUND:0><C>(Хмм. Были ли эти слова важны?)",
                 "<TWO_CHOICES>",
-                "<G>Add it to the testimony",
-                "<G>Better not bring attention to it"
+                "<G>Добавить их в показания",
+                "<G>Не привлекать к ним внимание"
               ],
               "Type": 0,
               "Position": 0
@@ -48202,9 +48207,9 @@
             {
               "Name": "6_1_LINK10",
               "MessageTextLines": [
-                "<DI>Your Honour!<PAUSE:3> The defence wishes to",
-                "add the statement about the perfume",
-                "to the testimony!"
+                "<DI>Ваша честь!<PAUSE:3> Сторона защиты хотела",
+                "бы добавить слова о бутылочке",
+                "духов в показания!"
               ],
               "Type": 0,
               "Position": 0
@@ -48212,8 +48217,9 @@
             {
               "Name": "6_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:5> What are you doing? Trying to",
-                "implicate the defendant even harder?!"
+                "<SOUND:EXPLOSION>Ба!<PAUSE:5> Ты что делаешь? Пытаешься",
+                "сделать вину подсудимой ещё",
+                "очевиднее?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48221,7 +48227,7 @@
             {
               "Name": "6_1_LINK20",
               "MessageTextLines": [
-                "I think it's an important detail."
+                "Я считаю, что эта деталь важна."
               ],
               "Type": 0,
               "Position": 0
@@ -48229,7 +48235,7 @@
             {
               "Name": "6_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<DI>The perfume is irrelevant!"
+                "<DI>Не важны эти духи!"
               ],
               "Type": 0,
               "Position": 0
@@ -48237,8 +48243,9 @@
             {
               "Name": "6_1_DRAGMIRE30",
               "MessageTextLines": [
-                "But...<PAUSE:5> I suppose the prosecution has",
-                "no objections to strengthening our case."
+                "Но...<PAUSE:5> Полагаю, у стороны обвинения",
+                "нет возражений против укрепления",
+                "нашего дела."
               ],
               "Type": 0,
               "Position": 0
@@ -48246,8 +48253,9 @@
             {
               "Name": "6_1_JUDGE10",
               "MessageTextLines": [
-                "Very well, witness.<PAUSE:5> Please add what",
-                "you just said to your testimony.<SQUARE>"
+                "Хорошо, свидетель.<PAUSE:5> Пожалуйста,",
+                "добавьте то, что вы сейчас сказали,",
+                "в Ваши показания.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -48255,9 +48263,9 @@
             {
               "Name": "6_2_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Better not stick to this point that",
-                "makes Malon look worse than she",
-                "already does.)<SQUARE>"
+                "<SOUND:0><C>(Лучше не задерживаться на факте,",
+                "из-за которого Малон выглядит",
+                "подозрительнее, чем уже выглядит.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -48265,7 +48273,7 @@
             {
               "Name": "7_LINK10",
               "MessageTextLines": [
-                "Where did you see this?"
+                "Где Вы их увидели?"
               ],
               "Type": 0,
               "Position": 0
@@ -48273,8 +48281,7 @@
             {
               "Name": "7_INGO10",
               "MessageTextLines": [
-                "I think it was just lying around the",
-                "ranch house."
+                "Они, кажется, просто лежали в доме."
               ],
               "Type": 0,
               "Position": 0
@@ -48282,8 +48289,8 @@
             {
               "Name": "7_INGO20",
               "MessageTextLines": [
-                "Talon probably intended to give it to",
-                "Malon on the day he was killed."
+                "Наверное, Талон хотел подарить",
+                "их Малон в день, когда его убили."
               ],
               "Type": 0,
               "Position": 0
@@ -48291,7 +48298,7 @@
             {
               "Name": "7_LINK20",
               "MessageTextLines": [
-                "Do you mean this, witness?"
+                "Вы про вот эти, свидетель?"
               ],
               "Type": 0,
               "Position": 0
@@ -48299,7 +48306,7 @@
             {
               "Name": "7_INGO30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Why, yes!<PAUSE:5> That's exactly it."
+                "<SOUND:WHAP><DI>О, да!<PAUSE:5> Это именно они."
               ],
               "Type": 0,
               "Position": 0
@@ -48307,12 +48314,12 @@
             {
               "Name": "7_INGO40",
               "MessageTextLines": [
-                "Looks very expensive.<PAUSE:5> If only Talon",
-                "had spent as much on his salary for",
-                "me, the hard-working Ingo...",
+                "Выглядят очень дорогими.<PAUSE:5> Вот бы",
+                "Талон тратил столько на зарплату",
+                "мне, работяге Инго...",
                 "<NEW_BOX>",
-                "I get up and leave to do work at the",
-                "break of dawn every day, you know!"
+                "Я просыпаюсь и иду на работу с",
+                "восходом солнца, что б вы знали!"
               ],
               "Type": 0,
               "Position": 0
@@ -48320,7 +48327,7 @@
             {
               "Name": "7_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm...)<SQUARE>"
+                "<SOUND:0><C>(Хмм...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -48328,7 +48335,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Witness!"
+                "<SOUND:WHAP><DI>Свидетель!"
               ],
               "Type": 0,
               "Position": 0
@@ -48336,7 +48343,7 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "What is it?!"
+                "Чего?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48344,9 +48351,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Just to confirm,<PAUSE:3> you say that this bottle",
-                "of perfume was bought for Malon by",
-                "her father, correct?"
+                "Хочу убедиться <EMDASH><PAUSE:3> Вы говорите, что",
+                "вот эту бутылку духов Талон купил",
+                "для своей дочери, верно?"
               ],
               "Type": 0,
               "Position": 0
@@ -48354,7 +48361,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "Hmph.<PAUSE:3> What else would<SOUND:CLUE> it be for?"
+                "Гм.<PAUSE:3> Да, для чего же<SOUND:CLUE> ещё?"
               ],
               "Type": 0,
               "Position": 0
@@ -48362,8 +48369,8 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "I assure you, Talon wasn't the type to",
-                "indulge in perfumes.<PAUSE:3><DI><SOUND:WHAP> Far from it!"
+                "Я вас уверяю, Талон парфюмерией",
+                "не увлекался.<PAUSE:3><DI><SOUND:WHAP> Даже наоборот!"
               ],
               "Type": 0,
               "Position": 0
@@ -48371,7 +48378,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Well, you're wrong, witness."
+                "Что ж, вы ошибаетесь, свидетель."
               ],
               "Type": 0,
               "Position": 0
@@ -48379,8 +48386,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Oh, is that so?<PAUSE:3> Was the ranch owner",
-                "truly a<SOUND:HINT> perfume connoisseur?"
+                "Ох, так ли?<PAUSE:3> Владелец ранчо всё-таки",
+                "был настоящим<SOUND:HINT> ценителем духов?"
               ],
               "Type": 0,
               "Position": 0
@@ -48388,7 +48395,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "No, Your Honour..."
+                "Нет, Ваша честь..."
               ],
               "Type": 0,
               "Position": 0
@@ -48396,8 +48403,8 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:DON><DI>This bottle of perfume was bought for",
-                "the princess!!"
+                "<SOUND:DON><DI>Эту бутылку с духами купили для",
+                "принцессы!!"
               ],
               "Type": 0,
               "Position": 0
@@ -48413,7 +48420,7 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "So what, Defence?"
+                "И что, защита?"
               ],
               "Type": 0,
               "Position": 0
@@ -48421,9 +48428,9 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Sure, it's technically a contradiction...<PAUSE:5> ",
-                "But what does the purpose of this",
-                "bottle change?"
+                "Допустим, это, технически,",
+                "противоречие...<PAUSE:5> ",
+                "Но что меняет назначение бутылки?"
               ],
               "Type": 0,
               "Position": 0
@@ -48431,9 +48438,9 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Yes, Defence. I admit, I'm confused",
-                "as well.<PAUSE:3> Please explain why this point",
-                "is important."
+                "Да, защита. Должен признать, я",
+                "тоже в замешательстве.<PAUSE:3> Пожалуйста,",
+                "объясните, почему это важно."
               ],
               "Type": 0,
               "Position": 0
@@ -48441,11 +48448,11 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "Earlier in the trial, Malon mentioned",
-                "that Talon bought this perfume in",
-                "preparation last minute.",
+                "Ранее в заседании, Малон упомянула,",
+                "что Талон купил эти духи в торопях",
+                "в последнюю минуту.",
                 "<NEW_BOX>",
-                " Isn't that right, Malon?"
+                "Верно, Малон?"
               ],
               "Type": 0,
               "Position": 0
@@ -48453,13 +48460,12 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP>It sure is!<PAUSE:3> We had a gift for the King",
-                "prepared when the news arrived that",
-                "it would actually be the princess",
-                "making this visitation.",
+                "<SOUND:WHAP>Ага!<PAUSE:3> У нас был готов подарок для",
+                "короля, а потом дошли новости,",
+                "что приедет всё-таки принцесса.",
                 "<NEW_BOX>",
-                "Father quickly rode out into town to",
-                "get a new gift."
+                "Отец быстро выехал в город за",
+                "новым подарком."
               ],
               "Type": 0,
               "Position": 0
@@ -48467,10 +48473,10 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "This info puts one thing into question...",
-                "<THREE_CHOICES><G>Talon's taste in gifts",
-                "Somebody's movements",
-                "The princess's testimony"
+                "Это ставит под вопрос...",
+                "<THREE_CHOICES><G>Вкус в подарках Талона",
+                "Чьё-то передвижение",
+                "Показания принцессы"
               ],
               "Type": 0,
               "Position": 0
@@ -48478,9 +48484,10 @@
             {
               "Name": "A1_LINK10",
               "MessageTextLines": [
-                "Giving someone perfume is a very",
-                "rude gesture.<PAUSE:5> It practically says<PAUSE:2> <SOUND:WHAP><DI>\"you",
-                "smell terrible\"<PAUSE:2> straight to their face."
+                "Дарить кому-то духи <EMDASH> это очень",
+                "грубый жест.<PAUSE:5> Это всё равно, что",
+                "сказать<PAUSE:2> <SOUND:WHAP><DI>«Вы ужасно пахнете»<PAUSE:2>",
+                "кому-то в лицо."
               ],
               "Type": 0,
               "Position": 0
@@ -48488,9 +48495,9 @@
             {
               "Name": "A1_LINK20",
               "MessageTextLines": [
-                "Just what were Talon's true intentions?<PAUSE:5> ",
-                "Did he perhaps intend to<SOUND:WHAP> offend the",
-                "Crown into ending their partnership?"
+                "Что на самом деле задумал Талон?<PAUSE:5> ",
+                "Может, он хотел<SOUND:WHAP> оскорбить корону",
+                "и закончить с ней сотрудничество?"
               ],
               "Type": 0,
               "Position": 0
@@ -48498,8 +48505,8 @@
             {
               "Name": "A1_LINK30",
               "MessageTextLines": [
-                "<SOUND:DON>This bottle of perfume calls the good",
-                "character of the victim into question!"
+                "<SOUND:DON>Эта бутылка с духами ставит под",
+                "вопрос характер жертвы!"
               ],
               "Type": 0,
               "Position": 0
@@ -48507,8 +48514,8 @@
             {
               "Name": "A1_JUDGE10",
               "MessageTextLines": [
-                "Is that true?<PAUSE:5> Why, I get bottles of",
-                "cologne every year on my birthday!"
+                "Это правда?<PAUSE:5> Ого, но мне каждый год",
+                "дарят одеколон на день рождения!"
               ],
               "Type": 0,
               "Position": 0
@@ -48516,7 +48523,7 @@
             {
               "Name": "A1_JUDGE20",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:CLUE>Does everyone truly...?<FADE:20>"
+                "<PAUSE:5><SOUND:CLUE>Все правда...?<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -48524,10 +48531,9 @@
             {
               "Name": "A1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah, what nonsense.<PAUSE:3> We are in a",
-                "court of law!<PAUSE:3> Your personal opinions",
-                "about what makes a good gift are",
-                "irrelevant!"
+                "<SOUND:EXPLOSION>Ба, что за чепуха.<PAUSE:3> Мы на заседании",
+                "суда!<PAUSE:3> Твоё личное мнение о том, что",
+                "надо дарить, нам даром не нужно!"
               ],
               "Type": 0,
               "Position": 0
@@ -48535,8 +48541,8 @@
             {
               "Name": "A1_DRAGMIRE20",
               "MessageTextLines": [
-                "I regularly receive the finest Gerudo",
-                "perfumes myself."
+                "Мне, например, регулярно дарят",
+                "лучшие духи Герудо."
               ],
               "Type": 0,
               "Position": 0
@@ -48544,9 +48550,9 @@
             {
               "Name": "A1_DRAGMIRE30",
               "MessageTextLines": [
-                "The notion that someone of my calibre",
-                "would smell unpleasant...<PAUSE:0><PAUSE:5> ",
-                "<DI>It is preposterous!"
+                "Сама идея о том, что кто-то моего",
+                "калибра может неприятно пахнуть...<PAUSE:0><PAUSE:5> ",
+                "<DI>Просто возмутительно!"
               ],
               "Type": 0,
               "Position": 0
@@ -48554,9 +48560,9 @@
             {
               "Name": "A1_DRAGMIRE40",
               "MessageTextLines": [
-                "Your Honour, I request the defence",
-                "be penalised for this blatant disregard",
-                "of the court's time."
+                "Ваша честь, прошу покарать защиту",
+                "за это вопиющее пренебрежение",
+                "временем заседания."
               ],
               "Type": 0,
               "Position": 0
@@ -48564,9 +48570,9 @@
             {
               "Name": "A1_MALON10",
               "MessageTextLines": [
-                "For once, I agree with the arrogant",
-                "prosecutor.<PAUSE:3> <SOUND:EXPLOSION>Please don't say such",
-                "judgemental things, Link."
+                "Даже я согласна с прокурором.<PAUSE:3>",
+                "<SOUND:EXPLOSION>Пожалуйста, не говори такие",
+                "осуждающие вещи, Линк."
               ],
               "Type": 0,
               "Position": 0
@@ -48574,7 +48580,7 @@
             {
               "Name": "A1_LINK40",
               "MessageTextLines": [
-                "Hey, whose side are you on, here?!"
+                "Эй, на чей ты стороне?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48582,9 +48588,9 @@
             {
               "Name": "A1_JUDGE30",
               "MessageTextLines": [
-                "The court seems to be in agreement.",
-                "Defence, be more mindful of the things",
-                "you say."
+                "Суд пришёл к согласию. Защита,",
+                "пожалуйста, будьте аккуратнее",
+                "с тем, что Вы говорите."
               ],
               "Type": 0,
               "Position": 0
@@ -48592,7 +48598,7 @@
             {
               "Name": "AF_LINK10",
               "MessageTextLines": [
-                "Er...<PAUSE:3><SPEED:101> heh heh, sorry.<SPEED:102>"
+                "Э...<PAUSE:3><SPEED:101> хе-хе, извините.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48600,10 +48606,10 @@
             {
               "Name": "AF_LINK20",
               "MessageTextLines": [
-                "But that's not the only thing!<PAUSE:5> ",
-                "The fact that the perfume was bought",
-                "<R>at the last minute<W> causes an even bigger",
-                "problem!"
+                "Но это ещё не всё!<PAUSE:5> ",
+                "То, что духи купили <R>в последнюю",
+                "минуту<W> вызывает ещё большую",
+                "проблему!"
               ],
               "Type": 0,
               "Position": 0
@@ -48611,10 +48617,10 @@
             {
               "Name": "AF_LINK30",
               "MessageTextLines": [
-                "It puts one thing into question...",
-                "<THREE_CHOICES><G>Talon's taste in gifts",
-                "Somebody's movements",
-                "The princess's testimony"
+                "Это ставит под вопрос...",
+                "<THREE_CHOICES><G>Вкус в подарках Талона",
+                "Чьё-то передвижение",
+                "Показания принцессы"
               ],
               "Type": 0,
               "Position": 0
@@ -48622,8 +48628,8 @@
             {
               "Name": "A3_LINK10",
               "MessageTextLines": [
-                "Once again, Her Highness's testimony",
-                "must be wrong!"
+                "В очередной раз, принцесса, должно",
+                "быть, ошиблась в показаниях!"
               ],
               "Type": 0,
               "Position": 0
@@ -48631,8 +48637,8 @@
             {
               "Name": "A3_DRAGMIRE10",
               "MessageTextLines": [
-                "The princess <SOUND:CLUE>did mention seeing the",
-                "perfume bottle in the ranch house..."
+                "Принцесса <SOUND:CLUE>и правда упомянула,",
+                "что видела духи в доме на ранчо..."
               ],
               "Type": 0,
               "Position": 0
@@ -48640,8 +48646,8 @@
             {
               "Name": "A3_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>How does that contradict what this",
-                "witness said at all?!"
+                "<SOUND:EXPLOSION>Но каким боком это противоречит",
+                "словам свидетеля?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48649,7 +48655,7 @@
             {
               "Name": "A3_LINK20",
               "MessageTextLines": [
-                "Er...<PAUSE:5> uh..."
+                "Э...<PAUSE:5> гм..."
               ],
               "Type": 0,
               "Position": 0
@@ -48657,7 +48663,7 @@
             {
               "Name": "A3_LINK30",
               "MessageTextLines": [
-                "It doesn't, does it...?"
+                "Никаким, да...?"
               ],
               "Type": 0,
               "Position": 0
@@ -48665,9 +48671,9 @@
             {
               "Name": "A3_JUDGE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Defence!<PAUSE:5> I will not have you turning",
-                "the princess into a scapegoat for",
-                "every little problem that comes up!"
+                "<SOUND:WHAP><DI>Защита!<PAUSE:5> Вы не можете делать из",
+                "принцессы козла отпущения для",
+                "каждой малейшей несостыковки!"
               ],
               "Type": 0,
               "Position": 0
@@ -48675,9 +48681,9 @@
             {
               "Name": "AF_LINK20_ALT",
               "MessageTextLines": [
-                "But even so, the fact that the perfume",
-                "was bought <R>at the last minute<W> still",
-                "causes a big problem!"
+                "Но всё же, факт того, что духи",
+                "купили <R>в последнюю минуту<W>,",
+                "вызывает большую проблему!"
               ],
               "Type": 0,
               "Position": 0
@@ -48685,8 +48691,8 @@
             {
               "Name": "A2_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Someone's movements around the",
-                "ranch are put into serious doubt!"
+                "<SOUND:WHAP>Чьё-то передвижение по ранчо",
+                "ставится под большое сомнение!"
               ],
               "Type": 0,
               "Position": 0
@@ -48694,9 +48700,9 @@
             {
               "Name": "A2_JUDGE10",
               "MessageTextLines": [
-                "\"Someone's\"?<PAUSE:5> ",
-                "Well, don't keep us waiting, then,",
-                "Defence!<PAUSE:3> Who is this person?"
+                "«Чьё-то»?<PAUSE:5> ",
+                "Ну же, не заставляйте нас ждать,",
+                "защита!<PAUSE:3> Кого Вы имеете в виду?"
               ],
               "Type": 0,
               "Position": 0
@@ -48704,8 +48710,8 @@
             {
               "Name": "A2_LINK20",
               "MessageTextLines": [
-                "<G>Naturally, the person whose movements",
-                "become suspect is...<PERSISTENT>"
+                "<G>Само собой, человек, чьё движение",
+                "оказывается подозрительным, это...<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -48713,7 +48719,7 @@
             {
               "Name": "A2_M_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Malon!"
+                "<SOUND:WHAP><DI>Малон!"
               ],
               "Type": 0,
               "Position": 0
@@ -48721,7 +48727,7 @@
             {
               "Name": "A2_M_MALON10",
               "MessageTextLines": [
-                "What?!<PAUSE:4> <SOUND:EXPLOSION><DI>ME?!"
+                "Что?!<PAUSE:4> <SOUND:EXPLOSION><DI>*Я*?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48729,12 +48735,12 @@
             {
               "Name": "A2_M_LINK20",
               "MessageTextLines": [
-                "Of course!<PAUSE:3> You told me that the",
-                "perfume, which was found <R>at the crime",
-                "scene<W>, was a last-minute gift!",
+                "Конечно!<PAUSE:3> Ты сказала, что духи,",
+                "найденные <R>на месте преступления<W>,",
+                "купили в последнюю минуту!",
                 "<NEW_BOX>",
-                "But how could you have known that...<PAUSE:3> ",
-                "<SPEED:103>unless you went there?!<SPEED:102>"
+                "Но откуда ты это знала...<PAUSE:3> ",
+                "<SPEED:103>кроме как если ты сама была там?!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48742,9 +48748,9 @@
             {
               "Name": "A2_M_MALON20",
               "MessageTextLines": [
-                "I saw Father at the house just before",
-                "I went to do that last check around",
-                "the ranch!<PAUSE:3> <SOUND:WHAP><DI>That's when he told me!"
+                "Я увидела отца в доме перед тем,",
+                "как обойти ранчо на последок!<PAUSE:3>",
+                "<SOUND:WHAP><DI>Вот тогда он и рассказал мне!"
               ],
               "Type": 0,
               "Position": 0
@@ -48752,7 +48758,7 @@
             {
               "Name": "A2_M_LINK30",
               "MessageTextLines": [
-                "<SPEED:101>Oh...<PAUSE:2> that makes sense.<SPEED:102>"
+                "<SPEED:101>А...<PAUSE:2> понятно.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -48760,9 +48766,9 @@
             {
               "Name": "A2_M_MALON30",
               "MessageTextLines": [
-                "Come on, Link!<PAUSE:2> ",
-                "You're supposed to be on my side here!<PAUSE:2> ",
-                "<SOUND:EXPLOSION><DI>Wake up, will you?!"
+                "Ну же, Линк!<PAUSE:2> ",
+                "Ты же на моей стороне!<PAUSE:2> ",
+                "<SOUND:EXPLOSION><DI>Просыпайся давай!"
               ],
               "Type": 0,
               "Position": 0
@@ -48770,9 +48776,9 @@
             {
               "Name": "A2_M_DRAGMIRE10",
               "MessageTextLines": [
-                "Masterful job accusing your own",
-                "client, Defence!<PAUSE:3> ",
-                "Am I even needed here anymore?"
+                "Отличная работа <EMDASH> так обвинить",
+                "своего же клиента!<PAUSE:3> ",
+                "Я тут точно всё ещё нужен?"
               ],
               "Type": 0,
               "Position": 0
@@ -48780,8 +48786,8 @@
             {
               "Name": "A2_M_LINK40",
               "MessageTextLines": [
-                "<C>(Why DID I say that?<PAUSE:3> I shouldn't act",
-                "on my impulsive thoughts...)"
+                "<C>(ЗАЧЕМ я это сказал?<PAUSE:3> Не стоит",
+                "поддаваться навязчивым мыслям...)"
               ],
               "Type": 0,
               "Position": 0
@@ -48789,7 +48795,7 @@
             {
               "Name": "A2_T_LINK10",
               "MessageTextLines": [
-                "The owner of the ranch,<PAUSE> <SOUND:WHAP><DI>Talon!"
+                "Это владелец ранчо,<PAUSE> <SOUND:WHAP><DI>Талон!"
               ],
               "Type": 0,
               "Position": 0
@@ -48797,7 +48803,7 @@
             {
               "Name": "A2_T_JUDGE10",
               "MessageTextLines": [
-                "<SOUND:CLUE>The victim?<PAUSE:3> How so, Defence?"
+                "<SOUND:CLUE>Жертва?<PAUSE:3> Почему, защита?"
               ],
               "Type": 0,
               "Position": 0
@@ -48805,9 +48811,9 @@
             {
               "Name": "A2_T_LINK20",
               "MessageTextLines": [
-                "Um, if the victim went out to buy the",
-                "perfume bottle, he should've...<PAUSE:3> ",
-                "not been there to get killed?"
+                "Э, ну, если погибший пошёл покупать",
+                "духи, то он...<PAUSE:3> не мог присутствовать,",
+                "пока его убивали?"
               ],
               "Type": 0,
               "Position": 0
@@ -48815,7 +48821,7 @@
             {
               "Name": "A2_T_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:DON><DI>What?!"
+                "<SOUND:DON><DI>Что?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48823,8 +48829,8 @@
             {
               "Name": "A2_T_DRAGMIRE10",
               "MessageTextLines": [
-                "Defence, are you proposing that the",
-                "victim hasn't actually died...?"
+                "Защита, хочешь сказать, что",
+                "жертва-таки не умерла...?"
               ],
               "Type": 0,
               "Position": 0
@@ -48832,7 +48838,7 @@
             {
               "Name": "A2_T_LINK30",
               "MessageTextLines": [
-                "Well, I, uh..."
+                "Ну, я, э-э..."
               ],
               "Type": 0,
               "Position": 0
@@ -48840,12 +48846,11 @@
             {
               "Name": "A2_T_DRAGMIRE20",
               "MessageTextLines": [
-                "Of course!",
-                "<NEW_BOX>",
-                "Why, perhaps we should send out a",
-                "rescue party!<PAUSE:2> He may still be stuck",
-                "in the labyrinth that is the local",
-                "perfume store!"
+                "Конечно!<NEW_BOX>",
+                "Хмм, может нам стоит отправить",
+                "спасательный отряд!<PAUSE:2> Вдруг он до",
+                "сих пор застрял в лабиринте полок",
+                "местного магазина духов!"
               ],
               "Type": 0,
               "Position": 0
@@ -48853,9 +48858,9 @@
             {
               "Name": "A2_T_DRAGMIRE30",
               "MessageTextLines": [
-                "Meanwhile, the defence can try to",
-                "get out of the labyrinth that is their",
-                "own convoluted mind."
+                "Защита, тем временем, пусть",
+                "попробует выпутаться из лабиринта",
+                "своих запутанных мыслей."
               ],
               "Type": 0,
               "Position": 0
@@ -48863,7 +48868,7 @@
             {
               "Name": "A2_W_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>This person!"
+                "<SOUND:WHAP><DI>Вот, этого человека!"
               ],
               "Type": 0,
               "Position": 0
@@ -48871,10 +48876,10 @@
             {
               "Name": "A2_W_DRAGMIRE5",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>What are you talking about?!",
+                "<SOUND:EXPLOSION>Что ты несёшь?!",
                 "<NEW_BOX>",
-                "Sure, Ingo saw the eleventh-hour gift",
-                "for the princess at the ranch house."
+                "Да, допустим, Инго увидел в доме",
+                "запоздалый подарок для принцессы."
               ],
               "Type": 0,
               "Position": 0
@@ -48882,8 +48887,8 @@
             {
               "Name": "A2_W_DRAGMIRE10",
               "MessageTextLines": [
-                "How does that change ANYTHING about",
-                "where this person must have been?!"
+                "Разве это влияет хоть КАК-ТО на",
+                "то, где мог быть этот человек?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48891,9 +48896,8 @@
             {
               "Name": "A2_W_JUDGE10",
               "MessageTextLines": [
-                "Yes, Defence, I am quite confused",
-                "as to what scenario you're trying to",
-                "paint here..."
+                "Да, защита. Я не понимаю, какую",
+                "картину вы пытаетесь представить..."
               ],
               "Type": 0,
               "Position": 0
@@ -48901,8 +48905,7 @@
             {
               "Name": "A2_W_LINK20",
               "MessageTextLines": [
-                "<C>(Maybe it's time for me to switch to a",
-                "different brush, then...)"
+                "<C>(Значит, пора мне сменить кисть...)"
               ],
               "Type": 0,
               "Position": 0
@@ -48910,14 +48913,14 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "...The witness himself.",
+                "...Это сам свидетель.",
                 "<NEW_BOX>",
-                "If you recall, this bottle of perfume,",
-                "which had <SOUND:CLUE><R>just<W> been purchased, was",
-                "found at the crime scene...",
+                "Вы можете вспомнить, что эти духи,",
+                "которые тогда <SOUND:CLUE><R>только что<W> купили,",
+                "нашли на месте преступления...",
                 "<NEW_BOX>",
-                "A crime scene the witness supposedly",
-                "never went to!"
+                "Месте преступления, куда свидетель",
+                "предположительно ноги не ступал!"
               ],
               "Type": 0,
               "Position": 0
@@ -48925,8 +48928,7 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "<SOUND:DON><DI>He shouldn't have known about the",
-                "bottle!"
+                "<SOUND:DON><DI>Он не мог знать о бутылочке!"
               ],
               "Type": 0,
               "Position": 0
@@ -48934,7 +48936,7 @@
             {
               "Name": "INGO50",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Aaaaaaaaaaah!"
+                "<SOUND:EXPLOSION><DI>А-а-а-а-а-а!"
               ],
               "Type": 0,
               "Position": 0
@@ -48942,7 +48944,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Order! Order!!"
+                "Порядок! Порядок!!"
               ],
               "Type": 0,
               "Position": 0
@@ -48950,7 +48952,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "The defence raises a very valid point!"
+                "Сторона защиты поднимает очень",
+                "хороший вопрос!"
               ],
               "Type": 0,
               "Position": 0
@@ -48958,8 +48961,7 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>You simpleton! What is the meaning of",
-                "this?!"
+                "<SOUND:EXPLOSION>Ах ты тугодум! Что это значит?!"
               ],
               "Type": 0,
               "Position": 0
@@ -48967,8 +48969,8 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "Well, witness?<PAUSE:3> <SOUND:WHAP>Did you go to the scene",
-                "of the crime at any point?"
+                "Ну, свидетель?<PAUSE:3> <SOUND:WHAP>Вы были на месте",
+                "преступления?"
               ],
               "Type": 0,
               "Position": 0
@@ -48976,8 +48978,8 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "N... no!<SOUND:WHAP> Of course I didn't!<PAUSE:3> <DI>I was",
-                "working in the silo all day!"
+                "Н... нет!<SOUND:WHAP> Конечно не был!<PAUSE:3> <DI>Я весь",
+                "день работал в силосной башне!"
               ],
               "Type": 0,
               "Position": 0
@@ -48985,8 +48987,8 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>I remember!<PAUSE:3> <DC>I saw the gift the day",
-                "before the crime!"
+                "<SOUND:WHAP><DI>Вспомнил!<PAUSE:3> <DC>Я увидел подарок за день",
+                "до преступления!"
               ],
               "Type": 0,
               "Position": 0
@@ -48994,8 +48996,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "The girl is lying! Talon must've gotten",
-                "the gift the day before!"
+                "Девушка врёт! Талон точно купил",
+                "подарок в прошлый день!"
               ],
               "Type": 0,
               "Position": 0
@@ -49003,9 +49005,9 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "You're the one who's lying!",
-                "<SOUND:EXPLOSION>Father didn't leave the ranch at all",
-                "that day!"
+                "Это Вы врёте!",
+                "<SOUND:EXPLOSION>Отец в тот день из ранчо вообще не",
+                "выходил!"
               ],
               "Type": 0,
               "Position": 0
@@ -49013,7 +49015,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Hrmm. One's word against another's."
+                "Хрмм. Одни слова против других."
               ],
               "Type": 0,
               "Position": 0
@@ -49021,10 +49023,10 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Defence.",
+                "Защита.",
                 "<NEW_BOX>",
-                "Do you have any way to prove that",
-                "your version of events is true?"
+                "Можете ли Вы доказать, что Ваша",
+                "версия событий достоверна?"
               ],
               "Type": 0,
               "Position": 0
@@ -49032,10 +49034,10 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "Hmm...<THREE_CHOICES>",
-                "<G>Ask at the store",
-                "Find the receipt",
-                "Smell the perfume"
+                "Хмм...<THREE_CHOICES>",
+                "<G>Спросить в магазине",
+                "Найти чек",
+                "Понюхать духи"
               ],
               "Type": 0,
               "Position": 0
@@ -49043,9 +49045,9 @@
             {
               "Name": "A4_LINK10",
               "MessageTextLines": [
-                "Why don't we send a soldier to ask",
-                "the store owner when the bottle was",
-                "bought?"
+                "Почему бы не послать стражника",
+                "в магазин, спросить, когда купили",
+                "эту бутылочку?"
               ],
               "Type": 0,
               "Position": 0
@@ -49053,11 +49055,13 @@
             {
               "Name": "A4_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:3> Do you know how many people",
-                "visit that store?",
+                "<SOUND:EXPLOSION>Ба!<PAUSE:3> Ты вообще представляешь,",
+                "сколько человек посещают этот",
+                "магазин?",
                 "<NEW_BOX>",
-                "It's inconceivable that the owner would",
-                "remember every random purchase!"
+                "Совершенно исключено, чтобы",
+                "владелец магазина запоминал",
+                "все покупки подряд!"
               ],
               "Type": 0,
               "Position": 0
@@ -49065,7 +49069,7 @@
             {
               "Name": "A4_LINK20",
               "MessageTextLines": [
-                "Ah..."
+                "А..."
               ],
               "Type": 0,
               "Position": 0
@@ -49073,7 +49077,7 @@
             {
               "Name": "A4_JUDGE10",
               "MessageTextLines": [
-                "Any other ideas, Defence?"
+                "Какие ещё идеи, защита?"
               ],
               "Type": 0,
               "Position": 0
@@ -49081,7 +49085,8 @@
             {
               "Name": "B4_LINK10",
               "MessageTextLines": [
-                "Why, we should just smell the perfume."
+                "Ну же <EMDASH> достаточно лишь понюхать",
+                "духи."
               ],
               "Type": 0,
               "Position": 0
@@ -49089,7 +49094,7 @@
             {
               "Name": "B4_DRAGMIRE10",
               "MessageTextLines": [
-                "...What?"
+                "...Чего?"
               ],
               "Type": 0,
               "Position": 0
@@ -49097,8 +49102,9 @@
             {
               "Name": "B4_LINK20",
               "MessageTextLines": [
-                "All shall be revealed if we just smell it!<PAUSE:5> ",
-                "<SOUND:HINT>Your Honour, if you would?"
+                "Нужно лишь понюхать их, и",
+                "всё станет на свои места!<PAUSE:5> ",
+                "<SOUND:HINT>Ваша честь, соизволите?"
               ],
               "Type": 0,
               "Position": 0
@@ -49106,7 +49112,7 @@
             {
               "Name": "B4_JUDGE10",
               "MessageTextLines": [
-                "Er, well, if you say so, Defence..."
+                "Э, ну, если вы настаиваете, защита..."
               ],
               "Type": 0,
               "Position": 0
@@ -49114,7 +49120,7 @@
             {
               "Name": "B4_JUDGE15",
               "MessageTextLines": [
-                "Here goes..."
+                "И так..."
               ],
               "Type": 0,
               "Position": 0
@@ -49122,7 +49128,7 @@
             {
               "Name": "B4_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:HINT>Oh, it's quite lovely."
+                "<SOUND:HINT>О, как приятно пахнет."
               ],
               "Type": 0,
               "Position": 0
@@ -49130,8 +49136,8 @@
             {
               "Name": "B4_LINK30",
               "MessageTextLines": [
-                "<C>(Huh. Seems like Talon had quite the",
-                "nose to pick this one out.)"
+                "<C>(Ого. Ну и нюх у Талона, что он",
+                "так хорошо подобрал аромат.)"
               ],
               "Type": 0,
               "Position": 0
@@ -49139,8 +49145,8 @@
             {
               "Name": "B4_DRAGMIRE20",
               "MessageTextLines": [
-                "Great.<PAUSE:3> You got the courtroom to smell",
-                "like a Kikwi's behind."
+                "Великолепно.<PAUSE:3> Теперь зал суда",
+                "пахнет, словно зад у кикви."
               ],
               "Type": 0,
               "Position": 0
@@ -49148,7 +49154,7 @@
             {
               "Name": "B4_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:CLUE>Now what?"
+                "<SOUND:CLUE>Теперь что?"
               ],
               "Type": 0,
               "Position": 0
@@ -49156,7 +49162,7 @@
             {
               "Name": "B4_LINK40",
               "MessageTextLines": [
-                "Eh...?"
+                "Э...?"
               ],
               "Type": 0,
               "Position": 0
@@ -49164,9 +49170,9 @@
             {
               "Name": "B4_DRAGMIRE40",
               "MessageTextLines": [
-                "How does this prove anything,",
-                "Defence?<PAUSE:3> <SOUND:EXPLOSION>Surely there was a purpose",
-                "to this whole exercise?"
+                "Что это доказывает, защита?<PAUSE:3>",
+                "<SOUND:EXPLOSION>Конечно же, мы не просто так это",
+                "проделали, да?"
               ],
               "Type": 0,
               "Position": 0
@@ -49174,7 +49180,7 @@
             {
               "Name": "B4_LINK50",
               "MessageTextLines": [
-                "I, uh, that is...<PAUSE:3> Well."
+                "Я, эм, то есть...<PAUSE:3> Ну."
               ],
               "Type": 0,
               "Position": 0
@@ -49182,8 +49188,8 @@
             {
               "Name": "B4_LINK60",
               "MessageTextLines": [
-                "<SOUND:CLUE>The smell is very strong, so the",
-                "perfume can't be that old?"
+                "<SOUND:CLUE>Запах всё ещё силён, так что",
+                "духи не могли купить давно?"
               ],
               "Type": 0,
               "Position": 0
@@ -49191,8 +49197,8 @@
             {
               "Name": "B4_DRAGMIRE50",
               "MessageTextLines": [
-                "Perfumes have a longer shelf life than",
-                "just a couple days, <SOUND:EXPLOSION>you idiot."
+                "У духов срок годности больше, чем",
+                "пару дней, <SOUND:EXPLOSION>придурок."
               ],
               "Type": 0,
               "Position": 0
@@ -49200,7 +49206,7 @@
             {
               "Name": "B4_LINK70",
               "MessageTextLines": [
-                "...<PAUSE:5>Right."
+                "...<PAUSE:5>Да."
               ],
               "Type": 0,
               "Position": 0
@@ -49208,8 +49214,8 @@
             {
               "Name": "B4_LINK80",
               "MessageTextLines": [
-                "<C>(Yeah, I'm not really sure what I was",
-                "thinking that would accomplish.)"
+                "<C>(Да, я теперь и сам не уверен,",
+                "чего собирался этим добиться.)"
               ],
               "Type": 0,
               "Position": 0
@@ -49217,9 +49223,8 @@
             {
               "Name": "B4_JUDGE30",
               "MessageTextLines": [
-                "Well, the courtroom smells nicer...<PAUSE:3> ",
-                "but that won't get you out of this",
-                "penalty."
+                "Что ж, зал теперь пахнет лучше...<PAUSE:3> ",
+                "но от наказания Вас это не спасёт."
               ],
               "Type": 0,
               "Position": 0
@@ -49227,8 +49232,8 @@
             {
               "Name": "B4_DRAGMIRE60",
               "MessageTextLines": [
-                "Oh, this is just too good.",
-                "Any other bright ideas?"
+                "Ох, просто прекрасно.",
+                "Идеи получше есть?"
               ],
               "Type": 0,
               "Position": 0
@@ -49236,8 +49241,8 @@
             {
               "Name": "B5_LINK10",
               "MessageTextLines": [
-                "It's simple!<PAUSE:5> We should just smell",
-                "the perfume!"
+                "Всё просто!<PAUSE:5> Нужно просто",
+                "понюхать духи!"
               ],
               "Type": 0,
               "Position": 0
@@ -49245,7 +49250,7 @@
             {
               "Name": "B5_JUDGE10",
               "MessageTextLines": [
-                "...But...<PAUSE:5><SOUND:CLUE> we just did that?"
+                "...Но...<PAUSE:5><SOUND:CLUE> мы уже их понюхали?"
               ],
               "Type": 0,
               "Position": 0
@@ -49253,8 +49258,8 @@
             {
               "Name": "B5_JUDGE20",
               "MessageTextLines": [
-                "I will not have you implying my",
-                "courtroom smells bad,<SOUND:WHAP> Defence!"
+                "Я не потерплю намёков на то, что",
+                "мой зал суда плохо пахнет,<SOUND:WHAP> защита!"
               ],
               "Type": 0,
               "Position": 0
@@ -49262,8 +49267,8 @@
             {
               "Name": "B5_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><SPEED:103>Are you trying to get us to pass out",
-                "from the fumes?!<SPEED:102>"
+                "<SOUND:EXPLOSION><SPEED:103>Ты что, хочешь чтобы мы от этих",
+                "паров сознание потеряли?!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -49271,7 +49276,7 @@
             {
               "Name": "B5_DRAGMIRE20",
               "MessageTextLines": [
-                "Judge, penalty!"
+                "Судья, наказывай!"
               ],
               "Type": 0,
               "Position": 0
@@ -49279,7 +49284,7 @@
             {
               "Name": "B5_LINK20",
               "MessageTextLines": [
-                "<C><SOUND:0>(*sniff*)"
+                "<C><SOUND:0>(*шмыг*)"
               ],
               "Type": 0,
               "Position": 0
@@ -49287,9 +49292,9 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "When you buy something, you usually",
-                "get a receipt.<PAUSE:5> And the receipt always",
-                "shows the date of purchase."
+                "В магазинах после покупки обычно",
+                "выдают чек.<PAUSE:5> На этом чеке всегда",
+                "написана дата покупки."
               ],
               "Type": 0,
               "Position": 0
@@ -49297,8 +49302,9 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>It might still be at the ranch house!<PAUSE:5> ",
-                "I say we send someone out to look for it."
+                "<SOUND:WHAP><DI>Он ещё мог остаться на ранчо!<PAUSE:5> ",
+                "Предлагаю послать кого-нибудь",
+                "найти его."
               ],
               "Type": 0,
               "Position": 0
@@ -49306,9 +49312,9 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "<SOUND:HINT>Father never throws receipts away!<PAUSE:5> ",
-                "We have a drawer full of them.<PAUSE:5> The",
-                "perfume one should be right on top!"
+                "<SOUND:HINT>Отец никогда не выбрасывал чеки!<PAUSE:5> ",
+                "У ими целый комод набит.<PAUSE:5> Чек от",
+                "духов должен быть в самом верху!"
               ],
               "Type": 0,
               "Position": 0
@@ -49316,7 +49322,7 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "Hmm."
+                "Хмм."
               ],
               "Type": 0,
               "Position": 0
@@ -49324,10 +49330,10 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "I believe this idea has some merit.",
+                "Думаю, эта идея нам подходит.",
                 "<NEW_BOX>",
-                "<SOUND:WHAP>Soldiers!<PAUSE:5> Rush out to the ranch house",
-                "immediately and search for that receipt!<SQUARE>"
+                "<SOUND:WHAP>Стража!<PAUSE:5> Скорее отправляйтесь в",
+                "дом на ранчо и найдите этот чек!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -49335,10 +49341,9 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "We shall hold another recess while we",
-                "wait.",
-                "<NEW_BOX>",
-                "Court is adjourned!"
+                "Мы, тем временем, проведём ещё",
+                "один перерыв.",
+                "<NEW_BOX>Заседание прерывается!"
               ],
               "Type": 0,
               "Position": 0
@@ -49346,7 +49351,7 @@
             {
               "Name": "SOLDIER10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Your Honour!"
+                "<SOUND:WHAP>Ваша честь!"
               ],
               "Type": 0,
               "Position": 0
@@ -49354,7 +49359,7 @@
             {
               "Name": "JUDGE100",
               "MessageTextLines": [
-                "Yes?<PAUSE:4> What is it, soldier?"
+                "Да?<PAUSE:4> В чём дело, стражник?"
               ],
               "Type": 0,
               "Position": 0
@@ -49362,8 +49367,8 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "We have just received the receipt from",
-                "the team stationed at the crime scene!"
+                "Отряд на месте преступления",
+                "передал нам чек!"
               ],
               "Type": 0,
               "Position": 0
@@ -49379,8 +49384,8 @@
             {
               "Name": "JUDGE120",
               "MessageTextLines": [
-                "Very well!<PAUSE:3> Thank you.<PAUSE:5> ",
-                "I shall now read it out."
+                "Очень хорошо!<PAUSE:3> Благодарю.<PAUSE:5> ",
+                "Теперь я прочту его."
               ],
               "Type": 0,
               "Position": 0
@@ -49388,7 +49393,7 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "<SOUND:0><C>(There's a lot riding on this...)"
+                "<SOUND:0><C>(Столько держится на этом...)"
               ],
               "Type": 0,
               "Position": 0
@@ -49396,8 +49401,9 @@
             {
               "Name": "JUDGE130",
               "MessageTextLines": [
-                "*ahem*",
-                "From...<PAUSE:5> <SOUND:CLUE><R>\"Tingle's Mysterious Smells\"<W>..."
+                "*кхм*",
+                "Из магазина...<PAUSE:5> <SOUND:CLUE><R>«Таинственные",
+                "запахи Тингла»<W>..."
               ],
               "Type": 0,
               "Position": 0
@@ -49405,9 +49411,9 @@
             {
               "Name": "JUDGE140",
               "MessageTextLines": [
-                "Ah, yes.<PAUSE:2> I think I've seen that store.<PAUSE:2> ",
-                "It's that...<PAUSE:3> eccentric-looking place in",
-                "the back alley."
+                "Ах, точно.<PAUSE:2> Я, кажется, видел тот",
+                "магазин.<PAUSE:2> Такое...<PAUSE:3> экстравагантное",
+                "местечко на задворках."
               ],
               "Type": 0,
               "Position": 0
@@ -49415,9 +49421,9 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "You couldn't miss the blinding neon",
-                "colours if you tried.<PAUSE:5> ",
-                "<SOUND:EXPLOSION>It's an utter eyesore!"
+                "Эти вырвиглазные цвета при всём",
+                "желании не пропустишь.<PAUSE:5> ",
+                "<SOUND:EXPLOSION>От одного взгляда глаза болят!"
               ],
               "Type": 0,
               "Position": 0
@@ -49425,9 +49431,9 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "The gall of this<PAUSE:5> <DI><SOUND:WHAP>nobody<PAUSE:5> <DC>running a",
-                "monopoly on Hylian perfume is",
-                "preposterous!"
+                "Просто возмутительно, что этот<PAUSE:5>",
+                "<DI><SOUND:WHAP>выскочка<PAUSE:5> <DC>устроил себе целую",
+                "монополию на хайлийские духи!"
               ],
               "Type": 0,
               "Position": 0
@@ -49435,8 +49441,8 @@
             {
               "Name": "JUDGE150",
               "MessageTextLines": [
-                "<PAUSE:5><DC>...Perhaps.<PAUSE:3> But back to the matter",
-                "at hand..."
+                "<PAUSE:5><DC>...Может быть.<PAUSE:3> Но давайте вернёмся",
+                "к делу..."
               ],
               "Type": 0,
               "Position": 0
@@ -49444,10 +49450,10 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:DON>The NERVE of that dunderhead!<PAUSE:3> ",
-                "Why would anyone ever shop at a",
-                "store where the owner calls every",
-                "other customer a \"fairy\"?!"
+                "<SOUND:DON>Как этот болван вообще СМЕЕТ!<PAUSE:3> ",
+                "Да кто вообще захочет закупаться",
+                "в магазине, где хозяин каждого",
+                "второго покупателя «феей» зовёт?!"
               ],
               "Type": 0,
               "Position": 0
@@ -49455,7 +49461,7 @@
             {
               "Name": "JUDGE160",
               "MessageTextLines": [
-                "Prosecutor..."
+                "Прокурор..."
               ],
               "Type": 0,
               "Position": 0
@@ -49463,8 +49469,9 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "And the balloons...! Oh, the balloons...<PAUSE:3> ",
-                "<SOUND:EXPLOSION>That fool popped one right in my face!"
+                "А шары...! Ох, эти воздушные шары...<PAUSE:3> ",
+                "<SOUND:EXPLOSION>Этот тугодум лопнул один прямо",
+                "мне в лицо!"
               ],
               "Type": 0,
               "Position": 0
@@ -49472,7 +49479,7 @@
             {
               "Name": "JUDGE170",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Prosecutor Dragmire!<PAUSE:10><DI> Enough!"
+                "<SOUND:WHAP><DI>Прокурор Дрегмайр!<PAUSE:10><DI> Довольно!"
               ],
               "Type": 0,
               "Position": 0
@@ -49480,8 +49487,8 @@
             {
               "Name": "JUDGE180",
               "MessageTextLines": [
-                "Continuing on...<PAUSE:3> Purchased item:",
-                "One bottle of <R>\"Rosy Rupeeland\"<W>."
+                "Продолжаем...<PAUSE:3> Купленный товар:",
+                "Один флакон <R>«Розочной рупиляндии»<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -49489,8 +49496,8 @@
             {
               "Name": "JUDGE190",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Oh my!<PAUSE:10> This is quite the price!<PAUSE:8> ",
-                "Why, I would have to<EMDASH><FADE:10>"
+                "<SOUND:WHAP><DI>Ого-го!<PAUSE:10> Ничего себе цена!<PAUSE:8> ",
+                "Ох, да мне бы пришлось<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -49498,8 +49505,8 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Your Honour!<PAUSE:3> Please!<PAUSE:3> ",
-                "<DI>The date of purchase?"
+                "<SOUND:EXPLOSION>Ваша честь!<PAUSE:3> Прошу!<PAUSE:3> ",
+                "<DI>Дата покупки?"
               ],
               "Type": 0,
               "Position": 0
@@ -49507,7 +49514,7 @@
             {
               "Name": "JUDGE200",
               "MessageTextLines": [
-                "Ah, yes, right.<PAUSE:3> Date of purchase..."
+                "А, да, точно.<PAUSE:3> Дата покупки..."
               ],
               "Type": 0,
               "Position": 0
@@ -49515,8 +49522,8 @@
             {
               "Name": "JUDGE210",
               "MessageTextLines": [
-                "Why, it's <SOUND:WHAP>March 16!<PAUSE:3><PAUSE:0> The <R>day of",
-                "the murder<W>!"
+                "Ох, это же было <SOUND:WHAP>16 марта!<PAUSE:3><PAUSE:0> Ровно в",
+                "<R>день убийства<W>!"
               ],
               "Type": 0,
               "Position": 0
@@ -49524,7 +49531,7 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Gaaaaaaaaaaah!<FADE:20>"
+                "<SOUND:DON><DI>Гаааааааааааа!<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -49532,7 +49539,7 @@
             {
               "Name": "JUDGE220",
               "MessageTextLines": [
-                "Order! Order!"
+                "Порядок! Порядок!"
               ],
               "Type": 0,
               "Position": 0
@@ -49540,7 +49547,7 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "Yes! We got him!"
+                "Да! Он попался!"
               ],
               "Type": 0,
               "Position": 0
@@ -49548,8 +49555,7 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "<SOUND:0><C>(Phew. I think we're finally getting",
-                "somewhere!)"
+                "<SOUND:0><C>(Фух. Лёд наконец-то тронулся!)"
               ],
               "Type": 0,
               "Position": 0
@@ -49557,7 +49563,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:3> This still doesn't mean anything!"
+                "<SOUND:EXPLOSION>Ба!<PAUSE:3> Это всё ещё ничего не значит!"
               ],
               "Type": 0,
               "Position": 0
@@ -49565,9 +49571,9 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Perhaps the witness briefly went back",
-                "to the ranch house for something and",
-                "saw the bottle then."
+                "Может, свидетелю понадобилось",
+                "что-то в доме, он ненадолго",
+                "заглянул, и тогда увидел флакон."
               ],
               "Type": 0,
               "Position": 0
@@ -49583,10 +49589,10 @@
             {
               "Name": "INGO110",
               "MessageTextLines": [
-                "Yes! Yes! That's it!",
+                "Вот! Да! Именно!",
                 "<NEW_BOX>",
-                "I was getting thirsty, so I went back",
-                "to get a drink."
+                "Меня мучала жажда, так что я",
+                "пошёл налить чего-нибудь выпить."
               ],
               "Type": 0,
               "Position": 0
@@ -49594,7 +49600,8 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>I must've seen the bottle then!"
+                "<SOUND:WHAP><DI>Вот тогда я, наверное, и увидел",
+                "флакон!"
               ],
               "Type": 0,
               "Position": 0
@@ -49602,8 +49609,8 @@
             {
               "Name": "MALON60",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Oh, come on!<PAUSE:3> You think we're gonna",
-                "believe that?!"
+                "<SOUND:EXPLOSION>Ох, да ладно!<PAUSE:3> Думаете, мы в это",
+                "поверим?!"
               ],
               "Type": 0,
               "Position": 0
@@ -49611,7 +49618,8 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Do you have any proof that he didn't?"
+                "У тебя есть доказательства",
+                "обратного?"
               ],
               "Type": 0,
               "Position": 0
@@ -49619,7 +49627,7 @@
             {
               "Name": "MALON70",
               "MessageTextLines": [
-                "Well, I..."
+                "Ну, я..."
               ],
               "Type": 0,
               "Position": 0
@@ -49627,7 +49635,8 @@
             {
               "Name": "JUDGE230",
               "MessageTextLines": [
-                "I believe this calls for further testimony."
+                "Я считаю, требуются дальнейшие",
+                "показания."
               ],
               "Type": 0,
               "Position": 0
@@ -49635,10 +49644,10 @@
             {
               "Name": "JUDGE240",
               "MessageTextLines": [
-                "As the witness now claims to have",
-                "visited the crime scene shortly before",
-                "the murder, we should learn of his",
-                "exact movements that day."
+                "Раз свидетель заявляет, что он",
+                "побывал на месте преступления",
+                "перед убийством, то мы должны",
+                "узнать о его действиях в то время."
               ],
               "Type": 0,
               "Position": 0
@@ -49646,7 +49655,7 @@
             {
               "Name": "INGO140",
               "MessageTextLines": [
-                "Hah! My movements?"
+                "Ха! Мои действия?"
               ],
               "Type": 0,
               "Position": 0
@@ -49654,8 +49663,8 @@
             {
               "Name": "INGO150",
               "MessageTextLines": [
-                "Hrmmm.<PAUSE:3> <SOUND:WHAP><DI>Well, all right!<PAUSE:3> There's not a",
-                "whole lot to say, though."
+                "Грммм.<PAUSE:3> <SOUND:WHAP><DI>Что ж, ладно!<PAUSE:3> Правда тут",
+                "особо многого не скажешь."
               ],
               "Type": 0,
               "Position": 0
@@ -49663,8 +49672,8 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "<SOUND:0><C>(It's unfortunate that he managed to",
-                "weasel out of that.)"
+                "<SOUND:0><C>(Жаль, что он умудрился",
+                "выкрутиться.)"
               ],
               "Type": 0,
               "Position": 0
@@ -49672,8 +49681,8 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "<SOUND:0><C>(But this next testimony will be full of",
-                "lies.<PAUSE:3> <SOUND:WHAP><DI>This is my chance!)<SQUARE>"
+                "<SOUND:0><C>(Но следующие показания будут",
+                "полны вранья.<PAUSE:3> <SOUND:WHAP><DI>Мой шанс настал!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -51411,8 +51420,8 @@
               "Name": "LINK_n90",
               "MessageTextLines": [
                 "Что-то тут явно не так.<PAUSE:5> ",
-                "<C>(Оставлю-ка я заметку в судебном",
-                "протоколе...!)"
+                "<C>(Оставлю-ка я заметку в",
+                "материалах дела...!)"
               ],
               "Type": 0,
               "Position": 0
@@ -51421,7 +51430,7 @@
               "Name": "COURTRECORD1",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:9><DI><SQUARE><R>Заметка о возврате молока",
-                "<G>занесена в судебный протокол."
+                "<G>занесена в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -51430,7 +51439,7 @@
               "Name": "COURTRECORD2",
               "MessageTextLines": [
                 "<SOUND:ITEMGET><SOUND:0><ICON:10><DI><SQUARE><R>Молоко Лон Лон <G>занесено",
-                "в судебный протокол."
+                "в материалы дела."
               ],
               "Type": 1,
               "Position": 2
@@ -51778,7 +51787,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"My Non-Suspicious Movements\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>«Мои неподозрительные действия»<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -51786,8 +51795,8 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "As was already stated, I had",
-                "volunteered to work in the silo."
+                "Как уже было сказано, я вызвался",
+                "работать на силосной башне."
               ],
               "Type": 0,
               "Position": 0
@@ -51795,9 +51804,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "At one point, I briefly went back to",
-                "the ranch house to get myself a glass",
-                "of water."
+                "Мне понадобилось пойти в",
+                "дом, чтобы налить себе",
+                "стакан воды."
               ],
               "Type": 0,
               "Position": 0
@@ -51805,8 +51814,9 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "I went back to the silo right after that,",
-                "and stayed there until the courier came."
+                "Сразу после этого я вернулся, и не",
+                "выходил из башни, пока не пришёл",
+                "курьер."
               ],
               "Type": 0,
               "Position": 0
@@ -51814,8 +51824,8 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "I haven't been back to the ranch house",
-                "at all since then."
+                "С тех пор в доме на ранчо меня",
+                "больше не было."
               ],
               "Type": 0,
               "Position": 0
@@ -51823,9 +51833,9 @@
             {
               "Name": "INGO6",
               "MessageTextLines": [
-                "At some point, the detective came and",
-                "told me what happened.<PAUSE:5> And wow, was",
-                "that detective one fine woman!<SQUARE>"
+                "Потом пришла следователь и",
+                "рассказала мне всё, что случилось.<PAUSE:5>",
+                "И, ух, какая женщина!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -52116,8 +52126,8 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP>See?<PAUSE:5> I haven't done anything to",
-                "warrant suspicion!"
+                "<SOUND:WHAP>Видите?<PAUSE:5> Я ничего такого не сделал,",
+                "чтобы меня подозревать!"
               ],
               "Type": 0,
               "Position": 0
@@ -52125,7 +52135,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_IN_LOST><DI>Eat my shoes, you brat!"
+                "<SOUND:NA_SE_VO_IN_LOST><DI>Выкуси, сопляк!"
               ],
               "Type": 0,
               "Position": 0
@@ -52133,7 +52143,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "I'll... pass."
+                "Я... воздержусь."
               ],
               "Type": 0,
               "Position": 0
@@ -52141,9 +52151,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(There has to be something wrong in",
-                "there!<PAUSE:3> <SOUND:HINT>You can't put a flawless story",
-                "together that quickly!)<SQUARE>"
+                "<SOUND:0><C>(Тут должно быть что-то не так!<PAUSE:3>",
+                "<SOUND:HINT>Так быстро историю без изъяна не",
+                "придумать!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -54746,7 +54756,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"My Non-Suspicious Movements\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>«Мои неподозрительные действия»<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54754,8 +54764,8 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "<DI><G>As was already stated, I had",
-                "volunteered to work in the silo.<PERSISTENT>"
+                "<DI><G>Как уже было сказано, я вызвался",
+                "работать на силосной башне.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54763,9 +54773,9 @@
             {
               "Name": "INGO2_NEW",
               "MessageTextLines": [
-                "<DI><G>At one point, I had breakfast, and",
-                "briefly went back to the ranch house",
-                "to get myself a glass of water.<PERSISTENT>"
+                "<DI><G>Я позавтракал, и мне понадобилось",
+                "пойти в дом, чтобы налить себе",
+                "стакан воды.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54773,9 +54783,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "<DI><G>At one point, I briefly went back to",
-                "the ranch house to get myself a glass",
-                "of water.<PERSISTENT>"
+                "<DI><G>Мне понадобилось пойти в",
+                "дом, чтобы налить себе",
+                "стакан воды.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54783,8 +54793,9 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "<DI><G>I went back to the silo right after that,",
-                "and stayed there until the courier came.<PERSISTENT>"
+                "<DI><G>Сразу после этого я вернулся, и не",
+                "выходил из башни, пока не пришёл",
+                "курьер.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54792,8 +54803,8 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "<DI><G>I haven't been back to the ranch house",
-                "at all since then.<PERSISTENT>"
+                "<DI><G>С тех пор в доме на ранчо меня",
+                "больше не было.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54801,9 +54812,9 @@
             {
               "Name": "INGO5",
               "MessageTextLines": [
-                "<DI><G>I didn't even get to sleep or access",
-                "any of my belongings! I had to spend",
-                "the night in the stable!<PERSISTENT>"
+                "<DI><G>Я не мог даже пойти поспать или",
+                "забрать свои вещи! Мне пришлось",
+                "провести всю ночь в конюшне!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54811,9 +54822,9 @@
             {
               "Name": "INGO6",
               "MessageTextLines": [
-                "<DI><G>At some point, the detective came and",
-                "told me what happened. And wow, was",
-                "that detective one fine woman!<PERSISTENT>"
+                "<DI><G>Потом пришла следователь и",
+                "рассказала мне всё, что случилось.",
+                "И, ух, какая женщина!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54821,8 +54832,8 @@
             {
               "Name": "CONS1_LINK10",
               "MessageTextLines": [
-                "He seems to be glossing over some",
-                "things on purpose..."
+                "Он специально чего-то не",
+                "договаривает..."
               ],
               "Type": 0,
               "Position": 0
@@ -54830,8 +54841,9 @@
             {
               "Name": "CONS1_MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Yeah!<PAUSE:4> He's only going into detail about",
-                "things that make him look innocent."
+                "<SOUND:WHAP><DI>Да!<PAUSE:4> Он говорит только то, что бы",
+                "выставило его так, будто он ни в",
+                "чём не виноват."
               ],
               "Type": 0,
               "Position": 0
@@ -54839,9 +54851,9 @@
             {
               "Name": "CONS1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Since you don't feel like elaborating",
-                "on your own, Ingo, I'll just have to",
-                "force it out of you...)<SQUARE>"
+                "<SOUND:0><C>(Раз уж ты так не хочешь вдаваться",
+                "в подробности, Инго, то я их из тебя",
+                "просто выдавлю...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -54849,9 +54861,9 @@
             {
               "Name": "CONS2_LINK10",
               "MessageTextLines": [
-                "Why would Ingo even try to return",
-                "to the ranch house if he knew there'd",
-                "been a murder there?"
+                "Зачем Инго вообще решил вернуться",
+                "в дом, если он знал, что там было",
+                "убийство?"
               ],
               "Type": 0,
               "Position": 0
@@ -54859,12 +54871,12 @@
             {
               "Name": "CONS2_MALON10",
               "MessageTextLines": [
-                "Well, I don't imagine he had any other",
-                "place to sleep...",
+                "Ну, я не думаю, что он мог поспать",
+                "где-то ещё...",
                 "<NEW_BOX>",
-                "Father let him move in with us when",
-                "he was hired, so he wouldn't have to",
-                "spend money on rent..."
+                "Отец дал ему переехать к нам,",
+                "когда его наняли, чтобы он мог",
+                "не платить за аренду..."
               ],
               "Type": 0,
               "Position": 0
@@ -54872,9 +54884,9 @@
             {
               "Name": "CONS2_LINK20",
               "MessageTextLines": [
-                "Surely he didn't expect to be able to",
-                "sleep at an active crime investigation",
-                "scene, though?"
+                "Но он же не ожидал, что ему дадут",
+                "поспать там, где все ещё идёт",
+                "расследование?"
               ],
               "Type": 0,
               "Position": 0
@@ -54882,8 +54894,8 @@
             {
               "Name": "CONS2_MALON20",
               "MessageTextLines": [
-                "Hmm...<PAUSE:5> Well, it's not just that.<PAUSE:3><SOUND:HINT> <R>All<W> of",
-                "Mr. Ingo's belongings are at the house."
+                "Хмм...<PAUSE:5> Ну, тут не только это.<PAUSE:3><SOUND:HINT> <R>Все<W>",
+                "вещи господина Инго лежат в доме."
               ],
               "Type": 0,
               "Position": 0
@@ -54891,13 +54903,14 @@
             {
               "Name": "CONS2_LINK30",
               "MessageTextLines": [
-                "All of them, huh?<PAUSE:3> It would be so easy",
-                "to prove he went back to the scene if",
-                "he just had<SOUND:CLUE> something on him right now",
-                "that he shouldn't...",
+                "Все, говоришь?<PAUSE:3> Было бы так легко",
+                "доказать, что он вернулся на место,",
+                "если бы сейчас на нём было<SOUND:CLUE> что-то,",
+                "чего у него быть не должно...",
                 "<NEW_BOX>",
-                "Maybe I should check his profile to",
-                "make sure I haven't missed anything."
+                "Может, стоит перепроверить его",
+                "досье, чтобы точно ничего не",
+                "упустить."
               ],
               "Type": 0,
               "Position": 0
@@ -54905,10 +54918,10 @@
             {
               "Name": "CONS2_MALON30",
               "MessageTextLines": [
-                "Hey, speaking of profiles,<PAUSE:2> do you",
-                "remember you can <SOUND:HINT><R>present<W> those",
-                "during cross-examinations?<PAUSE:5> Just",
-                "making sure."
+                "Эй, кстати о досье,<PAUSE:2> ты же помнишь,",
+                "что можешь <SOUND:HINT><R>показывать<W> их во",
+                "время допроса?<PAUSE:5> На всякий случай",
+                "спрашиваю."
               ],
               "Type": 0,
               "Position": 0
@@ -54916,11 +54929,11 @@
             {
               "Name": "CONS2_LINK40",
               "MessageTextLines": [
-                "Right <EMDASH><PAUSE:3> sometimes the best evidence",
-                "is a person, not a thing.",
+                "Верно <EMDASH><PAUSE:3> иногда сам человек лучше",
+                "выступает в качестве улики, чем",
+                "какая-либо вещь.",
                 "<NEW_BOX>",
-                "I'll be sure to keep that in mind.<PAUSE:3> ",
-                "Thanks, Malon."
+                "Я это учту.<PAUSE:3> Спасибо, Малон."
               ],
               "Type": 0,
               "Position": 0
@@ -54928,7 +54941,7 @@
             {
               "Name": "CONS2_MALON40",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>You've got this, Link!<SQUARE>"
+                "<SOUND:WHAP><DI>Ты сможешь, Линк!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -54936,7 +54949,8 @@
             {
               "Name": "B_MALON10",
               "MessageTextLines": [
-                "He's sticking to that story, huh."
+                "Вот какой истории он",
+                "придерживается, хм."
               ],
               "Type": 0,
               "Position": 0
@@ -54944,8 +54958,8 @@
             {
               "Name": "B_LINK10",
               "MessageTextLines": [
-                "Yeah.<PAUSE:3> It was a desperate fix, <SOUND:CLUE>but it",
-                "holds up surprisingly well."
+                "Ага.<PAUSE:3> Придумана наспех, <SOUND:CLUE>но держится",
+                "на удивление хорошо."
               ],
               "Type": 0,
               "Position": 0
@@ -54953,8 +54967,9 @@
             {
               "Name": "B_MALON20",
               "MessageTextLines": [
-                "<SPEED:103>I can hardly believe this is the same",
-                "Mr. Ingo I know!<SPEED:102><PAUSE:3> <DI><SOUND:WHAP>He's usually so nice!"
+                "<SPEED:103>Не могу поверить, что это тот",
+                "же господин Инго, что я знала!<SPEED:102><PAUSE:3>",
+                "<DI><SOUND:WHAP>Он обычно такой добрый!"
               ],
               "Type": 0,
               "Position": 0
@@ -54962,12 +54977,12 @@
             {
               "Name": "B_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(It's time to press for more details.<PAUSE:3> ",
-                "He's sure to slip up somewhere!)",
+                "<SOUND:0><C>(Пора выдавить из него все детали.<PAUSE:3> ",
+                "Он точно где-то оплошает!)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(There has to be a <SOUND:CLUE><R>piece of evidence<C>",
-                "or a <R>profile<C> waiting to disprove what",
-                "he's saying!)<SQUARE>"
+                "<SOUND:0><C>(Должны же быть какие-нибудь",
+                "<SOUND:CLUE><R>улики<C> или <R>досье<C>, которые так и",
+                "ждут, чтобы оспорить его слова!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -54975,7 +54990,7 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "What were you doing?"
+                "Что вы делали?"
               ],
               "Type": 0,
               "Position": 0
@@ -54983,8 +54998,8 @@
             {
               "Name": "1_INGO10",
               "MessageTextLines": [
-                "Working on shipments and fulfilling",
-                "orders."
+                "Готовил поставки и выполнял",
+                "заказы."
               ],
               "Type": 0,
               "Position": 0
@@ -54992,9 +55007,9 @@
             {
               "Name": "1_INGO20",
               "MessageTextLines": [
-                "We send out crates of milk to milk",
-                "bars all across the kingdom every",
-                "day, you know."
+                "Мы развозим ящики молока по",
+                "молочным барам всего королевства",
+                "каждый день, что б Вы знали."
               ],
               "Type": 0,
               "Position": 0
@@ -55002,7 +55017,7 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Milk bars?"
+                "<SOUND:CLUE>Молочные бары?"
               ],
               "Type": 0,
               "Position": 0
@@ -55010,8 +55025,8 @@
             {
               "Name": "1_INGO30",
               "MessageTextLines": [
-                "<SOUND:WHAP>Naturally.<PAUSE:3> Everyone loves a good drink,",
-                "you know!"
+                "<SOUND:WHAP>Естественно.<PAUSE:3> Все же любят",
+                "хорошенько выпить, знаешь ли!"
               ],
               "Type": 0,
               "Position": 0
@@ -55019,9 +55034,9 @@
             {
               "Name": "1_INGO40",
               "MessageTextLines": [
-                "And our milk is renowned as the best",
-                "there is!<PAUSE:3> I hear some others water",
-                "theirs down.<PAUSE:3> <SOUND:WHAP><DI>Despicable!"
+                "А наше молоко известно как лучшее",
+                "из лучших!<PAUSE:3> А некоторые, я слышал,",
+                "своё водой разбавляют.<PAUSE:3> <SOUND:WHAP><DI>Позор!"
               ],
               "Type": 0,
               "Position": 0
@@ -55029,11 +55044,11 @@
             {
               "Name": "1_LINK30",
               "MessageTextLines": [
-                "I see...",
+                "Ясно...",
                 "<NEW_BOX>",
-                "I think you said earlier that your job is",
-                "to work on the structures and",
-                "equipment, though...?"
+                "Но Вы, кажется, ранее говорили,",
+                "что работаете над постройками",
+                "и инвентарём...?"
               ],
               "Type": 0,
               "Position": 0
@@ -55041,8 +55056,8 @@
             {
               "Name": "1_INGO50",
               "MessageTextLines": [
-                "Indeed.<PAUSE:5> Talon and the girl would usually",
-                "be the ones overseeing milk orders."
+                "Верно.<PAUSE:5> Заказами Молока обычно",
+                "занимались Талон с дочкой."
               ],
               "Type": 0,
               "Position": 0
@@ -55050,10 +55065,10 @@
             {
               "Name": "1_INGO60",
               "MessageTextLines": [
-                "However, since the royal visitation",
-                "was happening that day, I felt they",
-                "needed their minds unoccupied, so I",
-                "took it upon myself to do it this time."
+                "Однако, раз в тот день ожидалась",
+                "королевская проверка, я подумал,",
+                "что им стоит передохнуть, и взял",
+                "на себя это бремя."
               ],
               "Type": 0,
               "Position": 0
@@ -55061,10 +55076,10 @@
             {
               "Name": "1_INGO100",
               "MessageTextLines": [
-                "After the murder, I got scared that",
-                "the Sheikah Force's investigation",
-                "would delay the shipment, and that I,",
-                "the great Ingo, <SOUND:CLUE>would get the blame!"
+                "После убийства я испугался, что",
+                "из-за расследования отряда Шиика",
+                "поставки задержатся, а я, великий",
+                "Инго, <SOUND:CLUE>окажусь крайним!"
               ],
               "Type": 0,
               "Position": 0
@@ -55072,7 +55087,7 @@
             {
               "Name": "1_INGO110",
               "MessageTextLines": [
-                "Thankfully, it all went through fine."
+                "К счастью, всё прошло без проблем."
               ],
               "Type": 0,
               "Position": 0
@@ -55080,10 +55095,10 @@
             {
               "Name": "1_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(Yeah, and you were so concerned",
-                "with sending it off quickly that you",
-                "wrote the <SOUND:EXPLOSION>WRONG DELIVERY ADDRESS",
-                "on it...!)"
+                "<SOUND:0><C>(Да, ты так беспокоился о том,",
+                "чтобы молоко доставили быстро,",
+                "что написал на нём <SOUND:EXPLOSION>НЕПРАВИЛЬНЫЙ",
+                "АДРЕС...!)"
               ],
               "Type": 0,
               "Position": 0
@@ -55091,7 +55106,8 @@
             {
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
-                "Bah!<PAUSE:3> You Hylians!<PAUSE:3> Ridiculous!"
+                "Ба!<PAUSE:3> Ох уж эти хайлийцы!<PAUSE:3>",
+                "Смехотворно!"
               ],
               "Type": 0,
               "Position": 0
@@ -55099,8 +55115,7 @@
             {
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
-                "Getting tipsy from something like",
-                "milk?"
+                "Хмелеть от какого-то там молока?"
               ],
               "Type": 0,
               "Position": 0
@@ -55108,9 +55123,9 @@
             {
               "Name": "1_DRAGMIRE30",
               "MessageTextLines": [
-                "Bet you couldn't handle even a sip",
-                "of the Gerudo's Noble Pursuit, a REAL",
-                "man's drink!"
+                "Бьюсь об заклад, вы бы и глотка",
+                "«Воой-да-ваай» не выдержали! Вот",
+                "он, напиток НАСТОЯЩЕГО мужчины!"
               ],
               "Type": 0,
               "Position": 0
@@ -55118,8 +55133,9 @@
             {
               "Name": "1_LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(\"A real man's drink\"? Aren't most of",
-                "the Gerudo WOMEN...?)"
+                "<SOUND:0><C>(«Напиток настоящего мужчины»?",
+                "Разве большинство герудо не",
+                "женщины...?)"
               ],
               "Type": 0,
               "Position": 0
@@ -55127,9 +55143,9 @@
             {
               "Name": "1_JUDGE10",
               "MessageTextLines": [
-                "Speaking of drinks... I believe the",
-                "witness was talking about how he had",
-                "gotten himself a glass of water?"
+                "Говоря о напитках... Свидетель,",
+                "кажется, Вы говорили о том, что",
+                "шли налить себе стакан воды?"
               ],
               "Type": 0,
               "Position": 0
@@ -55137,9 +55153,9 @@
             {
               "Name": "1_INGO70",
               "MessageTextLines": [
-                "Yes, of course! Moving all that heavy",
-                "stuff around works up a sweat, you",
-                "see!<PAUSE:3> <SOUND:CLUE>I got very thirsty, and...<SQUARE>"
+                "Да, конечно! Пока тоскаешь все",
+                "те тяжести, то так и потеешь!<PAUSE:3>",
+                "<SOUND:CLUE>Мне захотелось пить, и...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -62830,8 +62846,8 @@
           "    Gfx* gfxRef;",
           "    gfxRef = POLY_OPA_DISP;",
           "    gfx = Graph_GfxPlusOne(gfxRef);",
-          "    gSPDisplayList(OVERLAY_DISP++, gfx);        ",
-          "    ",
+          "    gSPDisplayList(OVERLAY_DISP++, gfx);",
+          "",
           "    curFrame++;",
           "",
           "    if (npc->scriptVars[0] != 0)",
@@ -62840,14 +62856,14 @@
           "        Math_ApproachS(&alpha, 0, 1, 25);",
           "",
           "    u8* offset = (u8*)OFFSET_AUTOSAVE_ICON;",
-          "    Draw2DScaled(CI8_Setup39, OBJECT_GAMEPLAY_KEEP, play, &gfx,    ",
+          "    Draw2DScaled(CI8_Setup39, OBJECT_GAMEPLAY_KEEP, play, &gfx,",
           "                AUTOSAVE_ICON_POSX - (SAVE_WIDESCREEN ? 8 : 0), AUTOSAVE_ICON_POSY,",
-          "                offset + 0x110 + (0x400 * (curFrame % 19)), offset,                      ",
+          "                offset + 0x110 + (0x400 * (curFrame % 19)), offset,",
           "                AUTOSAVE_ICON_X, AUTOSAVE_ICON_Y, 32, 32, alpha);",
-          "                    ",
+          "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
-          "    POLY_OPA_DISP = gfx;  ",
+          "    POLY_OPA_DISP = gfx;",
           "}"
         ],
         "Functions": [
@@ -67202,17 +67218,17 @@
           "            int decSize = (compBuf->decSize + 31) & ~31;",
           "            roomObject = ZeldaArena_Malloc(decSize);",
           "            Yaz0_DecompressImpl(compBuf, roomObject);",
-          "            ZeldaArena_Free(comprRoomObject);        ",
+          "            ZeldaArena_Free(comprRoomObject);",
           "        }",
           "        else",
           "            roomObject = comprRoomObject;",
-          "            ",
+          "",
           "        for (int i = 0; i < npc->numExDLists; i++)",
           "        {",
           "            npc->extraDLists[i].fileStart = (u32)roomObject;",
           "            npc->extraDLists[i].objectId = OBJECT_RAM;",
-          "        } ",
-          "    */       ",
+          "        }",
+          "    */",
           "}",
           ""
         ],
@@ -69435,7 +69451,7 @@
             {
               "Name": "Unlocked1",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Выбор сцены<W> теперь доступен!<SQUARE>"
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Выбор сцены<W> разблокирован!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69443,9 +69459,9 @@
             {
               "Name": "Unlocked2",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Бонус 1<W> теперь доступен!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Бонус 1<W> разблокирован!",
                 "",
-                "<LC>Взгляните на него в выборе сцены!<SQUARE>"
+                "<LC>Он доступен в меню выбора сцены!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69454,9 +69470,9 @@
               "Name": "UnlockedWiiUGCN",
               "MessageTextLines": [
                 "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Бонус 1<W>, <R>Бонус 2<W> и <R>Бонус 3<W>",
-                "<LC>теперь доступны!",
+                "<LC>разблокированы!",
                 "",
-                "<LC>Взгляните на них в выборе сцены!<SQUARE>"
+                "<LC>Они доступны в меню выбора сцены!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -69616,24 +69632,24 @@
           "",
           "        if (CurLoadedMsg[i] != textIds[i] && textIds[i] >= 0)",
           "        {",
-          "            TextOperation(play, NULL, NULL, ",
-          "                          COLOR_BLACK, COLOR_BLACK, ",
-          "                          0, 0, ",
-          "                          msg, ",
-          "                          x, y, ",
-          "                          0, 0, ",
+          "            TextOperation(play, NULL, NULL,",
+          "                          COLOR_BLACK, COLOR_BLACK,",
+          "                          0, 0,",
+          "                          msg,",
+          "                          x, y,",
+          "                          0, 0,",
           "                          textPositions[i], Scale, Scale, 0, false, OPERATION_SET_POSITIONS_CREDITS);",
-          "                          ",
+          "",
           "            CurLoadedMsg[i] = textIds[i];",
           "        }",
           "",
           "        if (textIds[i] >= 0 && Alpha[i] != 0)",
-          "            charDrawn &= TextOperation(play, NULL, &gfx, ",
-          "                                       COLOR_WHITE, COLOR_BLACK, ",
-          "                                       Alpha[i], Alpha[i], ",
-          "                                       msg, ",
-          "                                       x, y, ",
-          "                                       1, 1, ",
+          "            charDrawn &= TextOperation(play, NULL, &gfx,",
+          "                                       COLOR_WHITE, COLOR_BLACK,",
+          "                                       Alpha[i], Alpha[i],",
+          "                                       msg,",
+          "                                       x, y,",
+          "                                       1, 1,",
           "                                       textPositions[i], Scale, Scale, 0, false, OPERATION_DRAW_INDIVIDUAL_SHADOW);",
           "",
           "        if (textExplode)",
@@ -69672,14 +69688,14 @@
           "                      getSeqio(0), getSeqio(1), getSeqio(2), getSeqio(3),",
           "                      getSeqio(4), getSeqio(5), getSeqio(6), getSeqio(7));",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  text, ",
-          "                  12, 12, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  text,",
+          "                  12, 12,",
+          "                  1, 1,",
           "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
-          "                  ",
+          "",
           "    *gfxp = gfx;",
           "}",
           "",
@@ -99851,12 +99867,12 @@
           "    if (textId >= 0)",
           "    {",
           "        Math_ApproachS(&Alpha, 255, 1, 5);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                      COLOR_WHITE, COLOR_BLACK, ",
-          "                      Alpha, Alpha, ",
-          "                      npc->GetInternalMsgPtrFunc(npc, play, textId), ",
-          "                      20, 48, ",
-          "                      1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                      COLOR_WHITE, COLOR_BLACK,",
+          "                      Alpha, Alpha,",
+          "                      npc->GetInternalMsgPtrFunc(npc, play, textId),",
+          "                      20, 48,",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "    }",
           "",
@@ -105182,7 +105198,7 @@
           "",
           "int msgRulesStart = 0;",
           "int msgBtnStart = 0;",
-          "int msgFiguresStart = 0; ",
+          "int msgFiguresStart = 0;",
           "int msgResultsStart = 0;",
           "",
           "u8 dontDrawCards = 0;",
@@ -105333,7 +105349,7 @@
           "    msgRulesStart = (int)idRulesStart - 0x8000;",
           "    msgBtnStart = (int)idBtnStart - 0x8000;",
           "    msgFiguresStart = (int)idFiguresStart - 0x8000;",
-          "    msgResultsStart = (int)idResultsStart - 0x8000;     ",
+          "    msgResultsStart = (int)idResultsStart - 0x8000;",
           "}",
           "",
           "void GameSetNextState(int WaitFrames, int NextState)",
@@ -105381,7 +105397,7 @@
           "            case 4: offs = 2; break;",
           "            default: offs = 0; break;",
           "        }",
-          "    }    ",
+          "    }",
           "",
           "    return offs;",
           "}",
@@ -105406,13 +105422,13 @@
           "        float yoffs = 2 * sinf(btnHover == 2 ? play->gameplayFrames : 0);",
           "",
           "        Draw2DScaled(RGBA16_Setup39, OBJECT_GRAPHICS_CASINO, play, &gfx, RUPEE_ICON_POS_X, RUPEE_ICON_POS_Y + yoffs, (u8*)RUPEEICON_OFFS, NULL, RUPEEICONX, RUPEEICONY, RUPEEICONDRAWX, RUPEEICONDRAWY, 255);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                      COLOR_WHITE, COLOR_BLACK, ",
-          "                      255, 255, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                      COLOR_WHITE, COLOR_BLACK,",
+          "                      255, 255,",
           "                      scoreBuf,",
-          "                      RUPEE_ICON_POS_X + (RUPEEICONDRAWX / 2) + 4, ",
-          "                      RUPEE_ICON_POS_Y - (RUPEEICONDRAWY / 4), ",
-          "                      1, 1, ",
+          "                      RUPEE_ICON_POS_X + (RUPEEICONDRAWX / 2) + 4,",
+          "                      RUPEE_ICON_POS_Y - (RUPEEICONDRAWY / 4),",
+          "                      1, 1,",
           "                      NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // Draw Hands",
@@ -105422,27 +105438,27 @@
           "            {",
           "                //hacky way to fix positioning due to scaling innacuracies;",
           "                int offs = GetWidescreenOffset(i);",
-          "                ",
+          "",
           "                DrawCard(play, &gfx, handIngo[i], ingoCardFrames[i], Ingo_CardPos[i].x - offs, Ingo_CardPos[i].y, CARDX, CARDY);",
           "                DrawCard(play, &gfx, handPlayer[i], playerCardFrames[i], Player_CardPos[i].x - offs, Player_CardPos[i].y, CARDX, CARDY);",
           "            }",
           "        }",
           "",
-          "        ",
+          "",
           "        int rupeeGraphics = (betRupees <= 5 ? betRupees : 1);",
           "        int width = rupeeGraphics * (BET_RUPEE_DRAWX);",
           "        width += (2 * (rupeeGraphics - 1));",
           "        char* numRupees = \"\\xFF\\xFF\\xFF\\xFF\\x00\";",
-          "        ",
+          "",
           "        if (betRupees > 5)",
           "        {",
           "            sprintf(numRupees, \"%d\", betRupees);",
-          "            width += TextOperation(NULL, NULL, NULL, ",
-          "                                   COLOR_WHITE, COLOR_WHITE, ",
-          "                                   0, 0, ",
-          "                                   numRupees, ",
-          "                                   0, 0, ",
-          "                                   0, 0, ",
+          "            width += TextOperation(NULL, NULL, NULL,",
+          "                                   COLOR_WHITE, COLOR_WHITE,",
+          "                                   0, 0,",
+          "                                   numRupees,",
+          "                                   0, 0,",
+          "                                   0, 0,",
           "                                   NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_EVALUATE_LINE_XSIZE);",
           "        }",
           "",
@@ -105457,14 +105473,14 @@
           "",
           "        if (betRupees > 5)",
           "        {",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          numRupees, ",
-          "                          CenteredPosX + BET_RUPEE_DRAWX, ",
-          "                          BET_RUPEE_ICON_POS_Y_PLAYER - 5, ",
-          "                          1, 1, ",
-          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);            ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          numRupees,",
+          "                          CenteredPosX + BET_RUPEE_DRAWX,",
+          "                          BET_RUPEE_ICON_POS_Y_PLAYER - 5,",
+          "                          1, 1,",
+          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
           "        rupeeGraphics = (betRupeesIngo <= 5 ? betRupeesIngo : 1);",
@@ -105475,12 +105491,12 @@
           "        if (betRupeesIngo > 5)",
           "        {",
           "            sprintf(numRupeesIngo, \"%d\", betRupeesIngo);",
-          "            width += TextOperation(NULL, NULL, NULL, ",
-          "                                   COLOR_WHITE, COLOR_WHITE, ",
-          "                                   0, 0, ",
-          "                                   numRupees, ",
-          "                                   0, 0, ",
-          "                                   0, 0, ",
+          "            width += TextOperation(NULL, NULL, NULL,",
+          "                                   COLOR_WHITE, COLOR_WHITE,",
+          "                                   0, 0,",
+          "                                   numRupees,",
+          "                                   0, 0,",
+          "                                   0, 0,",
           "                                   NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_EVALUATE_LINE_XSIZE);",
           "        }",
           "",
@@ -105494,14 +105510,14 @@
           "",
           "        if (betRupeesIngo > 5)",
           "        {",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
           "                          255, 255,",
-          "                          numRupeesIngo, ",
-          "                          CenteredPosX + BET_RUPEE_DRAWX, ",
-          "                          BET_RUPEE_ICON_POS_Y_INGO - 5, ",
-          "                          1, 1, ",
-          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);             ",
+          "                          numRupeesIngo,",
+          "                          CenteredPosX + BET_RUPEE_DRAWX,",
+          "                          BET_RUPEE_ICON_POS_Y_INGO - 5,",
+          "                          1, 1,",
+          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
           "        // Draw Selection Button",
@@ -105515,13 +105531,13 @@
           "            Color_RGB8 cl = btnHover == 1 ? COLOR_RED : COLOR_WHITE;",
           "",
           "            Draw2D(RGBA16_Setup39, OBJECT_GRAPHICS_CASINO, play, &gfx, DRAW_BUTTON_POSX, DRAW_BUTTON_POSY, (u8*)btnOffset, NULL, DRAW_BUTTON_WIDTH, DRAW_BUTTON_HEIGHT, 255);",
-          "            ",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          cl, COLOR_BLACK, ",
+          "",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          cl, COLOR_BLACK,",
           "                          255, 255,",
-          "                          selectionBtnText, ",
-          "                          posX, DRAW_BUTTON_POSY - 8, ",
-          "                          1, 1, ",
+          "                          selectionBtnText,",
+          "                          posX, DRAW_BUTTON_POSY - 8,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
@@ -105533,30 +105549,30 @@
           "            void* resultPlayer = npc->GetInternalMsgPtrFunc(npc, play, resultFigurePlayer + msgFiguresStart);",
           "",
           "            s32 posX = GetStringCenterRelativeToCenterX(resultsText, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultsText, ",
-          "                          posX, DRAW_BUTTON_POSY - 8, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultsText,",
+          "                          posX, DRAW_BUTTON_POSY - 8,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "            posX = GetStringCenterRelativeToCenterX(resultIngo, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_GREEN, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultIngo, ",
-          "                          posX, DRAW_BUTTON_POSY - 70, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_GREEN, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultIngo,",
+          "                          posX, DRAW_BUTTON_POSY - 70,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "            posX = GetStringCenterRelativeToCenterX(resultPlayer, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_GREEN, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultPlayer, ",
-          "                          posX, DRAW_BUTTON_POSY + 52, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_GREEN, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultPlayer,",
+          "                          posX, DRAW_BUTTON_POSY + 52,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
@@ -105578,12 +105594,12 @@
           "            Math_ApproachS(&curMsgAlpha, 255, 1, 5);",
           "",
           "        void* pauseText = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + curMsg);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_WHITE, COLOR_BLACK, ",
-          "                        curMsgAlpha, curMsgAlpha, ",
-          "                        pauseText, ",
-          "                        30, 215, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_WHITE, COLOR_BLACK,",
+          "                        curMsgAlpha, curMsgAlpha,",
+          "                        pauseText,",
+          "                        30, 215,",
+          "                        1, 1,",
           "                        NULL, 65, 65, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // Draw the pointer",
@@ -105595,25 +105611,25 @@
           "",
           "        // (B) Back",
           "        void* backText = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 5);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_WHITE, COLOR_BLACK, ",
-          "                        curMsgAlpha, curMsgAlpha, ",
-          "                        backText, ",
-          "                        RULES_FRAME_POSX + RULES_FRAME_DRAWWIDTH / 2 - GetTextPxWidth(backText, TEXT_SCALE) - 20, ",
-          "                        RULES_FRAME_POSY + RULES_FRAME_DRAWHEIGHT / 2 - 30, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_WHITE, COLOR_BLACK,",
+          "                        curMsgAlpha, curMsgAlpha,",
+          "                        backText,",
+          "                        RULES_FRAME_POSX + RULES_FRAME_DRAWWIDTH / 2 - GetTextPxWidth(backText, TEXT_SCALE) - 20,",
+          "                        RULES_FRAME_POSY + RULES_FRAME_DRAWHEIGHT / 2 - 30,",
+          "                        1, 1,",
           "                        NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // RULES header",
           "        void* rulesHeader = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 2);",
           "        int posX = GetStringCenterRelativeToCenterX(rulesHeader, 100, RULES_FRAME_POSX, RULES_FRAME_DRAWWIDTH);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_RED, COLOR_BLACK, ",
-          "                        255, 255, ",
-          "                        rulesHeader, ",
-          "                        posX + 30, ",
-          "                        RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2 + 17, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_RED, COLOR_BLACK,",
+          "                        255, 255,",
+          "                        rulesHeader,",
+          "                        posX + 30,",
+          "                        RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2 + 17,",
+          "                        1, 1,",
           "                        NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        int rPosX;",
@@ -105647,11 +105663,11 @@
           "            {",
           "                rPosX += CARDX / 2 + 2;",
           "",
-          "                TextOperation(play, NULL, &gfx, ",
+          "                TextOperation(play, NULL, &gfx,",
           "                             COLOR_WHITE, COLOR_BLACK,",
           "                             255, 255, \">\",",
           "                             rPosX - 8, rPosY - 8,",
-          "                             1, 1, ",
+          "                             1, 1,",
           "                             NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "                rPosX += 12;",
@@ -105663,21 +105679,21 @@
           "        void* rules1 = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 3);",
           "        void* rules2 = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 4);",
           "",
-          "        TextOperation(play, NULL, &gfx, ",
+          "        TextOperation(play, NULL, &gfx,",
           "                      COLOR_WHITE, COLOR_BLACK,",
-          "                      255, 255, ",
+          "                      255, 255,",
           "                      rules1,",
           "                      RULES_FRAME_POSX - 37,",
           "                      RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2,",
-          "                      1, 1, ",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
-          "        TextOperation(play, NULL, &gfx, ",
+          "        TextOperation(play, NULL, &gfx,",
           "                      COLOR_WHITE, COLOR_BLACK,",
-          "                      255, 255, ",
+          "                      255, 255,",
           "                      rules2,",
           "                      RULES_FRAME_POSX - 37,",
           "                      RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2,",
-          "                      1, 1, ",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "    }",
           "",
@@ -105900,13 +105916,13 @@
           "            int step = (betRupeesHeldCounter == 20 ? ((*SAVE_CASINORUPEES * 10) / 100) : 1);",
           "",
           "            if (step == 0)",
-          "                step = 1;            ",
+          "                step = 1;",
           "",
           "            if (CHECK_BTN_ANY(play->state.input[0].cur.button, BTN_A) || CHECK_BTN_ANY(play->state.input[mouseSlot].cur.button, BTN_A))",
           "            {",
           "                if (betRupees < (SAVE_INGOHINT ? 9999 : 5) && *SAVE_CASINORUPEES)",
           "                {",
-          "                    if (step > *SAVE_CASINORUPEES) ",
+          "                    if (step > *SAVE_CASINORUPEES)",
           "                        step = *SAVE_CASINORUPEES;",
           "",
           "                    (*SAVE_CASINORUPEES) -= step;",
@@ -105921,7 +105937,7 @@
           "            {",
           "                if (betRupees > 1)",
           "                {",
-          "                    if (step > betRupees - 1) ",
+          "                    if (step > betRupees - 1)",
           "                        step = betRupees - 1;",
           "",
           "                    (*SAVE_CASINORUPEES) += step;",
@@ -105941,7 +105957,7 @@
           "",
           "                if (!betRupeesFirstInput && betRupeesHeldCounter < 20)",
           "                    betRupeesHeldCounter += 1;",
-          "                    ",
+          "",
           "                betRupeesFirstInput = false;",
           "            }",
           "        }",
@@ -106426,7 +106442,7 @@
           "",
           "                int step = (playerScoreCount * 15) / 100;",
           "                if (step < 1) step = 1;",
-          "                ",
+          "",
           "                (*SAVE_CASINORUPEES) += step;",
           "",
           "                if (*SAVE_CASINORUPEES > 9999)",
@@ -107751,11 +107767,11 @@
           "    char* msg = en->GetInternalMsgPtrFunc(en, play, (int)msgId - 0x8000);",
           "",
           "    TextOperation(play, NULL, &gfx,",
-          "                  COLOR_RED, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msg, ",
-          "                  80, 40, ",
-          "                  1, 1, ",
+          "                  COLOR_RED, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msg,",
+          "                  80, 40,",
+          "                  1, 1,",
           "                  NULL, 145, 145, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -107778,12 +107794,12 @@
           "    char* score = \"AAAAAAAAAAAAAAAAAAAAAAAAA\";",
           "    sprintf(score, \"TALON x %d\", TALONSTATE > 0 ? 0 : -1);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  score, ",
-          "                  25 - (SAVE_WIDESCREEN ? 25 : 0), 10, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  score,",
+          "                  25 - (SAVE_WIDESCREEN ? 25 : 0), 10,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    if (TIME != 0 && TALONSTATE != -1)",
@@ -107791,11 +107807,11 @@
           "",
           "    sprintf(score, \"TIME: %d\", TIME / 100);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  score, 240 + (SAVE_WIDESCREEN ? 25 : 0), 10, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  score, 240 + (SAVE_WIDESCREEN ? 25 : 0), 10,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -107830,13 +107846,13 @@
           "    Draw2D(IA8_Setup39, 125, play, &gfx, SCREEN_WIDTH / 2, 100, (u8*)0, NULL, 300, 129, 255);",
           "",
           "    char* msg = npc->GetInternalMsgPtrFunc(npc, play, (int)msgId - 0x8000);",
-          "    ",
+          "",
           "    TextOperation(play, NULL, &gfx,",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msg, ",
-          "                  60, 190, ",
-          "                  1, 1, ",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msg,",
+          "                  60, 190,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -110378,29 +110394,29 @@
           "    void* msgData3 = npc->GetInternalMsgPtrFunc(npc, play, (int)msg3 - 0x8000);",
           "    void* msgData4 = npc->GetInternalMsgPtrFunc(npc, play, (int)msg4 - 0x8000);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData, ",
-          "                  28, 22, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData,",
+          "                  28, 22,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData3, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData3,",
           "                  28, 55,",
-          "                  1, 1, ",
+          "                  1, 1,",
           "                  NULL, 65, 65, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
-          "                  ",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData4, ",
+          "",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData4,",
           "                  28, 55,",
-          "                  1, 1, ",
-          "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);                  ",
+          "                  1, 1,",
+          "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
           "    u8 toggleablesMsg[200];",
           "    bcopy(msgData2, &toggleablesMsg, 200);",
@@ -110433,15 +110449,15 @@
           "                toggleablesMsg[i] = on[i - antiAliasstartedAt];",
           "            else",
           "                toggleablesMsg[i] = off[i - antiAliasstartedAt];",
-          "        }        ",
+          "        }",
           "    }",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  toggleablesMsg, ",
-          "                  28, 55, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  toggleablesMsg,",
+          "                  28, 55,",
+          "                  1, 1,",
           "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -111932,7 +111948,7 @@
           "the return type is valid.",
           "*/",
           "",
-          "typedef struct ",
+          "typedef struct",
           "{",
           "    u8 idx;",
           "    u8 progress;",
@@ -111943,7 +111959,7 @@
           "#define EXTRA_ZELDA 25",
           "#define EXTRA_THIEF 26",
           "",
-          "sSelectEntry SceneSelectData[] = ",
+          "sSelectEntry SceneSelectData[] =",
           "{",
           "    {",
           "        .idx = 1,",
@@ -111984,72 +112000,72 @@
           "    {",
           "        .idx = 10,",
           "        .progress = PROGRESS_COURT_ZELDA3,",
-          "    },    ",
+          "    },",
           "    {",
           "        .idx = 11,",
           "        .progress = PROGRESS_LOBBY_RECESS,",
-          "    },      ",
+          "    },",
           "    {",
           "        .idx = 12,",
           "        .progress = PROGRESS_COURT_INGOENTERS,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 13,",
           "        .progress = PROGRESS_COURT_INGO1,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 14,",
           "        .progress = PROGRESS_COURT_INGO2,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 15,",
           "        .progress = PROGRESS_UBER_THONK,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 16,",
           "        .progress = PROGRESS_INGO_PURSUIT2,",
-          "    },                       ",
+          "    },",
           "    {",
           "        .idx = 17,",
           "        .progress = PROGRESS_COURT_INGO3,",
-          "    },      ",
+          "    },",
           "    {",
           "        .idx = 18,",
           "        .progress = PROGRESS_DRAGMIRE_REBUTTAL,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 19,",
           "        .progress = PROGRESS_DRAGMIRE_REBUTTAL_AFTER,",
-          "    },              ",
+          "    },",
           "    {",
           "        .idx = 20,",
           "        .progress = PROGRESS_FLASHBACK,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 21,",
           "        .progress = PROGRESS_VERDICT,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 22,",
           "        .progress = PROGRESS_EPILOGUE,",
-          "    },               ",
+          "    },",
           "    {",
           "        .idx = 23,",
           "        .progress = PROGRESS_CREDITS,",
-          "    },    ",
+          "    },",
           "    {",
           "        .idx = EXTRA_TALONGAME,",
           "        .extraScene = (1 << 0),",
-          "    },   ",
+          "    },",
           "    {",
           "        .idx = EXTRA_ZELDA,",
           "        .extraScene = (1 << 1),",
-          "    }, ",
+          "    },",
           "    {",
           "        .idx = EXTRA_THIEF,",
           "        .progress = PROGRESS_EXTRA_THIEF_TRSPAKCHECK,",
           "        .extraScene = (1 << 2),",
-          "    },     ",
+          "    },",
           "};",
           "",
           "u8 numScenesVisible;",
@@ -112072,7 +112088,7 @@
           "",
           "    numScenesVisible = 0;",
           "    bzero(&scenesDisplayed, 30);",
-          "    ",
+          "",
           "    // Count the number of scenes that will be shown...",
           "    for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)",
           "    {",
@@ -112082,7 +112098,7 @@
           "            {",
           "                if (numScenesVisible == 0)",
           "                    selectedScene = SceneSelectData[i].idx;",
-          "                ",
+          "",
           "                scenesDisplayed[numScenesVisible] = SceneSelectData[i].idx;",
           "                numScenesVisible++;",
           "            }",
@@ -112102,15 +112118,15 @@
           "",
           "void NpcM_SceneSelectUpdate(NpcMaker* npc, PlayState* play)",
           "{",
-          "    bool scrollInputMade = false;   ",
-          "    ",
+          "    bool scrollInputMade = false;",
+          "",
           "    if (inputPauseTimer)",
           "        firstInput = false;",
           "    else",
           "        firstInput = true;",
           "",
           "    if (inputPauseTimer)",
-          "        inputPauseTimer--; ",
+          "        inputPauseTimer--;",
           "",
           "    if (ABS(play->state.input[0].cur.stick_y) > 20 || CHECK_BTN_ANY(play->state.input[0].cur.button, BTN_DUP | BTN_DDOWN))",
           "        scrollInputMade = true;",
@@ -112119,15 +112135,15 @@
           "        CHECK_BTN_ALL(play->state.input[0].press.button, BTN_A))",
           "    {",
           "        sSelectEntry* selectedEntry = &SceneSelectData[0];",
-          "        ",
+          "",
           "        for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)",
           "        {",
           "            if (SceneSelectData[i].idx == selectedScene)",
           "                selectedEntry = &SceneSelectData[i];",
           "        }",
-          "        ",
+          "",
           "        Audio_PlaySfxGeneral(NA_SE_SY_PIECE_OF_HEART, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
-          "        ",
+          "",
           "        switch (selectedEntry->idx)",
           "        {",
           "            case EXTRA_TALONGAME:",
@@ -112137,8 +112153,8 @@
           "            }",
           "            case EXTRA_ZELDA:",
           "            {",
-          "                RESULT = 0x8002;     ",
-          "                break;      ",
+          "                RESULT = 0x8002;",
+          "                break;",
           "            }",
           "            default:",
           "            {",
@@ -112146,44 +112162,44 @@
           "                break;",
           "            }",
           "        }",
-          "    }                ",
+          "    }",
           "    else if (!inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DDOWN) || play->state.input[0].cur.stick_y <= -20))",
-          "    {        ",
+          "    {",
           "        u8 before = selectedSceneId;",
           "        selectedSceneId++;",
-          "        ",
+          "",
           "        if (selectedSceneId >= numScenesVisible)",
           "            selectedSceneId = 0;",
-          "        ",
+          "",
           "        selectedScene = scenesDisplayed[selectedSceneId];",
-          "        ",
+          "",
           "        if (before != selectedSceneId)",
-          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); ",
+          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
           "    }",
           "    else if (!inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DUP) || play->state.input[0].cur.stick_y >= 20))",
-          "    {        ",
+          "    {",
           "        u8 before = selectedSceneId;",
           "        selectedSceneId--;",
-          "        ",
+          "",
           "        if (selectedSceneId < 0)",
           "            selectedSceneId = numScenesVisible - 1;",
-          "        ",
+          "",
           "        selectedScene = scenesDisplayed[selectedSceneId];",
-          "        ",
+          "",
           "        if (before != selectedSceneId)",
-          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); ",
-          "    } ",
+          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
+          "    }",
           "    else if (CHECK_BTN_ALL(play->state.input[0].press.button, BTN_B))",
           "    {",
           "        RESULT = 0x8000;",
-          "    } ",
-          "    ",
+          "    }",
+          "",
           "    if (scrollInputMade)",
           "    {",
           "        if (!inputPauseTimer)",
           "        {",
           "            inputPauseTimer = 2;",
-          "            ",
+          "",
           "            if (firstInput)",
           "                inputPauseTimer *= 3;",
           "        }",
@@ -112205,52 +112221,52 @@
           "    gfxRef = POLY_OPA_DISP;",
           "    gfx = Graph_GfxPlusOne(gfxRef);",
           "    gSPDisplayList(OVERLAY_DISP++, gfx);",
-          "    ",
+          "",
           "    Gfx_SetupDL_39Ptr(&gfx);",
-          "    gDPPipeSync(gfx++);      ",
-          "       ",
+          "    gDPPipeSync(gfx++);",
+          "",
           "    Color_RGB8 cOutline = (Color_RGB8){0, 0, 0};",
           "    Color_RGB8 cEnabled = (Color_RGB8){0xFF, 0xFF, 0x43};",
-          "    Color_RGB8 cDisabled = (Color_RGB8){0xA6, 0xA6, 0xA6};    ",
-          "    Color_RGB8 cHeader = (Color_RGB8){0xFF, 0x00, 0x00}; ",
+          "    Color_RGB8 cDisabled = (Color_RGB8){0xA6, 0xA6, 0xA6};",
+          "    Color_RGB8 cHeader = (Color_RGB8){0xFF, 0x00, 0x00};",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  cHeader, cOutline, ",
-          "                  255, 255, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  cHeader, cOutline,",
+          "                  255, 255,",
           "                  npc->GetInternalMsgPtrFunc(npc, play, 0),",
-          "                  0, 20, ",
-          "                  1, 1, ",
-          "                  NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);     ",
-          "                        ",
-          "                        ",
-          "    int posY = 48;        ",
+          "                  0, 20,",
+          "                  1, 1,",
+          "                  NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
+          "",
+          "",
+          "    int posY = 48;",
           "    int start = (selectedSceneId / 13) * 13;",
-          "    ",
+          "",
           "    for (int i = start; i < ARRAY_COUNT(SceneSelectData); i++)",
           "    {",
-          "        if ((SceneSelectData[i].extraScene == 0 && SAVE_HASBEATENGAME) || ",
-          "            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene) || ",
-          "            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0))) ",
+          "        if ((SceneSelectData[i].extraScene == 0 && SAVE_HASBEATENGAME) ||",
+          "            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene) ||",
+          "            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0)))",
           "        {",
           "            if (posY + 16 < 240)",
           "            {",
-          "                TextOperation(play, NULL, &gfx, ",
-          "                              selectedScene == SceneSelectData[i].idx ? cEnabled : cDisabled, ",
-          "                              cOutline, ",
-          "                              255, 255, ",
+          "                TextOperation(play, NULL, &gfx,",
+          "                              selectedScene == SceneSelectData[i].idx ? cEnabled : cDisabled,",
+          "                              cOutline,",
+          "                              255, 255,",
           "                              npc->GetInternalMsgPtrFunc(npc, play, 1 + i),",
-          "                              0, posY, ",
-          "                              1, 1, ",
-          "                              NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW); ",
+          "                              0, posY,",
+          "                              1, 1,",
+          "                              NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "            }",
           "",
           "            posY += 14;",
           "        }",
-          "    }  ",
+          "    }",
           "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
-          "    POLY_OPA_DISP = gfx;    ",
+          "    POLY_OPA_DISP = gfx;",
           "}"
         ],
         "Functions": [
