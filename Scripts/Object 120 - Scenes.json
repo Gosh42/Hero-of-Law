@@ -107544,6 +107544,20 @@
           ],
           "Type": 0,
           "Position": 0
+        },
+        {
+          "Name": "msg_hint_end_gcn",
+          "MessageTextLines": [
+            "<SOUND:NA_SE_VO_TA_SURPRISE>...Or, well, that would be the case, but",
+            "with these <R>Collector's Edition<W>",
+            "shenanigans going on, I bet yeh already",
+            "got all those secrets unlocked by default!",
+            "<NEW_BOX>",
+            "Hah hah!",
+            "<PAUSE:5>See ya!<SQUARE>"
+          ],
+          "Type": 0,
+          "Position": 0
         }
       ],
       "Localization": [
@@ -107564,22 +107578,22 @@
             {
               "Name": "msg_hint",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_TA_CRY_0>Wow! I really needed one of those!<PAUSE:5> ",
-                "Thanks!",
+                "<SOUND:NA_SE_VO_TA_CRY_0>Ух! Вот этого-то мне и не хватало!<PAUSE:5> ",
+                "Спасибо!",
                 "<NEW_BOX>",
-                "In return, I'll tell yeh about a <SOUND:CLUE>secret I've",
-                "heard...<PAUSE:5> ",
-                "Supposedly...",
+                "Взамен, я расскажу те <SOUND:CLUE>один секрет...<PAUSE:5> ",
+                "Дескать...",
                 "<NEW_BOX>",
-                "<SPEED:101>There's a game with a giant egg",
-                "in which you can <R>become a criminal<W>...<SPEED:102>",
+                "<SPEED:101>Есть игра с огромным яйцом, где",
+                "можно <R>стать преступником<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "<SPEED:101>And a pair of games with <R>climate",
-                "change<W> and <R>time travel<W>...<SPEED:102>",
+                "<SPEED:101>И пара игр про <R>изменение климата<W>",
+                "и <R>путешествия во времени<W>...<SPEED:102>",
                 "<NEW_BOX>",
-                "They say that extras can be unlocked",
-                "by connecting them on the<SOUND:HINT> <R>Title Screen<W>",
-                "using <R>a certain accessory<W>."
+                "Говорят, можно открыть разные",
+                "бонусы, если зайти в<SOUND:HINT> <R>главное",
+                "меню<W> и подключить эти игры",
+                "через <R>кое-какой аксессуар<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -107587,9 +107601,9 @@
             {
               "Name": "msg_entry",
               "MessageTextLines": [
-                "<SHIFT:53><R>PRESS START!<W>",
+                "<SHIFT:47><R>НАЖМИТЕ СТАРТ!<W>",
                 "",
-                "<SHIFT:22><C><D_PAD><W> Move<SHIFT:12><G><B BUTTON><W> Run<SHIFT:12><B><A BUTTON><W> Jump",
+                "<SHIFT:3><C><D_PAD><W> Движение<SHIFT:12><G><B BUTTON><W> Бег<SHIFT:12><B><A BUTTON><W> Прыжок",
                 "<PERSISTENT>",
                 ""
               ],
@@ -107599,13 +107613,13 @@
             {
               "Name": "msg_hint_end_wii",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_TA_SURPRISE>...Or, well, that would be the case, but",
-                "with these <R>Virtual Console<W> shenanigans",
-                "going on, I bet yeh already got all those",
-                "secrets unlocked by default!",
+                "<SOUND:NA_SE_VO_TA_SURPRISE>...Ну, оно обычно так, но тут такая",
+                "путаница с <R><FONT_TOGGLE>Virtual Console<FONT_TOGGLE><W>, что у тя,",
+                "бьюсь об заклад, эти бонусы и так",
+                "открыты!",
                 "<NEW_BOX>",
-                "Hah hah!",
-                "<PAUSE:5>See ya!<SQUARE>"
+                "Ха-ха!",
+                "<PAUSE:5>До скорого!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -107613,9 +107627,10 @@
             {
               "Name": "msg_hint_end",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_TA_SURPRISE>Now, I don't know what that means,<PAUSE:5> ",
-                "but I'm sure yeh can figure it out!",
-                "<PAUSE:5>See ya!<SQUARE>"
+                "<SOUND:NA_SE_VO_TA_SURPRISE>Я, право, ума не приложу, что",
+                "это значит,<PAUSE:5> но ты уж точно",
+                "разберёшься. Я уверен!",
+                "<PAUSE:5>До скорого!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -107623,7 +107638,21 @@
             {
               "Name": "courseclear",
               "MessageTextLines": [
-                "<LC><R>COURSE CLEAR"
+                "<LC><R>УРОВЕНЬ ПРОЙДЕН"
+              ],
+              "Type": 0,
+              "Position": 0
+            },
+            {
+              "Name": "msg_hint_end_gcn",
+              "MessageTextLines": [
+                "<SOUND:NA_SE_VO_TA_SURPRISE>...Ну, оно обычно так, но тут такая",
+                "путаница с <R><FONT_TOGGLE>Collector's Edition<FONT_TOGGLE><W>, что у",
+                "тя, бьюсь об заклад, эти бонусы и",
+                "так открыты!",
+                "<NEW_BOX>",
+                "Ха-ха!",
+                "<PAUSE:5>До скорого!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
