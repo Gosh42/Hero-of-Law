@@ -65455,7 +65455,7 @@
           "Name": "5_2_JUDGE10",
           "MessageTextLines": [
             "I believe this calls for us to investigate",
-            "these boxes of milk more closely."
+            "this box of milk more closely."
           ],
           "Type": 0,
           "Position": 0
@@ -65463,7 +65463,7 @@
         {
           "Name": "5_2_JUDGE20",
           "MessageTextLines": [
-            "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have these boxes retrieved",
+            "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have this box retrieved",
             "from the ranch immediately!<SQUARE>"
           ],
           "Type": 0,
@@ -66730,7 +66730,7 @@
               "Name": "5_2_JUDGE10",
               "MessageTextLines": [
                 "I believe this calls for us to investigate",
-                "these boxes of milk more closely."
+                "this box of milk more closely."
               ],
               "Type": 0,
               "Position": 0
@@ -66738,7 +66738,7 @@
             {
               "Name": "5_2_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have these boxes retrieved",
+                "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have this box retrieved",
                 "from the ranch immediately!<SQUARE>"
               ],
               "Type": 0,
