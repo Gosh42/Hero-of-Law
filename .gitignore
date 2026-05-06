@@ -20,7 +20,7 @@ Tool/NPCMAKER/Settings.json
 Tool/NPCMAKER/cache
 Tool/NPCMAKER/Ccache
 
-Tool/NPCMAKER/
+Tool/NPCMAKER*/
 *.o
 *.elf
 
