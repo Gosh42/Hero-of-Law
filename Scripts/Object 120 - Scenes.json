@@ -59714,9 +59714,9 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>That's...",
-                "<NEW_BOX>I...",
-                "<NEW_BOX>You..."
+                "<DI><SOUND:WHAP>Это...",
+                "<NEW_BOX>Я...",
+                "<NEW_BOX>Вы..."
               ],
               "Type": 0,
               "Position": 0
@@ -59724,8 +59724,8 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "You were...<PAUSE:5> planning...<PAUSE:5> <SOUND:EXPLOSION>what?",
-                "<NEW_BOX>A vacation,<PAUSE:5> <SOUND:CLUE>for me?"
+                "Вы...<PAUSE:5> хотели...<PAUSE:5> <SOUND:EXPLOSION>что?",
+                "<NEW_BOX>Отпуск,<PAUSE:5> <SOUND:CLUE>мне?"
               ],
               "Type": 0,
               "Position": 0
@@ -59733,8 +59733,8 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "And I did...<PAUSE:5> <SOUND:WHAP><DI>No!",
-                "<NEW_BOX><DI><SOUND:WHAP>No!<PAUSE:5> It can't be so!"
+                "А я...<PAUSE:5> <SOUND:WHAP><DI>Нет!",
+                "<NEW_BOX><DI><SOUND:WHAP>Нет!<PAUSE:5> Не может быть!"
               ],
               "Type": 0,
               "Position": 0
@@ -59742,7 +59742,7 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "<NS>Please say it isn't soooooooooo~!<FADE:30>"
+                "<NS>Этого не может бы-ы-ы-ы-ыть~!<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -59750,8 +59750,9 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "We have witnessed today the results",
-                "of a truly horrifying misunderstanding."
+                "Мы оказались свидетелями",
+                "последствий воистину",
+                "ужасающего недопонимания."
               ],
               "Type": 0,
               "Position": 0
@@ -59759,8 +59760,9 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "But misunderstanding or not, what you",
-                "have done is unforgivable."
+                "Но, недопонимание это или нет,",
+                "то, что Вы совершили, простить",
+                "нельзя."
               ],
               "Type": 0,
               "Position": 0
@@ -59768,9 +59770,10 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Talon was a kind man, beloved by all",
-                "who had the good fortune to cross his",
-                "path."
+                "Талон был добрый человек,",
+                "которого полюбил каждый, кому",
+                "довелось счастье оказаться",
+                "у него на пути."
               ],
               "Type": 0,
               "Position": 0
@@ -59778,8 +59781,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "His loss will be felt not only at his",
-                "ranch,<PAUSE:3> <SOUND:CLUE>but all across Hyrule."
+                "Его потеря будет заметна не",
+                "просто на его ранчо,<PAUSE:3> <SOUND:CLUE>но и по",
+                "всему Хайрулу."
               ],
               "Type": 0,
               "Position": 0
@@ -59787,9 +59791,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "The killer turned out to be an utterly",
-                "pathetic man with delusions of",
-                "grandeur!"
+                "Убийцей оказался совешенно",
+                "ничтожный человек с манией",
+                "величия!"
               ],
               "Type": 0,
               "Position": 0
@@ -59797,7 +59801,7 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>I mean, look at him!"
+                "<SOUND:EXPLOSION>Ну, просто гляньте на него!"
               ],
               "Type": 0,
               "Position": 0
@@ -59805,7 +59809,8 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:DON><DI>An utter idiot, dressed like a clown!"
+                "<SOUND:DON><DI>Полный придурок, да ещё и",
+                "вырядился, как клоун!"
               ],
               "Type": 0,
               "Position": 0
@@ -59813,7 +59818,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Geez. He's really laying into him.)"
+                "<SOUND:0><C>(У-ух. Он на него аж накинулся.)"
               ],
               "Type": 0,
               "Position": 0
@@ -59821,7 +59826,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(I bet he's just upset because he lost.)"
+                "<SOUND:0><C>(Наверное, просто сердится,",
+                "потому что проиграл.)"
               ],
               "Type": 0,
               "Position": 0
@@ -59829,8 +59835,9 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "The prosecution's rant aside, I think",
-                "it is time to declare today's verdict."
+                "Тираду стороны обвинения в",
+                "сторону <EMDASH> думаю, пора огласить",
+                "приговор."
               ],
               "Type": 0,
               "Position": 0
@@ -59838,8 +59845,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "This is just a formality, but will the",
-                "defendant please step up to the stand?<SQUARE>"
+                "Это лишь формалность, но не",
+                "могла бы подсудимая занять",
+                "место свидетеля?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -59847,17 +59855,19 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Young miss, I am very sorry for the",
-                "situation you have found yourself in."
+                "Юная леди, я искренне сочувствую",
+                "ситуации, в которой Вы оказались."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "JUDGE60",
+              "Comment": "Had to employ herculean restraint to not translate \"good\" as if it was \"ace\" here lol. Mostly in case an actual \"ace attorney\" name drop shows up in case 2 and it'd need to be referenced clearly",
               "MessageTextLines": [
-                "I am very glad you appear to have",
-                "such a good attorney as a friend."
+                "Я рад, что среди ваших друзей",
+                "оказался такой незаурядный",
+                "адвокат."
               ],
               "Type": 0,
               "Position": 0
@@ -59865,7 +59875,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "I wouldn't have chosen anyone else!"
+                "Никого другого я бы и не выбрала!"
               ],
               "Type": 0,
               "Position": 0
@@ -59873,7 +59883,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(Aww, thanks!)"
+                "<SOUND:0><C>(Ах, спасибо!)"
               ],
               "Type": 0,
               "Position": 0
@@ -59881,7 +59891,7 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hmph."
+                "<SOUND:WHAP><DI>Пф."
               ],
               "Type": 0,
               "Position": 0
@@ -59889,17 +59899,18 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "Now, then, without further ado..."
+                "Итак, без лишних слов..."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "JUDGE80",
+              "Comment": "\"sacred\" translated same as \"sacred realm\" in the fan translation",
               "MessageTextLines": [
-                "In the name of Goddess Hylia and the",
-                "sacred land of Hyrule, I hereby find",
-                "Malon of Lon Lon Ranch..."
+                "Во имя Богини Хайлии и священной",
+                "земли Хайрула, я провозглашаю,",
+                "что Малон из ранчо Лон Лон..."
               ],
               "Type": 0,
               "Position": 0
@@ -59907,7 +59918,7 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "Court is adjourned!<SQUARE>"
+                "Заседание объявляется закрытым!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -73383,7 +73394,8 @@
             {
               "Name": "Msg1",
               "MessageTextLines": [
-                "<NS>We've had so much work recently...<FADE:30>"
+                "<NS>Столько работы в последнее",
+                "время...<FADE:30>"
               ],
               "Type": 0,
               "Position": 1
@@ -73391,8 +73403,8 @@
             {
               "Name": "Msg2",
               "MessageTextLines": [
-                "Well,<PAUSE:5> ya know how it goes with the",
-                "royal visits.<FADE:30>"
+                "Ну,<PAUSE:5> ты ж знаешь, как эти",
+                "проверки королевские проходят.<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73400,8 +73412,9 @@
             {
               "Name": "Msg3",
               "MessageTextLines": [
-                "<NS>Always a busy time.<PAUSE:5> Gotta make sure",
-                "everything's in tip-top shape!<FADE:30>"
+                "<NS>Всегда самое занятое время.<PAUSE:5>",
+                "Надо ж убедиться, чтобы всё",
+                "было лучше некуда!<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73409,9 +73422,9 @@
             {
               "Name": "Msg4",
               "MessageTextLines": [
-                "<NS>I do worry summat about old Ingo,",
-                "though.<PAUSE:5> He's been complainin' about",
-                "his back recently...<FADE:30>"
+                "<NS>Я немног беспокоюсь за старину",
+                "Инго, правда.<PAUSE:5> Он нынче на спину",
+                "жалуется, бедолага...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73419,8 +73432,8 @@
             {
               "Name": "Msg5",
               "MessageTextLines": [
-                "<NS>Do wish he'd take a step back and",
-                "relax sometime...<FADE:30>"
+                "<NS>Ему б отойти от работы и",
+                "отдохнуть когда-нибудь...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73428,8 +73441,8 @@
             {
               "Name": "Msg6",
               "MessageTextLines": [
-                "<NS>Maybe we should convince him",
-                "to take a vacation?<FADE:30>"
+                "<NS>Может уговорить ему в отпуск",
+                "уйти?<FADE:30>"
               ],
               "Type": 0,
               "Position": 1
@@ -73437,9 +73450,9 @@
             {
               "Name": "Msg7",
               "MessageTextLines": [
-                "<NS>Wah, hah!<PAUSE:5> Now, there's an idea!<PAUSE:3> ",
-                "It'd do him good ta just get out fer",
-                "a while!<FADE:30>"
+                "<NS>Ва, ха!<PAUSE:5> Вот да идея!<PAUSE:3> ",
+                "Просто отвлечься, и то ему",
+                "на пользу пойдёт!<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73447,8 +73460,8 @@
             {
               "Name": "Msg8",
               "MessageTextLines": [
-                "<NS>I'll discuss it with him after the",
-                "visitation.<FADE:30>"
+                "<NS>Поговорю с ним об этом после",
+                "проверки.<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -73456,8 +73469,8 @@
             {
               "Name": "Msg9",
               "MessageTextLines": [
-                "<NS>After things calm down, we can",
-                "handle everythin' without him.<FADE:30>"
+                "<NS>Когда всё успокоится, мы и",
+                "без него со все управимся.<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
