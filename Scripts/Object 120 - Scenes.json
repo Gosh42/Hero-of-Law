@@ -1188,7 +1188,7 @@
             {
               "Name": "Subtitle_Rebuttal",
               "MessageTextLines": [
-                "<LC>(Возражение)<BYTE:0>"
+                "<LC>(Опровержение)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -21061,7 +21061,7 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "Гм."
+                "Пф."
               ],
               "Type": 0,
               "Position": 0
@@ -23978,8 +23978,8 @@
               "Name": "IMPA52",
               "MessageTextLines": [
                 "Вскоре после нашего прибытия",
-                "объявился курьер, чтобы забрать",
-                "заказ молока."
+                "объявился доставщик, чтобы",
+                "забрать заказ молока."
               ],
               "Type": 0,
               "Position": 0
@@ -26558,7 +26558,7 @@
               "MessageTextLines": [
                 "Обычно мы с отцом делаем это",
                 "всё вместе, чтобы успеть до того,",
-                "как приедет курьер..."
+                "как приедет доставщик..."
               ],
               "Type": 0,
               "Position": 0
@@ -26767,7 +26767,7 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "Что, не можешь?<PAUSE:3> Гм.<PAUSE:3> <SOUND:EXPLOSION><DI>",
+                "Что, не можешь?<PAUSE:3> Пф.<PAUSE:3> <SOUND:EXPLOSION><DI>",
                 "Ну и трата времени.<SQUARE>"
               ],
               "Type": 0,
@@ -26794,7 +26794,7 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:DON>Может вы не умеете судить о",
+                "<SOUND:DON>Может, вы не умеете судить о",
                 "людях <EMDASH> и ты, и ты."
               ],
               "Type": 0,
@@ -32246,7 +32246,7 @@
                 "...Однако, потом я увидела, как",
                 "один рабочий привёз загруженную",
                 "телегу, когда за молоком пришёл",
-                "курьер."
+                "доставщик."
               ],
               "Type": 0,
               "Position": 0
@@ -37412,7 +37412,7 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "Это весьма,<SOUND:WHAP> весьма необычайно!"
+                "Это не входит<SOUND:WHAP> ни в какие рамки!"
               ],
               "Type": 0,
               "Position": 0
@@ -48532,7 +48532,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "Гм.<PAUSE:3> Да, для чего же<SOUND:CLUE> ещё?"
+                "Пф.<PAUSE:3> Да, для чего же<SOUND:CLUE> ещё?"
               ],
               "Type": 0,
               "Position": 0
@@ -51999,7 +51999,7 @@
               "MessageTextLines": [
                 "Сразу после этого я вернулся, и не",
                 "выходил из башни, пока не пришёл",
-                "курьер."
+                "доставщик."
               ],
               "Type": 0,
               "Position": 0
@@ -54978,7 +54978,7 @@
               "MessageTextLines": [
                 "<DI><G>Сразу после этого я вернулся, и не",
                 "выходил из башни, пока не пришёл",
-                "курьер.<PERSISTENT>"
+                "доставщик.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65707,7 +65707,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"The Murder Weapon\"<FADE:38>"
+                "<NS><SOUND:0><LC><R>«Орудие убийства»<FADE:38>"
               ],
               "Type": 0,
               "Position": 0
@@ -65715,9 +65715,9 @@
             {
               "Name": "DRAGMIRE1",
               "MessageTextLines": [
-                "<G>You lack the murder weapon!<PAUSE:5> ",
-                "If Ingo was the murderer, then",
-                "it couldn't have been the saw!<PERSISTENT>"
+                "<G>Не хватает орудия убийства!<PAUSE:5> ",
+                "Если Инго убийца, то это",
+                "не могла быть пила!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65725,9 +65725,9 @@
             {
               "Name": "DI_DRAGMIRE1",
               "MessageTextLines": [
-                "<G><DI>You lack the murder weapon!",
-                "If Ingo was the murderer, then",
-                "it couldn't have been the saw!<PERSISTENT>"
+                "<G><DI>Не хватает орудия убийства!<PAUSE:5> ",
+                "Если Инго убийца, то это",
+                "не могла быть пила!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65735,8 +65735,8 @@
             {
               "Name": "DRAGMIRE2",
               "MessageTextLines": [
-                "<G>Where would this supposed other",
-                "murder weapon have even come from?!<PERSISTENT>"
+                "<G>И откуда взялось бы это",
+                "предполагаемое второе орудие?!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65744,8 +65744,8 @@
             {
               "Name": "DI_DRAGMIRE2",
               "MessageTextLines": [
-                "<G><DI>Where would this supposed other",
-                "murder weapon have even come from?!<PERSISTENT>"
+                "<G><DI>И откуда взялось бы это",
+                "предполагаемое второе орудие?!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65753,9 +65753,9 @@
             {
               "Name": "DRAGMIRE3",
               "MessageTextLines": [
-                "<G>We checked all sharp objects on the",
-                "ranch and searched everyone! No",
-                "fresh blood was found anywhere else!<PERSISTENT>"
+                "<G>Мы проверили всё острое на",
+                "ранчо и обыскали всех! Больше",
+                "свежей крови нигде не нашли!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65763,9 +65763,9 @@
             {
               "Name": "DI_DRAGMIRE3",
               "MessageTextLines": [
-                "<G><DI>We checked all sharp objects on the",
-                "ranch and searched everyone! No",
-                "fresh blood was found anywhere else!<PERSISTENT>"
+                "<G><DI>Мы проверили всё острое на",
+                "ранчо и обыскали всех! Больше",
+                "свежей крови нигде не нашли!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65773,9 +65773,9 @@
             {
               "Name": "DRAGMIRE4",
               "MessageTextLines": [
-                "<G>No items from the ranch's inventory",
-                "list were missing, and that list is",
-                "indisputable!<PERSISTENT>"
+                "<G>Все предметы из списка инвентаря",
+                "ранчо всё ещё на месте, а этот",
+                "список неопровержим!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65783,9 +65783,9 @@
             {
               "Name": "DI_DRAGMIRE4",
               "MessageTextLines": [
-                "<G><DI>No items from the ranch's inventory",
-                "list were missing, and that list is",
-                "indisputable!<PERSISTENT>"
+                "<G><DI>Все предметы из списка инвентаря",
+                "ранчо всё ещё на месте, а этот",
+                "список неопровержим!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65793,7 +65793,7 @@
             {
               "Name": "DRAGMIRE5",
               "MessageTextLines": [
-                "<G>Nothing could have left the ranch!<PERSISTENT>"
+                "<G>Ничто не могло покинуть ранчо!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65801,7 +65801,7 @@
             {
               "Name": "DI_DRAGMIRE5",
               "MessageTextLines": [
-                "<G><DI>Nothing could have left the ranch!<PERSISTENT>"
+                "<G><DI>Ничто не могло покинуть ранчо!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65809,9 +65809,9 @@
             {
               "Name": "DRAGMIRE6",
               "MessageTextLines": [
-                "<G>A weapon in a milk bottle wouldn't just",
-                "go unnoticed! Someone would have",
-                "reported it!<PERSISTENT>"
+                "<G>Оружие в банке молока надолго",
+                "не спрятать! Кто-нибудь его",
+                "заметил бы и доложил о нём!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65819,9 +65819,9 @@
             {
               "Name": "DI_DRAGMIRE6",
               "MessageTextLines": [
-                "<G><DI>A weapon in a milk bottle wouldn't just",
-                "go unnoticed! Someone would have",
-                "reported it!<PERSISTENT>"
+                "<G><DI>Оружие в банке молока надолго",
+                "не спрятать! Кто-нибудь его",
+                "заметил бы и доложил о нём!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -65829,7 +65829,7 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "<SOUND:CLUE>And why is that?"
+                "<SOUND:CLUE>Почему это?"
               ],
               "Type": 0,
               "Position": 0
@@ -65837,7 +65837,7 @@
             {
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
-                "It's simple."
+                "Всё просто."
               ],
               "Type": 0,
               "Position": 0
@@ -65845,10 +65845,9 @@
             {
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
-                "If the girl's story about working on the",
-                "fence is true, then she was using the",
-                "saw while her father was being",
-                "murdered!"
+                "Если девчонка не соврала про",
+                "историю с забором, то пока её",
+                "отца убивали, пила была у неё!"
               ],
               "Type": 0,
               "Position": 0
@@ -65856,8 +65855,8 @@
             {
               "Name": "1_DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>It couldn't have been in two places at",
-                "the same time!"
+                "<SOUND:EXPLOSION><DI>Она не могла быть в двух",
+                "местах одновременно!"
               ],
               "Type": 0,
               "Position": 0
@@ -65865,10 +65864,10 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm... do I agree with this?)<DI>",
+                "<SOUND:0><C>(Хмм... согласиться ли с этим?)<DI>",
                 "<TWO_CHOICES>",
-                "<G>Yes",
-                "No"
+                "<G>Да",
+                "Нет"
               ],
               "Type": 0,
               "Position": 0
@@ -65876,8 +65875,8 @@
             {
               "Name": "1_1_LINK10",
               "MessageTextLines": [
-                "I believe we're in complete agreement",
-                "on this point."
+                "Думаю, насчёт этого мы в полном",
+                "согласии."
               ],
               "Type": 0,
               "Position": 0
@@ -65893,8 +65892,8 @@
             {
               "Name": "1_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>You do realize the problems that",
-                "creates for you, right?"
+                "<SOUND:EXPLOSION>Ты же понимаешь, какие проблемы",
+                "это тебе создаёт, да?"
               ],
               "Type": 0,
               "Position": 0
@@ -65902,7 +65901,8 @@
             {
               "Name": "1_1_LINK20",
               "MessageTextLines": [
-                "I'm sure it can all be explained."
+                "Уверен, всему есть своё",
+                "объяснение."
               ],
               "Type": 0,
               "Position": 0
@@ -65910,7 +65910,7 @@
             {
               "Name": "1_1_DRAGMIRE30",
               "MessageTextLines": [
-                "Hah! As if!"
+                "Ха! Ещё бы!"
               ],
               "Type": 0,
               "Position": 0
@@ -65918,9 +65918,9 @@
             {
               "Name": "1_1_DRAGMIRE40",
               "MessageTextLines": [
-                "But, very well.<PAUSE:3> Then let's move on to",
-                "why nothing else could have been the",
-                "murder weapon, either!<SQUARE>"
+                "Но, допустим.<PAUSE:3> Теперь перейдём к",
+                "тому, почему больше ничто ещё",
+                "не могло быть орудием убийства!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -65928,7 +65928,7 @@
             {
               "Name": "1_2_LINK10",
               "MessageTextLines": [
-                "No, the saw <SOUND:WHAP>WAS the murder weapon!"
+                "Нет, пила <SOUND:WHAP>БЫЛА орудием убийства!"
               ],
               "Type": 0,
               "Position": 0
@@ -65936,8 +65936,8 @@
             {
               "Name": "1_2_DRAGMIRE10",
               "MessageTextLines": [
-                "Truly?<PAUSE:3> Well, if that's the case, present",
-                "some proof!"
+                "Действительно?<PAUSE:3> Что ж, в таком",
+                "случае, приведи доказательства!"
               ],
               "Type": 0,
               "Position": 0
@@ -65945,8 +65945,9 @@
             {
               "Name": "1_2_DRAGMIRE20",
               "MessageTextLines": [
-                "Enlighten us on how it could have",
-                "been in two places at the same time!"
+                "Просвяти нас! Как пила могла",
+                "быть сразу в двух местах в",
+                "одно время?"
               ],
               "Type": 0,
               "Position": 0
@@ -65954,7 +65955,8 @@
             {
               "Name": "1_2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. I really need to think about this.)<SQUARE>"
+                "<SOUND:0><C>(Хмм. Мне стоит это серьёзно",
+                "обдумать.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -65962,7 +65964,9 @@
             {
               "Name": "2_LINK1",
               "MessageTextLines": [
-                "<SOUND:CLUE>Couldn't he have used any old thing?"
+                "<SOUND:CLUE>Разве он не мог просто",
+                "использовать первое, что",
+                "под руку подвернулось?"
               ],
               "Type": 0,
               "Position": 0
@@ -65970,8 +65974,8 @@
             {
               "Name": "2_DRAGMIRE1",
               "MessageTextLines": [
-                "Either answer the question, Defence,",
-                "<SOUND:WHAP>or this discussion is over!"
+                "Либо отвечай на вопрос, либо этой",
+                "<SOUND:WHAP>дискуссии конец!"
               ],
               "Type": 0,
               "Position": 0
@@ -65979,7 +65983,7 @@
             {
               "Name": "2_LINK2",
               "MessageTextLines": [
-                "<SOUND:0><C>(No need to overthink this.)"
+                "<SOUND:0><C>(Не нужно долго обдумывать это.)"
               ],
               "Type": 0,
               "Position": 0
@@ -65987,9 +65991,9 @@
             {
               "Name": "2_LINK3",
               "MessageTextLines": [
-                "<SOUND:0><C>(Anywhere Ingo could've gotten a",
-                "weapon from will do.<PAUSE:3> <SOUND:CLUE>I'll worry about",
-                "the exact details later!)<SQUARE>"
+                "<SOUND:0><C>(Подойдёт что угодно, откуда Инго",
+                "мог раздобыть оружие.<PAUSE:3> <SOUND:CLUE>О мелочах",
+                "будем беспокоиться позже!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -65997,8 +66001,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Have you forgotten this murder",
-                "happened on a ranch?"
+                "Вы же не забыли, что убийство",
+                "произошло на ранчо?"
               ],
               "Type": 0,
               "Position": 0
@@ -66006,8 +66010,8 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>There are plenty of sharp things on",
-                "site!"
+                "<SOUND:WHAP><DI>Тут поблизости полно острых",
+                "вещей!"
               ],
               "Type": 0,
               "Position": 0
@@ -66015,9 +66019,9 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "Hoh, hoh!",
+                "Хо, хо!",
                 "<NEW_BOX>",
-                "<SOUND:EXPLOSION><DI>That's simply impossible!<SQUARE>"
+                "<SOUND:EXPLOSION><DI>Это просто исключено!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66025,10 +66029,10 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G><DI>Hidden it?",
-                "Disposed of it?",
-                "Wiped it off?"
+                "Разве Инго не мог просто...",
+                "<THREE_CHOICES><SOUND:0><G><DI>Спрятать его?",
+                "Избавиться от него?",
+                "Вытереть его?"
               ],
               "Type": 0,
               "Position": 0
@@ -66036,7 +66040,8 @@
             {
               "Name": "3_1_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>hidden it?"
+                "Разве Инго не мог просто",
+                "<SOUND:CLUE>спрятать его?"
               ],
               "Type": 0,
               "Position": 0
@@ -66044,8 +66049,8 @@
             {
               "Name": "3_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Bah!<PAUSE:3> The kingdom's best investigators",
-                "are on this case!"
+                "<SOUND:EXPLOSION><DI>Ба!<PAUSE:3> Тут расследование ведут",
+                "лучшие специалисты королевства!"
               ],
               "Type": 0,
               "Position": 0
@@ -66053,16 +66058,18 @@
             {
               "Name": "3_1_DRAGMIRE20",
               "MessageTextLines": [
-                "We found no signs of anything buried",
-                "on the premises.",
+                "Мы не нашли никаких следов",
+                "попыток закопать что-то в",
+                "окрестности.",
                 "<NEW_BOX>",
-                "And even if Ingo skipped part of his",
-                "work, he still wouldn't have had time to",
-                "hide anything very far from the ranch.",
+                "Даже если Инго и пропустил часть",
+                "работы, у него всё равно не хватило",
+                "бы времени спрятать что-то далеко",
+                "от ранчо.",
                 "<NEW_BOX>",
-                "He may be an idiot, but do you really",
-                "think he would have risked the weapon",
-                "being found?!"
+                "Он может и болван, но ты правда",
+                "думаешь, что он понадеялся бы,",
+                "что оружие просто не найдут?!"
               ],
               "Type": 0,
               "Position": 0
@@ -66070,7 +66077,7 @@
             {
               "Name": "3_1_INGO10",
               "MessageTextLines": [
-                "Now, listen here<EMDASH><FADE:10>"
+                "Так, а ну слушайте сюда<EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -66078,7 +66085,7 @@
             {
               "Name": "3_1_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Silence!"
+                "<SOUND:EXPLOSION><DI>Молчать!"
               ],
               "Type": 0,
               "Position": 0
@@ -66086,7 +66093,7 @@
             {
               "Name": "3_1_INGO20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Waaaah!<FADE:15>"
+                "<SOUND:WHAP><DI>Ва-а-а!<FADE:15>"
               ],
               "Type": 0,
               "Position": 0
@@ -66094,8 +66101,8 @@
             {
               "Name": "3_1_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, I guess that is a good point...",
-                "I may have to rethink this.)"
+                "<SOUND:0><C>(Хмм, а ведь действительно...",
+                "Мне стоит ещё раз это обдумать.)"
               ],
               "Type": 0,
               "Position": 0
@@ -66103,10 +66110,10 @@
             {
               "Name": "3_1_LINK30",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G><DI>Disposed of it?",
-                "Wiped it off?",
-                "Never mind."
+                "Разве Инго не мог просто...",
+                "<THREE_CHOICES><SOUND:0><G><DI>Избавиться от него?",
+                "Вытереть его?",
+                "Ладно, не важно."
               ],
               "Type": 0,
               "Position": 0
@@ -66114,8 +66121,8 @@
             {
               "Name": "3_2_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>disposed of it",
-                "in some way?"
+                "Разве Инго не мог просто",
+                "<SOUND:CLUE>как-нибудь избавиться от него?"
               ],
               "Type": 0,
               "Position": 0
@@ -66123,7 +66130,7 @@
             {
               "Name": "3_2_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> That's impossible.<PAUSE:3> You see...<SQUARE>"
+                "<SOUND:WHAP><DI>Ха!<PAUSE:3> Это невозможно.<PAUSE:3> Видишь ли...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66131,7 +66138,8 @@
             {
               "Name": "3_3_LINK10",
               "MessageTextLines": [
-                "Couldn't Ingo have just <SOUND:CLUE>wiped it off?"
+                "Разве Инго не мог просто",
+                "<SOUND:CLUE>вытереть его?"
               ],
               "Type": 0,
               "Position": 0
@@ -66139,8 +66147,8 @@
             {
               "Name": "3_3_DRAGMIRE10",
               "MessageTextLines": [
-                "<PAUSE:3><DC>...Blood leaves traces.<PAUSE:3> It's not that",
-                "easy to get rid of."
+                "<PAUSE:3><DC>...От крови остаются следы.<PAUSE:3> От неё",
+                "не так просто избавиться."
               ],
               "Type": 0,
               "Position": 0
@@ -66148,9 +66156,9 @@
             {
               "Name": "3_3_DRAGMIRE20",
               "MessageTextLines": [
-                "People like us aren't so sensitive,<PAUSE:3> ",
-                "but other beings like the Zoras can",
-                "easily tell by smell."
+                "Люди как мы не так чувствительны,<PAUSE:3> ",
+                "но такие как Зора легко могут",
+                "заметить её по запаху."
               ],
               "Type": 0,
               "Position": 0
@@ -66158,8 +66166,8 @@
             {
               "Name": "3_3_DRAGMIRE30",
               "MessageTextLines": [
-                "Naturally, the Sheikah Force employs",
-                "people for just this task."
+                "В отряд Шиика, разумеется, есть",
+                "люди как раз для таких дел."
               ],
               "Type": 0,
               "Position": 0
@@ -66167,13 +66175,14 @@
             {
               "Name": "3_3_DRAGMIRE40",
               "MessageTextLines": [
-                "Also, as Lon Lon Ranch focuses on",
-                "selling horses and milk, the animals",
-                "there aren't regularly butchered...",
+                "Кстати, ранчо Лон Лон занимается",
+                "продажей лошадей и молока, а не",
+                "мяса, так что там животных",
+                "обычно не режут...",
                 "<NEW_BOX>",
-                "...so there's no good reason why any",
-                "of the tools would have fresh blood",
-                "on them."
+                "...поэтому на других инструментах",
+                "свежей крови просто так быть",
+                "не может."
               ],
               "Type": 0,
               "Position": 0
@@ -66181,8 +66190,8 @@
             {
               "Name": "3_3_DRAGMIRE50",
               "MessageTextLines": [
-                "<DI><SOUND:DON>Any such implement would've stood",
-                "out like a sore thumb!"
+                "<DI><SOUND:DON>Любой такой предмет так и",
+                "бросился бы в глаза!"
               ],
               "Type": 0,
               "Position": 0
@@ -66190,10 +66199,10 @@
             {
               "Name": "3_3_LINK20",
               "MessageTextLines": [
-                "Couldn't Ingo have just...",
-                "<THREE_CHOICES><SOUND:0><G>Hidden it?",
-                "Disposed of it?",
-                "Never mind."
+                "Разве Инго не мог просто...",
+                "<THREE_CHOICES><SOUND:0><G>Спрятать его?",
+                "Избавиться от него?",
+                "Ладно, не важно."
               ],
               "Type": 0,
               "Position": 0
@@ -66209,8 +66218,8 @@
             {
               "Name": "3_4_DRAGMIRE10",
               "MessageTextLines": [
-                "\"Couldn't Ingo have just\"...<PAUSE:2> what?<PAUSE:6> ",
-                "<DI><SOUND:EXPLOSION>Spit it out!"
+                "«Разве Инго не мог просто»...<PAUSE:2> что?<PAUSE:6> ",
+                "<DI><SOUND:EXPLOSION>Не тяни!"
               ],
               "Type": 0,
               "Position": 0
@@ -66218,7 +66227,8 @@
             {
               "Name": "3_4_LINK20",
               "MessageTextLines": [
-                "Sorry.<PAUSE:2> Still collecting my thoughts."
+                "Прошу прощения.<PAUSE:2> Всё ещё",
+                "собираюсь с мыслями."
               ],
               "Type": 0,
               "Position": 0
@@ -66226,8 +66236,8 @@
             {
               "Name": "3_4_DRAGMIRE20",
               "MessageTextLines": [
-                "Hmph.<PAUSE:2> Do all the collecting you want.<PAUSE:3> ",
-                "It won't change the facts!<SQUARE>"
+                "Пф.<PAUSE:2> Собирайся, сколько хочешь.<PAUSE:3> ",
+                "Факты от этого не изменятся!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66235,8 +66245,8 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "How can you be so sure the inventory",
-                "is accurate?"
+                "Вы точно можете быть уверены,",
+                "что список достоверен?"
               ],
               "Type": 0,
               "Position": 0
@@ -66244,7 +66254,7 @@
             {
               "Name": "4_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:3> Use your head!"
+                "<SOUND:EXPLOSION>Ба!<PAUSE:3> Сам подумай!"
               ],
               "Type": 0,
               "Position": 0
@@ -66252,8 +66262,8 @@
             {
               "Name": "4_DRAGMIRE20",
               "MessageTextLines": [
-                "There was a royal visitation scheduled",
-                "for that day!"
+                "На тот день была назначена",
+                "королевская проверка!"
               ],
               "Type": 0,
               "Position": 0
@@ -66261,9 +66271,10 @@
             {
               "Name": "4_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP>The ranch owner needed everything to",
-                "be in order!<PAUSE:3> He would've double-, even",
-                "triple-checked that list when he wrote it!"
+                "<SOUND:WHAP>Владелей ранчо должен был",
+                "убедиться, что всё в порядке!<PAUSE:3>",
+                "Он этот список дважды, даже",
+                "трижды перепроверил бы!"
               ],
               "Type": 0,
               "Position": 0
@@ -66271,7 +66282,8 @@
             {
               "Name": "4_LINK15",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. I suppose he would've, but...)<SQUARE>"
+                "<SOUND:0><C>(Хмм. Он, может, перепроверил бы,",
+                "но...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66279,7 +66291,7 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>The inventory list itself is false!"
+                "<SOUND:WHAP><DI>Сам список инвенторя ложный!"
               ],
               "Type": 0,
               "Position": 0
@@ -66287,10 +66299,11 @@
             {
               "Name": "4_DRAGMIRE50",
               "MessageTextLines": [
-                "Oh?<PAUSE:3> Fascinating!",
+                "Да?<PAUSE:3> Невероятно!",
                 "<NEW_BOX>",
-                "What exactly makes you question the",
-                "veracity of this document?"
+                "И что же именно заставило тебя",
+                "так усомниться в достоверности",
+                "этого документа?"
               ],
               "Type": 0,
               "Position": 0
@@ -66298,10 +66311,10 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(That would be...)",
+                "<SOUND:0><C>(Это...)",
                 "<TWO_CHOICES>",
-                "<G>Another piece of evidence",
-                "Something about the inventory itself"
+                "<G>Другая улика",
+                "Что-то на самом списке"
               ],
               "Type": 0,
               "Position": 0
@@ -66309,8 +66322,7 @@
             {
               "Name": "4_1_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Another piece of evidence contradicts",
-                "the list!"
+                "<SOUND:WHAP><DI>Списку противоречит другая улика!"
               ],
               "Type": 0,
               "Position": 0
@@ -66318,7 +66330,7 @@
             {
               "Name": "4_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:CLUE>Is that so?<PAUSE:3> Well, go on, then!"
+                "<SOUND:CLUE>Так ли?<PAUSE:3> Что ж, давай!"
               ],
               "Type": 0,
               "Position": 0
@@ -66326,8 +66338,8 @@
             {
               "Name": "4_1_DRAGMIRE20",
               "MessageTextLines": [
-                "<G>Show us which piece of evidence",
-                "contradicts the inventory list!<PERSISTENT>"
+                "<G>Покажи нам улику, которая",
+                "противоречит списку инвентаря!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -66335,7 +66347,7 @@
             {
               "Name": "4_1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>It's this, of course!"
+                "<SOUND:WHAP><DI>Вот это, конечно же!"
               ],
               "Type": 0,
               "Position": 0
@@ -66343,9 +66355,8 @@
             {
               "Name": "4_1_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Judge?<PAUSE:3> Do you have any idea what",
-                "the defence is blathering on about",
-                "now?"
+                "<SOUND:CLUE>...Судья?<PAUSE:3> Может ты понял, что за",
+                "чепуху он несёт сейчас?"
               ],
               "Type": 0,
               "Position": 0
@@ -66353,7 +66364,7 @@
             {
               "Name": "4_1_JUDGE10",
               "MessageTextLines": [
-                "Um...<PAUSE:3> <SOUND:HINT>no."
+                "Эм...<PAUSE:3> <SOUND:HINT>нет."
               ],
               "Type": 0,
               "Position": 0
@@ -66361,8 +66372,9 @@
             {
               "Name": "4_1_DRAGMIRE40",
               "MessageTextLines": [
-                "Naturally, it's not the list that's dubious,",
-                "but the defence's own shaky claims!<SQUARE>"
+                "Разумеется, сомнителен тут вовсе",
+                "не список, а шаткие заявления",
+                "защиты!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66370,7 +66382,7 @@
             {
               "Name": "4_2_LINK10",
               "MessageTextLines": [
-                "It's simple."
+                "Очень просто."
               ],
               "Type": 0,
               "Position": 0
@@ -66378,8 +66390,9 @@
             {
               "Name": "4_2_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>You only need a brief look at the",
-                "inventory to see it can't be trusted."
+                "<SOUND:WHAP><DI>Нужно лишь взглянуть в инвентарь,",
+                "чтобы увидеть, почему ему нельзя",
+                "верить."
               ],
               "Type": 0,
               "Position": 0
@@ -66387,10 +66400,10 @@
             {
               "Name": "4_2_DRAGMIRE10",
               "MessageTextLines": [
-                "Hoh, hoh!",
+                "Хо, хо!",
                 "<NEW_BOX>",
-                "You can't just go around making such",
-                "general statements, Defence!"
+                "Нельзя просто так делать такие",
+                "общие замечания, защита!"
               ],
               "Type": 0,
               "Position": 0
@@ -66398,8 +66411,8 @@
             {
               "Name": "4_2_DRAGMIRE20",
               "MessageTextLines": [
-                "<G>Point out what exactly about the",
-                "inventory makes it suspect!<PERSISTENT>"
+                "<G>Укажи, что именно в инвентаре",
+                "ставит его под сомнение!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -66407,7 +66420,8 @@
             {
               "Name": "4_2_F_LINK10",
               "MessageTextLines": [
-                "Er,<PAUSE:3> this part looks...<PAUSE:3> off?"
+                "Э-э,<PAUSE:3> вот эта часть какая-то...<PAUSE:3>",
+                "не такая?"
               ],
               "Type": 0,
               "Position": 0
@@ -66415,9 +66429,9 @@
             {
               "Name": "4_2_F_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>The only thing that's off here is your",
-                "brain!<PAUSE:3> There's nothing suspicious",
-                "there!"
+                "<SOUND:EXPLOSION>Всё, что тут не такое, так это",
+                "твой мозг!<PAUSE:3> Нет тут ничего",
+                "подозрительного!"
               ],
               "Type": 0,
               "Position": 0
@@ -66425,7 +66439,8 @@
             {
               "Name": "4_2_F_JUDGE10",
               "MessageTextLines": [
-                "I have to concur.<PAUSE:3> <SOUND:HINT>All seems valid to me."
+                "Вынужден согласиться.<PAUSE:3>",
+                "<SOUND:HINT>Здесь всё кажется действительным."
               ],
               "Type": 0,
               "Position": 0
@@ -66433,7 +66448,7 @@
             {
               "Name": "4_2_F_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Drat.)"
+                "<SOUND:0><C>(Блин.)"
               ],
               "Type": 0,
               "Position": 0
@@ -66441,9 +66456,10 @@
             {
               "Name": "4_2_F_LINK25",
               "MessageTextLines": [
-                "<SOUND:0><C>(Think, think, think!<PAUSE:5> There was no",
-                "reason to doubt this list before,<PAUSE:2> but",
-                "now that I have a suspect in mind...)"
+                "<SOUND:0><C>(Думай, думай, думай!<PAUSE:5> Раньше",
+                "сомневаться в списке причин",
+                "не было,<PAUSE:2> но теперь, когда у ",
+                "меня есть подозреваемый...)"
               ],
               "Type": 0,
               "Position": 0
@@ -66451,10 +66467,10 @@
             {
               "Name": "4_2_F_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, should I try pointing out",
-                "something else on the inventory list?)<TWO_CHOICES><G>",
-                "Yes",
-                "No"
+                "<SOUND:0><C>(Что ж, стоит ли указать что-то",
+                "другое в инвентаре?)<TWO_CHOICES><G>",
+                "Да",
+                "Нет"
               ],
               "Type": 0,
               "Position": 0
@@ -66462,8 +66478,8 @@
             {
               "Name": "4_2_F_1_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Wait!<PAUSE:3> There's something else I'd like to",
-                "point out!"
+                "<SOUND:WHAP><DI>Погодите!<PAUSE:3> Я хотел бы указать на",
+                "кое-что ещё!"
               ],
               "Type": 0,
               "Position": 0
@@ -66471,9 +66487,9 @@
             {
               "Name": "4_2_F_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Well, get to it, then!<PAUSE:3> The sooner you",
-                "get your greasy mitts off the list, the",
-                "better!"
+                "<SOUND:WHAP>Ну, тогда давай, быстрее!<PAUSE:3> Чем",
+                "раньше ты уберёшь от списка",
+                "свои грязные лапы, тем лучше!"
               ],
               "Type": 0,
               "Position": 0
@@ -66481,7 +66497,7 @@
             {
               "Name": "4_2_F_2_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(I need to rethink this whole thing...)<SQUARE>"
+                "<SOUND:0><C>(Нужно всё ещё раз обдумать...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66489,10 +66505,9 @@
             {
               "Name": "4_2_LINK30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Just look here!",
+                "<SOUND:WHAP><DI>Посмотрите сюда!",
                 "<NEW_BOX>",
-                "The one who compiled this list was",
-                "Ingo himself!"
+                "Этот список составил сам Инго!"
               ],
               "Type": 0,
               "Position": 0
@@ -66500,8 +66515,9 @@
             {
               "Name": "4_2_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>He could've easily falsified the counts",
-                "as part of his plan!"
+                "<SOUND:WHAP><DI>Он легко мог подделать числа",
+                "инструментов как часть своего",
+                "плана!"
               ],
               "Type": 0,
               "Position": 0
@@ -66509,7 +66525,7 @@
             {
               "Name": "4_2_DRAGMIRE30",
               "MessageTextLines": [
-                "Nnnnngh!"
+                "Гн-н-н-н!"
               ],
               "Type": 0,
               "Position": 0
@@ -66517,7 +66533,7 @@
             {
               "Name": "4_2_DRAGMIRE40",
               "MessageTextLines": [
-                "That doesn't matter!<SQUARE>"
+                "Это не важно!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66525,8 +66541,8 @@
             {
               "Name": "5_LINK10",
               "MessageTextLines": [
-                "Wouldn't Ingo have been able to just",
-                "throw the item out over the fence?"
+                "Разве Инго не мог просто",
+                "перебросить оружие через забор?"
               ],
               "Type": 0,
               "Position": 0
@@ -66534,8 +66550,8 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP>Bah!<PAUSE:3> Obviously, we searched the",
-                "perimeter of the ranch as well!"
+                "<SOUND:WHAP>Ба!<PAUSE:3> Очевидно, мы и периметр",
+                "ранчо тоже прочистили!"
               ],
               "Type": 0,
               "Position": 0
@@ -66543,7 +66559,7 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "Nothing was found anywhere!"
+                "Ничего нигде не нашли!"
               ],
               "Type": 0,
               "Position": 0
@@ -66551,8 +66567,8 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. This is the most important point.",
-                "<SOUND:CLUE>Has nothing really been able to leave?)<SQUARE>"
+                "<SOUND:0><C>(Хмм. Это самый важный момент.",
+                "<SOUND:CLUE>Ранчо точно ничто не покинуло?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66560,8 +66576,8 @@
             {
               "Name": "5_LINK30",
               "MessageTextLines": [
-                "Are you REALLY sure nothing left the",
-                "ranch?"
+                "А Вы ТОЧНО уверены, что ничего",
+                "не покинуло ранчо?"
               ],
               "Type": 0,
               "Position": 0
@@ -66569,8 +66585,8 @@
             {
               "Name": "5_LINK40",
               "MessageTextLines": [
-                "<SOUND:WHAP>What about a few little shipments of",
-                "milk?"
+                "<SOUND:WHAP>А как же те небольшие поставки",
+                "молока?"
               ],
               "Type": 0,
               "Position": 0
@@ -66578,12 +66594,11 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Preposterous!",
+                "<SOUND:WHAP><DI>Возмутительно!",
                 "<NEW_BOX>",
-                "Have you forgotten that said shipments",
-                "had been checked by the Sheikah",
-                "Force before they were allowed to",
-                "leave?"
+                "Ты уже забыл, что эти поставки",
+                "перед отправкой проверил отряд",
+                "Шиика?"
               ],
               "Type": 0,
               "Position": 0
@@ -66591,7 +66606,7 @@
             {
               "Name": "5_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(That's true...<PAUSE:3> But...)"
+                "<SOUND:0><C>(Это правда...<PAUSE:3> Но...)"
               ],
               "Type": 0,
               "Position": 0
@@ -66599,8 +66614,8 @@
             {
               "Name": "5_LINK60",
               "MessageTextLines": [
-                "There was a place the Sheikah",
-                "could've overlooked."
+                "Есть место, которое Шиика могли",
+                "и проглядеть."
               ],
               "Type": 0,
               "Position": 0
@@ -66608,13 +66623,12 @@
             {
               "Name": "5_DRAGMIRE40",
               "MessageTextLines": [
-                "What in Din's name are you babbling",
-                "about?<PAUSE:3> We're talking about bog",
-                "standard crates here, boy!",
+                "Во имя Дин, что за чушь ты несёшь?<PAUSE:3>",
+                "Речь об обычных ящиках, парень!",
                 "<NEW_BOX>",
-                "Not exactly vast dungeons full of",
-                "nooks and crannies to stuff things",
-                "into, are they?!"
+                "Это что, какие-нибудь подземелья",
+                "с кучей закоулков и трещин, куда",
+                "можно кучу хлама запихать, а?!"
               ],
               "Type": 0,
               "Position": 0
@@ -66622,8 +66636,8 @@
             {
               "Name": "5_DRAGMIRE50",
               "MessageTextLines": [
-                "Where could they have missed a",
-                "murder weapon?!"
+                "Где они могли пропустить",
+                "орудие убийства?!"
               ],
               "Type": 0,
               "Position": 0
@@ -66631,10 +66645,10 @@
             {
               "Name": "5_LINK70",
               "MessageTextLines": [
-                "It's simple.<PAUSE:3> They overlooked...<THREE_CHOICES><G>",
-                "The contents of the crates",
-                "The contents of the bottles",
-                "The crates themselves"
+                "Всё просто.<PAUSE:3> Они проглядели...<THREE_CHOICES><G>",
+                "Содержимое ящиков",
+                "Содержимое банок",
+                "Сами ящики"
               ],
               "Type": 0,
               "Position": 0
@@ -66642,9 +66656,9 @@
             {
               "Name": "5_1_LINK10",
               "MessageTextLines": [
-                "The murder weapon was just left in",
-                "one of the crates, between the milk",
-                "bottles!"
+                "Орудие убийства было в одном",
+                "из ящиков, между бутылок",
+                "молока!"
               ],
               "Type": 0,
               "Position": 0
@@ -66652,8 +66666,8 @@
             {
               "Name": "5_1_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Do you really consider the Sheikah",
-                "that incompetent?"
+                "<SOUND:EXPLOSION>Думаешь, Шиика настолько",
+                "некомпетентны?"
               ],
               "Type": 0,
               "Position": 0
@@ -66661,10 +66675,10 @@
             {
               "Name": "5_1_DRAGMIRE20",
               "MessageTextLines": [
-                "That would be the first place to check!",
+                "Это первое, где они посмотрели бы!",
                 "<NEW_BOX>",
-                "Besides, do you think the murderer",
-                "would risk something that obvious?"
+                "Более того, разве убийца рискнул",
+                "бы чем-то настолько очевидным?"
               ],
               "Type": 0,
               "Position": 0
@@ -66672,7 +66686,7 @@
             {
               "Name": "5_1_LINK20",
               "MessageTextLines": [
-                "Ah,<PAUSE:3> uh,<PAUSE:3> perhaps not, then."
+                "А,<PAUSE:3> э,<PAUSE:3> кажется нет, значит."
               ],
               "Type": 0,
               "Position": 0
@@ -66680,8 +66694,8 @@
             {
               "Name": "5_1_JUDGE10",
               "MessageTextLines": [
-                "Defence, your entire argument hinges",
-                "on this point, you know!"
+                "Защита, весь ваш аргумент",
+                "держится на этом, знаете ли!"
               ],
               "Type": 0,
               "Position": 0
@@ -66689,8 +66703,8 @@
             {
               "Name": "5_1_JUDGE20",
               "MessageTextLines": [
-                "Try to think through your answer a bit",
-                "more carefully next time."
+                "Продумайте ваш ответ тщательнее",
+                "в следующий раз, пожалуйста."
               ],
               "Type": 0,
               "Position": 0
@@ -66698,7 +66712,7 @@
             {
               "Name": "5_1_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(All right, all right...)"
+                "<SOUND:0><C>(Ладно, ладно...)"
               ],
               "Type": 0,
               "Position": 0
@@ -66706,10 +66720,10 @@
             {
               "Name": "5_3_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>It's the crates themselves!<PAUSE:3> ",
-                "The killer used a big chunk of wood to",
-                "kill the victim, and then nailed it to the",
-                "crates to conceal it!"
+                "<SOUND:WHAP><DI>Дело в самих ящиках!<PAUSE:3> ",
+                "Убийца убил жертву большой",
+                "деревянной доской, а потом",
+                "прибил её к ящику, чтобы спрятать!"
               ],
               "Type": 0,
               "Position": 0
@@ -66717,13 +66731,14 @@
             {
               "Name": "5_3_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>No, the weapon was definitely metal!<PAUSE:3> ",
-                "No stray bit of lumber could create a",
-                "wound like that!",
+                "<SOUND:EXPLOSION>Нет, оружие точно металлическое!<PAUSE:3> ",
+                "Кусок дерева такую рану нанести",
+                "не смог бы!",
                 "<NEW_BOX>",
-                "Plus, if the weapon WAS wooden, he",
-                "would've just burned it together with his",
-                "clothes, to ensure we'd never find it!"
+                "К тому же, если бы оружие и БЫЛО",
+                "деревянным, то он бы просто сжёг",
+                "его вместе с одеждой, чтобы мы",
+                "его точно не нашли!"
               ],
               "Type": 0,
               "Position": 0
@@ -66731,7 +66746,7 @@
             {
               "Name": "5_3_LINK20",
               "MessageTextLines": [
-                "Ah, right..."
+                "А, точно..."
               ],
               "Type": 0,
               "Position": 0
@@ -66739,10 +66754,10 @@
             {
               "Name": "5_2_LINK10",
               "MessageTextLines": [
-                "There is one place inside the crates",
-                "that the Sheikah couldn't have",
-                "checked thoroughly without ruining",
-                "the shipments."
+                "Есть ещё одно место внутри",
+                "ящиков, которое Шиика не",
+                "могли бы тщательно осмотреть,",
+                "не испортив поставки."
               ],
               "Type": 0,
               "Position": 0
@@ -66750,7 +66765,7 @@
             {
               "Name": "5_2_DRAGMIRE10",
               "MessageTextLines": [
-                "<PAUSE:3><SOUND:CLUE>\"Without ruining the shipments\"...?"
+                "<PAUSE:3><SOUND:CLUE>«Не испортив поставки»...?"
               ],
               "Type": 0,
               "Position": 0
@@ -66766,9 +66781,9 @@
             {
               "Name": "5_2_LINK20",
               "MessageTextLines": [
-                "<NS>That's right <EMDASH><PAUSE:3> <DI><SOUND:DON>Ingo put the murder",
-                "weapon <R>inside<W> one of the bottles to",
-                "conceal it from the search!"
+                "<NS>Именно <EMDASH><PAUSE:3> <DI><SOUND:DON>Инго положил орудие",
+                "убийства <R>внутрь<W> одной из банок,",
+                "чтобы спрятать его!"
               ],
               "Type": 0,
               "Position": 0
@@ -66776,7 +66791,7 @@
             {
               "Name": "5_2_JUDGE5",
               "MessageTextLines": [
-                "That does seem plausible..."
+                "Это кажется правдоподобным..."
               ],
               "Type": 0,
               "Position": 0
@@ -66784,7 +66799,7 @@
             {
               "Name": "5_2_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Now wait just a moment!<SQUARE>"
+                "<SOUND:EXPLOSION>Ну-ка погоди минуту!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66792,7 +66807,7 @@
             {
               "Name": "6_LINK10",
               "MessageTextLines": [
-                "How can you be so sure?"
+                "Почему Вы так уверены?"
               ],
               "Type": 0,
               "Position": 0
@@ -66800,11 +66815,12 @@
             {
               "Name": "6_DRAGMIRE10",
               "MessageTextLines": [
-                "Do you even know how much milk",
-                "an average milk bar uses <SOUND:WHAP>each day?",
+                "Ты хоть знаешь, сколько молока",
+                "в уходит в среднестатистическом",
+                "молочном баре <SOUND:WHAP>ежедневно?",
                 "<NEW_BOX>",
-                "All those shipments have most certainly",
-                "been completely used up by now!"
+                "Все эти поставки уже давно",
+                "должны были израсходовать!"
               ],
               "Type": 0,
               "Position": 0
@@ -66812,9 +66828,10 @@
             {
               "Name": "6_DRAGMIRE20",
               "MessageTextLines": [
-                "Someone drinking from that bottle",
-                "would have found it for sure!<PAUSE:3> <SOUND:EXPLOSION>Choked on",
-                "it, even, if they took too large a swig!"
+                "Кто-нибудь, кто пил из этой банки,",
+                "точно нашёл бы его!<PAUSE:3> <SOUND:EXPLOSION>Может даже",
+                "подавился им, если слишком",
+                "сильно глотнул!"
               ],
               "Type": 0,
               "Position": 0
@@ -66822,7 +66839,7 @@
             {
               "Name": "6_DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION_NOSHAKE><DI>It would be a huge scandal!<FADE:30>"
+                "<SOUND:EXPLOSION_NOSHAKE><DI>Это вызвало бы большой скандал!<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -66830,8 +66847,9 @@
             {
               "Name": "6_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, he's right about that...<PAUSE:3> but he's",
-                "missing some vital information!)<SQUARE>"
+                "<SOUND:0><C>(Что ж, он прав об этом...<PAUSE:3> но ему",
+                "не достаёт кое-какой критической",
+                "информации!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -66839,9 +66857,9 @@
             {
               "Name": "6_POST_LINK10",
               "MessageTextLines": [
-                "You would be correct that a weapon",
-                "showing up in someone's milkshake",
-                "would cause quite a stir..."
+                "Вы правы, что если оружие в",
+                "молочном коктейле вызвало бы",
+                "не малый ажиотаж..."
               ],
               "Type": 0,
               "Position": 0
@@ -66849,8 +66867,8 @@
             {
               "Name": "6_POST_LINK20",
               "MessageTextLines": [
-                "If the milk ever actually <SOUND:CLUE>made it to any",
-                "milk bar, that is."
+                "Но это при условии, что молоко в",
+                "бар вообще <SOUND:CLUE>попало."
               ],
               "Type": 0,
               "Position": 0
@@ -66866,13 +66884,14 @@
             {
               "Name": "5_2_LINK50",
               "MessageTextLines": [
-                "You see, I overheard a very interesting",
-                "tale during the recess...",
+                "Видите ли, во время перерыва",
+                "мне довелось услышать кое-что",
+                "интересное...",
                 "<NEW_BOX>",
-                "Word was sent from the ranch not long",
-                "ago that one of the shipments was",
-                "returned unopened due to being",
-                "misaddressed."
+                "От ранчо дошла весть, что",
+                "одна из поставок была возвращена",
+                "не открытой, потому что адрес на",
+                "ней был указан неправильно."
               ],
               "Type": 0,
               "Position": 0
@@ -66880,7 +66899,7 @@
             {
               "Name": "5_2_INGO10",
               "MessageTextLines": [
-                "Wh<EMDASH><PAUSE:6> <SOUND:EXPLOSION><DI>Nooooooo!"
+                "Чт<EMDASH><PAUSE:6> <SOUND:EXPLOSION><DI>Не-е-е-ет!"
               ],
               "Type": 0,
               "Position": 0
@@ -66888,8 +66907,8 @@
             {
               "Name": "5_2_LINK70",
               "MessageTextLines": [
-                "Indeed.<PAUSE:3> If you recall, Ingo was the one",
-                "who handled all of that."
+                "Верно.<PAUSE:3> Как Вы можете вспомнить,",
+                "занимался ими как раз-таки Инго."
               ],
               "Type": 0,
               "Position": 0
@@ -66897,13 +66916,13 @@
             {
               "Name": "5_2_LINK80",
               "MessageTextLines": [
-                "Now, that's strange.<PAUSE:3> The ranch supplies",
-                "the same milk bars every day.",
+                "И вот незадача.<PAUSE:3> Ранчо отправляет",
+                "заказы ежедневно в одни и те же",
+                "молочные бары.",
                 "<NEW_BOX>",
-                "Even if he had messed up the street",
-                "address a little,<PAUSE:3> <SOUND:CLUE>the couriers would've",
-                "known where the shipment was meant",
-                "to go."
+                "Даже если он слегка ошибся в",
+                "адресе,<PAUSE:3> <SOUND:CLUE>то доставщик всё равно",
+                "понял бы, куда его отвезти."
               ],
               "Type": 0,
               "Position": 0
@@ -66911,8 +66930,8 @@
             {
               "Name": "5_2_LINK85",
               "MessageTextLines": [
-                "How could he have bungled it <PAUSE:5>THAT<PAUSE:5> ",
-                "badly?"
+                "Как он смог изгадить адрес <PAUSE:5>",
+                "НАСТОЛЬКО<PAUSE:5> сильно?"
               ],
               "Type": 0,
               "Position": 0
@@ -66920,9 +66939,9 @@
             {
               "Name": "5_2_LINK90",
               "MessageTextLines": [
-                "<NS>It's almost as if...<PAUSE:3><DI><SOUND:DON> he didn't want",
-                "anyone receiving a bottle of milk with",
-                "a murder weapon in it!"
+                "<NS>Как будто...<PAUSE:3><DI><SOUND:DON> он и не хотел, чтобы",
+                "ящик с оружием в молоке кому-то",
+                "приехал!"
               ],
               "Type": 0,
               "Position": 0
@@ -66930,7 +66949,7 @@
             {
               "Name": "5_2_DRAGMIRE70",
               "MessageTextLines": [
-                "<SOUND:NA_SE_EN_GANON_DAMAGE2><DI>Guwooooooooooh!<FADE:15>"
+                "<SOUND:NA_SE_EN_GANON_DAMAGE2><DI>Гу-уо-о-о-о-о-о!<FADE:15>"
               ],
               "Type": 0,
               "Position": 0
@@ -66938,11 +66957,13 @@
             {
               "Name": "5_2_LINK100",
               "MessageTextLines": [
-                "I bet Ingo expected this box to stay",
-                "in shipping limbo a while longer.",
+                "Бьюсь об заклад, Инго ожидал,",
+                "что этот ящик ещё долго пробудет",
+                "в доставочном чистилище.",
                 "<NEW_BOX>",
-                "How unfortunate for him that the postal",
-                "service was on its game today."
+                "Как жаль для него, что сегодня",
+                "почтовая система решила поддать",
+                "жару."
               ],
               "Type": 0,
               "Position": 0
@@ -66950,8 +66971,8 @@
             {
               "Name": "5_2_LINK110",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Maybe because they were worried",
-                "it'd start to smell.)"
+                "<SOUND:0><C>(...Может они боялись, что",
+                "молоко скиснет и завоняется.)"
               ],
               "Type": 0,
               "Position": 0
@@ -66959,8 +66980,8 @@
             {
               "Name": "5_2_JUDGE10",
               "MessageTextLines": [
-                "I believe this calls for us to investigate",
-                "this box of milk more closely."
+                "Я считаю, мы должны поближе",
+                "осмотреть этот ящик молока."
               ],
               "Type": 0,
               "Position": 0
@@ -66968,8 +66989,8 @@
             {
               "Name": "5_2_JUDGE20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have this box retrieved",
-                "from the ranch immediately!<SQUARE>"
+                "<SOUND:WHAP><DI>Стража!<PAUSE:3> Приведите этот ящик сюда",
+                "с ранчо незамедлительно!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -73788,7 +73809,7 @@
               "MessageTextLines": [
                 "Я бы просто не успел подготовить",
                 "молоко к отправе, убить Талона,",
-                "да к тому же спрятать свои следы!"
+                "да ещё и спрятать свои следы!"
               ],
               "Type": 0,
               "Position": 0
@@ -75782,7 +75803,7 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "<DI><G>Это всё какая-то ошибка!",
+                "<DI><G>Вы говорите всё совсем не так!",
                 "Понятия не имею, о чём Вы!<PERSISTENT>"
               ],
               "Type": 0,
@@ -75803,7 +75824,7 @@
               "MessageTextLines": [
                 "<DI><G>Я бы просто не успел подготовить",
                 "молоко к отправе, убить Талона,",
-                "да к тому же спрятать свои следы!<PERSISTENT>"
+                "да ещё и спрятать свои следы!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -75923,9 +75944,9 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "Surely my scenario is more plausible",
-                "at this point than these panicked",
-                "attempts to fix your story!"
+                "Согласитесь, моя версия куда",
+                "вероятнее, чем Ваши панические",
+                "попытки переделать свой рассказ!"
               ],
               "Type": 0,
               "Position": 0
@@ -75933,8 +75954,8 @@
             {
               "Name": "1_DRAGMIRE10",
               "MessageTextLines": [
-                "What's more plausible isn't for you",
-                "to decide, Defence!"
+                "Не тебе решать, что вероятнее,",
+                "а что нет, защита!"
               ],
               "Type": 0,
               "Position": 0
@@ -75942,9 +75963,10 @@
             {
               "Name": "1_DRAGMIRE20",
               "MessageTextLines": [
-                "It's the judge that makes the final",
-                "call!<PAUSE:5> And as long as this alibi stands,",
-                "I can't imagine him siding with you!"
+                "Последнее решение принимает",
+                "судья!<PAUSE:5> А пока есть это алиби, то",
+                "не думаю, что он примет твою",
+                "сторону!"
               ],
               "Type": 0,
               "Position": 0
@@ -75952,9 +75974,9 @@
             {
               "Name": "1_JUDGE10",
               "MessageTextLines": [
-                "Hmm...<PAUSE:8> Yes, all of the loose ends have",
-                "to be tied up before a decision can be",
-                "made..."
+                "Хмм...<PAUSE:8> Да, перед тем, как принять",
+                "решение, нужно связать концы",
+                "с концами..."
               ],
               "Type": 0,
               "Position": 0
@@ -75962,7 +75984,8 @@
             {
               "Name": "1_JUDGE20",
               "MessageTextLines": [
-                "Witness, please continue.<SQUARE>"
+                "Свидетель, продолжайте,",
+                "пожалуйста.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -75970,8 +75993,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Could you explain what that alibi is,",
-                "again?"
+                "Повторите пожалуйста, в чём",
+                "заключается это алиби?"
               ],
               "Type": 0,
               "Position": 0
@@ -75979,7 +76002,7 @@
             {
               "Name": "2_INGO10",
               "MessageTextLines": [
-                "Hmph!<PAUSE:3> With pleasure!"
+                "Пф!<PAUSE:3> С удовольствием!"
               ],
               "Type": 0,
               "Position": 0
@@ -75987,8 +76010,9 @@
             {
               "Name": "2_INGO20",
               "MessageTextLines": [
-                "At the time of the crime, I was busy",
-                "preparing that day's shipments of milk."
+                "Пока совершали преступление, я",
+                "был занят подготовкой молока",
+                "к отправке."
               ],
               "Type": 0,
               "Position": 0
@@ -75996,9 +76020,9 @@
             {
               "Name": "2_INGO30",
               "MessageTextLines": [
-                "That's hard work!<PAUSE:8> I barely had enough",
-                "time to get them done before the",
-                "<R>courier<W> came to take them!"
+                "Работёнка не из простых!<PAUSE:8> Мне еле",
+                "хватило время всё закончить перед",
+                "тем как за ними приехал <R>доставщик<W>!"
               ],
               "Type": 0,
               "Position": 0
@@ -76006,9 +76030,9 @@
             {
               "Name": "2_DRAGMIRE10",
               "MessageTextLines": [
-                "The shipments were inspected by the",
-                "Sheikah Force as they were leaving the",
-                "ranch..."
+                "Поставки проверил отряд Шиика",
+                "перед тем, как их отправили",
+                "с ранчо..."
               ],
               "Type": 0,
               "Position": 0
@@ -76016,9 +76040,10 @@
             {
               "Name": "2_DRAGMIRE20",
               "MessageTextLines": [
-                "...and as our resident detective has",
-                "told us, they were found to be <SOUND:CLUE>fully",
-                "loaded up with bottles of milk."
+                "...и, как нам уже рассказал наш",
+                "местный следователь, все эти",
+                "ящики оказались <SOUND:CLUE>дополна забиты",
+                "банками с молоком."
               ],
               "Type": 0,
               "Position": 0
@@ -76026,8 +76051,8 @@
             {
               "Name": "2_INGO40",
               "MessageTextLines": [
-                "That's right!<PAUSE:8> The Sheikah Force itself",
-                "has vouched for me!"
+                "Вот-вот!<PAUSE:8> За меня поручился",
+                "целый отряд Шиика!"
               ],
               "Type": 0,
               "Position": 0
@@ -76035,7 +76060,7 @@
             {
               "Name": "2_INGO50",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>There's no way I could be the culprit!"
+                "<SOUND:WHAP><DI>Я уж точно ни в чём не виноват!"
               ],
               "Type": 0,
               "Position": 0
@@ -76043,8 +76068,9 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh, I disagree.<PAUSE:5> <SOUND:WHAP>There has to be a way!<PAUSE:5> ",
-                "There must be!)<SQUARE>"
+                "<SOUND:0><C>(Ох, а я не согласен.<PAUSE:5> <SOUND:WHAP>Должен же",
+                "был быть какой-то способ!<PAUSE:5> ",
+                "Просто обязан!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -76052,9 +76078,9 @@
             {
               "Name": "3_LINK10",
               "MessageTextLines": [
-                "Would it really have taken that long",
-                "to murder someone and burn some",
-                "clothes?"
+                "Разве на то, чтобы убить кого-то",
+                "и сжечь немного одежды, ушло",
+                "бы так много времени?"
               ],
               "Type": 0,
               "Position": 0
@@ -76062,8 +76088,8 @@
             {
               "Name": "3_DRAGMIRE10",
               "MessageTextLines": [
-                "It would've taken long enough to",
-                "definitely make the scheme infeasible."
+                "На это ушло бы достаточно, чтобы",
+                "весь план стал невыполним."
               ],
               "Type": 0,
               "Position": 0
@@ -76071,8 +76097,8 @@
             {
               "Name": "3_MALON10",
               "MessageTextLines": [
-                "Completing these shipments is a",
-                "rather involved process..."
+                "Готовить поставки <EMDASH> довольно",
+                "непростой процесс..."
               ],
               "Type": 0,
               "Position": 0
@@ -76080,9 +76106,10 @@
             {
               "Name": "3_MALON20",
               "MessageTextLines": [
-                "You have to milk the cows,<PAUSE:2> clean the",
-                "bottles,<PAUSE:2> pour the milk into them,<PAUSE:2> put them",
-                "into crates,<PAUSE:2> and load those onto a wagon."
+                "Нужно подоить коров,<PAUSE:2> промыть",
+                "банки,<PAUSE:2> налить в них молоко,<PAUSE:2> их",
+                "поставить в ящики,<PAUSE:2> и загрузить",
+                "их в телегу."
               ],
               "Type": 0,
               "Position": 0
@@ -76090,9 +76117,10 @@
             {
               "Name": "3_MALON30",
               "MessageTextLines": [
-                "I <SOUND:WHAP>love working with the cows!<PAUSE:6> ",
-                "But that part takes the <SOUND:CLUE>longest because",
-                "you only get a little at a time."
+                "Я <SOUND:WHAP>люблю работать с коровами!<PAUSE:6> ",
+                "Но эта часть занимает <SOUND:CLUE>дольше",
+                "всего, потому что молоко идёт",
+                "понемногу."
               ],
               "Type": 0,
               "Position": 0
@@ -76100,12 +76128,13 @@
             {
               "Name": "3_MALON40",
               "MessageTextLines": [
-                "So, as Mr. Ingo said, the whole thing",
-                "really does take a while.",
+                "Так что, как и сказал господин",
+                "Инго, всё дело и правда занимает",
+                "не мало времени.",
                 "<NEW_BOX>",
-                "Father and I usually have to work",
-                "together to get it done in time for the",
-                "courier's arrival."
+                "Мы с отцом обычно работали",
+                "вместе, чтобы успеть до прибытия",
+                "доставщика."
               ],
               "Type": 0,
               "Position": 0
@@ -76113,9 +76142,9 @@
             {
               "Name": "3_DRAGMIRE20",
               "MessageTextLines": [
-                "There you go, Defence!<PAUSE:8> ",
-                "<SOUND:EXPLOSION>Your own client knows this is the",
-                "unshakable truth!"
+                "Вот, защита!<PAUSE:8> ",
+                "<SOUND:EXPLOSION>Даже твой клиент понимает, что",
+                "это несокрушимая правда!"
               ],
               "Type": 0,
               "Position": 0
@@ -76123,9 +76152,9 @@
             {
               "Name": "3_LINK20",
               "MessageTextLines": [
-                "<C>(Okay, so there's no way he could",
-                "complete the shipments and also do",
-                "the killing...)"
+                "<C>(Ладно, значит он не мог закончить",
+                "поставки и при этом совершить",
+                "убийство...)"
               ],
               "Type": 0,
               "Position": 0
@@ -76133,9 +76162,10 @@
             {
               "Name": "3_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(In that case, there had to be some",
-                "way for him to finish the work faster!<PAUSE:8> ",
-                "I just have to find it!)<SQUARE>"
+                "<SOUND:0><C>(В таком случае, должен быть",
+                "какой-нибудь способ, чтобы он",
+                "мог выполнить работу быстрее!<PAUSE:8> ",
+                "Мне его нужно просто отыскать!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -76143,8 +76173,8 @@
             {
               "Name": "4_LINK10",
               "MessageTextLines": [
-                "So you had enough time for breakfast,",
-                "<SOUND:CLUE>but not enough to kill someone?"
+                "То есть, на завтрак у вас времени",
+                "хватило, <SOUND:CLUE>а на убийство <EMDASH> нет?"
               ],
               "Type": 0,
               "Position": 0
@@ -76152,7 +76182,7 @@
             {
               "Name": "4_INGO10",
               "MessageTextLines": [
-                "Err...<PAUSE:5> <SOUND:WHAP>Yes. Of course!"
+                "Э-э...<PAUSE:5> <SOUND:WHAP>Да. Конечно!"
               ],
               "Type": 0,
               "Position": 0
@@ -76160,9 +76190,9 @@
             {
               "Name": "4_INGO20",
               "MessageTextLines": [
-                "The breakfast was cooking while I",
-                "kept working.<PAUSE:5> Then I just quickly",
-                "gobbled it up!"
+                "Завтрак готовился, пока я",
+                "работал.<PAUSE:5> А потом я просто",
+                "его быстро слопал!"
               ],
               "Type": 0,
               "Position": 0
@@ -76170,7 +76200,7 @@
             {
               "Name": "4_INGO30",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>There's no issue there!"
+                "<DI><SOUND:WHAP>Всё тут в порядке!"
               ],
               "Type": 0,
               "Position": 0
@@ -76178,9 +76208,9 @@
             {
               "Name": "4_INGO40",
               "MessageTextLines": [
-                "In fact...<PAUSE:5> Yes!<PAUSE:5> I remember it even",
-                "burned a bit because I wasn't",
-                "completely paying attention to it."
+                "Более того...<PAUSE:5> Точно!<PAUSE:5> Я ещё помню,",
+                "что он немного пригорел, потому",
+                "что я не очень следил за ним."
               ],
               "Type": 0,
               "Position": 0
@@ -76188,9 +76218,9 @@
             {
               "Name": "4_INGO50",
               "MessageTextLines": [
-                "That's why I had to go get that",
-                "glass of water, too, you see.<PAUSE:5> ",
-                "Had to wash it down, after."
+                "Поэтому я и пошёл за тем",
+                "стаканом воды, видите ли.<PAUSE:5> ",
+                "Пришлось это запить."
               ],
               "Type": 0,
               "Position": 0
@@ -76198,7 +76228,7 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(What a convenient little explanation.)"
+                "<SOUND:0><C>(Какое удобненькое объяснение.)"
               ],
               "Type": 0,
               "Position": 0
@@ -76206,9 +76236,10 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(But for all I know, he actually did cook",
-                "up a breakfast on a fire of burning,",
-                "blood-soaked clothes.<PAUSE:5> Ewww.)"
+                "<SOUND:0><C>(Хотя, кто знает, может, он",
+                "действительно жарил еду на",
+                "костре из горящей кровавой",
+                "одежды.<PAUSE:5> Тьфу.)"
               ],
               "Type": 0,
               "Position": 0
@@ -76216,8 +76247,9 @@
             {
               "Name": "4_DRAGMIRE10",
               "MessageTextLines": [
-                "Continue, witness.<PAUSE:5> We don't want to",
-                "hear about your culinary adventures."
+                "Дальше, свидетель.<PAUSE:5> Нам не",
+                "интересно слушать про твои",
+                "кулинарные приключения."
               ],
               "Type": 0,
               "Position": 0
@@ -76225,9 +76257,9 @@
             {
               "Name": "4_INGO60",
               "MessageTextLines": [
-                "Of course, of course.<PAUSE:3> ",
-                "My point is just what I've been telling",
-                "you this whole time...<SQUARE>"
+                "Конечно, конечно.<PAUSE:3> ",
+                "Просто я это к тому, что всё это",
+                "время пытаюсь сказать...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -76235,8 +76267,8 @@
             {
               "Name": "5_LINK10",
               "MessageTextLines": [
-                "The only people who could've done",
-                "this were you and Malon."
+                "Единственные, кто могли бы",
+                "сделать это <EMDASH> Вы и Малон."
               ],
               "Type": 0,
               "Position": 0
@@ -76244,9 +76276,9 @@
             {
               "Name": "5_LINK20",
               "MessageTextLines": [
-                "And I know Malon well enough to know",
-                "she couldn't be the culprit!<PAUSE:5> <SOUND:DON><DI>That leaves",
-                "YOU as the perpetrator!"
+                "И я знаю Малон достаточно долго,",
+                "чтобы знать, что она не могла быть",
+                "виновной!<PAUSE:5> <SOUND:DON><DI>Остаётесь только ВЫ!"
               ],
               "Type": 0,
               "Position": 0
@@ -76254,8 +76286,8 @@
             {
               "Name": "5_DRAGMIRE10",
               "MessageTextLines": [
-                "Yes, yes, by now we all know how",
-                "much you value your friend."
+                "Да, да, мы уже поняли, как сильно",
+                "ты ценишь свою подружку."
               ],
               "Type": 0,
               "Position": 0
@@ -76263,8 +76295,8 @@
             {
               "Name": "5_DRAGMIRE20",
               "MessageTextLines": [
-                "Let me remind you, though, that feelings",
-                "don't matter at all here!"
+                "Но я напоминаю, что чувства здесь",
+                "значения не имеют никакого!"
               ],
               "Type": 0,
               "Position": 0
@@ -76272,9 +76304,9 @@
             {
               "Name": "5_DRAGMIRE30",
               "MessageTextLines": [
-                "Either show us solid evidence that",
-                "puts Ingo's alibi into question, or",
-                "concede defeat!<SQUARE>"
+                "Либо покажи серьёзные улики,",
+                "ставящие алиби Инго под вопрос,",
+                "либо признай поражение!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -76282,7 +76314,7 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Witness!"
+                "<SOUND:WHAP><DI>Свидетель!"
               ],
               "Type": 0,
               "Position": 0
@@ -76290,7 +76322,7 @@
             {
               "Name": "F_INGO10",
               "MessageTextLines": [
-                "Waaaah!<PAUSE:5> <SOUND:WHAP><DI>What is it now?!"
+                "Ва-а-а-а!<PAUSE:5> <SOUND:WHAP><DI>Что на этот раз?!"
               ],
               "Type": 0,
               "Position": 0
@@ -76298,12 +76330,12 @@
             {
               "Name": "F_LINK20",
               "MessageTextLines": [
-                "I overheard an intriguing detail during",
-                "the last recess.",
+                "Во время перерыва я услышал",
+                "одну интригующую деталь.",
                 "<NEW_BOX>",
-                "It seems the address on one of",
-                "yesterday's milk shipments wasn't",
-                "written correctly!"
+                "Кажется, адрес на одной из",
+                "вчерашних поставок молока",
+                "был написан неправильно!"
               ],
               "Type": 0,
               "Position": 0
@@ -76311,8 +76343,8 @@
             {
               "Name": "F_LINK30",
               "MessageTextLines": [
-                "You must have been <R>rushing<W>!<PAUSE:3> ",
-                "<SOUND:DON><DI>That's how you did it!"
+                "Вы, должно быть, <R>сильно",
+                "поспешили<W>!<PAUSE:3> <SOUND:DON><DI>Вот как Вы это сделали!"
               ],
               "Type": 0,
               "Position": 0
@@ -76320,8 +76352,8 @@
             {
               "Name": "F_DRAGMIRE10",
               "MessageTextLines": [
-                "Bah!<PAUSE:2> I haven't heard anything about",
-                "an issue with a <SOUND:WHAP>\"shipment address\"."
+                "Ба!<PAUSE:2> В первый раз слышу, что были",
+                "проблемы с <SOUND:WHAP>«адресом поставки»."
               ],
               "Type": 0,
               "Position": 0
@@ -76329,8 +76361,8 @@
             {
               "Name": "F_DRAGMIRE20",
               "MessageTextLines": [
-                "But I'll play along.<PAUSE:2> ",
-                "Suppose you're right about it..."
+                "Но, ладно, подыграю.<PAUSE:2> ",
+                "Предположим, ты прав..."
               ],
               "Type": 0,
               "Position": 0
@@ -76338,12 +76370,11 @@
             {
               "Name": "F_DRAGMIRE30",
               "MessageTextLines": [
-                "Writing an address only takes a few",
-                "seconds.",
+                "Адрес пишется за пару секунд.",
                 "<NEW_BOX>",
-                "Even if it was reduced to a single swift",
-                "stroke of the pen,<PAUSE> it wouldn't have",
-                "saved much time at all."
+                "Даже если писать его одним",
+                "мгновенным росчерком пера,<PAUSE> много",
+                "времени всё равно не сэкономишь."
               ],
               "Type": 0,
               "Position": 0
@@ -76351,8 +76382,9 @@
             {
               "Name": "F_DRAGMIRE40",
               "MessageTextLines": [
-                "Certainly not enough to both commit a",
-                "<SOUND:EXPLOSION>murder AND cover it up!"
+                "Уж точно не настолько, чтобы",
+                "совершить <SOUND:EXPLOSION>преступление, да ЕЩЁ И",
+                "замести следы!"
               ],
               "Type": 0,
               "Position": 0
@@ -76360,8 +76392,8 @@
             {
               "Name": "F_LINK40",
               "MessageTextLines": [
-                "It wasn't just the address!<PAUSE:2> Ingo must",
-                "have rushed <SOUND:WHAP><DI><R>the entire shipment<W>!"
+                "Я не только про адрес!<PAUSE:2> Инго",
+                "поспешил со <SOUND:WHAP><DI><R>всей поставкой<W>!"
               ],
               "Type": 0,
               "Position": 0
@@ -76369,7 +76401,7 @@
             {
               "Name": "F_DRAGMIRE50",
               "MessageTextLines": [
-                "<DI>By what method?!"
+                "<DI>Каким же образом?!"
               ],
               "Type": 0,
               "Position": 0
@@ -76377,9 +76409,9 @@
             {
               "Name": "F_DRAGMIRE55",
               "MessageTextLines": [
-                "You say he somehow completed the",
-                "entire shipment more quickly?<PAUSE:3> ",
-                "Then prove it with evidence!"
+                "Хочешь сказать, что он как-то",
+                "закончил всю поставку быстрее?<PAUSE:3> ",
+                "Так приведи доказательства!"
               ],
               "Type": 0,
               "Position": 0
@@ -76387,10 +76419,10 @@
             {
               "Name": "F_JUDGE10",
               "MessageTextLines": [
-                "Unfortunately for you, Defence, I must",
-                "agree with the good prosecutor.<PAUSE:4> ",
-                "This alone doesn't prove how enough",
-                "time may have been saved."
+                "К сожалению для Вас, защита, я",
+                "согласен с доблестным прокурором.<PAUSE:4> ",
+                "Это не показывает, как могло быть",
+                "сэкономлено достаточно времени."
               ],
               "Type": 0,
               "Position": 0
@@ -76398,7 +76430,7 @@
             {
               "Name": "F_JUDGE20",
               "MessageTextLines": [
-                "Don't you have anything else?"
+                "Можете предложить что-либо ещё?"
               ],
               "Type": 0,
               "Position": 0
@@ -76406,10 +76438,11 @@
             {
               "Name": "F_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(Grrr, I thought I had him for sure!)",
+                "<SOUND:0><C>(Гр-р, я уж подумал, что он уже",
+                "попался!)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(But it looks like I'll need something",
-                "<SOUND:CLUE><R>stronger<C> to really pin him down...)<SQUARE>"
+                "<SOUND:0><C>(Видимо, мне понадобится что-то",
+                "<SOUND:CLUE><R>посерьёзнее<C>, чтобы поймать его...)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -76417,9 +76450,9 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Ah, but did you, though?<PAUSE:5> ",
-                "<SOUND:CLUE>Did you REALLY complete those",
-                "shipments properly?"
+                "Ой, а Вы уверены?<PAUSE:5> ",
+                "<SOUND:CLUE>Вы ТОЧНО подготовили их так,",
+                "как подобает?"
               ],
               "Type": 0,
               "Position": 0
@@ -76427,9 +76460,10 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Defence, I shouldn't have to remind",
-                "you that the Sheikah Force checked",
-                "the boxes thoroughly."
+                "Защита, надеюсь, мне не нужно",
+                "напоминать тебе, что отряд",
+                "Шиика досконательно осмотрел",
+                "каждый ящик."
               ],
               "Type": 0,
               "Position": 0
@@ -76437,7 +76471,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "They were definitely full of milk bottles!"
+                "Они все были забиты банками",
+                "молока!"
               ],
               "Type": 0,
               "Position": 0
@@ -76445,7 +76480,8 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Oh, I'm sure it<PAUSE:5> <SOUND:CLUE>LOOKED that way..."
+                "Да, не сомневаюсь, что именно так",
+                "оно и<PAUSE:5> <SOUND:CLUE>КАЗАЛОСЬ..."
               ],
               "Type": 0,
               "Position": 0
@@ -76453,7 +76489,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "What are you getting at, Defence?"
+                "На что Вы намекаете, защита?"
               ],
               "Type": 0,
               "Position": 0
@@ -76461,7 +76497,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Here you go, Your Honour."
+                "Вот, Ваша честь."
               ],
               "Type": 0,
               "Position": 0
@@ -76469,7 +76505,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "...Huh?<PAUSE:5> <SOUND:CLUE>Milk, for me?"
+                "...Что?<PAUSE:5> <SOUND:CLUE>Молоко, мне?"
               ],
               "Type": 0,
               "Position": 0
@@ -76477,8 +76513,9 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "Are you trying to bribe the judge now?<PAUSE:5> ",
-                "I didn't think you'd stoop so low!"
+                "Ты что, судью подкупить решил?<PAUSE:5> ",
+                "Не ожидал, что ты опустишься",
+                "так низко!"
               ],
               "Type": 0,
               "Position": 0
@@ -76486,7 +76523,8 @@
             {
               "Name": "DRAGMIRE35",
               "MessageTextLines": [
-                "The Crown will be informed of this!"
+                "Эта выходка мимо короны",
+                "не пройдёт!"
               ],
               "Type": 0,
               "Position": 0
@@ -76494,9 +76532,9 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<SOUND:CLUE>Oh, it's nothing like that.<PAUSE:5> ",
-                "All I'm asking is that His Honour try",
-                "tasting the milk."
+                "<SOUND:CLUE>Ой, Вы всё не так поняли.<PAUSE:5> ",
+                "Я лишь хочу попросить Его честь",
+                "попробовать его на вкус."
               ],
               "Type": 0,
               "Position": 0
@@ -76504,7 +76542,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:HINT>Just one little sip."
+                "<SOUND:HINT>Один маленький глоточек."
               ],
               "Type": 0,
               "Position": 0
@@ -76512,7 +76550,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>This is highly irregular!"
+                "<SOUND:WHAP><DI>Это ни в какие рамки не входит!"
               ],
               "Type": 0,
               "Position": 0
@@ -76520,9 +76558,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC>But, to be honest, I could use a drink.<PAUSE:5> ",
-                "All this talking does make one's throat",
-                "dry, you know!"
+                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC>Но, должен признать, попить мне",
+                "не помешает.<PAUSE:5> Эти разговоры так",
+                "сильно горло сушат!"
               ],
               "Type": 0,
               "Position": 0
@@ -76530,8 +76568,8 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<C><SOUND:WHAP><DI>(You've probably talked the least out",
-                "of everyone here, though...)"
+                "<C><SOUND:WHAP><DI>(Ты из всех нас меньше всех",
+                "говорил, так-то...)"
               ],
               "Type": 0,
               "Position": 0
@@ -76539,8 +76577,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Since the defence insists, I'll go ahead",
-                "and take a sip."
+                "По настоянию защиты, я, так и быть,",
+                "сделаю глоток."
               ],
               "Type": 0,
               "Position": 0
@@ -76548,7 +76586,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "<PAUSE:3>...<PAUSE:8>Hmm."
+                "<PAUSE:3>...<PAUSE:8>Хмм."
               ],
               "Type": 0,
               "Position": 0
@@ -76556,8 +76594,8 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "<SOUND:CLUE>Is this what passes for milk these days?<PAUSE:5> ",
-                "<DI><SOUND:WHAP>This almost tastes like <R>water<W>!"
+                "<SOUND:CLUE>И это в наше время молоком зовут?<PAUSE:5> ",
+                "<DI><SOUND:WHAP>Оно на вкус больше на <R>воду<W> похоже!"
               ],
               "Type": 0,
               "Position": 0
@@ -76565,7 +76603,7 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:STAB>W-water...?"
+                "<SOUND:STAB>В-воду...?"
               ],
               "Type": 0,
               "Position": 0
@@ -76573,8 +76611,8 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "I have to agree.<PAUSE:5> This is definitely not",
-                "standard milk."
+                "Совершенно согласен.<PAUSE:5> Это точно",
+                "не обычное молоко."
               ],
               "Type": 0,
               "Position": 0
@@ -76582,9 +76620,10 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "As we've heard from the princess and",
-                "the detective,<PAUSE:5> Lon Lon Ranch is",
-                "renowned for the quality of its products."
+                "Как мы знаем со слов принцессы",
+                "и следователя,<PAUSE:5> ранчо Лон Лон",
+                "славится высоким качеством",
+                "своих продуктов."
               ],
               "Type": 0,
               "Position": 0
@@ -76592,8 +76631,8 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "But there's no <SOUND:WHAP>way people would say",
-                "that about milk this lousy."
+                "Но никто <SOUND:WHAP>не сказал бы такого о",
+                "таком никудышном молоке."
               ],
               "Type": 0,
               "Position": 0
@@ -76601,11 +76640,11 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah!<PAUSE:5> Whatever!",
+                "<SOUND:EXPLOSION>Ба!<PAUSE:5> Да и пусть!",
                 "<NEW_BOX>",
-                "As if the unwashed masses would",
-                "know the difference between quality",
-                "and garbage."
+                "Будто невежественные массы",
+                "могут деликатес от помоев",
+                "отличить."
               ],
               "Type": 0,
               "Position": 0
@@ -76613,8 +76652,7 @@
             {
               "Name": "DRAGMIRE45",
               "MessageTextLines": [
-                "Where are you going with this,",
-                "Defence?!"
+                "К чему ты клонишь, защита?!"
               ],
               "Type": 0,
               "Position": 0
@@ -76622,16 +76660,16 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "It's simple, you see.",
+                "Всё очень просто.",
                 "<NEW_BOX>",
-                "I received this bottle from Detective",
-                "Impa, still unopened, during the first",
-                "recess.",
+                "Эта банка досталась мне ещё не",
+                "открытой от следователя Импы",
+                "во время первого перерыва.",
                 "<NEW_BOX>",
-                "As we know, there were no milk",
-                "shipments today, so this must have",
-                "come from one of Ingo's shipments",
-                "from yesterday."
+                "Как мы знаем, сегодня поставок",
+                "молока не было, значит эта банка",
+                "пришла из одной из вчерашних",
+                "поставок Инго."
               ],
               "Type": 0,
               "Position": 0
@@ -76639,7 +76677,7 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "...Ah!"
+                "...А!"
               ],
               "Type": 0,
               "Position": 0
@@ -76647,9 +76685,9 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "It's true that Ingo couldn't have",
-                "murdered Talon and also completed",
-                "the shipments on his own."
+                "То, что Инго не смог бы и убить",
+                "Талона, и подготовить поставки <EMDASH>",
+                "полная правда."
               ],
               "Type": 0,
               "Position": 0
@@ -76657,7 +76695,7 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "Unless<PAUSE:2> he <SOUND:CLUE><R>cheated<W>."
+                "Если он<PAUSE:2> не <SOUND:CLUE><R>схитрил<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -76665,8 +76703,9 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Ingo watered down the milk to get the",
-                "shipments done in time!"
+                "<SOUND:DON><DI>Инго разбавил молоко водой,",
+                "чтобы подготовить поставки",
+                "за отведённое время!"
               ],
               "Type": 0,
               "Position": 0
@@ -76674,7 +76713,7 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Order, order!"
+                "Порядок, порядок!"
               ],
               "Type": 0,
               "Position": 0
@@ -76682,7 +76721,8 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "Yes, I suppose that would work!"
+                "Да, полагаю, такой подход бы",
+                "сработал!"
               ],
               "Type": 0,
               "Position": 0
@@ -76690,12 +76730,13 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "Indeed!<PAUSE:5> All he had to do is milk fewer",
-                "of the cows.",
+                "Именно!<PAUSE:5> Всё что ему понадобилось",
+                "бы, так это подоить меньше коров.",
                 "<NEW_BOX>",
-                "To save enough time without ruining",
-                "the taste too much...<PAUSE:3> I'd guess he used",
-                "about a 50/50 split of water and milk."
+                "Чтобы сэкономить достаточно",
+                "времени, и при этом не испортить",
+                "вкус окончательно...<PAUSE:3> Он мог, думаю,",
+                "заливать воду и молоко поровну."
               ],
               "Type": 0,
               "Position": 0
@@ -76703,7 +76744,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "This is...<PAUSE:5> <SOUND:WHAP><DI>nooooooo!"
+                "Это...<PAUSE:5> <SOUND:WHAP><DI>не-е-е-ет!"
               ],
               "Type": 0,
               "Position": 0
@@ -76711,7 +76752,7 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "That...<PAUSE:5> I...<PAUSE:5> Talon..."
+                "Чтоб...<PAUSE:5> Я...<PAUSE:5> Талона..."
               ],
               "Type": 0,
               "Position": 0
@@ -76719,7 +76760,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "Let me stop you right there."
+                "Ну-ка притормози."
               ],
               "Type": 0,
               "Position": 0
@@ -76735,8 +76776,8 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "I will concede that something odd",
-                "happened to that shipment."
+                "Я признаю, что что-то странное",
+                "с этой поставкой так и случилось."
               ],
               "Type": 0,
               "Position": 0
@@ -76744,8 +76785,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "...But all you have proven<PAUSE:8> is that Ingo",
-                "<SOUND:HINT>is a slacker."
+                "...Но это доказывает лишь то, что",
+                "Инго <EMDASH> <SOUND:HINT>лентяй."
               ],
               "Type": 0,
               "Position": 0
@@ -76753,7 +76794,7 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "H-<PAUSE:3>how <SOUND:EXPLOSION>dare you...?!"
+                "К-<PAUSE:3>как <SOUND:EXPLOSION>Вы смеете...?!"
               ],
               "Type": 0,
               "Position": 0
@@ -76761,7 +76802,7 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Be quiet,<SOUND:EXPLOSION> you mongrel!"
+                "Заткнись,<SOUND:EXPLOSION> дубина!"
               ],
               "Type": 0,
               "Position": 0
@@ -76769,10 +76810,9 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Sure, Ingo watered down the milk.",
+                "Допустим, Инго разбавил молоко.",
                 "<NEW_BOX>",
-                "<SOUND:HINT>That doesn't make him a killer, though,",
-                "does it?"
+                "<SOUND:HINT>Разве это делает его убийцей?"
               ],
               "Type": 0,
               "Position": 0
@@ -76780,8 +76820,8 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "<SPEED:101>Well,<PAUSE:2> no...<PAUSE:3> <SPEED:102>But now we do know that",
-                "he definitely could've done it!"
+                "<SPEED:101>Ну,<PAUSE:2> нет...<PAUSE:3> <SPEED:102>Но теперь мы точно",
+                "знаем, что убить он смог бы!"
               ],
               "Type": 0,
               "Position": 0
@@ -76789,7 +76829,7 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "We know he DID go to the crime scene!"
+                "Он БЫЛ на месте преступления!"
               ],
               "Type": 0,
               "Position": 0
@@ -76797,8 +76837,8 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "And we know he<SOUND:DON> DID have the time",
-                "and opportunity to kill Talon, as well!"
+                "И у него<SOUND:DON> БЫЛИ и время, и",
+                "возможность убить Талона!"
               ],
               "Type": 0,
               "Position": 0
@@ -76806,8 +76846,8 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "<SOUND:HINT>...Yet there is a vital element missing,",
-                "still."
+                "<SOUND:HINT>...И всё же, самого главного",
+                "всё ещё не хватает."
               ],
               "Type": 0,
               "Position": 0
@@ -76823,8 +76863,9 @@
             {
               "Name": "DRAGMIRE120",
               "MessageTextLines": [
-                "Let me put it in simple terms, so even",
-                "an idiot like you can understand.<SQUARE>"
+                "Давай скажу простыми словами,",
+                "чтобы даже такому болвану, как",
+                "ты, было понятно.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -78218,9 +78259,9 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "Grrrrhhhhhhhnnnngnhghhhhhh~~~!",
+                "Гр-р-рх-х-х-хн-н-нгнх-х-х~~~!",
                 "<NEW_BOX>",
-                "Grgghhhh...<PAUSE:3> this is...<PAUSE:3> <DI><SOUND:EXPLOSION>slander!"
+                "Грг-гх-х...<PAUSE:3> Это...<PAUSE:3> <DI><SOUND:EXPLOSION>Это клевета!"
               ],
               "Type": 0,
               "Position": 0
@@ -78228,7 +78269,7 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "Why would I...<PAUSE:3> <SOUND:CLUE>kill...<PAUSE:3> Talon?!"
+                "Зачем мне...<PAUSE:3> <SOUND:CLUE>убивать...<PAUSE:3> Талона?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78236,9 +78277,9 @@
             {
               "Name": "INGO40",
               "MessageTextLines": [
-                "Sure, he's a bit of a layabout, but he",
-                "did give me a job!<PAUSE:3> Why would I want",
-                "him dead?!"
+                "Да, может он и лентяй, но благодаря",
+                "нему у меня работа есть!<PAUSE:3> С чего это",
+                "мне желать его смерти?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78246,7 +78287,7 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:HINT>The motive?"
+                "<SOUND:HINT>Каков мотив?"
               ],
               "Type": 0,
               "Position": 0
@@ -78254,8 +78295,8 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "That's simple.<PAUSE:5> <SOUND:CLUE>Why, I'm surprised",
-                "you're even asking about it."
+                "Проще простого.<PAUSE:5> <SOUND:CLUE>Я даже удивлён,",
+                "что Вы вообще спрашиваете."
               ],
               "Type": 0,
               "Position": 0
@@ -78271,8 +78312,8 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI><G>This evidence easily explains your",
-                "motive!<PERSISTENT>"
+                "<SOUND:WHAP><DI><G>Ваш мотив можно легко объяснить",
+                "следующей уликой!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -78280,7 +78321,8 @@
             {
               "Name": "F2_INGO10",
               "MessageTextLines": [
-                "Bah hah!<PAUSE:3> That doesn't explain anything!"
+                "Ба-ха!<PAUSE:3> Это ничегошеньки не",
+                "объясняет!"
               ],
               "Type": 0,
               "Position": 0
@@ -78288,7 +78330,7 @@
             {
               "Name": "F2_LINK10",
               "MessageTextLines": [
-                "Errrr..."
+                "Э-э-э..."
               ],
               "Type": 0,
               "Position": 0
@@ -78296,9 +78338,10 @@
             {
               "Name": "F2_INGO20",
               "MessageTextLines": [
-                "Out of aces to pull out of your sleeve?<PAUSE:3> ",
-                "Maybe you're gonna call some cows",
-                "to testify against me next? Ho ho ho ho..."
+                "И это-то Ваш козырь в рукаве?<PAUSE:3> ",
+                "Может, ещё позовёте коров, чтобы",
+                "против меня показания давать?",
+                "Хо хо хо хо..."
               ],
               "Type": 0,
               "Position": 0
@@ -78306,11 +78349,10 @@
             {
               "Name": "F2_LINK20",
               "MessageTextLines": [
-                "Hey, cows are very intelligent, you",
-                "know!",
+                "Эй, не недооценивай коровий ум!",
                 "<NEW_BOX>",
-                "They CAN talk if you play them some",
-                "nice music..."
+                "Они МОГУТ говорить, нужно просто",
+                "сыграть им неплохую мелодию..."
               ],
               "Type": 0,
               "Position": 0
@@ -78318,11 +78360,12 @@
             {
               "Name": "F2_INGO30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Nonsense!<PAUSE:3> They're just animals driven",
-                "by primal instincts!",
+                "<SOUND:EXPLOSION><DI>Чепуха!<PAUSE:3> Они просто животные,",
+                "которые подчиняются своим",
+                "инстинктам!",
                 "<NEW_BOX>",
-                "I've worked with them for years, I",
-                "would've noticed!"
+                "Я с ними годами работал, я бы",
+                "такое заметил!"
               ],
               "Type": 0,
               "Position": 0
@@ -78330,9 +78373,9 @@
             {
               "Name": "F2_INGO40",
               "MessageTextLines": [
-                "There's...<PAUSE:3> no way you're telling the",
-                "truth!<PAUSE:3> You're just trying to get a rise",
-                "out of me!"
+                "Это...<PAUSE:3> не может быть правдой!<PAUSE:3>",
+                "Это всего лишь попытка вывести",
+                "меня из себя!"
               ],
               "Type": 0,
               "Position": 0
@@ -78340,12 +78383,12 @@
             {
               "Name": "F2_JUDGE10",
               "MessageTextLines": [
-                "Defence, transporting the cows all the",
-                "way across Hyrule Field and into the",
-                "courtroom would be quite stressful for",
-                "them.",
+                "Защита, если мы привезём сюда",
+                "коров через всю Хайрулскую",
+                "равнину, то это скажется им",
+                "немалым стрессом.",
                 "<NEW_BOX>",
-                "I'll have to overrule that idea."
+                "Я вынужден отклонить эту идею."
               ],
               "Type": 0,
               "Position": 0
@@ -78353,7 +78396,7 @@
             {
               "Name": "F2_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C><DI><SOUND:WHAP>(I never suggested doing that!)"
+                "<SOUND:0><C><DI><SOUND:WHAP>(Я и не предлагал ничего такого!)"
               ],
               "Type": 0,
               "Position": 0
@@ -78361,7 +78404,8 @@
             {
               "Name": "F2_LINK40",
               "MessageTextLines": [
-                "Never mind. Back to the topic at hand!"
+                "Ладно, не важно.",
+                "Возвращаемся к делу!"
               ],
               "Type": 0,
               "Position": 0
@@ -78369,18 +78413,18 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "The very inheritance document you",
-                "brought to the court's attention states",
-                "the following:",
+                "В том самом наследственном",
+                "документе, на который Вы обратили",
+                "внимание суда, указано следующее:",
                 "<NEW_BOX>",
-                "\"In case of the testator's death, his",
-                "daughter, Malon of Lon Lon Ranch,",
-                "will inherit the ranch.\"",
+                "«В случае смерти завещателя, его",
+                "дочь, Малон из ранчо Лон Лон,",
+                "унаследует ранчо.»",
                 "<NEW_BOX>",
-                "\"Unless she is unable to oversee it,",
-                "in which case it shall be divided",
-                "between the Crown and the remaining",
-                "employees.\""
+                "«Однако, если она не может",
+                "руководить им, то оно будет",
+                "разделено между короной и",
+                "оставшимися работниками.»"
               ],
               "Type": 0,
               "Position": 0
@@ -78388,7 +78432,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "<SOUND:HINT><DI>Ah!"
+                "<SOUND:HINT><DI>А!"
               ],
               "Type": 0,
               "Position": 0
@@ -78396,7 +78440,7 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON>Whaaaaaaaaaaaaaaaaat?!"
+                "<PAUSE:5><DC>.<PAUSE:3><DC>.<PAUSE:3><DC>.<PAUSE:3><DC><DI><SOUND:DON>Что-о-о-о-о-о-о-о-о?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78404,10 +78448,9 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "<DI><SOUND:DON>You not only killed Talon, but decided",
-                "to frame Malon for the crime as well,",
-                "so YOU would be the one to inherit",
-                "part of the ranch!"
+                "<DI><SOUND:DON>Вы не просто убили Талона, но ещё",
+                "и подставили Малон, чтобы только",
+                "ВАМ досталась часть ранчо!"
               ],
               "Type": 0,
               "Position": 0
@@ -78415,15 +78458,15 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                "That's why you volunteered to work",
-                "in the silo all day!<PAUSE:3> It gave you an alibi",
-                "so that Malon would be the only",
-                "possible culprit!",
+                "Поэтому Вы вызвались работать в",
+                "силосной башне весь день!<PAUSE:3> Это",
+                "дало вам алиби, чтобы только",
+                "Малон могла быть подозреваемой!",
                 "<NEW_BOX>",
-                "Of course you knew about the royal",
-                "visitation in advance. You knew Malon",
-                "would go back to the ranch house to",
-                "prepare before they arrived."
+                "Вы, конечно, заранее знали о",
+                "королевской проверке. Вы знали,",
+                "что Малон пойдёт в здание, чтобы",
+                "подготовиться перед прибытием."
               ],
               "Type": 0,
               "Position": 0
@@ -78431,8 +78474,8 @@
             {
               "Name": "LINK230",
               "MessageTextLines": [
-                "A perfect setup for the royals to find",
-                "her next to the body!"
+                "Идеальные обстоятельства, чтобы",
+                "корона нашла её рядом с телом!"
               ],
               "Type": 0,
               "Position": 0
@@ -78440,7 +78483,7 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>No!<PAUSE:3> <SOUND:WHAP><DI>No!<PAUSE:3> <SOUND:DON><DI>Noooo!"
+                "<SOUND:WHAP><DI>Нет!<PAUSE:3> <SOUND:WHAP><DI>Нет!<PAUSE:3> <SOUND:DON><DI>Не-е-ет!"
               ],
               "Type": 0,
               "Position": 0
@@ -78448,8 +78491,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "What are you talking about?<PAUSE:3> ",
-                "Talon, signing the ranch over to me?!"
+                "Чего ты несёшь?<PAUSE:3> ",
+                "Талон переписал бы ранчо на меня?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78457,7 +78500,7 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Preposterous!"
+                "<SOUND:EXPLOSION><DI>Чепуха!"
               ],
               "Type": 0,
               "Position": 0
@@ -78465,11 +78508,10 @@
             {
               "Name": "LINK240",
               "MessageTextLines": [
-                "<SOUND:0><C>(Did he... <SOUND:CLUE>really not know...?)",
+                "<SOUND:0><C>(Он... <SOUND:CLUE>правда не знал...?)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(I guess it WAS Dragmire who",
-                "procured the actual document, not",
-                "him.)"
+                "<SOUND:0><C>(Хм, и ведь не он достал",
+                "сам документ, а Дрегмайр.)"
               ],
               "Type": 0,
               "Position": 0
@@ -78477,7 +78519,7 @@
             {
               "Name": "SOLDIER10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Honour!"
+                "<SOUND:WHAP><DI>Ваша честь!"
               ],
               "Type": 0,
               "Position": 0
@@ -78485,7 +78527,7 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "What is it, <SOUND:CLUE>soldier?"
+                "В чём дело, <SOUND:CLUE>стражник?"
               ],
               "Type": 0,
               "Position": 0
@@ -78493,7 +78535,7 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "The box you requested is here!"
+                "Прибыл ящик, который вы запросили!"
               ],
               "Type": 0,
               "Position": 0
@@ -78501,7 +78543,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Already?<PAUSE:3> That was quite fast..."
+                "<SOUND:CLUE>Уже?<PAUSE:3> Это было быстро..."
               ],
               "Type": 0,
               "Position": 0
@@ -78509,13 +78551,12 @@
             {
               "Name": "SOLDIER30",
               "MessageTextLines": [
-                "Apparently the team at the ranch had",
-                "already noticed something awry with",
-                "it on their own.",
+                "Оказалось, команда на ранчо уже",
+                "сама заметила, что с ним что-то",
+                "не так.",
                 "<NEW_BOX>",
-                "The box arrived just as we were",
-                "about to rush out a courier to deliver",
-                "our message."
+                "Ящик прибыл, как только мы",
+                "выбежали отправить весть об этом."
               ],
               "Type": 0,
               "Position": 0
@@ -78523,8 +78564,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "Well, well, well.<PAUSE:3> Let's see for ourselves,",
-                "then, shall we?"
+                "Так-так-так...<PAUSE:3> Ну что же,",
+                "давайте посмотрим."
               ],
               "Type": 0,
               "Position": 0
@@ -78532,8 +78573,8 @@
             {
               "Name": "LINK15",
               "MessageTextLines": [
-                "<G>The part of the shipment that proves",
-                "my case is...<FADE:30>"
+                "<G>Часть поставки, подтверждающая",
+                "мои слова...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -78541,7 +78582,7 @@
             {
               "Name": "F_LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(...Nothing there.)"
+                "<SOUND:0><C>(...Тут ничего.)"
               ],
               "Type": 0,
               "Position": 0
@@ -78549,8 +78590,8 @@
             {
               "Name": "F_DRAGMIRE10",
               "MessageTextLines": [
-                "...Oh, is your theory not working out",
-                "after all?"
+                "...Что, твоя теория всё-таки не",
+                "сходится?"
               ],
               "Type": 0,
               "Position": 0
@@ -78558,7 +78599,7 @@
             {
               "Name": "F_DRAGMIRE20",
               "MessageTextLines": [
-                "Or are you just wasting time?"
+                "Или ты просто время тянешь?"
               ],
               "Type": 0,
               "Position": 0
@@ -78566,8 +78607,8 @@
             {
               "Name": "F_JUDGE10",
               "MessageTextLines": [
-                "Either way, you should take this",
-                "penalty."
+                "В любом случае, за это полагается",
+                "наказание."
               ],
               "Type": 0,
               "Position": 0
@@ -78575,7 +78616,8 @@
             {
               "Name": "F_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(C'mon now, don't overthink this...)"
+                "<SOUND:0><C>(Ну же, тут не надо слишком",
+                "задумываться...)"
               ],
               "Type": 0,
               "Position": 0
@@ -78583,9 +78625,9 @@
             {
               "Name": "F_LINK30",
               "MessageTextLines": [
-                "Uh...<PAUSE:2> sorry, I...<PAUSE:2> had a sudden finger",
-                "cramp, and...<PAUSE:3> <SPEED:101>pointed the wrong way.<PAUSE:0><SHIFT:0><PAUSE:2> ",
-                "<SPEED:2>...Yeah.<SPEED:1><SPEED:102>"
+                "Эм...<PAUSE:2> извините, я...<PAUSE:2> У меня внезапно",
+                "палец свело, и...<PAUSE:3> <SPEED:101>я показал не в",
+                "ту сторону.<PAUSE:0><SHIFT:0><PAUSE:2> <SPEED:2>...Да.<SPEED:1><SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -78593,9 +78635,9 @@
             {
               "Name": "F_LINK40",
               "MessageTextLines": [
-                "...A-anyway,<PAUSE:2> as I was saying,<PAUSE:3> <G>the",
-                "part of the shipment that proves my",
-                "case is...<FADE:30>"
+                "...В о-общем,<PAUSE:2> как я и говорил,<PAUSE:3>",
+                "<G>часть поставки, подтверждающая",
+                "мои слова...<FADE:30>"
               ],
               "Type": 0,
               "Position": 0
@@ -78603,8 +78645,9 @@
             {
               "Name": "MALONcbf_10",
               "MessageTextLines": [
-                "No, wait, it's not that!<PAUSE:5> ",
-                "It must be the bottle that's tinted red!"
+                "Нет, погоди, не это!<PAUSE:5> ",
+                "Должно быть, это банка, которая",
+                "красным окрасилась!"
               ],
               "Type": 0,
               "Position": 0
@@ -78612,8 +78655,8 @@
             {
               "Name": "LINKcbf_10",
               "MessageTextLines": [
-                "Hmm...?<PAUSE:5> Oh!<PAUSE:5> ",
-                "...Uh, yeah, that's what I meant!"
+                "Хмм...?<PAUSE:5> О!<PAUSE:5> ",
+                "...Э, да, я именно её и имел в виду!"
               ],
               "Type": 0,
               "Position": 0
@@ -78621,8 +78664,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "Here it is!<PAUSE:5> From the bottle with a slight",
-                "red tint to the milk!"
+                "Взгляните!<PAUSE:5> Прямиком из банки,",
+                "в которой молоко имеет",
+                "красноватый оттенок!"
               ],
               "Type": 0,
               "Position": 0
@@ -78630,9 +78674,9 @@
             {
               "Name": "LINK25",
               "MessageTextLines": [
-                "Looks like some kind of <SOUND:HINT>serrated knife.<PAUSE:5> ",
-                "That explains the irregular wound",
-                "pretty nicely."
+                "Какой-то <SOUND:HINT>зубчатый ножик.<PAUSE:5> ",
+                "Отлично объясняет неправильную",
+                "форму раны."
               ],
               "Type": 0,
               "Position": 0
@@ -78640,8 +78684,8 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>How could those Sheikah idiots have",
-                "missed this?!"
+                "<SOUND:EXPLOSION><DI>Как эти болваны Шиика могли",
+                "пропустить такое?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78649,9 +78693,10 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "I'm sure the milk was pure white when",
-                "they first checked it.<PAUSE:3> It took a whole",
-                "day for the blood to dissolve in it."
+                "Уверен, когда они его проверяли,",
+                "то молоко было белоснежным.<PAUSE:3>",
+                "Крови понадобился весь день на",
+                "то, чтобы раствориться в нём."
               ],
               "Type": 0,
               "Position": 0
@@ -78659,8 +78704,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<DI><SOUND:DON>Either way, no matter how you slice it,",
-                "this proves my theory right!"
+                "<DI><SOUND:DON>В любом случае, как ни крути, но",
+                "это доказывает мою теорию!"
               ],
               "Type": 0,
               "Position": 0
@@ -78668,7 +78713,7 @@
             {
               "Name": "INGO96",
               "MessageTextLines": [
-                "Grrrrrrrrrrr...<FADE:20>"
+                "Гр-р-р-р-р-р...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -78676,8 +78721,8 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Ohh, I've had it!<PAUSE:5> <SOUND:WHAP>Fine!<PAUSE:3> <SOUND:WHAP>Fine!<PAUSE:3> ",
-                "You wanna know why?!"
+                "<SOUND:EXPLOSION>О-ох, с меня хватит!<PAUSE:5> <SOUND:WHAP>Ладно!<PAUSE:3> <SOUND:WHAP>Ладно!<PAUSE:3> ",
+                "Хочешь знать, почему?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78685,8 +78730,8 @@
             {
               "Name": "INGO110",
               "MessageTextLines": [
-                "You wanna know why I<PAUSE> <SPEED:101>really<PAUSE><SPEED:102> killed",
-                "that <PAUSE:3><SOUND:WHAP><DI>scumbag?!"
+                "Хочешь знать, почему я<PAUSE> <SPEED:101>на самом",
+                "деле<PAUSE><SPEED:102> убил этого <PAUSE:3><SOUND:WHAP><DI>мерзавца?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78694,7 +78739,7 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "No!<PAUSE:5> <SOUND:EXPLOSION><DI>NO! What are you<EMDASH><FADE:20>"
+                "Нет!<PAUSE:5> <SOUND:EXPLOSION><DI>НЕТ! Ты чего<EMDASH><FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -78702,7 +78747,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "So...<PAUSE:3> so you admit it?!"
+                "То есть...<PAUSE:3> Вы признаётесь?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78710,11 +78755,12 @@
             {
               "Name": "INGO120",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Yes!<PAUSE:3> Yes, I admit it!",
+                "<SOUND:EXPLOSION>Да!<PAUSE:3> Да, я всё признаю!",
                 "<NEW_BOX>",
-                "What would YOU do, if,<PAUSE:2> one day,<PAUSE:2> after",
-                "YEARS of backbreaking labour,<PAUSE:2> despite",
-                "putting your<PAUSE:5><DI> ALL<PAUSE:5> into the ranch..."
+                "А что бы ТЫ сделала, если бы<PAUSE:2> в",
+                "один день<PAUSE:2> после долгих ЛЕТ",
+                "непосильного труда,<PAUSE:2> после<PAUSE:5> <DI>ВСЕГО<PAUSE:5>",
+                "вложенного тобою в ранчо..."
               ],
               "Type": 0,
               "Position": 0
@@ -78722,9 +78768,9 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "...you were thrown away like rubbish!<PAUSE:8> ",
-                "<SOUND:WHAP><DI>Without any reason!<PAUSE:12> <DI>Fired!<PAUSE:12> Farewell,<PAUSE:3> ",
-                "<DI>we<PAUSE:2><SHIFT:0><DI> don't<PAUSE:2><SHIFT:0><DI> need<PAUSE:2><SHIFT:0><DI> you<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> anymore!"
+                "...тебя бросили, словно мусор!<PAUSE:8> ",
+                "<SOUND:WHAP><DI>Без причины!<PAUSE:12> <DI>Уволили!<PAUSE:12> Прощай,<PAUSE:3> ",
+                "<DI>ты<PAUSE:2><SHIFT:0><DI> нам<PAUSE:2><SHIFT:0><DI> больше<PAUSE:2><SHIFT:0><DI> не<PAUSE:2><SHIFT:0><DI><SOUND:WHAP> нужен!"
               ],
               "Type": 0,
               "Position": 0
@@ -78732,8 +78778,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "...What?<PAUSE:3> ",
-                "But that doesn't make any sense..."
+                "...Что?<PAUSE:3> ",
+                "О чём Вы говорите..."
               ],
               "Type": 0,
               "Position": 0
@@ -78741,7 +78787,7 @@
             {
               "Name": "INGO140",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_IN_LASH_1>Ho ho!<PAUSE:3> Don't lie!<PAUSE:3> <SOUND:EXPLOSION><DI>I heard it all!"
+                "<SOUND:NA_SE_VO_IN_LASH_1>Хо хо!<PAUSE:3> Не ври!<PAUSE:3> <SOUND:EXPLOSION><DI>Я всё слышал!"
               ],
               "Type": 0,
               "Position": 0
@@ -78749,9 +78795,10 @@
             {
               "Name": "INGO150",
               "MessageTextLines": [
-                "I was just returning back from another",
-                "day of <PAUSE:2><SHIFT:0><DI>SPINE<PAUSE:3><SHIFT:0><DI>-WRENCHING<PAUSE:3> <DI>WORK<PAUSE:4>, and,",
-                "lo and behold, what's this?!"
+                "Возвращаюсь я, значит, после",
+                "очередного дня <PAUSE:2><SHIFT:0><DI>КАТОРЖНОЙ<PAUSE:3>",
+                "<DI>РАБОТЫ<PAUSE:4>, и, можете себе",
+                "представить, что я слышу?!"
               ],
               "Type": 0,
               "Position": 0
@@ -78759,10 +78806,10 @@
             {
               "Name": "INGO160",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Malon and Talon are talking behind",
-                "my back!",
+                "<SOUND:WHAP><DI>Малон с Талоном за моей спиной",
+                "планы строят!",
                 "<NEW_BOX>",
-                "I heard it all!"
+                "Я всё услышал!"
               ],
               "Type": 0,
               "Position": 0
@@ -78770,9 +78817,9 @@
             {
               "Name": "INGO170",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>\"We'll let him go after the visitation!\"",
+                "<SOUND:WHAP><DI>«Мы его после проверки отпустим!»",
                 "<NEW_BOX>",
-                "<SOUND:WHAP><DI>\"We can handle things without him!\""
+                "<SOUND:WHAP><DI>«Мы и без него справимся!»"
               ],
               "Type": 0,
               "Position": 0
@@ -78780,11 +78827,11 @@
             {
               "Name": "INGO172",
               "MessageTextLines": [
-                "And so...",
-                "<NEW_BOX>After volunteering to work on that",
-                "shipment, I quietly slipped out while",
-                "the girl was busy, and shanked the",
-                "good-for-nothing slacker."
+                "Поэтому...",
+                "<NEW_BOX>Я вызвался работать над",
+                "поставками, а потом выскользнул,",
+                "пока девчушка была занята, и",
+                "грохнул этого никудышного лентяя."
               ],
               "Type": 0,
               "Position": 0
@@ -78792,17 +78839,19 @@
             {
               "Name": "INGO175",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> You should've seen his face!<PAUSE:3> ",
-                "He didn't expect it at all!"
+                "<SOUND:WHAP><DI>Ха!<PAUSE:3> Видели бы вы его рожу!<PAUSE:3> ",
+                "Он этого совсем не ждал!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO180",
+              "Comment": "\"lazy bum\" → \"бездельник\" in the fan translation\n\n(at least according to the dialogue line Ingo had in the cow barn in child era - that's the line I checked)",
               "MessageTextLines": [
-                "So, yes, MALON.<PAUSE:3> I killed that lazy bum",
-                "you called a father!"
+                "Так что, да, МАЛОН.<PAUSE:3> Я убил этого",
+                "бездельника, которого ты отцом",
+                "зовёшь!"
               ],
               "Type": 0,
               "Position": 0
@@ -78810,7 +78859,7 @@
             {
               "Name": "INGO190",
               "MessageTextLines": [
-                "<NS><SPEED:101><SOUND:0>And he <SPEED:2>DESERVED IT<SPEED:0>.<SPEED:102><FADE:60>"
+                "<NS><SPEED:101><SOUND:0>И он <SPEED:2>ЗАСЛУЖИЛ ЭТО<SPEED:0>.<SPEED:102><FADE:60>"
               ],
               "Type": 0,
               "Position": 0
@@ -78818,8 +78867,9 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Order!<DC> <PAUSE:5>The witness will cease his",
-                "boasting over such a terrible deed!"
+                "<SOUND:EXPLOSION><DI>Порядок!<DC> <PAUSE:5>Свидетель, прекратите",
+                "хвастаться этим ужасным",
+                "поступком!"
               ],
               "Type": 0,
               "Position": 0
@@ -78827,8 +78877,8 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "I think we've heard enough!<PAUSE:5> ",
-                "Soldiers, take him away!<FADE:20>"
+                "Думаю, мы слышали достаточно!<PAUSE:5> ",
+                "Стража, уведите его!<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -78836,7 +78886,7 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "<DI>Wait just a moment!"
+                "<DI>Погодите минуту!"
               ],
               "Type": 0,
               "Position": 0
@@ -78844,7 +78894,7 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "Ingo..."
+                "Инго..."
               ],
               "Type": 0,
               "Position": 0
@@ -78852,8 +78902,7 @@
             {
               "Name": "INGO200",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Yes, girl?<DC> <PAUSE:4>Want to apologise for what",
-                "you've done?"
+                "<SOUND:WHAP><DI>Да, девчушка?<DC> <PAUSE:4>Извиниться решила?"
               ],
               "Type": 0,
               "Position": 0
@@ -78861,11 +78910,11 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "Apologise?!<PAUSE:3> Me?!<PAUSE:5> <SOUND:EXPLOSION>You're horrible!",
+                "Извиниться?!<PAUSE:3> Я?!<PAUSE:5> <SOUND:EXPLOSION>Вы ужасны!",
                 "<NEW_BOX>",
-                "We weren't planning to fire you at all!<PAUSE:3> ",
-                "<SOUND:WHAP><DI>You completely misunderstood what",
-                "we were saying!"
+                "Мы и не собирались увольнять Вас!<PAUSE:3> ",
+                "<SOUND:WHAP><DI>Вы совсем не поняли то, о чём мы",
+                "говорили!"
               ],
               "Type": 0,
               "Position": 0
@@ -78873,7 +78922,7 @@
             {
               "Name": "INGO210",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Whuh?<SQUARE>"
+                "<SOUND:CLUE>...Ыэ?<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
