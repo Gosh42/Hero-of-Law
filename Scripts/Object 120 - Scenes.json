@@ -707,6 +707,7 @@
             },
             {
               "Name": "Autopsy",
+              "Comment": "First instance of quotation marks being changed - it's to accomodate the russian language rules. See URL below (might need to google translate it)\n\n---\n\nПервое место, где поменялись кавычки - по правилам русского языка у нас \"ёлочки\" применяются. Можете прочитать об этом по ссылке ниже\n\n---\n\nhttps://gramota.ru/journal/stati/pravila-i-normy/elochki-ili-lapki-kak-pravilno-ispolzovat-kavychki",
               "MessageTextLines": [
                 "<Y>Отчёт о вскрытии<W>",
                 "«Глубокая рана неправильной",
@@ -16813,6 +16814,7 @@
           "Messages": [
             {
               "Name": "START",
+              "Comment": "The 24 hour format is used here, so \"AM\" is gone. If this was, for example, 3:00 PM, it'd be changed to 15:00\n\nNote, though, that in casual speech 12 hour format is used sometimes, so if characters say the time like that in the future (like in case 2 or something) then that'd be taken into account\n\nAlso, I put the \"Ñ\" letter was implemented into the font and is used here from before the <FONT_TOGGLE> tags were implemented. I am keeping it because 1. well, it's there, so might as well use it, 2. for the good ol' times' sake, 3. this way anyone changing the font in the future won't get confused about this letter being changed this way. Feel free to remove it from here and from the font manually in a later update but I can't be bothered :P\n\n---\n\nУ нас в основном используется 24-х часовой формат, так что \"AM\" удалено. Если б тут было, например, 3:00 PM, то оно было бы заменено на \"15:00\"\n\nНо например, в разговорной речи мы иногда используем 12-часовой формат (например \"пол третьего\" в 14:30), так что если в каком-нибудь втором деле в будущем персонажи вот так назовут время, то это надо будет принять в расчёт\n\nА, и буковка \"Ñ\", имеющая вид \"N\" добавлена в шрифт и используется тут ещё со времён, когда тега <FONT_TOGGLE> не существовало. Я это оставил 1. ну, она тут есть, почему бы не использовать, 2. \"на память\", 3. и чтобы другие не недоумевали, почему буква так заменена. Если хотите, можете удалить отсюда и из шрифта в будущем обновлении, но мне уже лень :P",
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 9:37",
                 "<LC>Величественный суд Хайрула",
@@ -16994,6 +16996,7 @@
             },
             {
               "Name": "LINK40",
+              "Comment": "Hyrule Castle Town's translation of \"Хайрулский посад\" is taken from Echoes of Wisdom. It uses a fairly uncommon word so I wasn't sure about it first, but then I remembered that we do have a similarly-named town with a similar structure - Sergiyev Posad, so it's a pretty translation now that I think about it, props to the translators. The fan translators, on the other hand, named it \"Hyruletown\" (transliterated, using the english word for town), which's... bleugh\n\n---\n\n\"Хайрулский посад\" взят из перевода Echoes of Wisdom. Сначала не был уверен насчёт этого перевода, т.к. \"посад\" слово довольно редкое, но потом вспомнил, что у нас же есть город с подобным названием и подобной структурой со стенами - Сергиев Посад. Так что перевод в целом неплохой, переводчики молодцы. А вот фанатский перевод слегка облажал и назвал город \"Хирултауном\", тьфу\n\n---\n\nhttps://zeldawiki.wiki/wiki/Hyrule_Castle_Town#Nomenclature",
               "MessageTextLines": [
                 "<SOUND:0><C>(Это <R>Малон<C>.<PAUSE:2> ",
                 "Мы давно дружим с тех пор,",
@@ -37620,9 +37623,10 @@
             },
             {
               "Name": "1_IMPA15",
+              "Comment": "Hyrule Castle's translation and capitalisation (can't be seen on the wiki page, checked in game) is taken from Echoes of Wisdom\n\n---\n\nПеревод и регистр \"замка Хайрул\" взят из Echoes of Wisdom. На странице вики \"замок\" с маленькой буквы не видно - перепроверил в самой игре\n\n---\n\nhttps://zeldawiki.wiki/wiki/Hyrule_Castle#Nomenclature",
               "MessageTextLines": [
                 "Позвольте проводить вас обратно",
-                "до Хайрулского замка."
+                "до замка Хайрул."
               ],
               "Type": 0,
               "Position": 0
@@ -41421,7 +41425,8 @@
               "Name": "IMPA20",
               "MessageTextLines": [
                 "Ваше Высочество, разрешите",
-                "проводить вас обратно в замок..."
+                "проводить вас обратно в замок",
+                "Хайрул..."
               ],
               "Type": 0,
               "Position": 0
@@ -50950,6 +50955,7 @@
           "Messages": [
             {
               "Name": "START",
+              "Comment": "The note from \"SCENE_LOBBY_INTRO / START\" applies here\n\n---\n\nЗаметка из \"SCENE_LOBBY_INTRO / START\" относится и сюда",
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 11:17",
                 "<LC>Величественный суд Хайрула",
@@ -61658,10 +61664,11 @@
           "Messages": [
             {
               "Name": "START",
+              "Comment": "The note from \"SCENE_LOBBY_INTRO / START\" applies here\n\n---\n\nЗаметка из \"SCENE_LOBBY_INTRO / START\" относится и сюда\n\nКстати, я всегда путаюсь с 12:00 AM/PM - на всякий случай, 12:00 AM это 0:00, а 12:00 PM - 12:00",
               "MessageTextLines": [
-                "<SPEED:1><G><LC>March 17, 12:32 PM",
-                "<LC>Hyrule Grand Court",
-                "<LC>Defendant Lobby No. 3<SOUND:0>"
+                "<SPEED:1><G><LC>17 марта, 12:32",
+                "<LC>Величественный суд Хайрула",
+                "<LC>Вестибюль подсудимых Ñо. 3<SOUND:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -61669,7 +61676,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>We did it!"
+                "<SOUND:WHAP><DI>У нас получилось!"
               ],
               "Type": 0,
               "Position": 0
@@ -61677,7 +61684,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "I suppose so..."
+                "Наверное..."
               ],
               "Type": 0,
               "Position": 0
@@ -61685,8 +61692,8 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hmm. I guess Ingo's outburst kind of",
-                "<SOUND:CLUE>soured the mood, huh...)"
+                "<SOUND:0><C>(Хмм. Инго своей истерикой",
+                "слегка <SOUND:CLUE>подпортил настроение...)"
               ],
               "Type": 0,
               "Position": 0
@@ -61694,8 +61701,9 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "I don't think I can ever forgive Mr.",
-                "Ingo for what he's done."
+                "Я не думаю, что когда-нибудь",
+                "прощу господина Инго за то,",
+                "что он сделал."
               ],
               "Type": 0,
               "Position": 0
@@ -61703,18 +61711,20 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "That's...<PAUSE:3> fair enough, honestly."
+                "Это...<PAUSE:3> вполне можно понять,",
+                "если честно."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK40",
+              "Comment": "\"It's time to ...\" is one of those phrases that can be translated to Russian just fine, but I only ever saw it used when translating an english phrase (like \"Adventure Time\" → \"Время приключений\") and never in actual spoken or written speech. Makes it sound very noticeable that \"oh they directly translated this\", and I'm trying to sound natural here, so I deliberately avoided a literal translation of this phrase\n\n---\n\n\"It's time to ...\" - это такая фраза, которая на русский нормально переводится, но я никогда не видел, чтобы её употребляли не в качестве перевода английской фразы (например, \"Adventure Time\" → \"Время приключений\"), а в реальной разговорной или письменной речи. Поэтому когда я такое вижу, то очень заметно, что \"а, они просто дословно перевели\", а я пытаюсь, чтобы звучало натурально, поэтому я специально не стал переводить эту фразу буквальным образом",
               "MessageTextLines": [
-                "Really, though, you shouldn't think",
-                "about that for now.",
+                "Но, это, ты пока не зацикливайся",
+                "на этом.",
                 "<NEW_BOX>",
-                "<SOUND:WHAP><DI>You're free!<PAUSE:5> It's time to celebrate!"
+                "<SOUND:WHAP><DI>Ты свободна!<PAUSE:5> Праздновать надо!"
               ],
               "Type": 0,
               "Position": 0
@@ -61722,7 +61732,7 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "I guess you're right."
+                "Наверное, ты прав."
               ],
               "Type": 0,
               "Position": 0
@@ -61730,7 +61740,7 @@
             {
               "Name": "IMPA10",
               "MessageTextLines": [
-                "Excellent work."
+                "Отличная работа."
               ],
               "Type": 0,
               "Position": 0
@@ -61738,7 +61748,7 @@
             {
               "Name": "IMPA20",
               "MessageTextLines": [
-                "I knew you'd pull through!"
+                "Я знала, что у Вас получится!"
               ],
               "Type": 0,
               "Position": 0
@@ -61746,10 +61756,10 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Oh, uh, thanks.",
+                "О, эм, спасибо.",
                 "<NEW_BOX>",
-                "I couldn't have done it without you,",
-                "really.<PAUSE:5> So...<PAUSE:3> thank you."
+                "Без Вас я бы не справился.<PAUSE:5>",
+                "Так что...<PAUSE:3> спасибо."
               ],
               "Type": 0,
               "Position": 0
@@ -61757,7 +61767,7 @@
             {
               "Name": "IMPA30",
               "MessageTextLines": [
-                "Now, now,<PAUSE:3> that's not quite right."
+                "Ну, ну,<PAUSE:3> это не совсем так."
               ],
               "Type": 0,
               "Position": 0
@@ -61765,8 +61775,9 @@
             {
               "Name": "IMPA40",
               "MessageTextLines": [
-                "If you want to thank someone, I'm not",
-                "the one who deserves it the most."
+                "Если хотите поблагодарить",
+                "кого-то, то больше всего",
+                "похвалу тут заслуживаю не я."
               ],
               "Type": 0,
               "Position": 0
@@ -61774,7 +61785,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C><SOUND:CLUE>(Huh?)"
+                "<SOUND:0><C><SOUND:CLUE>(А?)"
               ],
               "Type": 0,
               "Position": 0
@@ -61782,10 +61793,10 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Highness?!",
+                "<SOUND:WHAP><DI>Ваше Высочество?!",
                 "<NEW_BOX>",
-                "I thought you were going back to",
-                "Hyrule Castle...?"
+                "Я думал, Вы собирались похать",
+                "обратно в замок Хайрул...?"
               ],
               "Type": 0,
               "Position": 0
@@ -61793,8 +61804,8 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SOUND:0><C>(What strings did Impa have to pull to",
-                "get her here?)"
+                "<SOUND:0><C>(За какие верёвочки Импа потянула,",
+                "чтобы её сюда пустили?)"
               ],
               "Type": 0,
               "Position": 0
@@ -61802,8 +61813,8 @@
             {
               "Name": "ZELDA10",
               "MessageTextLines": [
-                "I was...<PAUSE:5> but I realized I should",
-                "apologise for what I did personally."
+                "Да...<PAUSE:5> но я осознала, что должна",
+                "извиниться за свой поступок лично."
               ],
               "Type": 0,
               "Position": 0
@@ -61811,7 +61822,7 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "It's... an honour."
+                "Это... большая честь."
               ],
               "Type": 0,
               "Position": 0
@@ -61819,8 +61830,9 @@
             {
               "Name": "ZELDA20",
               "MessageTextLines": [
-                "Ah, there is...<PAUSE:3> no need to bow.<PAUSE:5> ",
-                "Not after what I have done."
+                "Ах, вовсе не...<PAUSE:3> нужно кланяться.<PAUSE:5> ",
+                "Особенно после того, что я",
+                "сделала."
               ],
               "Type": 0,
               "Position": 0
@@ -61828,9 +61840,10 @@
             {
               "Name": "ZELDA30",
               "MessageTextLines": [
-                "Really, if not for my status, I would",
-                "have probably been carted off to",
-                "prison alongside that angry little man..."
+                "Правда, если бы не мой статус,",
+                "то меня бы, вероятно, уволокли",
+                "в тюрьму вместе с тем злым",
+                "мужичком..."
               ],
               "Type": 0,
               "Position": 0
@@ -61838,8 +61851,9 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "<SOUND:0><C>(Perjury's,<PAUSE:3> uh,<PAUSE:3> pretty serious, so that's",
-                "probably <SOUND:CLUE>not entirely wrong...)"
+                "<SOUND:0><C>(Лжесвидетельство <EMDASH> это,<PAUSE:3> эм,<PAUSE:3>",
+                "довольно серьёзно, так что она,",
+                "наверное, <SOUND:CLUE>в чём-то права...)"
               ],
               "Type": 0,
               "Position": 0
@@ -61847,18 +61861,19 @@
             {
               "Name": "IMPA50",
               "MessageTextLines": [
-                "Ah, as usual, you don't give yourself",
-                "<SOUND:CLUE>enough credit, Your Highness."
+                "Ах, Вы, как обычно, не отдаёте",
+                "себе <SOUND:CLUE>должное, Ваше Высочество."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "ZELDA40",
+              "Comment": "got a wee bit fancy and changed \"innocent person\" to \"innocent soul\". same meaning but accenuates it a bit\n\n---\n\nслегка увлёкся и заменил \"невинного человека\" на \"невинную душу\". смысл тот же, но чуть его акцентирует",
               "MessageTextLines": [
-                "How can you say that, Detective?<PAUSE:5> ",
-                "<SOUND:WHAP>I almost condemned an innocent",
-                "person to prison!"
+                "Как Вы можете так говорить,",
+                "следователь?<PAUSE:5> <SOUND:WHAP>Я почти обрекла",
+                "невинную душу на заточение!"
               ],
               "Type": 0,
               "Position": 0
@@ -61866,8 +61881,9 @@
             {
               "Name": "IMPA60",
               "MessageTextLines": [
-                "Yes, there are some things you should",
-                "think twice about doing, in the future..."
+                "Да, есть вещи, перед которыми",
+                "Вам в будущем стоит дважды",
+                "задумываться..."
               ],
               "Type": 0,
               "Position": 0
@@ -61875,8 +61891,9 @@
             {
               "Name": "IMPA70",
               "MessageTextLines": [
-                "But it's all thanks to you that the young",
-                "lady over here finally went free!"
+                "Но именно благодаря Вам эта",
+                "юная леди наконец-то стала",
+                "свободна!"
               ],
               "Type": 0,
               "Position": 0
@@ -61884,7 +61901,7 @@
             {
               "Name": "ZELDA50",
               "MessageTextLines": [
-                "Huh?"
+                "А?"
               ],
               "Type": 0,
               "Position": 0
@@ -61892,8 +61909,8 @@
             {
               "Name": "IMPA80",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>C'mon, attorney!<PAUSE:5> <G>Show Her Highness",
-                "what I'm talking about!<PERSISTENT>"
+                "<SOUND:WHAP><DI>Ну же, адвокат!<PAUSE:5> <G>Покажите Её",
+                "Высочеству, о чём я говорю!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -61901,7 +61918,7 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "I, uh, well..."
+                "Я, э, ну..."
               ],
               "Type": 0,
               "Position": 0
@@ -61909,8 +61926,9 @@
             {
               "Name": "2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Impa just shot me the most",
-                "unimpressed face.)"
+                "<SOUND:0><C>(Импа бросила мне самый",
+                "неудовлетворённый взглад",
+                "из возможных.)"
               ],
               "Type": 0,
               "Position": 0
@@ -61918,7 +61936,7 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Hmm..."
+                "Хмм..."
               ],
               "Type": 0,
               "Position": 0
@@ -61926,7 +61944,7 @@
             {
               "Name": "2_IMPA10",
               "MessageTextLines": [
-                "Never mind about that."
+                "Не важно."
               ],
               "Type": 0,
               "Position": 0
@@ -61934,7 +61952,7 @@
             {
               "Name": "1_ZELDA10",
               "MessageTextLines": [
-                "<SOUND:CLUE>The bottle..."
+                "<SOUND:CLUE>Баночка..."
               ],
               "Type": 0,
               "Position": 0
@@ -61942,11 +61960,11 @@
             {
               "Name": "1_LINK10",
               "MessageTextLines": [
-                "Well, it's true.",
+                "Ну, всё верно.",
                 "<NEW_BOX>",
-                "Without this, and without knowing",
-                "about the fire, we wouldn't have had",
-                "any proof to substantiate our claims."
+                "Без неё, и не зная о костре, мы",
+                "не смогли бы подтвердить свои",
+                "заявления доказательствами."
               ],
               "Type": 0,
               "Position": 0
@@ -61954,7 +61972,7 @@
             {
               "Name": "1_ZELDA20",
               "MessageTextLines": [
-                "Hmm..."
+                "Хмм..."
               ],
               "Type": 0,
               "Position": 0
@@ -61962,24 +61980,26 @@
             {
               "Name": "1_LINK20",
               "MessageTextLines": [
-                "And,<PAUSE:3> really,<PAUSE:3> your <SOUND:HINT>obviously-false",
-                "testimony helped us a lo<DI><EMDASH><FADE:10>"
+                "И,<PAUSE:3> более того,<PAUSE:3> ваши <SOUND:HINT>очевидно",
+                "ошибочные показания очень по<DI><EMDASH><FADE:10>"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "1_LINK25",
+              "Comment": "You are absolutely not supposed to use the letter Ы this way but i think it's accenuates the comical scream\n\n---\n\nБукву Ы таким образом использовать вряд ли можно но я думаю это подчёркивает комический крик",
               "MessageTextLines": [
-                "<LC><SOUND:STAB><DI><R>YYYOWCH~!<FADE:20>"
+                "<LC><SOUND:STAB><DI><R>ЫЫАААЙ~!<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "1_LINK30",
+              "Comment": "link confirmed to prefer a kiss over a step from pretty ladies\n\nhttps://xcancel.com/NeilNevins/status/1438929775058325507?lang=en",
               "MessageTextLines": [
-                "<SOUND:0><C><DI><SOUND:WHAP>(Impa just stepped on my foot!)"
+                "<SOUND:0><C><DI><SOUND:WHAP>(Импа наступила мне на ногу!)"
               ],
               "Type": 0,
               "Position": 0
@@ -61987,7 +62007,7 @@
             {
               "Name": "1_IMPA10",
               "MessageTextLines": [
-                "Well, there you have it!"
+                "Вот, видите!"
               ],
               "Type": 0,
               "Position": 0
@@ -61995,8 +62015,9 @@
             {
               "Name": "IMPA90",
               "MessageTextLines": [
-                "In any case, I'm sure Miss Malon isn't",
-                "too upset."
+                "В любом случае, уверена, что",
+                "госпожа Малон не сильно",
+                "сердится."
               ],
               "Type": 0,
               "Position": 0
@@ -62004,15 +62025,16 @@
             {
               "Name": "MALON60",
               "MessageTextLines": [
-                "I, uh...<PAUSE:3> well...<PAUSE:3> sure?"
+                "Я, э...<PAUSE:3> ну...<PAUSE:3> ладно?"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "SOLDIER10",
+              "Comment": "From what I gather, this is military slang for \"attention\", which's equivalent of our \"смирно\"? Got a bit of a chain of wiktionary pages connecting 'em\n\n---\n\nЕсли я правильно понял, то это военный сленг для \"attention\", аналог нашего \"смирно\"? Составил небольшую цепочку страниц wiktionary, которые их соединяют\n\n---\n\nhttps://en.wiktionary.org/wiki/ten-hut → https://en.wiktionary.org/wiki/attention → (swap language) → https://ru.wiktionary.org/wiki/attention → https://ru.wiktionary.org/wiki/смирно",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI><LC>TEN-HUT!"
+                "<SOUND:EXPLOSION><DI><LC>СМИР-НО!"
               ],
               "Type": 0,
               "Position": 0
@@ -62020,8 +62042,9 @@
             {
               "Name": "SOLDIER20",
               "MessageTextLines": [
-                "<SOUND:WHAP>We have orders to escort the princess",
-                "back to the castle immediately!"
+                "<SOUND:WHAP>Поступил приказ немедленно",
+                "проводить принцессу обратно",
+                "в замок!"
               ],
               "Type": 0,
               "Position": 0
@@ -62029,7 +62052,7 @@
             {
               "Name": "IMPA100",
               "MessageTextLines": [
-                "<SOUND:WHAP>Ah, just in time."
+                "<SOUND:WHAP>А, как раз во время."
               ],
               "Type": 0,
               "Position": 0
@@ -62037,7 +62060,7 @@
             {
               "Name": "IMPA105",
               "MessageTextLines": [
-                "Farewell, Your Highness."
+                "До встречи, Ваше Высочество."
               ],
               "Type": 0,
               "Position": 0
@@ -62045,7 +62068,7 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "<SOUND:0><C>(And so they left...)"
+                "<SOUND:0><C>(И вот, они ушли...)"
               ],
               "Type": 0,
               "Position": 0
@@ -62053,15 +62076,15 @@
             {
               "Name": "IMPA110",
               "MessageTextLines": [
-                "<SOUND:WHAP>Now, then, listen to me.<PAUSE:3> I know that I",
-                "am perhaps being too lenient on the",
-                "princess, but...",
+                "<SOUND:WHAP>Так, а теперь, послушайте.<PAUSE:3> Я знаю,",
+                "что, может быть, я слишком мягко",
+                "обхожусь с принцессой, но...",
                 "<NEW_BOX>",
-                "Tough times are ahead.",
+                "Надвигаются тяжёлые времена.",
                 "<NEW_BOX>",
-                "The princess will need all the",
-                "confidence she can get to lead the",
-                "kingdom through them."
+                "Принцессе понадобится как можно",
+                "больше уверенности, чтобы",
+                "провести через них королевство."
               ],
               "Type": 0,
               "Position": 0
@@ -62069,9 +62092,8 @@
             {
               "Name": "MALON70",
               "MessageTextLines": [
-                "She...<PAUSE:3> <SOUND:WHAP>she needs to learn to take",
-                "responsibility for her actions, too,",
-                "though!"
+                "Но она...<PAUSE:3> <SOUND:WHAP>она ещё и должна нести",
+                "ответственность за свои поступки!"
               ],
               "Type": 0,
               "Position": 0
@@ -62079,7 +62101,7 @@
             {
               "Name": "IMPA120",
               "MessageTextLines": [
-                "And she will."
+                "И она понесёт."
               ],
               "Type": 0,
               "Position": 0
@@ -62087,7 +62109,7 @@
             {
               "Name": "MALON80",
               "MessageTextLines": [
-                "<SOUND:CLUE>Huh?"
+                "<SOUND:CLUE>А?"
               ],
               "Type": 0,
               "Position": 0
@@ -62095,8 +62117,8 @@
             {
               "Name": "IMPA130",
               "MessageTextLines": [
-                "Her Highness is in for a rather",
-                "<SOUND:HINT>unpleasant afternoon today, I imagine."
+                "Думаю, Её Высочество ожидает",
+                "весьма <SOUND:HINT>неприятный денёк."
               ],
               "Type": 0,
               "Position": 0
@@ -62104,9 +62126,8 @@
             {
               "Name": "IMPA140",
               "MessageTextLines": [
-                "The urgency with which she has just",
-                "been escorted out of here isn't",
-                "coincidental."
+                "Спешка, с которой её сейчас увели",
+                "отсюда, вовсе не случайна."
               ],
               "Type": 0,
               "Position": 0
@@ -62114,7 +62135,7 @@
             {
               "Name": "MALON90",
               "MessageTextLines": [
-                "What, is the King going to scold her?"
+                "Что, её Король наругает, что ли?"
               ],
               "Type": 0,
               "Position": 0
@@ -62122,7 +62143,7 @@
             {
               "Name": "IMPA150",
               "MessageTextLines": [
-                "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0>At the very least."
+                "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0>Как минимум."
               ],
               "Type": 0,
               "Position": 0
@@ -62130,19 +62151,21 @@
             {
               "Name": "IMPA160",
               "MessageTextLines": [
-                "Now, then...",
-                "<NEW_BOX>My duties call, unfortunately, so I must",
-                "be off."
+                "А теперь...",
+                "<NEW_BOX>Служба зовёт, к сожалению,",
+                "поэтому я вынуждена удалиться."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "IMPA170",
+              "Comment": "The first \"you\" is obviously \"both Link and Malon\", but the second makes no sense to refer to Malon so I made it uppercase to refer to just Link\n\n---\n\nПервое \"you\" очевидно означает \"И Линк, и Малон\", но второе к Малон никак не может относиться, потому что чего бы ей снова в суде быть, так что я написал его с заглавной буквы, чтобы относилось чисто к Линку",
               "MessageTextLines": [
-                "Again, you did well today, both of you.<PAUSE:5> ",
-                "<SOUND:WHAP>I trust that I will be able to rely on you",
-                "in future court proceedings as well?"
+                "Опять же, вы оба отлично себя",
+                "держали.<PAUSE:5> <SOUND:WHAP>Я полагаю, что смогу",
+                "положиться на Вас и в будущих",
+                "судебных заседаниях?"
               ],
               "Type": 0,
               "Position": 0
@@ -62150,7 +62173,7 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "I'll... try my best."
+                "Я... постараюсь."
               ],
               "Type": 0,
               "Position": 0
@@ -62158,7 +62181,7 @@
             {
               "Name": "IMPA180",
               "MessageTextLines": [
-                "That's all I ask."
+                "О большем я не прошу."
               ],
               "Type": 0,
               "Position": 0
@@ -62166,9 +62189,10 @@
             {
               "Name": "IMPA190",
               "MessageTextLines": [
-                "That <SOUND:CLUE>unpleasant prosecutor seems to",
-                "be making his way over here, so I'll",
-                "be excusing myself posthaste.<PAUSE:5> Farewell."
+                "Тот <SOUND:CLUE>неприятный прокурор,",
+                "кажется, направляется сюда, так",
+                "что я поспешно направлюсь отсюда.<PAUSE:5>",
+                "До встречи."
               ],
               "Type": 0,
               "Position": 0
@@ -62176,7 +62200,7 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "Uh oh...<FADE:10>"
+                "Ой-ой...<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -62184,7 +62208,7 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>YOU."
+                "<SOUND:EXPLOSION><DI>ТЫ."
               ],
               "Type": 0,
               "Position": 0
@@ -62192,7 +62216,8 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "<SOUND:WHAP>Hello!<PAUSE:3> Nice day we're having, isn't it?"
+                "<SOUND:WHAP>Здравствуйте!<PAUSE:3> Отличный денёк",
+                "сегодня, не находите?"
               ],
               "Type": 0,
               "Position": 0
@@ -62200,18 +62225,19 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Tell me,<PAUSE:3> <SOUND:EXPLOSION>now!<PAUSE:5> Where did that blasted",
-                "detective go?!"
+                "Говори,<PAUSE:3> <SOUND:EXPLOSION>немедленно!<PAUSE:5> Где этот",
+                "проклятый следователь?!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "DRAGMIRE30",
+              "Comment": "- \"зелёный\" (\"green\") has a meaning of \"inexperienced\"\n- \"деревенщина\" (slightly disparaging word for someone who lives in a village) is like a \"country bumpkin\" or a \"redneck\", hopefully it fits. This Link doesn't come across as someone who lives in a village, but he did spend the entire trial defending a farm girl and talking about how long he knows her, and Dragmire is being mad as hell and irrational here\n\n---\n\n- \"зелёный\" в значении \"неопытный\"\n- \"from the boonies\" перевёл как \"деревенщину\".Линк на жителя деревни не особо похож, но он всё заседание защищал девушку из фермы и рассказывал о том, как давно её знает, и Ганондорф тут сильно бомбит и ругается иррационально",
               "MessageTextLines": [
-                "To have my reputation tarnished",
-                "this way...!<PAUSE:5><SOUND:EXPLOSION> By some novice attorney",
-                "from the boonies...!"
+                "Такой удар по моей репутации...!<PAUSE:5><SOUND:EXPLOSION>",
+                "Да ещё и от такого зелёного",
+                "адвоката-деревенщины...!"
               ],
               "Type": 0,
               "Position": 0
@@ -62219,8 +62245,8 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:0><C>(Dramatic much?<PAUSE:5> He looks about ready",
-                "to burst from anger...)"
+                "<SOUND:0><C>(Не слишком драматизируешь?<PAUSE:5>",
+                "Сейчас вот-вот лопнет от ярости...)"
               ],
               "Type": 0,
               "Position": 0
@@ -62228,9 +62254,9 @@
             {
               "Name": "MALON100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Don't be such a sore loser!",
+                "<SOUND:WHAP><DI>Не ведите себя, как неудачник!",
                 "<NEW_BOX>",
-                "You lost.<PAUSE:3> Deal with it!"
+                "Вы проиграли.<PAUSE:3> Живите с этим!"
               ],
               "Type": 0,
               "Position": 0
@@ -62238,8 +62264,9 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "<SOUND:WHAP>Yeah!<PAUSE:3> We got the right verdict!<PAUSE:3> Doesn't",
-                "that make you even a little bit glad?"
+                "<SOUND:WHAP>Вот, да!<PAUSE:3> Мы пришли к правильному",
+                "приговору!<PAUSE:3> Вас это нисколько не",
+                "радует?"
               ],
               "Type": 0,
               "Position": 0
@@ -62247,7 +62274,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "<SPEED:101>Hrmmmm.<SPEED:102>"
+                "<SPEED:101>Грм-м-м.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -62255,8 +62282,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "<PAUSE:5>Yes...<PAUSE:5> I suppose there is some",
-                "worth in that."
+                "<PAUSE:5>Да...<PAUSE:5> Всё же есть в этом",
+                "определённая ценность."
               ],
               "Type": 0,
               "Position": 0
@@ -62272,22 +62299,24 @@
             {
               "Name": "DRAGMIRE85",
               "MessageTextLines": [
-                "...What transpired is most unfortunate.<PAUSE:7> ",
-                "I can only offer my condolences."
+                "...Произошедшее весьма печально.<PAUSE:7> ",
+                "Я могу лишь предложить свом",
+                "соболезнования."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "DRAGMIRE87",
+              "Comment": "replaced \"meddling\" with a line-long \"put your nose where it doesn't belong\" idiom, i'm proud of myself\n\n---\n\nзаменил \"meddling\" фразеологизмом про нос на целую строку, я собой доволен",
               "MessageTextLines": [
-                "Just remember that it was the meddling",
-                "of that idiotic princess and the stupidity",
-                "of that blasted detective that led to your",
-                "arrest.",
+                "Просто не забудь, что арестовали",
+                "тебя из-за придурошной принцессы",
+                "с проклятым следователем, которые",
+                "сунули нос, куда не следует.",
                 "<NEW_BOX>",
-                "<SOUND:HINT>So if you have any grievances, take it",
-                "up with them."
+                "<SOUND:HINT>Так что если есть какие-то",
+                "жалобы, то обращайся к ним."
               ],
               "Type": 0,
               "Position": 0
@@ -62295,27 +62324,29 @@
             {
               "Name": "LINK165",
               "MessageTextLines": [
-                "<C><PAUSE:5>(...I suppose there is some truth",
-                "to what he's saying.)"
+                "<C><PAUSE:5>(...В чём-то он, пожалуй, и прав.)"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "DRAGMIRE86",
+              "Comment": "Not sure what gender would \"cucco\" be (reminder that russian is a gendered language) so I tried to be neutral-ish here\n\n---\n\nНе уверен, какого рода \"кукко\", так что использовал в \"огне\" вместо \"горящий/ая\"",
               "MessageTextLines": [
-                "Speaking of the detective, it appears",
-                "she has fled from me like a Cucco on",
-                "fire."
+                "Кстати о следователе. Кажется,",
+                "она от меня сбежала, как кукко",
+                "в огне."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "DRAGMIRE50",
+              "Comment": "sonic generations",
               "MessageTextLines": [
-                "Mark my words: she will regret what",
-                "she's done for <SOUND:EXPLOSION>GENERATIONS."
+                "Запомни мои слова: она будет",
+                "жалеть о содеянном целые",
+                "<SOUND:EXPLOSION>ПОКОЛЕНИЯ."
               ],
               "Type": 0,
               "Position": 0
@@ -62323,11 +62354,11 @@
             {
               "Name": "MALON120",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:CLUE>...Well, that sure was something.",
+                "<PAUSE:5><SOUND:CLUE>...Это... было что-то.",
                 "<NEW_BOX>",
-                "I don't know if he was being sincere,",
-                "or just wanted to shift blame onto",
-                "someone else..."
+                "Даже не знаю, был говорил он",
+                "искренне, или просто хотел",
+                "свалить вину на кого-нибудь ещё..."
               ],
               "Type": 0,
               "Position": 0
@@ -62335,8 +62366,8 @@
             {
               "Name": "LINK170",
               "MessageTextLines": [
-                "<C>(I wouldn't say he's entirely",
-                "blameless...)"
+                "<C>(Я не сказал бы, что его вины",
+                "тут нет...)"
               ],
               "Type": 0,
               "Position": 0
@@ -62344,11 +62375,12 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "Never mind that.<PAUSE:5> Do you think you'll be",
-                "all right, running the ranch by yourself?",
+                "Ладно, проехали.<PAUSE:5> Как думаешь,",
+                "сможешь руководить ранчо сама",
+                "по себе?",
                 "<NEW_BOX>",
-                "Of course I'll come visit,<PAUSE:3> but I have my",
-                "attorney duties too..."
+                "Я, конечно, приду навестить,<PAUSE:3> но",
+                "у меня свои адвокатские дела..."
               ],
               "Type": 0,
               "Position": 0
@@ -62356,9 +62388,9 @@
             {
               "Name": "MALON130",
               "MessageTextLines": [
-                "I'll get in touch with the castle, see if",
-                "they can spare some men to work at",
-                "the ranch."
+                "Я попрошу замок, вдруг они",
+                "смогут прислать несколько",
+                "человек работать на ранчо."
               ],
               "Type": 0,
               "Position": 0
@@ -62366,12 +62398,13 @@
             {
               "Name": "MALON140",
               "MessageTextLines": [
-                "Silly as my father may have seemed,",
-                "he really did prepare me to take over",
-                "one day, and he's taught me well.",
+                "Мой папа хоть и был не серьёзным,",
+                "но он хорошо подготовил меня",
+                "к тому, чтобы взять ранчо на себя.",
+                "Он многому меня научил.",
                 "<NEW_BOX>",
-                "I'll make sure the animals are well",
-                "cared for, just as I always have."
+                "Я хорошо позабочусь о животных,",
+                "как и всегда заботилась."
               ],
               "Type": 0,
               "Position": 0
@@ -62379,7 +62412,7 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>That's the spirit!<PAUSE:5> I believe in you!"
+                "<SOUND:WHAP><DI>Так держать!<PAUSE:5> Я в тебя верю!"
               ],
               "Type": 0,
               "Position": 0
@@ -62387,8 +62420,8 @@
             {
               "Name": "MALON160",
               "MessageTextLines": [
-                "I really want to thank you for bringing",
-                "the truth to light."
+                "Спасибо большое, что вывел",
+                "правду на свет."
               ],
               "Type": 0,
               "Position": 0
@@ -62396,9 +62429,8 @@
             {
               "Name": "MALON170",
               "MessageTextLines": [
-                "If it wasn't for you, I don't even want",
-                "to think about what could've",
-                "happened..."
+                "Если бы не ты, то я и представить",
+                "не хочу, что могло бы случиться..."
               ],
               "Type": 0,
               "Position": 0
@@ -62406,9 +62438,9 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "<SOUND:WHAP>Don't mention it!",
-                "<NEW_BOX>I'm just glad everything worked out in",
-                "the end."
+                "<SOUND:WHAP>Не за что!",
+                "<NEW_BOX>Я лишь рад, что в итоге всё",
+                "обошлось."
               ],
               "Type": 0,
               "Position": 0
@@ -62416,32 +62448,32 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                "And so ended a very personal case",
-                "for me.",
+                "И так завершилось очень личное",
+                "для меня дело.",
                 "<NEW_BOX>",
-                "It felt like a weight had been lifted off",
-                "my back.",
+                "С моей души будто камень сняли.",
                 "<NEW_BOX>",
-                "Malon continued working at the ranch,",
-                "hoping to make it prosper even beyond",
-                "what her father was able to accomplish.",
+                "Малон продолжила работать на",
+                "ранчо, надеясь, что оно расцветёт",
+                "даже больше, чем при её отце.",
                 "<NEW_BOX>",
-                "I didn't really think much about it, but",
-                "the days following were some of the",
-                "happiest I'd lived for a long time.",
+                "Тогда я не задумывался об этом,",
+                "но следующие дни были, наверное,",
+                "счастливейшими за долгое время.",
                 "<NEW_BOX>",
-                "Little did I know that a terrible tragedy",
-                "would soon shock the entire kingdom,<PAUSE:3> ",
-                "and I'd find myself smack dab in the",
-                "middle of it."
+                "Тогда я ещё не знал, что скоро",
+                "ужасная трагедия взбудоражит",
+                "всё королевство,<PAUSE:3> и я окажусь",
+                "прямо посреди неё."
               ],
               "Type": 2,
               "Position": 0
             },
             {
               "Name": "LINK220",
+              "Comment": "\"but that's a story for another day\" is more often translated as \"but that's a different story\", and translating \"for another day\" literally as \"для другого дня\" sounds unnatural and weird\n\n---\n\n\"but that's a story for another day\" чаще переводят как \"но это уже другая история\". Если перевести \"for another day\" буквально как \"для другого дня\", то будет звучать странно и ненатурально",
               "MessageTextLines": [
-                "<NS>But that's a <R>legend<W> for another day...<FADE:50>"
+                "<NS>Но это уже другая <R>легенда<W>...<FADE:50>"
               ],
               "Type": 2,
               "Position": 0
@@ -69090,6 +69122,7 @@
           "Messages": [
             {
               "Name": "ProjectLead",
+              "Comment": "The text was realigned for consistency - I noticed the names were generally aligned so that the longest name was touching the right edge and that the bottom alignment was inconsistent\n\n---\n\nТекст был перевыровнен для единообразности - я заметил, что имена были выровнены так, чтобы самое длинное касалось одного правого края, а выравнивание местами было одно, а местами отличалось",
               "MessageTextLines": [
                 "",
                 "",
@@ -69115,7 +69148,7 @@
                 "<Shift:158>ПРОЕКТА<W>",
                 "",
                 "",
-                "<Shift:228><FONT_TOGGLE>Skawo<FONT_TOGGLE>",
+                "<Shift:245><FONT_TOGGLE>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69128,9 +69161,7 @@
                 "",
                 "",
                 "",
-                "",
-                "",
-                "<Shift:148><R>СЦЕНАРИЙ<W>",
+                "<Shift:158><R>СЦЕНАРИЙ<W>",
                 "",
                 "",
                 "<Shift:188><FONT_TOGGLE>Skawo",
@@ -69147,7 +69178,7 @@
                 "",
                 "",
                 "",
-                "<Shift:148><R>РУССКИЙ ПЕРЕВОД<W>",
+                "<Shift:158><R>РУССКИЙ ПЕРЕВОД<W>",
                 "",
                 "",
                 "<Shift:188><FONT_TOGGLE>GoshaT<FONT_TOGGLE>",
@@ -69176,15 +69207,14 @@
                 "",
                 "",
                 "",
+                "<Shift:158><R>МОДЕЛИ СЦЕН<W>",
                 "",
-                "<Shift:148><R>МОДЕЛИ СЦЕН<W>",
                 "",
+                "<Shift:218><FONT_TOGGLE>LuigiXHero",
                 "",
-                "<Shift:208><FONT_TOGGLE>LuigiXHero",
+                "<Shift:218>FrasseFreak",
                 "",
-                "<Shift:208>FrasseFreak",
-                "",
-                "<Shift:208>Skawo<FONT_TOGGLE>",
+                "<Shift:218>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69206,21 +69236,18 @@
                 "",
                 "",
                 "",
+                "<Shift:158><R>МОДЕЛИ",
+                "",
+                "<Shift:158>ПЕРСОНАЖЕЙ<W>",
                 "",
                 "",
+                "<Shift:218><FONT_TOGGLE>oonga",
                 "",
+                "<Shift:218>LuigiXHero",
                 "",
+                "<Shift:218>Jimbo Slim",
                 "",
-                "<Shift:128><R>МОДЕЛИ ПЕРСОНАЖЕЙ<W>",
-                "",
-                "",
-                "<Shift:208><FONT_TOGGLE>oonga",
-                "",
-                "<Shift:208>LuigiXHero",
-                "",
-                "<Shift:208>Jimbo Slim",
-                "",
-                "<Shift:208>Skawo<FONT_TOGGLE>",
+                "<Shift:218>Skawo<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69244,17 +69271,16 @@
                 "",
                 "",
                 "",
+                "<Shift:158><R>АНИМАЦИЯ",
+                "",
+                "<Shift:158>ПЕРСОНАЖЕЙ<W>",
                 "",
                 "",
+                "<Shift:218><FONT_TOGGLE>Jimbo Slim",
                 "",
-                "<Shift:128><R>АНИМАЦИЯ ПЕРСОНАЖЕЙ<W>",
+                "<Shift:218>oonga",
                 "",
-                "",
-                "<Shift:208><FONT_TOGGLE>Jimbo Slim",
-                "",
-                "<Shift:208>oonga",
-                "",
-                "<Shift:208>LuigiXHero<FONT_TOGGLE>",
+                "<Shift:218>LuigiXHero<FONT_TOGGLE>",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69262,6 +69288,7 @@
             },
             {
               "Name": "2DArt",
+              "Comment": "removed one empty line for consistency\n\n---\n\nубрал одну пустую строку для единообразности",
               "MessageTextLines": [
                 "",
                 "",
@@ -69280,16 +69307,14 @@
                 "",
                 "",
                 "",
+                "<Shift:158><R><FONT_TOGGLE>2D<FONT_TOGGLE>-ГРАФИКА<W>",
                 "",
                 "",
-                "<Shift:188><R><FONT_TOGGLE>2D<FONT_TOGGLE>-ГРАФИКА<W>",
+                "<Shift:218><FONT_TOGGLE>Jimbo Slim",
                 "",
+                "<Shift:218>snake block",
                 "",
-                "<Shift:208><FONT_TOGGLE>Jimbo Slim",
-                "",
-                "<Shift:208>snake block",
-                "",
-                "<Shift:208>FrasseFreak<FONT_TOGGLE>",
+                "<Shift:218>FrasseFreak<FONT_TOGGLE>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69318,8 +69343,7 @@
                 "",
                 "",
                 "",
-                "",
-                "<Shift:148><R>ПРОГРАММИРОВАНИЕ<W>",
+                "<Shift:145><R>ПРОГРАММИРОВАНИЕ<W>",
                 "",
                 "",
                 "<Shift:188><FONT_TOGGLE>Skawo",
@@ -69353,8 +69377,7 @@
                 "",
                 "",
                 "",
-                "",
-                "<Shift:158><R>СКРИПТЫ<W>",
+                "<Shift:138><R>НАПИСАНИЕ СКРИПТОВ<W>",
                 "",
                 "",
                 "<Shift:188><FONT_TOGGLE>Skawo",
@@ -69369,7 +69392,6 @@
             {
               "Name": "Music",
               "MessageTextLines": [
-                "",
                 "",
                 "",
                 "",
@@ -69475,7 +69497,6 @@
                 "",
                 "",
                 "",
-                "",
                 "<Shift:138><R>СОЗДАНО С ПОМОЩЬЮ<W>",
                 "",
                 "",
@@ -69489,6 +69510,7 @@
             },
             {
               "Name": "Testing1",
+              "Comment": "This one wasn't bottom-realigned with the others to not cover Impa too much\n\n---\n\nЭтот не стал выравнивать по низу с остальными, чтобы не перекрывать Импу",
               "MessageTextLines": [
                 "",
                 "",
@@ -69560,6 +69582,7 @@
             },
             {
               "Name": "Testing3",
+              "Comment": "WATCH ME FLY MAMA",
               "MessageTextLines": [
                 "",
                 "",
