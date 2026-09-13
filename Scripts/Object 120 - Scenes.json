@@ -946,7 +946,7 @@
               "Name": "Koholink2",
               "MessageTextLines": [
                 "<Y><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W> (Возраст: ??)",
-                "«Я»-клептоман из другого мира...?<PERSISTENT>"
+                "«Я»-клептоман из другого мира?..<PERSISTENT>"
               ],
               "Type": 3,
               "Position": 0
@@ -16817,11 +16817,11 @@
           "Messages": [
             {
               "Name": "START",
-              "Comment": "The 24 hour format is used here, so \"AM\" is gone. If this was, for example, 3:00 PM, it'd be changed to 15:00\n\nNote, though, that in casual speech 12 hour format is used sometimes, so if characters say the time like that in the future (like in case 2 or something) then that'd be taken into account\n\nAlso, I the \"Ñ\" letter was put into the font and is used here from before the <FONT_TOGGLE> tags were implemented. Keeping it since I mean I guess it's here so why not\n\n---\n\nУ нас в основном используется 24-х часовой формат, так что \"AM\" удалено. Если б тут было, например, 3:00 PM, то оно было бы заменено на \"15:00\"\n\nА, и буковка \"Ñ\", имеющая вид \"N\" добавлена в шрифт и используется тут ещё со времён, когда тега <FONT_TOGGLE> не существовало. Я это оставил потому что оно ж тут так что почему бы и нет",
+              "Comment": "The 24 hour format is used here, so \"AM\" is gone. If this was, for example, 3:00 PM, it'd be changed to 15:00\n\nNote, though, that in casual speech 12 hour format is used sometimes, so if characters say the time like that in the future (like in case 2 or something) then that'd be taken into account\n\n---\n\nУ нас в основном используется 24-х часовой формат, так что \"AM\" удалено. Если б тут было, например, 3:00 PM, то оно было бы заменено на \"15:00\"",
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 9:37",
                 "<LC>Величественный суд Хайрула",
-                "<LC>Вестибюль подсудимых Ñо. 3<SOUND:0>"
+                "<LC>Вестибюль подсудимых <FONT_TOGGLE>No<FONT_TOGGLE>. 3<SOUND:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -16832,7 +16832,7 @@
                 "<SOUND:0><C>(Казалось бы, после стольких лет",
                 "я бы уже привык к стрессу.)",
                 "<New_box>",
-                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Тогда почему меня так трясёт.?!)",
+                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Тогда почему меня так трясёт?!.)",
                 "<New_box>",
                 "<C><PAUSE:4><DC>(Н-да.<PAUSE:3> Держать себя в руках",
                 "намного сложнее, когда на кону",
@@ -17311,7 +17311,7 @@
               "Name": "LINK_n90",
               "MessageTextLines": [
                 "Хех, эм... <SOUND:0>",
-                "<PAUSE:3><C>(Что, так заметно...?)"
+                "<PAUSE:3><C>(Что, так заметно?..)"
               ],
               "Type": 0,
               "Position": 0
@@ -17361,7 +17361,7 @@
                 "с эмоциональными клиентами...)",
                 "<New_box>",
                 "<PAUSE:3><SPEED:101>Эй,<PAUSE:5> а-<SPEED:102>а ведь знаешь,<PAUSE:3> а пиктограф",
-                "может пригодиться на заседании...!"
+                "может пригодиться на заседании!.."
               ],
               "Type": 0,
               "Position": 0
@@ -43419,7 +43419,7 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "Господин Инго...<PAUSE:10> Почему...?"
+                "Господин Инго...<PAUSE:10> Почему?.."
               ],
               "Type": 0,
               "Position": 0
@@ -50971,11 +50971,10 @@
           "Messages": [
             {
               "Name": "START",
-              "Comment": "The note from \"SCENE_LOBBY_INTRO / START\" applies here\n\n---\n\nЗаметка из \"SCENE_LOBBY_INTRO / START\" относится и сюда",
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 11:17",
                 "<LC>Величественный суд Хайрула",
-                "<LC>Вестибюль подсудимых Ñо. 3<SOUND:0>"
+                "<LC>Вестибюль подсудимых <FONT_TOGGLE>No<FONT_TOGGLE>. 3<SOUND:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -51498,7 +51497,7 @@
             {
               "Name": "MALON_n10",
               "MessageTextLines": [
-                "О...?<PAUSE:8> Эм,<PAUSE:5> спасибо!"
+                "О?..<PAUSE:8> Эм,<PAUSE:5> спасибо!"
               ],
               "Type": 0,
               "Position": 0
@@ -61684,11 +61683,11 @@
           "Messages": [
             {
               "Name": "START",
-              "Comment": "The note from \"SCENE_LOBBY_INTRO / START\" applies here\n\n---\n\nЗаметка из \"SCENE_LOBBY_INTRO / START\" относится и сюда\n\nКстати, я всегда путаюсь с 12:00 AM/PM - на всякий случай, 12:00 AM это 0:00, а 12:00 PM - 12:00",
+              "Comment": "~~I always get confused with 12:00 AM/PM~~\n\n---\n\n~~Я всегда путаюсь с 12:00 AM/PM~~",
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 12:32",
                 "<LC>Величественный суд Хайрула",
-                "<LC>Вестибюль подсудимых Ñо. 3<SOUND:0>"
+                "<LC>Вестибюль подсудимых <FONT_TOGGLE>No<FONT_TOGGLE>. 3<SOUND:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -78695,7 +78694,7 @@
             {
               "Name": "LINKcbf_10",
               "MessageTextLines": [
-                "Хмм...?<PAUSE:5> О!<PAUSE:5> ",
+                "Хмм?..<PAUSE:5> О!<PAUSE:5> ",
                 "...Э, да, я именно её и имел в виду!"
               ],
               "Type": 0,
