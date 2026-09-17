@@ -687,6 +687,7 @@
           "Messages": [
             {
               "Name": "AttorneyBadge",
+              "Comment": "(leaving this note at the topmost message)\n\nWhile I mostly referred to official localisations when translating existing terms, Ace Attorney doesn't have one, and Ocarina of Time didn't for a long time either.\n\nSome of the fan translations I took note of:\n- Ace Attorney:\n  - Trilogy translation by Dant\n  - Trilogy translation by Falling Forward\n  - Investigations translation by Unknown Translators Team\n- OoT - by Shedevr / zelda64rus\n\nAdditionally, for AA terms I just used normal legal terms sometimes that weren't used in fan translations but fit and/or sounded better",
               "MessageTextLines": [
                 "<Y>Значок адвоката<W>",
                 "Подтверждает, что я могу выступать",
@@ -1052,8 +1053,9 @@
             },
             {
               "Name": "Speaker_Argument",
+              "Comment": "Same as the AAI fan translation by Unknown Translators Team\n\n---\n\nТак же как в переводе AAI от Unknown Translators Team",
               "MessageTextLines": [
-                "Аргумент<BYTE:0>"
+                "Довод<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -1109,7 +1111,7 @@
             },
             {
               "Name": "Subtitle_TakeThat",
-              "Comment": "Probably the most messed up lawyer speech bubble to translate due to its usage in AA3 where you throw a phone and yell \"Take that!\", so the additional meaning of \"here, have this\" has to be preserved, even though for 99% of the time it's used as \"Have a look!\". Used the translation from one of the fan translations, for this reason\n\nThough, I guess we don't actually have to consider this meaning, now that I think about it. But I'd rather keep it in just in case\n\n---\n\nНаверное, самый неприятный адвокатский выкрик для перевода, из-за того момента в AA3, где ты бросаешь перевод с этим выкриком, чтобы его поймали. Из-за этого приходится сохранять дополнительный смысл \"вот, возьми\", хотя в 99% случаев он используется как \"взгляните на это\". Одолжил вариант из одного из фанатских переводов, где это продумали\n\nХотя, нам-то не обязательно учитывать этот смысл, если так подумать. Но я лучше на всякий случай его оставлю",
+              "Comment": "Probably the most messed up lawyer speech bubble to translate due to its usage in AA3 where you throw a phone and yell \"Take that!\", so the additional meaning of \"here, have this\" has to be preserved, even though for 99% of the time it's used as \"Have a look!\". Used the fan translation by Falling Forward for this reason, they accounted for this\n\nThough, I guess we don't actually have to consider this meaning, now that I think about it. But I'd rather keep it in just in case\n\n---\n\nНаверное, самый неприятный адвокатский выкрик для перевода, из-за того момента в AA3, где ты бросаешь перевод с этим выкриком, чтобы его поймали. Из-за этого приходится сохранять дополнительный смысл \"вот, возьми\", хотя в 99% случаев он используется как \"взгляните на это\". Одолжил вариант из фанатского перевода от Falling Forward, где это продумали\n\nХотя, нам-то не обязательно учитывать этот смысл, если так подумать. Но я лучше на всякий случай его оставлю",
               "MessageTextLines": [
                 "<LC>(Вот!)<BYTE:0>"
               ],
@@ -1174,6 +1176,7 @@
             },
             {
               "Name": "Subtitle_Rebuttal",
+              "Comment": "AAI fan translation uses \"Оспаривание\", but I'm not really a fan of it, since, while it is still a valid word, \"спаривание\" also means \"breeding\"\n\nAnd \"опровержение\" (a bit closer to \"refutation\") means sense since that's what you're doing to Dragmire's arguments\n\n---\n\nВ фан переводе AAI используется \"Оспаривание\", но мне этот вариант не особо зашёл, т.к. \"о, спаривание\", ну, вы поняли\n\nИ \"опровержение\" нормально подходит, т.к. в этом моменте вы как раз-таки и опровергаете доводы Дрегмайра",
               "MessageTextLines": [
                 "<LC>(Опровержение)<BYTE:0>"
               ],
@@ -1182,8 +1185,9 @@
             },
             {
               "Name": "Subtitle_ArgumentComplete",
+              "Comment": "Translated it as \"rebuttal complete\" because that kinda makes more sense imo\n\n---\n\nПеревёл как \"rebuttal complete\" потому что ну логичнее же",
               "MessageTextLines": [
-                "<LC>(Аргумент завершён)<BYTE:0>"
+                "<LC>(Опровержение завершёно)<BYTE:0>"
               ],
               "Type": 0,
               "Position": 0
@@ -16821,18 +16825,19 @@
               "MessageTextLines": [
                 "<SPEED:1><G><LC>17 марта, 9:37",
                 "<LC>Величественный суд Хайрула",
-                "<LC>Вестибюль подсудимых <FONT_TOGGLE>No<FONT_TOGGLE>. 3<SOUND:0>"
+                "<LC>Вестибюль подсудимых № 3<SOUND:0>"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK10",
+              "Comment": "The \"grammatically correct\" way to put \"...?!\"in russian way would be \"?!.\", but it's used so rare that it just looks like a typo. Because of that I moved the \"...\" to after \"so...\", to ensure there's still an unsure tone in the voice while also not giving the player a reason to worry about the translation (in case they don't know about ?!.s) before the trial even began\n\n---\n\n\"Грамматически правильно\" в русском написать не \"...?!\", а \"?!.\", но это используется так редко, что выглядит как опечатка. Я решил лучше перенести \"...\" с конца в начало, чтобы сохранить неуверенность в голосе, и при этого у игроков не было ощущения, что вдруг что-то не так с переводом аж до начала суда",
               "MessageTextLines": [
                 "<SOUND:0><C>(Казалось бы, после стольких лет",
                 "я бы уже привык к стрессу.)",
                 "<New_box>",
-                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Тогда почему меня так трясёт?!.)",
+                "<C><PAUSE:3><DC><SOUND:EXPLOSION>(Тогда... почему меня так трясёт?!)",
                 "<New_box>",
                 "<C><PAUSE:4><DC>(Н-да.<PAUSE:3> Держать себя в руках",
                 "намного сложнее, когда на кону",
@@ -16908,8 +16913,8 @@
                 "<C>(Да что <SOUND:EXPLOSION>НЕ ТАК с ним?!)",
                 "<NEW_BOX>",
                 "<C>(Он ограждает меня от места",
-                "преступления,<PAUSE:3> не даёт мне",
-                "посетить следственный изолятор,<PAUSE:3> ",
+                "преступления,<PAUSE:3> не даёт мне посетить",
+                "следственный изолятор,<PAUSE:3>",
                 "и теперь<SOUND:WHAP> ЭТО?)"
               ],
               "Type": 0,
@@ -17465,9 +17470,9 @@
                 "<PAUSE:3><DC>...Хорошо.<PAUSE:2> <SPEED:101>Всё будет в порядке.<SPEED:102>",
                 "<New_box>",
                 "Прокурор держал меня за дурака",
-                "с самого начала этого дела, но",
-                "рано или поздно, его высокомерие",
-                "его и погубит.",
+                "с самого начала этого дела, но рано",
+                "или поздно, его высокомерие его и",
+                "погубит.",
                 "<NEW_BOX>",
                 "Идём."
               ],
@@ -20928,9 +20933,9 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "Не могла дождаться, чтобы",
-                "старый дурак помер сам, да,",
-                "крыса ты жадная?"
+                "Не могла дождаться, пока старый",
+                "дурак не помрёт сам, да, крыса ты",
+                "жадная?"
               ],
               "Type": 0,
               "Position": 0
@@ -74182,8 +74187,8 @@
               "MessageTextLines": [
                 "Так, надеюсь, это напоминать",
                 "не нужно, но ты сам удивлялся,",
-                "что Инго смог во время",
-                "подготовить молоко к отправке."
+                "что Инго успел подготовить",
+                "молоко к отправке во время."
               ],
               "Type": 0,
               "Position": 0
@@ -111329,7 +111334,7 @@
             {
               "Name": "Msg2",
               "MessageTextLines": [
-                "Таким образом,<PAUSE:3> я объявляю Малон",
+                "Раз так,<PAUSE:3> то я объявляю Малон",
                 "из ранчо Лон Лон...<FADE:20>"
               ],
               "Type": 0,
