@@ -131,8 +131,33 @@
       "Description": ""
     },
     {
+      "Token": "[",
+      "Value": "0x5B",
+      "Description": ""
+    },
+    {
       "Token": "¥",
       "Value": "0x5C",
+      "Description": ""
+    },
+    {
+      "Token": "\\",
+      "Value": "0x5D",
+      "Description": ""
+    },
+    {
+      "Token": "^",
+      "Value": "0x5E",
+      "Description": ""
+    },
+    {
+      "Token": "_",
+      "Value": "0x5F",
+      "Description": ""
+    },
+    {
+      "Token": "`",
+      "Value": "0x60",
       "Description": ""
     },
     {
@@ -265,18 +290,38 @@
       "Value": "0x7A",
       "Description": ""
     },
-	{
+    {
+      "Token": "{",
+      "Value": "0x7B",
+      "Description": ""
+    },
+    {
+      "Token": "|",
+      "Value": "0x7C",
+      "Description": ""
+    },
+    {
+      "Token": "}",
+      "Value": "0x7D",
+      "Description": ""
+    },
+    {
+      "Token": "~",
+      "Value": "0x7E",
+      "Description": ""
+    },
+    {
       "Token": "º",
       "Value": "0x7F",
       "Description": ""
-	},
+    },
     {
       "Token": "Щ",
       "Value": "0x80",
       "Description": ""
     },
     {
-      "Token": "Á",
+      "Token": "Ъ",
       "Value": "0x81",
       "Description": ""
     },
@@ -306,73 +351,53 @@
       "Description": ""
     },
     {
-      "Token": "Ê",
+      "Token": "щ",
       "Value": "0x87",
       "Description": ""
     },
     {
-      "Token": "Ë",
+      "Token": "ъ",
       "Value": "0x88",
       "Description": ""
     },
     {
-      "Token": "«",
+      "Token": "ы",
       "Value": "0x89",
       "Description": ""
     },
     {
-      "Token": "»",
+      "Token": "ь",
       "Value": "0x8A",
       "Description": ""
     },
     {
-      "Token": "Ъ",
+      "Token": "э",
       "Value": "0x8B",
       "Description": ""
     },
     {
-      "Token": "Ï",
+      "Token": "ю",
       "Value": "0x8C",
       "Description": ""
     },
     {
-      "Token": "Ñ",
+      "Token": "я",
       "Value": "0x8D",
       "Description": ""
     },
     {
-      "Token": "щ",
-      "Value": "0x97",
+      "Token": "«",
+      "Value": "0x8E",
       "Description": ""
     },
     {
-      "Token": "ъ",
-      "Value": "0x98",
+      "Token": "»",
+      "Value": "0x8F",
       "Description": ""
     },
     {
-      "Token": "ы",
-      "Value": "0x99",
-      "Description": ""
-    },
-    {
-      "Token": "ь",
-      "Value": "0x9A",
-      "Description": ""
-    },
-    {
-      "Token": "э",
-      "Value": "0x9B",
-      "Description": ""
-    },
-    {
-      "Token": "ю",
-      "Value": "0x9C",
-      "Description": ""
-    },
-    {
-      "Token": "я",
-      "Value": "0x9D",
+      "Token": "№",
+      "Value": "0x90",
       "Description": ""
     }
   ]
