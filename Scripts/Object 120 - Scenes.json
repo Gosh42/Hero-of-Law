@@ -100700,9 +100700,8 @@
                 "Несанкционированное копирование",
                 "видеоигр <EMDASH> серьёзное преступление.",
                 "<NEW_BOX>",
-                "Таким образом, я увидел",
-                "достаточно, чтобы огласить",
-                "приговор.",
+                "Думаю, этого достаточно,",
+                "чтобы огласить приговор.",
                 "<NEW_BOX>",
                 "Суд провозглашает, что",
                 "подсудимый, игрок...<FADE:20>"
@@ -100713,7 +100712,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:HINT>...шучу!"
+                "<SOUND:HINT>...Шучу!"
               ],
               "Type": 0,
               "Position": 0
@@ -101927,9 +101926,8 @@
                 "Несанкционированное копирование",
                 "видеоигр <EMDASH> серьёзное преступление.",
                 "<NEW_BOX>",
-                "Таким образом, я увидел",
-                "достаточно, чтобы огласить",
-                "приговор.",
+                "Думаю, этого достаточно,",
+                "чтобы огласить приговор.",
                 "<NEW_BOX>",
                 "Суд провозглашает, что",
                 "подсудимый, игрок...<FADE:20>"
@@ -101940,7 +101938,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "<SOUND:HINT>...шучу!"
+                "<SOUND:HINT>...Шучу!"
               ],
               "Type": 0,
               "Position": 0
@@ -103985,7 +103983,7 @@
                 "<DI><SHIFT:73>П А У З А<THREE_CHOICES>",
                 "<G>Правила игры",
                 "О выбранной песне",
-                "Выйти в главное меню<Shift:10><B_BUTTON><W> Назад"
+                "Выйти в главное меню<Shift:16><B_BUTTON><W> Назад"
               ],
               "Type": 1,
               "Position": 2
@@ -104001,7 +103999,7 @@
             {
               "Name": "msgChangeMus",
               "MessageTextLines": [
-                "<Y><C_Up><W>/<Y><C_Down><W> Поменять музыку"
+                "<Y><C_Up><W>/<Y><C_Down><W> Сменить музыку"
               ],
               "Type": 0,
               "Position": 0
@@ -104021,10 +104019,9 @@
                 "",
                 "",
                 "1. Карты разыгрываются...",
-                "2. Вы выбираете свою ставку,",
-                "нажимая на рупию,",
-                "и какие карты заменить,",
-                "нажимая на них..."
+                "2. Вы делаете ставку, нажав",
+                "на рупию, и нажав на карты",
+                "выбираете, какие заменить."
               ],
               "Type": 6,
               "Position": 0
@@ -104067,7 +104064,7 @@
             {
               "Name": "msgBtnHold",
               "MessageTextLines": [
-                "H O L D"
+                "О С Т А В И Т Ь"
               ],
               "Type": 0,
               "Position": 0
@@ -104075,15 +104072,16 @@
             {
               "Name": "msgBtnDraw",
               "MessageTextLines": [
-                "D R A W"
+                "В Ы Т Я Н У Т Ь"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "figureNothing",
+              "Comment": "The first NSMB fan translation I found didn't actually translate the poker hand names, so I looked online. And also, for fun I've decided to check out how a fan translation of Trails in the Sky The 3rd does it, since I played the game recently and it had a poker minigame. Found different names in different sources, so I tried to kinda average them and pick the best ones\n\n---\n\nПервый фанатский перевод NSMB, который я нашёл, не перевёл названия покерных комбинаций, так что я просто нашёл их в интернете. Ну и по приколу глянул в фанатский перевод Trails in the Sky The 3rd, т.к. я в неё недавно играл и там есть миниигра с покером. В разных источниках нашёл разные названия, так что попробовал выбрать что-то среднее, что звучало лучше",
               "MessageTextLines": [
-                "Nothing"
+                "Ничего"
               ],
               "Type": 0,
               "Position": 0
@@ -104091,7 +104089,7 @@
             {
               "Name": "figureOnePair",
               "MessageTextLines": [
-                "One Pair"
+                "Одна пара"
               ],
               "Type": 0,
               "Position": 0
@@ -104099,7 +104097,7 @@
             {
               "Name": "figureTwoPairs",
               "MessageTextLines": [
-                "Two Pairs"
+                "Две пары"
               ],
               "Type": 0,
               "Position": 0
@@ -104107,7 +104105,7 @@
             {
               "Name": "figureThreeOfAKind",
               "MessageTextLines": [
-                "Three of a Kind"
+                "Тройка"
               ],
               "Type": 0,
               "Position": 0
@@ -104115,7 +104113,7 @@
             {
               "Name": "figureFullHouse",
               "MessageTextLines": [
-                "Full House"
+                "Фулл-хаус"
               ],
               "Type": 0,
               "Position": 0
@@ -104123,15 +104121,16 @@
             {
               "Name": "figureFourOfAKind",
               "MessageTextLines": [
-                "Four of a Kind"
+                "Каре"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "figureFiveOfaKind",
+              "Comment": "It bugs me that the term is \"Flush\", but in russian it's spelt like \"Флеш\" (so it's more like \"Flash\") instead of \"Флаш\"\n\n---\n\nМне не нравится, что термин \"Flush\" на русском пишется не как \"Флаш\", а как \"Флеш\" (хотя \"Flash\" это другое слово)",
               "MessageTextLines": [
-                "Five of a Kind"
+                "Флеш"
               ],
               "Type": 0,
               "Position": 0
@@ -104147,7 +104146,7 @@
             {
               "Name": "resultWin",
               "MessageTextLines": [
-                "You won!"
+                "Победа!"
               ],
               "Type": 0,
               "Position": 0
@@ -104155,7 +104154,7 @@
             {
               "Name": "resultLose",
               "MessageTextLines": [
-                "You lost..."
+                "Поражение..."
               ],
               "Type": 0,
               "Position": 0
@@ -104163,7 +104162,7 @@
             {
               "Name": "resultDraw",
               "MessageTextLines": [
-                "It's a draw!"
+                "Ничья!"
               ],
               "Type": 0,
               "Position": 0
@@ -104171,31 +104170,34 @@
             {
               "Name": "resultGameOver",
               "MessageTextLines": [
-                "Game Over..."
+                "Игра окончена..."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "ingoHint",
+              "Comment": "At the time of writing, Google Translate (in \"classic\" mode, i.e. non-gemini) translates \"d-pad\" to... \"d-pad\". Awesome thanks\n\n...Anyway, made the B button use the graphic, since just having the letter there can look awkward (it looks identical to a russian letter that's read more like a V)\n\nIn the same textbox I also added an \"and then\" between (B) to separate it from the d-pad directions, since in the previous textbox it mentions you're pressing these buttons on the d-pad and the d-pad doesn't have a B button. This was brought up in chat several times (for the english text) so this is my attempt for a fix for it\n---\n\nВ момент написания, Гугл переводчик (в режиме \"classic\", который не через gemini) переводит \"d-pad\" как... \"d-pad\". Офигенно спасибо\n\n...В общем, сделал, чтобы для кнопки B использовалась иконка, потому что просто буква может выглядить и как наша В, и как английская B, так что читаться может немного неудобно, и так точно понятно, что это именно кнопка\n\nИ в этом же текстбоксе я добавил \"и потом\" перед (B), чтобы отделить её от направлений, т.к. они относятся к \"крестовине\" с предыдущего текстбокса, а кнопка (B) нет. Это упоминалось несколько раз в чате, обсуждая английский текст, так что я решил вот так вот пофиксить это в русском",
               "MessageTextLines": [
-                "<SPEED:102>Awwwright.<PAUSE:5> You're good!",
+                "<SPEED:102>О-о-о да,<PAUSE:5> а ты не промах!",
                 "<NEW_BOX>",
-                "I'll tell ya another secret, then.",
+                "Расскажу-ка я тебе кое-что по",
+                "секрету.",
                 "<NEW_BOX>",
-                "You know that prosecutor, <SOUND:HINT><R>Dragmire<W>?",
+                "Знаешь того прокурора, <SOUND:HINT><R>Дрегмайра<W>?",
                 "<NEW_BOX>",
-                "When he's on screen, press, on",
-                "the <C><D_PAD><W> D-Pad...",
+                "Когда он на экране, попробуй",
+                "нажать на <C><D_PAD><W> крестовине...",
                 "<NEW_BOX>",
-                "<R><PAUSE:5>UP<PAUSE:3> UP<PAUSE:3> DOWN<PAUSE:3> DOWN<PAUSE:3> LEFT<PAUSE:3> RIGHT<PAUSE:3> ",
-                "LEFT<PAUSE:3> RIGHT<PAUSE:3> B<W>...<PAUSE:5> and something should",
-                "happen!",
+                "<R><PAUSE:5>ВВЕРХ<PAUSE:3> ВВЕРХ<PAUSE:3> ВНИЗ<PAUSE:3> ВНИЗ<PAUSE:3> ВЛЕВО<PAUSE:3>",
+                "ВПРАВО<PAUSE:3> ВЛЕВО<PAUSE:3> ВПРАВО<PAUSE:3><W>, а потом <R><B_BUTTON><W>...<PAUSE:5>",
+                "...И кое-что случится!",
                 "<NEW_BOX>",
-                "Got it?<PAUSE:3> All right.",
+                "Понятно?<PAUSE:3> Вот и славно.",
                 "<NEW_BOX>",
-                "Now we play for <SOUND:NA_SE_VO_IN_LASH_0>BIG STAKES!<PAUSE:3>",
-                "No bet limit!<PAUSE:5> <DI><SOUND:WHAP>Go as high as you want!<SQUARE>"
+                "А теперь будем играть <SOUND:NA_SE_VO_IN_LASH_0>ПО-КРУПНОМУ!<PAUSE:3>",
+                "Предел ставок снимается!<PAUSE:5>",
+                "<DI><SOUND:WHAP>Ставь столько, сколько захочешь!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -104203,48 +104205,51 @@
             {
               "Name": "bail",
               "MessageTextLines": [
-                "Congratulations!!!",
-                "You got enough money to pay bail!<SQUARE>"
+                "Поздравляем!!!",
+                "Вы заработали достаточно денег,",
+                "чтобы оплатить залог!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
             },
             {
               "Name": "About_Tutorial",
+              "Comment": "There are no official OST names for Zelda or AA in russian yet, so most song translations are just translating the titles myself. Maybe the official remake will have its OST out on Nintendo Music and I'll have to retranslate half of it though, we'll see. One bit I should remember to change later is how I basically wrote \"the castle's courtyard's theme\" to match the fan translation, which will obviously change with the remake\n\nAlso, resisting the urge to colour the first text box in russian flag orders, since the red-white-blue order is there since the french translators got to this first lol. Not gonna change it for consistency's sake\n\n---\n\nОфициальных названий саундтрека Зельды или AA на русском пока нет, так что большая часть перевода тут просто самостоятельная. Мб саундтрек ремейка Окарины выйдет в Nintendo Music и мне понадобится всё пере-перевести, посмотрим. Надо будет не забыть поменять \"музыка внутреннего двора замка\" - пока что тут используется название из фанатского перевода\n\nА ещё сдерживаю себя, чтобы не перекрасить первый текстбокс в порядок цветов русского флага, раз изначальный порядок сам основан на французском флаге, т.к. переводчики на французский добрались сюда первее. Не стану менять, чтобы всё было единообразно",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Courageous Deductions",
-                "<LC><C>(RoadrunnerWMC)",
+                "<SOUND:0><LC><R>Храбрые дедукции<FONT_TOGGLE>",
+                "<LC><W>(Courageous Deductions)",
+                "<LC><C>(RoadrunnerWMC)<FONT_TOGGLE>",
                 "<NEW_BOX>",
-                "<SOUND:0>In early development, our placeholder",
-                "music for this track was <R>Hyrule Castle",
-                "Courtyard<W>...",
+                "<ASHIFT:25><SOUND:0>В ранний период разработки здесь в",
+                "<ASHIFT:25>качестве временной музыки играла",
+                "<ASHIFT:25>мелодия <R>«Внутренний двор замка»<W>...",
                 "<NEW_BOX>",
-                "<SOUND:0>...so when it came time to write the",
-                "real music, I tried to use that as the",
-                "basis for it first.",
+                "<ASHIFT:25><SOUND:0>...поэтому я взял её за основу, когда",
+                "<ASHIFT:25>пришло время сочинять финальную",
+                "<ASHIFT:25>музыку.",
                 "<NEW_BOX>",
-                "<SOUND:0>But because of the amount of",
-                "chromaticism (notes that don't fit the",
-                "key signature) in that song, adapting",
-                "it to the style we wanted wasn't easy.",
+                "<ASHIFT:25><SOUND:0>Но из-за объёма хроматизма (нот, не",
+                "<ASHIFT:25>подходящих к основной сигнатуре) в",
+                "<ASHIFT:25>песне, адаптировать её к желаемому",
+                "<ASHIFT:25>стилю было не просто.",
                 "<NEW_BOX>",
-                "<SOUND:0>So instead, I (obviously) based this",
-                "song on <R>Kaepora Gaebora's Theme<W>.",
+                "<ASHIFT:25><SOUND:0>В итоге вместо этого я (очевидно) взял",
+                "<ASHIFT:25>за основу <R>«Мелодию Кепоры Геборы»<W>.",
                 "<NEW_BOX>",
-                "<SOUND:0>The new melody is designed to mesh",
-                "well with Kaepora Gaebora's.<PAUSE:3> Whenever",
-                "the original melody runs up or down a",
-                "scale, the new one does, too.",
+                "<ASHIFT:25><SOUND:0>Новая мелодия составлена так, чтобы",
+                "<ASHIFT:25>соответствовать оригинальной",
+                "<ASHIFT:25>мелодии.<PAUSE:3> Где оригинальная идёт вверх",
+                "<ASHIFT:25>или вниз по гамме, новая идёт так же.",
                 "<NEW_BOX>",
-                "<SOUND:0>The chords underneath flow around",
-                "somewhat aimlessly, without much",
-                "logic behind them.<PAUSE:3> I mostly just varied",
-                "the notes until they sounded nice.",
+                "<ASHIFT:25><SOUND:0>Аккорды под ней идут немного",
+                "<ASHIFT:25>бесцельно, без особой логики.<PAUSE:3>",
+                "<ASHIFT:25>В основном я просто менял ноты,",
+                "<ASHIFT:25>пока они не зазвучали хорошо.",
                 "<NEW_BOX>",
-                "<SOUND:0>It's subtle, but the triplet played on the",
-                "shaker at the very end of the owl's",
-                "melody is a nod to the corresponding",
-                "theme from another attorney game...<SQUARE>"
+                "<ASHIFT:25><SOUND:0>Это почти не заметно, но триоль на",
+                "<ASHIFT:25>шейкере в конце мелодии филина <EMDASH>",
+                "<ASHIFT:25>отсылка на соответствующую песню",
+                "<ASHIFT:25>из другой игры про адвоката...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104252,46 +104257,48 @@
             {
               "Name": "About_Title_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Title Theme",
-                "<LC><C>(RoadrunnerWMC)",
+                "<SOUND:0><LC><R>Главная мелодия<FONT_TOGGLE>",
+                "<LC><W>(Title Theme)",
+                "<LC><C>(RoadrunnerWMC)<FONT_TOGGLE>",
                 "<NEW_BOX>",
-                "<SOUND:0>This song had a bit of an unusual",
-                "history.",
+                "<ASHIFT:25><SOUND:0>У этой песни немного необычная",
+                "<ASHIFT:25>история.",
                 "<NEW_BOX>",
-                "<SOUND:0>I was able to write the first 30 seconds",
-                "of it <EMDASH> a rearrangement of the original",
-                "game's <R>Title Theme<W> <EMDASH> on my first try...",
+                "<ASHIFT:25><SOUND:0>Я написал её первые 30 секунд <EMDASH>",
+                "<ASHIFT:25>переаранжировку <R>«Главной мелодии»<W>",
+                "<ASHIFT:25>оригинальной игры <EMDASH> с первого раза...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but then I got writer's block",
-                "(\"composer's block\"?), and couldn't",
-                "figure out how to continue it.",
+                "<ASHIFT:25><SOUND:0>...но потом я впал в писательский",
+                "<ASHIFT:25>ступор («композиторский ступор»?),",
+                "<ASHIFT:25>и не смог придумать ей продолжение.",
                 "<NEW_BOX>",
-                "<SOUND:0>So I started a second attempt from",
-                "scratch.<PAUSE:3> I soon saw that it wasn't as",
-                "good, but I found it easier to think of",
-                "ideas for because it was more energetic.",
+                "<ASHIFT:25><SOUND:0>В итоге я начал сначала.<PAUSE:3> Скоро я понял,",
+                "<ASHIFT:25>что вторая попытка не так хороша, но",
+                "<ASHIFT:25>мне стало легче придумывать идеи, т.к.",
+                "<ASHIFT:25>она была энергичнее.",
                 "<NEW_BOX>",
-                "<SOUND:0>Then I adapted many of those ideas",
-                "back into the first version, to get the",
-                "best of both!",
+                "<ASHIFT:25><SOUND:0>Потом я адаптировал многие из этих",
+                "<ASHIFT:25>идей обратно в первую версию и",
+                "<ASHIFT:25>получил лучшее из обеих попыток!",
                 "<NEW_BOX>",
-                "<SOUND:0>The sections based on <R>Great Fairy's",
-                "Fountain<W>, <R>The Legend of Zelda<W> main",
-                "theme, and the <R>Title Theme<W> from <R>Newer",
-                "Super Mario Bros. Wii<W> are from there...",
+                "<ASHIFT:25><SOUND:0>Оттуда взяты отрывки, основанные",
+                "<ASHIFT:25>на <R>«Роднике большой феи»<W>, главной",
+                "<ASHIFT:25>мелодии <FONT_TOGGLE><R>The Legend of Zelda<W><FONT_TOGGLE>...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but a section based on <R>Ganondorf's",
-                "Theme<W> didn't make the cut.",
+                "<ASHIFT:25>...а также <R>«Главной мелодии»<W> из <FONT_TOGGLE>",
+                "<ASHIFT:25><R>Newer Super Mario Bros. Wii<W><FONT_TOGGLE>.",
+                "<ASHIFT:25><SOUND:0>...Но отрывок, основанный на <R>«Мелодии",
+                "<ASHIFT:25>Ганондорфа»<W>, в финал не попал.",
                 "<NEW_BOX>",
-                "<SOUND:0>(Also, yes, you read that right.<PAUSE:3> ",
-                "There's a Newer Super Mario Bros. Wii",
-                "reference near the end of the song,",
-                "if you hadn't caught it!)",
+                "<SOUND:0><ASHIFT:25>(И да, вы всё правильно прочитали.<PAUSE:3> ",
+                "<ASHIFT:25>Ближе к концу песни есть отсылка",
+                "<ASHIFT:25>на <FONT_TOGGLE>Newer Super Mario Bros. Wii<FONT_TOGGLE>, если",
+                "<ASHIFT:25>вы не заметили!)",
                 "<NEW_BOX>",
-                "<SOUND:0>Something else you might not have",
-                "noticed is that the harp near the end",
-                "plays mostly the same notes as the piano",
-                "from the original game's Title Theme.",
+                "<ASHIFT:25><SOUND:0>Кое-что ещё, что легко не заметить,",
+                "<ASHIFT:25>это то, что арфа в конце играет почти",
+                "<ASHIFT:25>те же ноты, что и пианино из «Главной",
+                "<ASHIFT:25>мелодии» оригинальной игры.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104301,27 +104308,28 @@
             {
               "Name": "About_Lobby",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Defendant Lobby",
-                "<LC><C>(RoadrunnerWMC)",
+                "<SOUND:0><LC><R>Вестибюль подсудимых<FONT_TOGGLE>",
+                "<LC><W>Defendant Lobby",
+                "<LC><C>(RoadrunnerWMC)<FONT_TOGGLE>",
                 "<NEW_BOX>",
-                "<SOUND:0>My first few attempts at writing a",
-                "Defendant Lobby theme sounded too",
-                "bright, so I went for a darker tone with",
-                "this one.",
+                "<ASHIFT:25><SOUND:0>Мои первые попытки написать песню",
+                "<ASHIFT:25>для вестибюля подсудимых звучали",
+                "<ASHIFT:25>слишком радостно, поэтому я решил",
+                "<ASHIFT:25>попробовать более мрачный тон.",
                 "<NEW_BOX>",
-                "<SOUND:0>At first, it was actually TOO dark,",
-                "though, with a loud piano bass and a",
-                "choir singing the chords above it.",
+                "<ASHIFT:25><SOUND:0>Сначала он вышел СЛИШКОМ мрачным.",
+                "<ASHIFT:25>Играл громкий фортепианный бас, а над",
+                "<ASHIFT:25>ним хор пел аккорды.",
                 "<NEW_BOX>",
-                "<SOUND:0>I was told it \"sounded more like death",
-                "row than a lobby!\"<PAUSE:3> Thankfully, I was able",
-                "to get the right mood by changing the",
-                "instrumentation.",
+                "<ASHIFT:25><SOUND:0>Мне сказали, что «звучит как камера",
+                "<ASHIFT:25>для смертной казни, а не вестибюль!»<PAUSE:3>",
+                "<ASHIFT:25>К счастью, я смог добиться подходящего",
+                "<ASHIFT:25>настроения, поменяв инструменты.",
                 "<NEW_BOX>",
-                "<SOUND:0>The <R>Song of Storms<W> melody symbolizes",
-                "the \"storm\" brewing in the courtroom.<PAUSE:3> ",
-                "The pounding bass later on references",
-                "another attorney game's lobby theme...<SQUARE>"
+                "<SOUND:0>Мелодия <R>«Песни шторма»<W> здесь",
+                "символизирует «шторм», движущийся",
+                "на зал суда.<PAUSE:3> Бас отсылает на мелодию",
+                "вестибюля другой игры про адвоката...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104329,22 +104337,23 @@
             {
               "Name": "About_Trial1",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Court is Now in Session",
+                "<SOUND:0><LC><R>Заседание объявляется открытым<FONT_TOGGLE>",
+                "<LC><W>Court is Now in Session",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>This was the very first piece of original",
-                "music written for the game, back in",
-                "2022.",
+                "<ASHIFT:25><SOUND:0>Это самая первая оригинальная",
+                "<ASHIFT:25>композиция, написанная для игры ещё в",
+                "<ASHIFT:25>2022.",
                 "<NEW_BOX>",
-                "<SOUND:0>It's a rearrangement of the <R>House<W>",
-                "theme.<PAUSE:3> At first, I planned for this to be",
-                "the Defendant Lobby theme, but we",
-                "decided it would fit better here.",
+                "<ASHIFT:25><SOUND:0>Это переаранжировка мелодии <R>«Дом»<W>.<PAUSE:3>",
+                "<ASHIFT:25>Сначала я задумывал её как мелодию",
+                "<ASHIFT:25>для вестибюля подсудимых, но мы",
+                "<ASHIFT:25>решили, что тут она больше подходит.",
                 "<NEW_BOX>",
-                "<SOUND:0>Unlike the rest of the soundtrack, the",
-                "first draft wasn't written with the game's",
-                "actual instruments, since I hadn't gotten",
-                "them set up on my computer yet!<SQUARE>"
+                "<ASHIFT:25><SOUND:0>В отличие от остального саундтрека,",
+                "<ASHIFT:25>первый черновик не был написан с",
+                "<ASHIFT:25>инструментами игры, т.к. в то время я их",
+                "<ASHIFT:25>на своём компьютере ещё не настроил!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104352,7 +104361,8 @@
             {
               "Name": "About_CEModerato",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Cross-Examination - Moderato",
+                "<SOUND:0><LC><R>Перекрёстный допрос - модерато<FONT_TOGGLE>",
+                "<LC><W>Cross-Examination - Moderato",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
                 "<SOUND:0>I wrote this song in one afternoon.<PAUSE:3> The",
@@ -105010,28 +105020,28 @@
             {
               "Name": "About_Title_b",
               "MessageTextLines": [
-                "<SOUND:0>Anyway, once the piece was written,",
-                "importing it was a challenge, since this",
-                "was the first song to use more than",
-                "the 16 tracks allowed by the game.",
+                "<ASHIFT:25><SOUND:0>В общем, как песня была дописана, то",
+                "<ASHIFT:25>импортировать её в игру оказалось тем",
+                "<ASHIFT:25>ещё испытанием, т.к. это первая песня,",
+                "<ASHIFT:25>превышающая дозволенные 16 дорожек.",
                 "<NEW_BOX>",
-                "<SOUND:0>...In fact, it needed a LOT more.<PAUSE:3> ",
-                "The project file for the final version",
-                "has <R>54 tracks<W>!",
+                "<ASHIFT:25><SOUND:0>...Более того, их ей понадобилось",
+                "<ASHIFT:25>НАМНОГО больше.<PAUSE:3> Файл проекта",
+                "<ASHIFT:25>финальной версии насчитывает целых",
+                "<ASHIFT:25><R>54 звуковые дорожки<W>!",
                 "<NEW_BOX>",
-                "<SOUND:0>At any individual moment in time,",
-                "though, most of them aren't playing",
-                "anything.",
+                "<ASHIFT:25><SOUND:0>Правда, в каждый индивидуальный",
+                "<ASHIFT:25>момент времени большинство из них",
+                "<ASHIFT:25>ничего не проигрывают.",
                 "<NEW_BOX>",
-                "<SOUND:0>So to fit it in, I designed a new music",
-                "importing system that let you mix-and-",
-                "match different parts between the 16",
-                "tracks based on a big spreadsheet.",
+                "<ASHIFT:25><SOUND:0>Чтобы она влезла, я разработал новую",
+                "<ASHIFT:25>систему импорта музыки, которая",
+                "<ASHIFT:25>позволяет перемещать части песни по",
+                "<ASHIFT:25>16 дорожкам через большую таблицу.",
                 "<NEW_BOX>",
-                "<SOUND:0>This was very useful later for many of",
-                "the other complex songs to be written",
-                "for the game, such as Confrontation -",
-                "Presto.<SQUARE>"
+                "<ASHIFT:25><SOUND:0>Позже она очень помогла с многими из",
+                "<ASHIFT:25>других сложных композиций в игре,",
+                "<ASHIFT:25>например с «конфронтацией - прэсто».<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -113780,7 +113790,7 @@
               "Name": "MSG_PICKLANGUAGE",
               "MessageTextLines": [
                 "<LC><R>- ВЫБОР ЯЗЫКА -<W>",
-                "<LC>Выберите Ваш язык:"
+                "<LC>Выберите ваш язык:"
               ],
               "Type": 0,
               "Position": 0
