@@ -47704,8 +47704,9 @@
             },
             {
               "Name": "5_LINK50",
+              "Comment": "Decided to keep both the all-caps and asterisks, since a single letter being capitalised looks a bit awkward - like it used to be a start of the sentence, or like a typo was made\n\n---\n\nОставил и заглавность, и звёздочки, а то без них выглядело немного странно - будто тут неправильно началось предложение или просто была допущена опечатка",
               "MessageTextLines": [
-                "<SOUND:0><C>(Ну, Я ей верю.<PAUSE:3> <SOUND:HINT>Но судья, скорее",
+                "<SOUND:0><C>(Ну, *Я* ей верю.<PAUSE:3> <SOUND:HINT>Но судья, скорее",
                 "всего, нет, а нам, к сожалению,",
                 "важно именно это.)",
                 "<NEW_BOX>",
@@ -55652,7 +55653,7 @@
             {
               "Name": "A1_JUDGE30",
               "MessageTextLines": [
-                "И так, защита. Свидетель объяснил,",
+                "Итак, защита. Свидетель объяснил,",
                 "что купил этот костюм сегодня",
                 "утром.<PAUSE:3> Что-то не так?"
               ],
@@ -92395,7 +92396,7 @@
               "Name": "OWL3",
               "MessageTextLines": [
                 "<G><DI>Юному мечнику предстоит отыскать",
-                "восемь <R>инструментов муз<g>, дабы",
+                "восемь <R>инструментов муз<G>, дабы",
                 "сыграть балладу, которая сумеет",
                 "пробудить Великую.<PERSISTENT>"
               ],
@@ -92615,7 +92616,7 @@
                 "храмов, разбросанных по всему",
                 "острову...",
                 "<NEW_BOX>",
-                "Кишат они монстрами, ловушками и",
+                "Кишат они чудищами, ловушками и",
                 "другими опасностями...<PAUSE:5> ",
                 "В конце каждого:<PAUSE:5> грозный, коварный",
                 "враг, хранящий один из инструментов."
@@ -93049,8 +93050,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "After all we've heard here,<PAUSE:5><SOUND:CLUE> I think",
-                "one thing has been made clear..."
+                "После всего услышанного,<PAUSE:5><SOUND:CLUE> думаю,",
+                "один факт был явно прояснён..."
               ],
               "Type": 0,
               "Position": 0
@@ -93058,13 +93059,14 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "My client has truly found himself in",
-                "a life-or-death situation.<PAUSE:5> ",
-                "<SOUND:HINT>This testimony fully corroborates that.",
+                "Мой клиент попал в ситуацию, в",
+                "которой на кону стояла его жизнь.<PAUSE:5> ",
+                "<SOUND:HINT>Услышанные показания полностью",
+                "подтверждают это.",
                 "<NEW_BOX>",
-                "On top of that,<PAUSE:3> to escape the island,",
-                "he had to go on a life-threatening",
-                "quest."
+                "Кроме того,<PAUSE:3> чтобы покинуть остров,",
+                "он должен был пройти опасный",
+                "для жизни путь."
               ],
               "Type": 0,
               "Position": 0
@@ -93072,13 +93074,13 @@
             {
               "Name": "LINK23",
               "MessageTextLines": [
-                "In order to survive this ordeal,<PAUSE:3> he",
-                "needed to be as well-equipped as",
-                "possible.",
+                "Чтобы пережить это испытание,<PAUSE:3>",
+                "он должен был экипироваться",
+                "как можно лучше.",
                 "<NEW_BOX>",
-                "And the only way to get the needed",
-                "equipment was from the store,<PAUSE:3> which",
-                "was charging exorbitant prices!"
+                "А единственным источником этой",
+                "экипировки был магазин,<PAUSE:3> взимавший",
+                "возмутительные цены!"
               ],
               "Type": 0,
               "Position": 0
@@ -93086,7 +93088,7 @@
             {
               "Name": "LINK26",
               "MessageTextLines": [
-                "These are all <SOUND:WHAP>clear mitigating factors!"
+                "Это всё <SOUND:WHAP>смягчающие обстоятельства!"
               ],
               "Type": 0,
               "Position": 0
@@ -93094,9 +93096,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<DI>And with that in mind, the defence",
-                "asserts his punishment is far too",
-                "severe!"
+                "<DI>Взяв всё это во внимание, сторона",
+                "защиты заявляет, что его наказание",
+                "было слишком жестоко!"
               ],
               "Type": 0,
               "Position": 0
@@ -93104,10 +93106,11 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Hmm...<PAUSE:10> indeed.",
+                "Хм-м...<PAUSE:10> Действительно.",
                 "<NEW_BOX>",
-                "This does paint the defendant in a",
-                "more positive light..."
+                "Это и правда представляет",
+                "подсудимого в более",
+                "положительном ключе..."
               ],
               "Type": 0,
               "Position": 0
@@ -93115,8 +93118,9 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "It appears the theft might have been",
-                "necessary,<PAUSE:3> given his situation..."
+                "Возможно, кража оказалась",
+                "необходимостью,<PAUSE:3> учитывая",
+                "его положение..."
               ],
               "Type": 0,
               "Position": 0
@@ -93124,9 +93128,9 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "<C>(Yes!<PAUSE:5> That was easier than I thought!<PAUSE:5> ",
-                "And it's still early enough to go back",
-                "to sleep!)"
+                "<C>(Да!<PAUSE:5> Это оказалось проще, чем я",
+                "думал!<PAUSE:5> И ещё достаточно рано,",
+                "чтобы лечь спать дальше!)"
               ],
               "Type": 0,
               "Position": 0
@@ -93134,9 +93138,9 @@
             {
               "Name": "KOHOLINK10",
               "MessageTextLines": [
-                "That owl always used to annoy me a",
-                "little, but it's really come to my rescue",
-                "this time, hasn't it?"
+                "Этот филин немного капал мне на",
+                "нервы, но сейчас он меня и правда",
+                "выручил."
               ],
               "Type": 0,
               "Position": 0
@@ -93144,8 +93148,9 @@
             {
               "Name": "OWL10",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot~!<PAUSE:5> ",
-                "I am only here to help, lad."
+                "<SOUND:OWLHOOT>У-гу~!<PAUSE:5> ",
+                "Я здесь только для того чтобы",
+                "помочь, юноша."
               ],
               "Type": 0,
               "Position": 0
@@ -93153,13 +93158,13 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "I feel there is no need to further prolong",
-                "this trial...",
+                "Думаю, нет необходимости дальше",
+                "затягивать это заседание...",
                 "<NEW_BOX>",
-                "While this court does not condone the",
-                "defendant's act in and of itself,<PAUSE:5> I do",
-                "now believe that he has been punished",
-                "too harshly for it."
+                "Хоть суд и не поощряет сам",
+                "проступок подсудимого,<PAUSE:5> я всё же",
+                "считаю, что он был наказан за него",
+                "слишком жестоко."
               ],
               "Type": 0,
               "Position": 0
@@ -93167,7 +93172,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "And so, this court finds the defendant..."
+                "Итак, суд провозглашает",
+                "подсудимого..."
               ],
               "Type": 0,
               "Position": 0
@@ -93175,9 +93181,8 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Old man, surely you don't mean to tell",
-                "me that you've woken me in the dead",
-                "of night..."
+                "Старик, только не говори мне, что",
+                "разбудил меня посреди ночи..."
               ],
               "Type": 0,
               "Position": 0
@@ -93185,7 +93190,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "...just to make a<SOUND:CLUE> farce out of this trial?"
+                "...только для того чтобы<SOUND:CLUE> превратить",
+                "это заседание в фарс?"
               ],
               "Type": 0,
               "Position": 0
@@ -93193,9 +93199,9 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "<SOUND:WHAP>F-farce?!<PAUSE:5> But, Mr. Dragmire!<PAUSE:5> ",
-                "The defence has just presented a",
-                "rather compelling argument!"
+                "<SOUND:WHAP>Ф-фарс?!<PAUSE:5> Но господин Дрегмайр!<PAUSE:5> ",
+                "Защита предоставила довольно",
+                "весомый аргумент!"
               ],
               "Type": 0,
               "Position": 0
@@ -93203,7 +93209,7 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "Compelling?<PAUSE:5><SOUND:WHAP> Don't make me laugh!"
+                "Весомый?<PAUSE:5><SOUND:WHAP> Не смеши меня!"
               ],
               "Type": 0,
               "Position": 0
@@ -93211,9 +93217,9 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "Yes, he had a reason to do what he",
-                "did.<PAUSE:5> <SOUND:WHAP>All criminals have reasons!<PAUSE:5> ",
-                "That's no justification!"
+                "Да, у него была причина сделать то,",
+                "что он сделал.<PAUSE:5> <SOUND:WHAP>У всех преступников",
+                "есть причина!<PAUSE:5> Это не оправдание!"
               ],
               "Type": 0,
               "Position": 0
@@ -93221,8 +93227,8 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "It wasn't just any reason!<PAUSE:5> ",
-                "<SOUND:WHAP>Survival was at stake here!"
+                "Это была не простая причина!<PAUSE:5> ",
+                "<SOUND:WHAP>На кону жизнь стояла!"
               ],
               "Type": 0,
               "Position": 0
@@ -93230,7 +93236,7 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:CLUE>Was it, though?"
+                "<PAUSE:5><SOUND:CLUE>Разве?"
               ],
               "Type": 0,
               "Position": 0
@@ -93238,7 +93244,7 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "...?"
+                "?.."
               ],
               "Type": 0,
               "Position": 0
@@ -93246,7 +93252,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>You!<PAUSE:5> Birdbrain!"
+                "<SOUND:EXPLOSION>Ты!<PAUSE:5> Пернатый!"
               ],
               "Type": 0,
               "Position": 0
@@ -93254,8 +93260,8 @@
             {
               "Name": "OWL20",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot-HOO?<PAUSE:5> ",
-                "Yes? What is it?"
+                "<SOUND:OWLHOOT>У-у-ГУ?<PAUSE:5> ",
+                "Да? В чём дело?"
               ],
               "Type": 0,
               "Position": 0
@@ -93263,9 +93269,9 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "You've said that the defendant was to",
-                "go visit a bunch of dusty old temples",
-                "in search of the instruments..."
+                "Ты говорил, что подсудимому надо",
+                "было посетить кучу старых пыльных",
+                "храмов, чтобы найти те инструменты..."
               ],
               "Type": 0,
               "Position": 0
@@ -93273,8 +93279,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Tell me,<PAUSE:5> were those instruments the",
-                "only things in there...?"
+                "Скажи,<PAUSE:5> эти инструменты <EMDASH> всё,",
+                "что там было?.."
               ],
               "Type": 0,
               "Position": 0
@@ -93282,8 +93288,8 @@
             {
               "Name": "OWL30",
               "MessageTextLines": [
-                "<SOUND:CLUE><SOUND:OWLHOOT>Hoot...?<PAUSE:10> ",
-                "<SPEED:101>No, I suppose they were not, hoot.<SPEED:102>"
+                "<SOUND:CLUE><SOUND:OWLHOOT>У-у?..<PAUSE:10> ",
+                "<SPEED:101>Нет, полагаю не всё, гу.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -93291,9 +93297,9 @@
             {
               "Name": "OWL40",
               "MessageTextLines": [
-                "With structures as old as those, you're",
-                "bound to find things left by previous",
-                "inhabitants..."
+                "В настолько старых постройках",
+                "всегда можно найти что-нибудь, что",
+                "оставили их прошлые обитатели..."
               ],
               "Type": 0,
               "Position": 0
@@ -93301,8 +93307,8 @@
             {
               "Name": "OWL50",
               "MessageTextLines": [
-                "Why, <SOUND:OWLHOOT>hoot, yes,<PAUSE:5> I'm sure there would",
-                "be a lot of<SOUND:HINT> <R>treasure<W> left in there, too."
+                "Ах, <SOUND:OWLHOOT>у-гу, да,<PAUSE:5> не сомневаюсь, что там",
+                "было осталось много<SOUND:HINT> <R>сокровищ<W>."
               ],
               "Type": 0,
               "Position": 0
@@ -93310,7 +93316,7 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "<C>(Oh no.)"
+                "<C>(О нет.)"
               ],
               "Type": 0,
               "Position": 0
@@ -93318,8 +93324,8 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "<SOUND:WHAP>Treasure!<PAUSE:5><SOUND:WHAP> Money!<PAUSE:5> ",
-                "All of that was within the brat's grasp!"
+                "<SOUND:WHAP>Сокровища!<PAUSE:5><SOUND:WHAP> Деньги!<PAUSE:5> ",
+                "Всё было у этого сопляка в руках!"
               ],
               "Type": 0,
               "Position": 0
@@ -93327,9 +93333,9 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "He could have easily gotten the funds",
-                "to properly purchase the item he stole",
-                "with only a little legwork!"
+                "Стоило немного попотеть, и он",
+                "легко заработал бы достаточно",
+                "денег, чтобы оплатить украденное!"
               ],
               "Type": 0,
               "Position": 0
@@ -93337,10 +93343,10 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "Wait a moment!<PAUSE:5> It wouldn't be that easy!",
+                "Погодите минуту!<PAUSE:5> Это не так просто!",
                 "<NEW_BOX>",
-                "Those places were full of monsters",
-                "and traps!"
+                "В этих местах полно чудовищ и",
+                "ловушек!"
               ],
               "Type": 0,
               "Position": 0
@@ -93348,8 +93354,8 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "Without any equipment...<PAUSE:5> ",
-                "It would be too dangerous to go alone!"
+                "Без какой-либо экипировки...<PAUSE:5> ",
+                "одному ходить было бы опасно!"
               ],
               "Type": 0,
               "Position": 0
@@ -93357,8 +93363,7 @@
             {
               "Name": "DRAGMIRE120",
               "MessageTextLines": [
-                "<SOUND:CLUE>Oh, how quickly you've forgotten,",
-                "Defence."
+                "<SOUND:CLUE>Ох, как быстро ты забыл, защита."
               ],
               "Type": 0,
               "Position": 0
@@ -93366,8 +93371,8 @@
             {
               "Name": "DRAGMIRE130",
               "MessageTextLines": [
-                "Try to recall this flying menace's words",
-                "from just a few moments ago."
+                "Вспомни, что эта птаха сказала",
+                "всего пару минут назад."
               ],
               "Type": 0,
               "Position": 0
@@ -93375,10 +93380,10 @@
             {
               "Name": "OWLFL10",
               "MessageTextLines": [
-                "The young sword-bearer must, thus,",
-                "search for the eight<SOUND:HINT> <R>Instruments of",
-                "the Sirens<W>, and play the ballad that",
-                "will wake the great one."
+                "Юному мечнику предстоит отыскать",
+                "восемь<SOUND:HINT> <R>инструментов муз<W>, дабы",
+                "сыграть балладу, которая сумеет",
+                "пробудить Великую."
               ],
               "Type": 0,
               "Position": 0
@@ -93386,7 +93391,7 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "<SOUND:SHOCK>Ah...!"
+                "<SOUND:SHOCK>А!.."
               ],
               "Type": 0,
               "Position": 0
@@ -93394,9 +93399,9 @@
             {
               "Name": "DRAGMIRE140",
               "MessageTextLines": [
-                "Our little kleptomaniac had a perfectly",
-                "good <R>sword<W> with him!<PAUSE:5> He wasn't",
-                "bare-handed at all!"
+                "У нашего маленького клептомана",
+                "с собой был приличный <R>меч<W>!<PAUSE:5>",
+                "Он был вовсе не с пустыми руками!"
               ],
               "Type": 0,
               "Position": 0
@@ -93404,12 +93409,12 @@
             {
               "Name": "DRAGMIRE145",
               "MessageTextLines": [
-                "No!<PAUSE:5> All he was looking for was some",
-                "kind of easy shortcut out of his",
-                "predicament.",
+                "Но нет!<PAUSE:5> Он просто искал, как легче",
+                "всего выпутаться из своей передряги.",
                 "<NEW_BOX>",
-                "Or...<PAUSE:5> maybe the little snake just wanted",
-                "to keep all the treasure for himself...?"
+                "Или...<PAUSE:5> может быть, мелкая змеюка",
+                "решила все эти сокровища себе",
+                "прикарманить?.."
               ],
               "Type": 0,
               "Position": 0
@@ -93417,8 +93422,8 @@
             {
               "Name": "KOHOLINK20",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>H-how dare you!<PAUSE:5> I'm not some greedy",
-                "treasure hoarder!"
+                "<SOUND:EXPLOSION>К-как ты смеешь!<PAUSE:5> Я тебе не какой-то",
+                "жадный кладоискатель!"
               ],
               "Type": 0,
               "Position": 0
@@ -93426,8 +93431,9 @@
             {
               "Name": "DRAGMIRE150",
               "MessageTextLines": [
-                "<NS><SOUND:EXPLOSION>Hmph.<PAUSE:5> Either way...<PAUSE:5> the defendant",
-                "might have had a reason for his theft..."
+                "<NS><SOUND:EXPLOSION>Пф.<PAUSE:5> В любом случае...<PAUSE:5> у подсудимого,",
+                "может быть, и была причина для",
+                "кражи..."
               ],
               "Type": 0,
               "Position": 0
@@ -93435,8 +93441,8 @@
             {
               "Name": "DRAGMIRE160",
               "MessageTextLines": [
-                "<NS><SOUND:DON><DI>...but I'd say that reason was likely",
-                "nothing but selfishness!"
+                "<NS><SOUND:DON><DI>...Но скорее всего, вся эта причина <EMDASH>",
+                "собственный эгоизм!"
               ],
               "Type": 0,
               "Position": 0
@@ -93444,7 +93450,7 @@
             {
               "Name": "OWL60",
               "MessageTextLines": [
-                "<SPEED:101><SOUND:OWLHOOT>Hoot~<PAUSE:5> <SOUND:OWLHOOT>Hoot~!<SPEED:102>"
+                "<SPEED:101><SOUND:OWLHOOT>У-у~<PAUSE:5> <SOUND:OWLHOOT>гу-у~!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -93452,7 +93458,7 @@
             {
               "Name": "OWL70",
               "MessageTextLines": [
-                "<SOUND:CLUE>\"He wanted to keep the treasure\"?"
+                "<SOUND:CLUE>«Он хотел оставить сокровища себе»?"
               ],
               "Type": 0,
               "Position": 0
@@ -93460,8 +93466,8 @@
             {
               "Name": "OWL80",
               "MessageTextLines": [
-                "Now,<PAUSE:5> barrister,<PAUSE:5> that's not even remotely",
-                "possible."
+                "Что вы,<PAUSE:5> обвинитель,<PAUSE:5> это же и",
+                "малость невозможно."
               ],
               "Type": 0,
               "Position": 0
@@ -93469,8 +93475,9 @@
             {
               "Name": "OWL90",
               "MessageTextLines": [
-                "All of the treasure,<PAUSE:3> as part of Koholint,<PAUSE:5> ",
-                "would naturally disappear with it."
+                "Все сокровища,<PAUSE:3> будучи частью",
+                "Кохолинта,<PAUSE:5> само собой с ним",
+                "и исчезнут."
               ],
               "Type": 0,
               "Position": 0
@@ -93478,7 +93485,7 @@
             {
               "Name": "DRAGMIRE170",
               "MessageTextLines": [
-                "<SOUND:0><SOUND:HINT>...!"
+                "<SOUND:0><SOUND:HINT>!.."
               ],
               "Type": 0,
               "Position": 0
@@ -93486,8 +93493,8 @@
             {
               "Name": "DRAGMIRE180",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Bah...!<PAUSE:5> ",
-                "That doesn't mean anything!"
+                "<SOUND:EXPLOSION>Ба!..<PAUSE:5> ",
+                "Это ничего не значит!"
               ],
               "Type": 0,
               "Position": 0
@@ -93495,7 +93502,7 @@
             {
               "Name": "DRAGMIRE190",
               "MessageTextLines": [
-                "The twerp might not have known that!"
+                "Этот коротышка мог этого не знать!"
               ],
               "Type": 0,
               "Position": 0
@@ -93503,7 +93510,8 @@
             {
               "Name": "KOHOLINK30",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Oh, come on!<PAUSE:5> Just admit you're wrong!"
+                "<SOUND:EXPLOSION>Ох, да ладно тебе!<PAUSE:5> Признай уже, что",
+                "ты не прав!"
               ],
               "Type": 0,
               "Position": 0
@@ -93511,11 +93519,11 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Hrmm...!<PAUSE:5> Now, this is quite the pickle,",
-                "indeed.",
+                "Грм-м!..<PAUSE:5> Какое трудное положение.",
                 "<NEW_BOX>",
-                "The prosecution has brought up some",
-                "good points...<PAUSE:5><SOUND:HINT> but so has the defence."
+                "Сторона обвинения предъявила",
+                "довольно хорошие аргументы...<PAUSE:5><SOUND:HINT>",
+                "как и сторона защиты."
               ],
               "Type": 0,
               "Position": 0
@@ -93523,9 +93531,9 @@
             {
               "Name": "JUDGE65",
               "MessageTextLines": [
-                "Furthermore, we seem to be out of",
-                "testimony to discuss, at this point.<PAUSE:5> ",
-                "<SOUND:CLUE>This will be a hard decision to make..."
+                "Кроме того, у нас закончились",
+                "показания для обсуждения.<PAUSE:5> ",
+                "<SOUND:CLUE>Это решение будет очёнь тяжёлым..."
               ],
               "Type": 0,
               "Position": 0
@@ -93533,7 +93541,7 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "<PAUSE:5>Actually...<PAUSE:5><SOUND:CLUE> that reminds me."
+                "<PAUSE:5>Кстати...<PAUSE:5><SOUND:CLUE> это мне кое-что напомнило."
               ],
               "Type": 0,
               "Position": 0
@@ -93541,8 +93549,9 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "There was something you kept bringing",
-                "up in your testimony, Mr.<EMDASH><PAUSE:5> er,<PAUSE:5><SOUND:HINT> witness."
+                "В своих показаниях вы несколько",
+                "раз упомянули кое-что, госпо<EMDASH><PAUSE:5> э-э,<PAUSE:5><SOUND:HINT>",
+                "свидетель."
               ],
               "Type": 0,
               "Position": 0
@@ -93550,8 +93559,8 @@
             {
               "Name": "OWL100",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot~!<PAUSE:5> ",
-                "Yes, what is it?"
+                "<SOUND:OWLHOOT>У-у~!<PAUSE:5> ",
+                "Да, что именно?"
               ],
               "Type": 0,
               "Position": 0
@@ -93559,8 +93568,8 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "You often mentioned that Koholint is",
-                "like a dream...<PAUSE:5> or a nightmare."
+                "Вы часто упоминали, что Кохолинт",
+                "подобен сну...<PAUSE:5> или кошмару."
               ],
               "Type": 0,
               "Position": 0
@@ -93568,7 +93577,7 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "Uh,<PAUSE:5> how...<PAUSE:5> <SOUND:CLUE>literal is that?"
+                "Э-э,<PAUSE:5> насколько это...<PAUSE:5> <SOUND:CLUE>буквально?"
               ],
               "Type": 0,
               "Position": 0
@@ -93576,8 +93585,8 @@
             {
               "Name": "DRAGMIRE200",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>What are you going on about now?!<PAUSE:5> ",
-                "Of course it's not actually<EMDASH><FADE:5>"
+                "<SOUND:EXPLOSION>О чём ты на этот раз?!<PAUSE:5>",
+                "Конечно это не та<EMDASH><FADE:5>"
               ],
               "Type": 0,
               "Position": 0
@@ -93585,7 +93594,7 @@
             {
               "Name": "OWL110",
               "MessageTextLines": [
-                "<SOUND:HINT>Oh, no, it very much is."
+                "<SOUND:HINT>Ох, нет, всё именно так."
               ],
               "Type": 0,
               "Position": 0
@@ -93593,7 +93602,7 @@
             {
               "Name": "DRAGMIRE210",
               "MessageTextLines": [
-                "<SOUND:DON>What?!"
+                "<SOUND:DON>Что?!"
               ],
               "Type": 0,
               "Position": 0
@@ -93601,9 +93610,9 @@
             {
               "Name": "OWL120",
               "MessageTextLines": [
-                "...<SOUND:OWLHOOT>Hoot!<PAUSE:5> ",
-                "I thought that point was clear.<PAUSE:5> ",
-                "My apologies."
+                "...<SOUND:OWLHOOT>У-гу!<PAUSE:5> ",
+                "Я подумал, смысл был ясен.<PAUSE:5> ",
+                "Приношу извинения."
               ],
               "Type": 0,
               "Position": 0
@@ -93611,9 +93620,9 @@
             {
               "Name": "OWL130",
               "MessageTextLines": [
-                "<SPEED:101>Koholint only exists within a dream.<PAUSE:5> ",
-                "<SOUND:CLUE>We are in a dream right now, too,",
-                "in fact.<SPEED:102>"
+                "<SPEED:101>Кохолинт существует лишь внутри",
+                "сновидения.<PAUSE:5> <SOUND:CLUE>Мы сейчас тоже внутри",
+                "сна, стоит заметить.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -93621,7 +93630,7 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "Oh my!<PAUSE:5> This whole trial isn't real?!"
+                "Ого!<PAUSE:5> Всё это заседание не наяву?!"
               ],
               "Type": 0,
               "Position": 0
@@ -93629,8 +93638,8 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
-                "<C>(I should've known!<PAUSE:5> This whole thing",
-                "was just way too fantastical.)"
+                "<C>(Как я сразу не догадался?!<PAUSE:5>",
+                "Это всё уж слишком фантастично.)"
               ],
               "Type": 0,
               "Position": 0
@@ -93638,9 +93647,9 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "<SPEED:101>Well, then.<SPEED:102><PAUSE:10> Now that we've made",
-                "that clear, I'm just going to go and...<PAUSE:5> ",
-                "<SOUND:HINT>wake up, if you don't mind."
+                "<SPEED:101>Что ж, хорошо.<SPEED:102><PAUSE:10> Раз уж мы всё",
+                "прояснили, я просто возьму, и...<PAUSE:5> ",
+                "<SOUND:HINT>проснусь, если не возражаете."
               ],
               "Type": 0,
               "Position": 0
@@ -93648,8 +93657,8 @@
             {
               "Name": "DRAGMIRE220",
               "MessageTextLines": [
-                "<PAUSE:5>...Why, that might be the wisest thing",
-                "you've proposed so far, Defence."
+                "<PAUSE:5>...Ух ты, да это самое мудрое, что",
+                "ты решил сделать за вес суд, защита."
               ],
               "Type": 0,
               "Position": 0
@@ -93657,9 +93666,9 @@
             {
               "Name": "DRAGMIRE230",
               "MessageTextLines": [
-                "But, of course, it's not going to be",
-                "YOU waking up.<PAUSE:5><SOUND:WHAP><DI> I'm the only real",
-                "person here!"
+                "Но, конечно, просыпаться будешь",
+                "вовсе не ТЫ.<PAUSE:5><SOUND:WHAP><DI> Настоящий здесь",
+                "только я!"
               ],
               "Type": 0,
               "Position": 0
@@ -93667,10 +93676,10 @@
             {
               "Name": "DRAGMIRE235",
               "MessageTextLines": [
-                "I haven't the slightest idea how my",
-                "mind conjured up this nonsense...<PAUSE:5> ",
-                "Shouldn't have had that Noble Pursuit",
-                "before bed..."
+                "Понятия не имею, как мой разум",
+                "придумал такую чепуху...<PAUSE:5> ",
+                "Не надо было пить тот",
+                "«Воой-да-ваай» перед сном..."
               ],
               "Type": 0,
               "Position": 0
@@ -93678,8 +93687,8 @@
             {
               "Name": "JUDGE80",
               "MessageTextLines": [
-                "Ho, ho!<PAUSE:5> I suppose it wouldn't be the",
-                "first time I've dreamt of the courtroom!"
+                "Хо, хо!<PAUSE:5> Что же, это не первый раз,",
+                "когда мне приснился зал суда!"
               ],
               "Type": 0,
               "Position": 0
@@ -93687,9 +93696,9 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "It's never been quite this vivid, but I",
-                "guess this old man still has quite the",
-                "active imagination..."
+                "Никогда не видел его так отчётливо,",
+                "но, полагаю, даже в мои годы у меня",
+                "всё ещё активное воображение..."
               ],
               "Type": 0,
               "Position": 0
@@ -93697,10 +93706,9 @@
             {
               "Name": "LINK175",
               "MessageTextLines": [
-                "<C>(Meanwhile, MY imagination's being",
-                "a bit OVERactive right now, I guess.<PAUSE:5> ",
-                "And I haven't even had any Noble",
-                "Pursuits...!)"
+                "<C>(А моё воображение, тем временем,",
+                "немного ГИПЕРактивное.<PAUSE:5> И это даже",
+                "без всяких «Воой-да-вааев»!..)"
               ],
               "Type": 0,
               "Position": 0
@@ -93708,7 +93716,7 @@
             {
               "Name": "KOHOLINK40",
               "MessageTextLines": [
-                "Please wait!"
+                "Подождите, пожалуйста!"
               ],
               "Type": 0,
               "Position": 0
@@ -93716,7 +93724,7 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "...Huh?"
+                "...А?"
               ],
               "Type": 0,
               "Position": 0
@@ -93724,8 +93732,8 @@
             {
               "Name": "KOHOLINK50",
               "MessageTextLines": [
-                "You can't...<PAUSE:5> you can't just wake up!<PAUSE:5> ",
-                "<SOUND:EXPLOSION>What about ME?!"
+                "Вы не...<PAUSE:5> вам нельзя просто так взять",
+                "и проснуться!<PAUSE:5> <SOUND:EXPLOSION>А как же *Я*?!"
               ],
               "Type": 0,
               "Position": 0
@@ -93733,8 +93741,9 @@
             {
               "Name": "DRAGMIRE240",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>What ABOUT you?<PAUSE:10> You're clearly just",
-                "an invention of my mind, brat!"
+                "<SOUND:EXPLOSION>А ПРИЧЁМ тут ты?<PAUSE:10> Ты, очевидно,",
+                "просто плод моего воображения,",
+                "сопляк!"
               ],
               "Type": 0,
               "Position": 0
@@ -93742,8 +93751,8 @@
             {
               "Name": "DRAGMIRE250",
               "MessageTextLines": [
-                "<NS>But, hey,<PAUSE:5> you want a resolution?<PAUSE:5> ",
-                "No problem!"
+                "<NS>Но что же,<PAUSE:5> хочешь решение суда?<PAUSE:5> ",
+                "Да без проблем!"
               ],
               "Type": 0,
               "Position": 0
@@ -93751,8 +93760,8 @@
             {
               "Name": "DRAGMIRE260",
               "MessageTextLines": [
-                "<NS>Judge!<PAUSE:5><SOUND:DON><DI> Declare a guilty verdict right",
-                "now!"
+                "<NS>Судья!<PAUSE:5><SOUND:DON><DI> Скорее провозгласи его",
+                "виновным!"
               ],
               "Type": 0,
               "Position": 0
@@ -93760,9 +93769,9 @@
             {
               "Name": "JUDGE100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>...Prosecutor Dragmire!<PAUSE:5> ",
-                "I refuse to hand down a faulty verdict!<PAUSE:5> ",
-                "<SOUND:EXPLOSION>Even in my dreams!"
+                "<SOUND:WHAP><DI>...Прокурор Дрегмайр!<PAUSE:5> ",
+                "Я отказываюсь провозгласить",
+                "неточный приговор!<PAUSE:5> <SOUND:EXPLOSION>Даже в своём сне!"
               ],
               "Type": 0,
               "Position": 0
@@ -93770,8 +93779,9 @@
             {
               "Name": "JUDGE110",
               "MessageTextLines": [
-                "No, no, this won't do.<PAUSE:5> I will just have to",
-                "wake up now.<PAUSE:5><SOUND:HINT> Here goes!"
+                "Нет, нет, это никуда не годится.<PAUSE:5>",
+                "Придётся сейчас же просыпаться.<PAUSE:5><SOUND:HINT>",
+                "Была ни была!"
               ],
               "Type": 0,
               "Position": 0
@@ -93779,8 +93789,8 @@
             {
               "Name": "JUDGE120",
               "MessageTextLines": [
-                "...Hmm.<PAUSE:4> Strange.<PAUSE:6> <SOUND:CLUE>I don't seem to be",
-                "able to..."
+                "...Хм-м.<PAUSE:4> Странно.<PAUSE:6> <SOUND:CLUE>Я, почему-то,",
+                "не могу..."
               ],
               "Type": 0,
               "Position": 0
@@ -93788,12 +93798,12 @@
             {
               "Name": "OWL140",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot!<PAUSE:5> <SOUND:OWLHOOT>Hoo~<PAUSE:5> ",
-                "If I may interject...",
+                "<SOUND:OWLHOOT>У-гу!<PAUSE:5> <SOUND:OWLHOOT>У-у~<PAUSE:5> ",
+                "Разрешите вас перебить...",
                 "<NEW_BOX>",
-                "I have said that this is a dream, yes...<PAUSE:5> ",
-                "But why would that mean that nothing",
-                "here is real?"
+                "Я сказал, что это сон, да...<PAUSE:5> ",
+                "Но разве это означает, что это",
+                "всё не настоящее?"
               ],
               "Type": 0,
               "Position": 0
@@ -93801,9 +93811,9 @@
             {
               "Name": "DRAGMIRE270",
               "MessageTextLines": [
-                "Oh, be quiet, you pile of feathers!<PAUSE:5> ",
-                "<SOUND:EXPLOSION>I banish you from my dream!<PAUSE:7> ",
-                "<SOUND:EXPLOSION>Begone!"
+                "Ох, умолкни, груда перьев!<PAUSE:5> ",
+                "<SOUND:EXPLOSION>Я изгоняю тебя из своего сна!<PAUSE:7> ",
+                "<SOUND:EXPLOSION>Сгинь!"
               ],
               "Type": 0,
               "Position": 0
@@ -93811,8 +93821,8 @@
             {
               "Name": "DRAGMIRE280",
               "MessageTextLines": [
-                "What...<PAUSE:5> what is this?<PAUSE:5> ",
-                "Am I stuck in this nightmare?!"
+                "Что...<PAUSE:5> что такое?<PAUSE:5> ",
+                "Я что, застрял в этом кошмаре?!"
               ],
               "Type": 0,
               "Position": 0
@@ -93820,8 +93830,9 @@
             {
               "Name": "OWL150",
               "MessageTextLines": [
-                "Hmm.<PAUSE:5> Well, naturally, only one person",
-                "here can actually control the dream."
+                "Хм-м.<PAUSE:5> Что же, само собой, только",
+                "один человек здесь может этим",
+                "сном управлять."
               ],
               "Type": 0,
               "Position": 0
@@ -93829,8 +93840,8 @@
             {
               "Name": "OWL160",
               "MessageTextLines": [
-                "<SOUND:HINT>Everyone else is just along for the ride,<PAUSE:5> ",
-                "so to speak."
+                "<SOUND:HINT>Все остальные здесь просто",
+                "за компанию,<PAUSE:5> так сказать."
               ],
               "Type": 0,
               "Position": 0
@@ -93838,9 +93849,8 @@
             {
               "Name": "LINK190",
               "MessageTextLines": [
-                "<SOUND:WHAP>A-are you saying everyone here is",
-                "actually real, just sharing the same",
-                "dream?!"
+                "<SOUND:WHAP>Т-то есть все здесь настоящие,",
+                "просто видят один и тот же сон?!"
               ],
               "Type": 0,
               "Position": 0
@@ -93848,7 +93858,7 @@
             {
               "Name": "OWL170",
               "MessageTextLines": [
-                "Why, <SOUND:OWLHOOT>hoot, of course!"
+                "Да, <SOUND:OWLHOOT>у-гу, конечно!"
               ],
               "Type": 0,
               "Position": 0
@@ -93856,9 +93866,9 @@
             {
               "Name": "OWL180",
               "MessageTextLines": [
-                "Her Grace chose one person to be",
-                "the host,<PAUSE:5> and then thrust the others",
-                "into it."
+                "Её Милость выбрала одного",
+                "человека как хозяина сна,<PAUSE:5>",
+                "а потом всех в него погрузила."
               ],
               "Type": 0,
               "Position": 0
@@ -93866,11 +93876,11 @@
             {
               "Name": "DRAGMIRE290",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Preposterous!",
+                "<SOUND:EXPLOSION>Возмутительно!",
                 "<NEW_BOX>",
-                "If this is all in the $$$$$ brat's dream,",
-                "why doesn't he just remove his curse",
-                "on his own?"
+                "Если это всё сон этого сопляка в",
+                "$$$$$, то почему он не снимет",
+                "проклятье самостоятельно?"
               ],
               "Type": 0,
               "Position": 0
@@ -93878,7 +93888,7 @@
             {
               "Name": "DRAGMIRE290_COLORS",
               "MessageTextLines": [
-                "green red blue"
+                "зелёном красном синем"
               ],
               "Type": 0,
               "Position": 0
@@ -93886,13 +93896,14 @@
             {
               "Name": "OWL190",
               "MessageTextLines": [
-                "Preposterous?<PAUSE:5> ",
-                "Not at all, my angry Gerudo friend.",
+                "Возмутительно?<PAUSE:5> ",
+                "Вовсе нет, друг-Герудо мой",
+                "сердитый.",
                 "<NEW_BOX>",
-                "I never said he's the one in charge.",
+                "Я не говорил, что он тут главный.",
                 "<NEW_BOX>",
-                "He came from the dream world of",
-                "Koholint,<PAUSE:5> after all."
+                "Он же явился из мира сна Кохолинта,<PAUSE:5>",
+                "в конце концов."
               ],
               "Type": 0,
               "Position": 0
@@ -93900,9 +93911,9 @@
             {
               "Name": "DRAGMIRE295",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Well, how did he wind up in someone",
-                "else's dream, then, you blasted",
-                "buzzard?"
+                "<SOUND:EXPLOSION>Ладно, тогда как его угораздило",
+                "оказаться в чём-то чужом сне,",
+                "проклятая ты пищалка?"
               ],
               "Type": 0,
               "Position": 0
@@ -93910,9 +93921,10 @@
             {
               "Name": "OWL200",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot!<PAUSE:5> Having battled with <R>Ganon<W> before,",
-                "he is of<SOUND:CLUE> particular interest to the Demon",
-                "Lord..."
+                "<SOUND:OWLHOOT>У-гу!<PAUSE:5> Однажды он уже сразился с",
+                "<R>Ганоном<W>, поэтому повелитель",
+                "демонов имеет к нему<SOUND:CLUE> особый",
+                "интерес..."
               ],
               "Type": 0,
               "Position": 0
@@ -93920,20 +93932,21 @@
             {
               "Name": "OWL210",
               "MessageTextLines": [
-                "The evil one saw an opportunity,<PAUSE:5> and",
-                "forcefully shoved him into the dream",
-                "of the Wind Fish...",
+                "Зловещий выждал возможность,<PAUSE:5>",
+                "чтобы насильно заманить его в",
+                "мир грёз Рыбы ветров...",
                 "<NEW_BOX>",
-                "A dreamscape he has been steadily",
-                "perverting with his evil for many years.",
+                "Сновидение, которое он усердно",
+                "искажал своим злом уже много лет.",
                 "<NEW_BOX>",
-                "<SOUND:CLUE>He infested it with his own creations,",
-                "twisted it into a dangerous place, and",
-                "imprisoned its creator within.",
+                "<SOUND:CLUE>Он впустил в него свои чудища,",
+                "обернул его в полное опасности",
+                "место и заточил в нём его же",
+                "создателя.",
                 "<NEW_BOX>",
-                "<PAUSE:5>As a result...<PAUSE:5> that is also why our",
-                "$$$$$-clad friend cannot wake up",
-                "normally."
+                "<PAUSE:5>И по этому...<PAUSE:5> наш друг в $$$$$",
+                "одеянии не может проснуться",
+                "обычным образом."
               ],
               "Type": 0,
               "Position": 0
@@ -93941,7 +93954,7 @@
             {
               "Name": "OWL210_COLORS",
               "MessageTextLines": [
-                "green red blue"
+                "зелёном красном синем"
               ],
               "Type": 0,
               "Position": 0
@@ -93949,14 +93962,14 @@
             {
               "Name": "OWL215",
               "MessageTextLines": [
-                "But...<PAUSE:5> this world is free of <R>Ganon<W>.",
-                "Whoever the host of this dream is<PAUSE:5> ",
-                "<SOUND:HINT>COULD<PAUSE:5> indeed just wake...",
+                "Но...<PAUSE:5> этот мир свободен от <R>Ганона<W>.",
+                "Кто бы ни был хозяином этого сна,<PAUSE:5> ",
+                "он <SOUND:HINT>МОГ БЫ<PAUSE:5> просто проснуться...",
                 "<NEW_BOX>",
-                "<PAUSE:5>...Although I cannot imagine the Goddess",
-                "Hylia would be very thrilled with that",
-                "conclusion,<PAUSE:5><SOUND:ClUE> having made all that effort",
-                "to bring her chosen hero here."
+                "<PAUSE:5>...Однако, я сомневаюсь, что Богиня",
+                "Хайлия была бы в восторге от такого",
+                "финала,<PAUSE:5><SOUND:ClUE> особенно того, как усердно",
+                "она вела сюда избранного ею героя."
               ],
               "Type": 0,
               "Position": 0
@@ -93964,7 +93977,7 @@
             {
               "Name": "KOHOLINK60",
               "MessageTextLines": [
-                "<PAUSE:5>...H-how do you know all this?"
+                "<PAUSE:5>...О-откуда ты всё это знаешь?"
               ],
               "Type": 0,
               "Position": 0
@@ -93972,8 +93985,8 @@
             {
               "Name": "OWL220",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot!<PAUSE:5> Why, isn't it obvious?<PAUSE:5> ",
-                "<SOUND:CLUE>I myself am part of the Wind Fish's spirit."
+                "<SOUND:OWLHOOT>У-гу!<PAUSE:5> Что же, разве это не очевидно?<PAUSE:5> ",
+                "<SOUND:CLUE>Я сам есть частица духа Рыбы ветров."
               ],
               "Type": 0,
               "Position": 0
@@ -93981,13 +93994,14 @@
             {
               "Name": "OWL230",
               "MessageTextLines": [
-                "<SOUND:CLUE>I could not just stand idly by when",
-                "Hylia's own champion was dealt such",
-                "a bad hand.",
+                "<SOUND:CLUE>Я не мог сидеть сложа крылья, когда",
+                "самому избраннику Хайлии достался",
+                "такой дурной расклад.",
                 "<NEW_BOX>",
-                "And so,<PAUSE:5> I've tried to lead you to the",
-                "eight instruments...<PAUSE:5> and I reached out",
-                "to Hylia for help with this predicament."
+                "И вот,<PAUSE:5> я попробовал направлять тебя",
+                "к восьми инструментам...<PAUSE:5> и воззвал",
+                "к Хайлии за помощью с этим",
+                "недоразумением."
               ],
               "Type": 0,
               "Position": 0
@@ -93995,7 +94009,7 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "<C>(This is... I can hardly believe it...)"
+                "<C>(Это... Ушам своим не верю...)"
               ],
               "Type": 0,
               "Position": 0
@@ -94003,7 +94017,7 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                "W-well...<PAUSE:5> Who is it, then?!"
+                "Н-ну...<PAUSE:5> Так кто же это, значит?!"
               ],
               "Type": 0,
               "Position": 0
@@ -94011,7 +94025,7 @@
             {
               "Name": "LINK220",
               "MessageTextLines": [
-                "<SOUND:DON><SPEED:103>Who is the one controlling this dream?<SPEED:102>"
+                "<SOUND:DON><SPEED:103>Кто управляет этим сном?<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -94019,7 +94033,7 @@
             {
               "Name": "OWL240",
               "MessageTextLines": [
-                "<PAUSE:5><SOUND:OWLHOOT>...Hoot."
+                "<PAUSE:5><SOUND:OWLHOOT>...У-гу."
               ],
               "Type": 0,
               "Position": 0
@@ -94027,7 +94041,7 @@
             {
               "Name": "OWL250",
               "MessageTextLines": [
-                "That,<PAUSE:5> I do not know."
+                "Этого<PAUSE:5> я не знаю."
               ],
               "Type": 0,
               "Position": 0
@@ -94035,11 +94049,11 @@
             {
               "Name": "OWL260",
               "MessageTextLines": [
-                "<SPEED:101>That is something you'll have to find",
-                "out for yourself.<SPEED:102>",
+                "<SPEED:101>Это вам придётся выяснить",
+                "самостоятельно.<SPEED:102>",
                 "<NEW_BOX>",
-                "<SPEED:101>Whoever it is...<PAUSE:5> will have the final word",
-                "in this trial.<SPEED:102>"
+                "<SPEED:101>Тот, кто это окажется...<PAUSE:5> получит",
+                "решающее слово в этом заседании.<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -94047,11 +94061,11 @@
             {
               "Name": "LINK230",
               "MessageTextLines": [
-                "<C>(So that's it, then...<PAUSE:5> It all hinges",
-                "on this point.)",
+                "<C>(Вот оно как, значит...<PAUSE:5>",
+                "Всё держится на этом вопросе.)",
                 "<NEW_BOX>",
-                "<C>(Who is this dream's Wind Fish?<PAUSE:5> ",
-                "I must consider all the facts!)<SQUARE>"
+                "<C>(Кто «Рыба ветров» этого сна?<PAUSE:5> ",
+                "Я должен учесть всё, что мы знаем!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
