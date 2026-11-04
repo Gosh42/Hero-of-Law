@@ -399,6 +399,21 @@
       "Token": "№",
       "Value": "0x90",
       "Description": ""
+    },
+    {
+      "Token": "D",
+      "Value": "0x91",
+      "Description": ""
+    },
+    {
+      "Token": "L",
+      "Value": "0x92",
+      "Description": ""
+    },
+    {
+      "Token": "Z",
+      "Value": "0x93",
+      "Description": ""
     }
   ]
 }
