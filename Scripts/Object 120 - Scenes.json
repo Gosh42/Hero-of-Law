@@ -110838,7 +110838,7 @@
             {
               "Name": "Scene4",
               "MessageTextLines": [
-                "<LC>Входит Импа"
+                "<LC>Вступает Импа"
               ],
               "Type": 0,
               "Position": 0
@@ -110854,7 +110854,7 @@
             {
               "Name": "Scene6",
               "MessageTextLines": [
-                "<LC>Входит Зельда"
+                "<LC>Вступает Зельда"
               ],
               "Type": 0,
               "Position": 0
@@ -110902,7 +110902,7 @@
             {
               "Name": "Scene12",
               "MessageTextLines": [
-                "<LC>Входит Инго"
+                "<LC>Вступает Инго"
               ],
               "Type": 0,
               "Position": 0
@@ -110950,7 +110950,7 @@
             {
               "Name": "Scene18",
               "MessageTextLines": [
-                "<LC>Возражение Дрегмайра"
+                "<LC>Опровержение Дрегмайра"
               ],
               "Type": 0,
               "Position": 0
@@ -112301,8 +112301,8 @@
             {
               "Name": "MSG_CONTROLLERINFO",
               "MessageTextLines": [
-                "<BLK><LC>Если Вы используете официальный",
-                "<LC>контроллер <FONT_TOGGLE>N64<FONT_TOGGLE>, держите его вот так."
+                "<BLK><LC>Если вы используете официальный",
+                "<LC>контроллер <FONT_TOGGLE>N64<FONT_TOGGLE>, то держите его вот так."
               ],
               "Type": 5,
               "Position": 0
