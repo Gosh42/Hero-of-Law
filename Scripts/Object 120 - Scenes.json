@@ -78783,12 +78783,12 @@
                 "<R><FONT_TOGGLE>The Legend of Zelda: Link's Awakening<FONT_TOGGLE><W>.",
                 "<NEW_BOX>",
                 "Прогресс по этой сюжетной линии",
-                "перезапишет ваш прогресс в главной",
-                "истории <R><FONT_TOGGLE>Hero of Law<FONT_TOGGLE><W>.",
+                "перезапишет ваш прогресс по",
+                "основной истории <R><FONT_TOGGLE>Hero of Law<FONT_TOGGLE><W>.",
                 "<NEW_BOX>",
                 "Продолжить?",
                 "<G><TWO_CHOICES>",
-                "Ага",
+                "Угу",
                 "Вернуться на главный экран"
               ],
               "Type": 0,
@@ -78809,7 +78809,7 @@
               "Name": "WiiVCNotice",
               "MessageTextLines": [
                 "В связи с тем, что эмулятор <FONT_TOGGLE>Virtual",
-                "Console<FONT_TOGGLE> на <FONT_TOGGLE>Wii<FONT_TOGGLE> не поддерживает",
+                "Console<FONT_TOGGLE> для <FONT_TOGGLE>Wii<FONT_TOGGLE> не поддерживает",
                 "<FONT_TOGGLE>Transfer Pak<FONT_TOGGLE>, будут использованы",
                 "стандартные данные сохранения.<SQUARE>"
               ],
@@ -78820,7 +78820,7 @@
               "Name": "WiiUVCNotice",
               "MessageTextLines": [
                 "В связи с тем, что эмулятор <FONT_TOGGLE>Virtual",
-                "Console<FONT_TOGGLE> на <FONT_TOGGLE>Wii U<FONT_TOGGLE> не поддерживает",
+                "Console<FONT_TOGGLE> для <FONT_TOGGLE>Wii U<FONT_TOGGLE> не поддерживает",
                 "<FONT_TOGGLE>Transfer Pak<FONT_TOGGLE>, будут использованы",
                 "стандартные данные сохранения.<SQUARE>"
               ],
@@ -78832,7 +78832,7 @@
               "Comment": "trying to fit this textbox into the allocated space be like:\n---\nвместил этот текстбокс в предоставленное пространство такой типо:\n---\n\nhttps://static2.klipy.com/ii/4e7bea9f7a3371424e6c16ebc93252fe/91/7f/stc9jeHOsi5AN.gif",
               "MessageTextLines": [
                 "<ASHIFT:25>Так как эмулятор <R><FONT_TOGGLE>The Legend of Zelda:",
-                "<ASHIFT:25>Collector's Edition<FONT_TOGGLE><W> на <FONT_TOGGLE>Nintendo GameCube<FONT_TOGGLE>",
+                "<ASHIFT:25>Collector's Edition<FONT_TOGGLE><W> для <FONT_TOGGLE>Nintendo GameCube<FONT_TOGGLE>",
                 "<ASHIFT:25>не поддерживает <FONT_TOGGLE>Transfer Pak<FONT_TOGGLE>, будет",
                 "<ASHIFT:25>использовано стандартное сохранение.<SQUARE>"
               ],
@@ -78878,7 +78878,7 @@
               "Name": "NoThiefContinue",
               "MessageTextLines": [
                 "Нет сохранения ВОРИШКИ.",
-                "Использовать данные слота $?",
+                "Использовать ячейку сохранения $?",
                 "<TWO_CHOICES><G>Да",
                 "Нет<W>"
               ],
@@ -82755,7 +82755,7 @@
               "Name": "JUDGE140",
               "MessageTextLines": [
                 "Она решила, что справедливость",
-                "этого наказания должен решить",
+                "этого наказания должен определить",
                 "кто-то другой,<PAUSE:3> чтобы на решение",
                 "не повлияла её личная предвзятость."
               ],
@@ -82810,8 +82810,8 @@
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
                 "Старость не радость, как видим.<PAUSE:5>",
-                "Я как можно скорее начну заполнять",
-                "соответствующие заявления."
+                "Я при первой же возможности начну",
+                "заполнять все надлежащие заявления."
               ],
               "Type": 0,
               "Position": 0
@@ -82819,8 +82819,8 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "<SOUND:CLUE>...Мы, по крайней мере, можем",
-                "поскорее вернуться ко сну."
+                "<SOUND:CLUE>...По крайней мере, теперь мы",
+                "можем скорее вернуться ко сну."
               ],
               "Type": 0,
               "Position": 0
@@ -82910,9 +82910,8 @@
             {
               "Name": "DRAGMIRE130",
               "MessageTextLines": [
-                "У нас нет времени, чтобы смотреть,",
-                "как ты в обморок падаешь!<PAUSE:5>",
-                "Соберись давай!"
+                "У нас нет времени смотреть, как ты",
+                "в обморок падаешь!<PAUSE:5> Соберись давай!"
               ],
               "Type": 0,
               "Position": 0
@@ -82928,7 +82927,7 @@
             {
               "Name": "JUDGE180",
               "MessageTextLines": [
-                "Ну как, защита?<PAUSE:5> Теперь вы убедились?"
+                "Ну как, защита?<PAUSE:5> Теперь вы убеждены?"
               ],
               "Type": 0,
               "Position": 0
@@ -82967,7 +82966,8 @@
             {
               "Name": "JUDGE200_LETTER",
               "MessageTextLines": [
-                "Заседание по делу..."
+                "Объявляется открытым заседание",
+                "по делу..."
               ],
               "Type": 0,
               "Position": 0
@@ -82975,7 +82975,8 @@
             {
               "Name": "JUDGE200",
               "MessageTextLines": [
-                "Заседание по делу <SOUND:CLUE><R><FONT_TOGGLE>$<FONT_TOGGLE><W>-..."
+                "Объявляется открытым заседание",
+                "по делу <SOUND:CLUE><R><FONT_TOGGLE>$<FONT_TOGGLE><W>-..."
               ],
               "Type": 0,
               "Position": 0
@@ -83093,8 +83094,8 @@
             {
               "Name": "LINK200",
               "MessageTextLines": [
-                "Я совершенно уверен, что мой",
-                "клиент невиновен!"
+                "Я твёрдо убеждён, что мой клиент",
+                "невиновен!"
               ],
               "Type": 0,
               "Position": 0
@@ -83118,7 +83119,7 @@
             {
               "Name": "LINK210",
               "MessageTextLines": [
-                ".<PAUSE:5>.<PAUSE:5>.<PAUSE:10>А."
+                ".<PAUSE:5>.<PAUSE:5>.<PAUSE:10>Ох."
               ],
               "Type": 0,
               "Position": 0
@@ -83164,8 +83165,8 @@
               "Name": "DRAGMIRE170",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Старик, я об этом деле ни капли",
-                "знать не знаю!<PAUSE:5> Ты же нас сюда",
-                "только вызвал, помнишь?"
+                "знать не знаю!<PAUSE:5> Ты же не забыл,",
+                "что сам нас только сейчас вызвал?"
               ],
               "Type": 0,
               "Position": 0
@@ -83200,7 +83201,7 @@
             {
               "Name": "JUDGE300",
               "MessageTextLines": [
-                "У него знания о произошедшем",
+                "У него знания о происшествии",
                 "будут самые достоверные."
               ],
               "Type": 0,
@@ -83209,13 +83210,13 @@
             {
               "Name": "LINK220",
               "MessageTextLines": [
-                "<SOUND:0><C>(Это какой-то кошмар.)",
+                "<SOUND:0><C>(Это кошмар какой-то.)",
                 "<NEW_BOX>",
                 "<SOUND:0><C>(Каждый уважающий себя адвокат",
                 "знает, что самого себя защищать",
                 "никогда нельзя...)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(...ЭТО считается?)<SQUARE>"
+                "<SOUND:0><C>(...Но ЭТО считается?)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -83653,8 +83654,9 @@
             },
             {
               "Name": "MUTOH20",
+              "Comment": "unintended joke: used the idiom \"зуб даю\", which translates to \"i give my tooth\" and means \"i swear\", when the shopkeeper opens his mouth wide for the first time\n\n---\n\nслучайная шутка: \"зуб даю\" использовано, когда впервые играет анимация того, как продавец широко открывает рот",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Лучше магазина во всей деревне и не",
+                "<SOUND:EXPLOSION>Лучше лавки во всей деревне и не",
                 "сыщешь, зуб даю!"
               ],
               "Type": 0,
@@ -83663,8 +83665,8 @@
             {
               "Name": "KOHOLINK10",
               "MessageTextLines": [
-                "Потому что<PAUSE:3> <SOUND:EXPLOSION>ДРУГОГО<PAUSE:3> магазина",
-                "в этой деревне просто нет!"
+                "Потому что<PAUSE:3> <SOUND:EXPLOSION>ДРУГИХ<PAUSE:3> лавок в этой",
+                "деревне просто нет!"
               ],
               "Type": 0,
               "Position": 0
@@ -83685,8 +83687,8 @@
               "Name": "KOHOLINK20",
               "MessageTextLines": [
                 "Я не думаю, что Богиня допустила бы",
-                "всю эту ситуацию, если что-то такое",
-                "могло случиться."
+                "всё это, если что-то такое могло",
+                "случиться."
               ],
               "Type": 0,
               "Position": 0
@@ -83694,7 +83696,7 @@
             {
               "Name": "MUTOH30",
               "MessageTextLines": [
-                "Пусть и единственный, какое дело?<PAUSE:5> ",
+                "Пусть и единственная, какое дело?<PAUSE:5> ",
                 "<SOUND:EXPLOSION>Лучше всё равно не найдётся!<PAUSE:5>",
                 "Ни на здешнем свете, ни на том!"
               ],
@@ -84181,7 +84183,7 @@
             {
               "Name": "MUTOH4",
               "MessageTextLines": [
-                "Ну и я обрачиваюсь!"
+                "Ну и я оборачиваюсь!"
               ],
               "Type": 0,
               "Position": 0
@@ -84234,7 +84236,7 @@
             },
             {
               "Name": "MUTOH9",
-              "Comment": "\"самую высокую цену\" is from the official translation. I kinda like fan translation's \"заплатишь по полной\" a bit more\n\n---\n\n\"самую высокую цену\" это из официального перевода. \"заплатишь по полной\" из фанатского мне больше нравится, если честно",
+              "Comment": "\"самую высокую цену\" is from the official translation. I kinda like fan translation's \"заплатишь по полной\" a bit more...\n\n---\n\n\"самую высокую цену\" это из официального перевода. \"заплатишь по полной\" из фанатского мне больше нравится...",
               "MessageTextLines": [
                 "...Однако,<PAUSE:5> полагаю, он уже заплатил",
                 "самую высокую цену.<SQUARE>"
@@ -84244,9 +84246,10 @@
             },
             {
               "Name": "MUTOH9A",
+              "Comment": "...so I used that \"заплатит по полной\" here instead\n\n---\n\n...так что я вставил \"заплатит по полной\" сюда",
               "MessageTextLines": [
                 "Ещё раз увижу его в своём магазине...<PAUSE:5> ",
-                "Хо, хо, хох.<PAUSE:5> Он ещё заплатит.<SQUARE>"
+                "Хо, хо, хох.<PAUSE:5> Он заплатит по полной.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -84645,7 +84648,7 @@
               "Name": "MUTOH20",
               "MessageTextLines": [
                 "Что ж за продавец я был бы, если б",
-                "нисколько не умел в<SOUND:HINT> магию?"
+                "нисколько<SOUND:HINT> колдовать не умел?"
               ],
               "Type": 0,
               "Position": 0
@@ -87280,7 +87283,7 @@
             {
               "Name": "MUTOH4",
               "MessageTextLines": [
-                "<DI><G>Ну и я обрачиваюсь!<PERSISTENT>"
+                "<DI><G>Ну и я оборачиваюсь!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -87343,7 +87346,7 @@
               "Name": "MUTOH9A",
               "MessageTextLines": [
                 "<G><DI>Ещё раз увижу его в своём магазине...",
-                "Хо, хо, хох. Он ещё заплатит.<PERSISTENT>"
+                "Хо, хо, хох. Он заплатит по полной.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -87351,7 +87354,7 @@
             {
               "Name": "C_LINK10",
               "MessageTextLines": [
-                "Э-э, тебе есть что сказать в",
+                "Ну-у, тебе есть что сказать в",
                 "своё оправдание?"
               ],
               "Type": 0,
@@ -87369,7 +87372,7 @@
               "Name": "C_LINK20",
               "MessageTextLines": [
                 "Ну, да, но...<PAUSE:4><SOUND:WHAP> Я обо всём этом только",
-                "сейчас узнаю!<PAUSE:5> У меня нет ни одной",
+                "сейчас узнал!<PAUSE:5> У меня нет ни одной",
                 "улики!"
               ],
               "Type": 0,
@@ -87398,7 +87401,7 @@
               "Name": "C2_LINK10",
               "MessageTextLines": [
                 "Глядя на эту листовку...<PAUSE:5> ",
-                "Э, не уверен, насколько дорогое",
+                "Э-э, не уверен, насколько дорогое",
                 "всё у вас в мире, но..."
               ],
               "Type": 0,
@@ -87415,7 +87418,7 @@
             {
               "Name": "C2_KOHOLINK20",
               "MessageTextLines": [
-                "Не знаю, откуда даже начать",
+                "Не знаю, откуда я даже начал бы",
                 "соскребать деньги на тот лук."
               ],
               "Type": 0,
@@ -87557,7 +87560,7 @@
               "MessageTextLines": [
                 "<C>(Ого... Что-то явно не в порядке,",
                 "раз люди предпочитают буквально",
-                "играть в азартные игры вместо того",
+                "играть в азартные игры, вместо того",
                 "чтобы закупаться у этого мужика.)"
               ],
               "Type": 0,
@@ -87799,7 +87802,8 @@
             {
               "Name": "3_LINK50",
               "MessageTextLines": [
-                "<C>(*вздох*<PAUSE:5> Что ж, лучше, чем ничего...)"
+                "<C>(Э-эх...<PAUSE:5> Что ж, это уже лучше, чем",
+                "ничего...)"
               ],
               "Type": 0,
               "Position": 0
@@ -87825,7 +87829,7 @@
             {
               "Name": "3_JUDGE40",
               "MessageTextLines": [
-                "А теперь, продолжайте, пожалуйста,",
+                "А теперь продолжайте, пожалуйста,",
                 "свидетель.<SQUARE>"
               ],
               "Type": 0,
@@ -87932,8 +87936,7 @@
             {
               "Name": "4_LINK30",
               "MessageTextLines": [
-                "<C>(Ну...<PAUSE:5> Всё-таки какая-то логика в",
-                "этом есть.)<SQUARE>"
+                "<C>(Ну...<PAUSE:5> какая-то логика в этом есть.)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88153,7 +88156,7 @@
             {
               "Name": "8A_LINK10",
               "MessageTextLines": [
-                "...Должен спросить.<PAUSE:5><SOUND:CLUE> Почему тебе",
+                "...Всё хотел спросить.<PAUSE:5><SOUND:CLUE> Почему тебе",
                 "пришлось что-то красть оттуда?"
               ],
               "Type": 0,
@@ -88352,8 +88355,8 @@
             {
               "Name": "9_LINK50",
               "MessageTextLines": [
-                "<C>(Так,<PAUSE:5> у меня уже мурашки по",
-                "коже.<PAUSE:5> Он же ничего больше не",
+                "<C>(Так,<PAUSE:5> у меня уже мурашки по коже.<PAUSE:5>",
+                "Он же точно больше ничего не",
                 "подразумевал?..)<SQUARE>"
               ],
               "Type": 0,
@@ -88405,9 +88408,9 @@
             {
               "Name": "9A_LINK20",
               "MessageTextLines": [
-                "<C>(Так,<PAUSE:5> у меня уже мурашки по коже.<PAUSE:5> ",
-                "Он же больше ничего не",
-                "подразумевал, да?..)<SQUARE>"
+                "<C>(Так,<PAUSE:5> у меня уже мурашки по коже.<PAUSE:5>",
+                "Он же точно больше ничего не",
+                "подразумевал?..)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -88655,7 +88658,8 @@
               "Name": "LINK80",
               "MessageTextLines": [
                 "<SOUND:WHAP><SPEED:103>М-может сердца востановления?<SPEED:102><PAUSE:5> ",
-                "10 рупий за них это слишком дорого!"
+                "Десять рупий за них это слишком",
+                "дорого!"
               ],
               "Type": 0,
               "Position": 0
@@ -88792,7 +88796,7 @@
             {
               "Name": "KOHOLINK40",
               "MessageTextLines": [
-                "Я, э-э...<PAUSE:5> Я не уверен."
+                "Я, э-э...<PAUSE:5> не уверен."
               ],
               "Type": 0,
               "Position": 0
@@ -88809,7 +88813,7 @@
               "Name": "LINK130",
               "MessageTextLines": [
                 "И тебе надо её «разбудить»...<PAUSE:5>",
-                "потому что...?"
+                "потому что?.."
               ],
               "Type": 0,
               "Position": 0
@@ -88943,7 +88947,7 @@
               "Name": "LINK160",
               "MessageTextLines": [
                 "А, то есть всё остальное вы приняли",
-                "как есть, а это уже слишком?!"
+                "как есть, но ЭТО уже слишком?!"
               ],
               "Type": 0,
               "Position": 0
@@ -89775,7 +89779,7 @@
             },
             {
               "Name": "LINK20",
-              "Comment": "Changed it to something like \"experienced owl\" to remove tautology caused by \"occupational hazard\" in russian (профессиональная деформация) having \"profession\" in it already\n\nYou wouldn't put \"experienced\" in a name of a profession, but the point here is to have something funny, not to accurately label an owl's profession\n\n---\n\nПоменял \"профессионального филина\" на \"филина со стажем\", чтобы не было тавтологии, которой не было в оригинале (из-за того, что \"occupational hazard\" переводится как \"профессиональная деформация\"\n\n\"Со стажем\" в название профессии не вошло бы, но смысл тут в том, чтобы было что-то забавное, а не чтобы фактически назвать профессию филина",
+              "Comment": "Changed it to something like \"experienced owl\" to remove tautology caused by \"occupational hazard\" in russian (профессиональная деформация) having \"profession\" in it already\n\nYou wouldn't put \"experienced\" in a name of a profession, but the point here is to have something funny, not to accurately label an owl's profession\n\n---\n\nПоменял \"профессионального филина\" на \"филина со стажем\", чтобы не было тавтологии, которой не было в оригинале (из-за того, что \"occupational hazard\" переводится как \"профессиональная деформация\")\n\n\"Со стажем\" в название профессии не вошло бы, но смысл тут в том, чтобы было что-то забавное, а не чтобы фактически назвать профессию филина",
               "MessageTextLines": [
                 "<C>(Что это за «профессия» такая?<PAUSE:5>",
                 "<SOUND:WHAP>Филин со стажем?)"
@@ -89797,7 +89801,7 @@
               "Name": "JUDGE10",
               "MessageTextLines": [
                 "Грм-м...<PAUSE:5> Что же, свидетель сам",
-                "чуть ли не просит, чтобы его",
+                "чуть ли не требует, чтобы его",
                 "допросили."
               ],
               "Type": 0,
@@ -92399,7 +92403,7 @@
               "Name": "B_KOHOLINK20",
               "MessageTextLines": [
                 "<SOUND:WHAP><SPEED:103>Он каждый раз улетает, и я не",
-                "успеваю спросить хоть что-то!<SPEED:102>"
+                "успеваю вообще ничего спросить!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -92408,7 +92412,7 @@
               "Name": "B_LINK10",
               "MessageTextLines": [
                 "<C>(Хм-м...<PAUSE:5> Звучит так, будто такая",
-                "возможность второй рах ещё не",
+                "возможность второй раз ещё не",
                 "скоро подвернётся...)<SQUARE>"
               ],
               "Type": 0,
@@ -92448,8 +92452,8 @@
                 "Рыба ветров <EMDASH><PAUSE:3> это не додонго,<PAUSE:3> а",
                 "<SOUND:HINT>громадный кит.",
                 "<NEW_BOX>",
-                "Она, с точки зрения Кохолинта, была",
-                "всегда,<PAUSE:3> и <SOUND:CLUE> пока Кохолинт существует,<PAUSE:3>",
+                "Она со стороны Кохолинта была",
+                "всегда,<PAUSE:3> и<SOUND:CLUE> пока Кохолинт существует,<PAUSE:3>",
                 "всегда и будет."
               ],
               "Type": 0,
@@ -92655,10 +92659,10 @@
             },
             {
               "Name": "3_OWL95",
-              "Comment": "don't forget to check \"king of evil\" with the remake!!\n\n\"demon lord\"'s translation was taken from the first encounter with ghirahim in skyward sword.\n---\n\nне забыть сверить \"king of evil\" с ремейком!!\n\nперевод \"demon lord\" взят из первой встречи с гирахимом в skyward sword",
+              "Comment": "As per SCENE_OPENINGSTATEMENT / LINK52's note, I kept the fan translation's version of \"king of evil\" rather than remake's \"demon king\" - \"повелитель зла\" (\"lord of evil\")\n\nHere's a little issue though - Skyward Sword's official localisation translates \"demon lord\" as \"повелитель демонов\", which creates a bit of a tautology. To eliminate it I decided to essentially swap \"king\" and \"lord\" between the two names, turning it back into a \"Demon King\", so the full line reads in russian like \"Lord of Evil... Demon King Ganon...\". I'm basically having both localisations' Ganon title here\n---\n\nВ соответствии с заметкой из SCENE_OPENINGSTATEMENT / LINK52, я оставил перевод \"повелитель зла\" из фанатского перевода вместо \"короля демонов\" из официального.\n\nНо вот незадача - в локализации Skyward Sword \"demon lord\" переведён как \"повелитель демонов\" - и выходит тавтология со словом \"повелитель\". Чтобы её убрать, я по сути поменял местами \"king\" и \"lord\" в двух титулах, чтобы \"повелитель демонов\" превратился в \"короля демонов\". По сути у меня выходит версия титула Ганона из обеих локализаций",
               "MessageTextLines": [
                 "<SPEED:101><R>Повелитель зла<W>...<PAUSE:5> ",
-                "<R><SOUND:CLUE>Повелитель демонов <PAUSE:0>Ганон<W>...<SPEED:102>"
+                "<R><SOUND:CLUE>Король демонов <PAUSE:0>Ганон<W>...<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -92714,10 +92718,10 @@
             {
               "Name": "3_OWL130",
               "MessageTextLines": [
-                "Эти звери, укоренённые самым",
-                "первозданным злом,<PAUSE:5> жаждут лишь",
-                "собственного выживания и чужих",
-                "страданий."
+                "Укоренённые самым первозданным",
+                "злом,<PAUSE:5> эти звери жаждут лишь",
+                "чужих страданий и собственного",
+                "выживания."
               ],
               "Type": 0,
               "Position": 0
@@ -92726,7 +92730,7 @@
               "Name": "3_OWL140",
               "MessageTextLines": [
                 "<SOUND:OWLHOOT>У-гу...<PAUSE:5> Ни одно создание,",
-                "почувствовавшее благодать Хайлии,",
+                "почувствовавшее благодать Хайлии, не",
                 "воспротивилось бы их уничтожению.",
                 "<NEW_BOX>",
                 "Для нас это настолько же",
@@ -92961,7 +92965,7 @@
               "MessageTextLines": [
                 "Да, уверен, ты заметил...",
                 "<NEW_BOX>",
-                "Единственный магазин в деревне",
+                "Единственная лавка в деревне",
                 "продаёт лишь инструменты и",
                 "снаряжение?<PAUSE:5> <SOUND:CLUE>Продавцы-волшебники?<PAUSE:5> ",
                 "Деревни с говорящими животными?"
@@ -92973,7 +92977,7 @@
               "Name": "4_OWL90",
               "MessageTextLines": [
                 "Кохолинт сам по себе",
-                "неестественнен.<PAUSE:5>  Это место",
+                "неестественнен.<PAUSE:5> Это место",
                 "состоит из грёз и кошмаров."
               ],
               "Type": 0,
@@ -93618,7 +93622,7 @@
               "Name": "DRAGMIRE220",
               "MessageTextLines": [
                 "<PAUSE:5>...Ух ты, да это самое мудрое, что",
-                "ты решил сделать за вес суд, защита."
+                "ты решил сделать за весь суд, защита."
               ],
               "Type": 0,
               "Position": 0
@@ -93881,9 +93885,8 @@
               "Name": "OWL200",
               "MessageTextLines": [
                 "<SOUND:OWLHOOT>У-гу!<PAUSE:5> Однажды он уже сразился с",
-                "<R>Ганоном<W>, поэтому повелитель",
-                "демонов проявил к нему<SOUND:CLUE> особый",
-                "интерес..."
+                "<R>Ганоном<W>, поэтому король демонов",
+                "проявил к нему<SOUND:CLUE> особый интерес..."
               ],
               "Type": 0,
               "Position": 0
@@ -93895,7 +93898,7 @@
                 "чтобы насильно заманить его в",
                 "мир грёз Рыбы ветров...",
                 "<NEW_BOX>",
-                "Сновидение, которое он усердно",
+                "В сновидение, которое он усердно",
                 "искажет своим злом уже много лет.",
                 "<NEW_BOX>",
                 "<SOUND:CLUE>Он впустил в него свои чудища,",
@@ -95672,7 +95675,7 @@
                 "пользу.",
                 "<NEW_BOX>",
                 "<PAUSE:2>.<PAUSE:2>.<PAUSE:2>.<PAUSE:5>И я уже знаю, что ВОРИШКА сном",
-                "не управляет...<PAUSE:5> Так кто же остался?"
+                "не управляет...<PAUSE:5> Так кто же остаётся?"
               ],
               "Type": 2,
               "Position": 3
@@ -98063,7 +98066,7 @@
             {
               "Name": "LETTER_LINK20",
               "MessageTextLines": [
-                "<C>(И всё?<PAUSE:5> Оно только на три буквы",
+                "<C>(И всё?<PAUSE:5> Это только на три буквы",
                 "короче, чем, например, «Линк»...)"
               ],
               "Type": 0,
@@ -98109,7 +98112,7 @@
               "Name": "ZELDA_LINK20",
               "MessageTextLines": [
                 "Что это вообще зна<EMDASH><PAUSE:5> ",
-                "А хотя, значешь что?<PAUSE:3> Не отвечай.<PAUSE:3>",
+                "А хотя, знаешь что?<PAUSE:3> Не отвечай.<PAUSE:3>",
                 "Я даже знать не хочу."
               ],
               "Type": 0,
@@ -98136,7 +98139,7 @@
             {
               "Name": "GANON_LINK10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Что?!<PAUSE:5> <R>ЭТО ТЫ повелитель демонов<W>?!<PAUSE:5> ",
+                "<SOUND:EXPLOSION>Что?!<PAUSE:5> <R>ЭТО ТЫ король демонов<W>?!<PAUSE:5> ",
                 "И я тебя оправдывал??"
               ],
               "Type": 0,
@@ -98218,7 +98221,7 @@
             {
               "Name": "MARIN_LINK20",
               "MessageTextLines": [
-                "Ого."
+                "Хм."
               ],
               "Type": 0,
               "Position": 0
@@ -98359,7 +98362,7 @@
             {
               "Name": "RRWMC_LINK30",
               "MessageTextLines": [
-                "Стой, разве ты не говорил, что у",
+                "Погоди, разве ты не говорил, что у",
                 "тебя в мире нет адвокатов?<PAUSE:5> Там",
                 "вообще есть суды?..<PAUSE:8> ",
                 "...Э-э, ладно, проехали."
@@ -98441,7 +98444,7 @@
             {
               "Name": "LOLO_KOHOLINK10",
               "MessageTextLines": [
-                "Ха ха ха ха ха~"
+                "Ха-ха-ха-ха-ха~"
               ],
               "Type": 0,
               "Position": 0
