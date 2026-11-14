@@ -1,3 +1,9 @@
+Forked off https://github.com/Newer-Team/Hero-of-Law ^(\(and then "separated" to get those sweet sweet green squares on the activity graph\))
+
+Includes Russian translation of the game (Scripts/Object 120 json) and its graphics (2D folder)
+
+Original readme:
+
 # Hero of Law Source Code
 
 Tested on WSL.
