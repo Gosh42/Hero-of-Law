@@ -10037,7 +10037,7 @@
               "MessageTextLines": [
                 "<SOUND:EXPLOSION><DI>Трепещите пред мощью моего",
                 "значка,<PAUSE:5> ведь перед вами великий<SOUND:CLUE>",
-                "<R>Герой закона<W>!"
+                "<R>Герой Закона<W>!"
               ],
               "Type": 0,
               "Position": 0
@@ -10072,7 +10072,7 @@
             {
               "Name": "F6_DRAGMIRE20",
               "MessageTextLines": [
-                "<SOUND:SHOCK><DI>Да мне ни один <R>Герой позора<W>",
+                "<SOUND:SHOCK><DI>Да мне ни один <R>Герой Позора<W>",
                 "не страшен!"
               ],
               "Type": 0,
